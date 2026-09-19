@@ -1,0 +1,18 @@
+{
+  "name": "unblock-shield",
+  "version": "1.0.0",
+  "description": "Autonomous Cyber-Defense, Perimeter Hardening & Turnkey Peace of Mind for Business Leaders",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve ."
+  },
+  "keywords": [
+    "cybersecurity",
+    "autonomous-agent",
+    "peace-of-mind",
+    "antigravity",
+    "defense-shield"
+  ],
+  "author": "Unblock AI & Destraba AI",
+  "license": "MIT"
+}

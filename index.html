@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="es" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unblock AI • Soluciones Tecnológicas y Paz Mental 24/7</title>
+  <meta name="description" content="No vendemos asesorías. Entregamos soluciones llave en mano, blindaje tecnológico y paz mental 24/7 con agentes autónomos y escudos cibernéticos.">
+  
+  <!-- Google Fonts: Inter & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            mono: ['JetBrains Mono', 'monospace']
+          },
+          colors: {
+            cyber: {
+              black: '#05070E',
+              dark: '#0A0F1D',
+              card: '#0D1527',
+              border: '#1E293B',
+              cyan: '#00F2FE',
+              blue: '#4FACFE',
+              emerald: '#10B981',
+              amber: '#F59E0B',
+              rose: '#F43F5E'
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    body {
+      background-color: #05070E;
+      background-image: 
+        radial-gradient(at 0% 0%, rgba(0, 242, 254, 0.08) 0px, transparent 50%),
+        radial-gradient(at 100% 0%, rgba(79, 172, 254, 0.08) 0px, transparent 50%),
+        radial-gradient(at 50% 100%, rgba(16, 185, 129, 0.06) 0px, transparent 50%);
+      background-attachment: fixed;
+    }
+    .glow-cyan {
+      box-shadow: 0 0 35px -5px rgba(0, 242, 254, 0.25);
+    }
+    .glow-card {
+      box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.7), inset 0 1px 0 rgba(255, 255, 255, 0.06);
+    }
+    .glass-shield {
+      background: linear-gradient(135deg, rgba(13, 21, 39, 0.85), rgba(10, 15, 29, 0.95));
+      backdrop-filter: blur(16px);
+      border: 1px solid rgba(0, 242, 254, 0.15);
+    }
+    .pulse-glow {
+      animation: pulse-glow 3s infinite ease-in-out;
+    }
+    @keyframes pulse-glow {
+      0%, 100% { opacity: 0.6; transform: scale(1); }
+      50% { opacity: 1; transform: scale(1.03); }
+    }
+  </style>
+</head>
+
+<body class="text-slate-200 min-h-screen antialiased selection:bg-cyan-400 selection:text-black font-sans">
+
+  <!-- HEADER INSTITUCIONAL MINIMALISTA -->
+  <header class="border-b border-slate-800/80 bg-cyber-dark/80 backdrop-blur-xl sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      
+      <div class="flex items-center gap-3.5">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-cyan-500 via-blue-600 to-indigo-600 p-0.5 shadow-lg shadow-cyan-500/20">
+          <div class="w-full h-full bg-cyber-black rounded-[10px] flex items-center justify-center font-black text-cyan-400 text-lg">
+            🛡️
+          </div>
+        </div>
+        <div>
+          <div class="flex items-center gap-2">
+            <span id="brand-logo-text" class="font-black text-lg tracking-tight text-white font-mono">
+              UNBLOCK<span class="text-cyan-400">.AI</span>
+            </span>
+            <span class="text-[9px] px-2 py-0.5 rounded-full bg-cyan-500/10 text-cyan-300 border border-cyan-500/30 font-mono font-semibold uppercase tracking-wider">
+              Autonomous Sentinel
+            </span>
+          </div>
+          <span id="brand-tagline-text" class="text-[10px] text-slate-400 font-mono tracking-tight block">
+            Autonomous Cyber-Defense & Operational Solutions
+          </span>
+        </div>
+      </div>
+
+      <div class="flex items-center gap-3 sm:gap-4">
+        <div class="hidden md:flex items-center gap-2 text-xs font-mono px-3 py-1.5 rounded-lg bg-slate-900/90 border border-emerald-500/30 text-emerald-400">
+          <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+          <span>Cloud Sentinel 24/7 Active</span>
+        </div>
+
+        <button onclick="toggleLanguage()" id="lang-switch-btn" class="px-3 py-1.5 rounded-lg bg-slate-900 hover:bg-slate-800 border border-slate-700 text-xs font-mono text-cyan-300 font-bold transition-all cursor-pointer flex items-center gap-1.5">
+          <span>🌐</span> <span id="lang-btn-label">ESPAÑOL</span>
+        </button>
+
+        <a href="#soluciones" class="hidden sm:inline-flex px-4 py-1.5 rounded-lg bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-slate-950 font-bold text-xs font-mono transition-all shadow-md shadow-cyan-500/20">
+          <span id="btn-header-cta">Ver Soluciones</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO SECTION: MANIFIESTO DE CERTEZA OPERATIVA Y PAZ MENTAL -->
+  <section class="relative pt-12 pb-16 sm:pt-20 sm:pb-24 overflow-hidden">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 text-center relative z-10">
+      
+      <!-- Badge de Filosofía Fiduciaria -->
+      <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-cyan-500/10 border border-cyan-500/30 text-cyan-300 text-xs font-mono font-semibold tracking-wide mb-6">
+        <span class="w-2 h-2 rounded-full bg-cyan-400 animate-ping"></span>
+        <span id="hero-badge">FILOSOFÍA DE CERTEZA OPERATIVA • CERO ASESORÍAS</span>
+      </div>
+
+      <!-- Título Maestro -->
+      <h1 id="hero-title" class="text-3xl sm:text-5xl lg:text-6xl font-black text-white tracking-tight leading-[1.15] mb-6">
+        No vendemos asesorías.<br>
+        <span class="bg-gradient-to-r from-cyan-300 via-blue-400 to-emerald-400 bg-clip-text text-transparent">
+          Entregamos soluciones y paz mental 24/7.
+        </span>
+      </h1>
+
+      <!-- Subtítulo -->
+      <p id="hero-desc" class="text-base sm:text-lg text-slate-400 max-w-3xl mx-auto leading-relaxed mb-10 font-normal">
+        Olvídate de consultorías eternas, cotizaciones infladas e informes teóricos. Implementamos escudos tecnológicos autónomos que blindan tu infraestructura perimetral, protegen tus ventas y absorben operaciones críticas mientras duermes.
+      </p>
+
+      <!-- ESCÁNER PERIMETRAL EN VIVO (HERO SCANNER) -->
+      <div class="max-w-2xl mx-auto p-4 sm:p-5 rounded-2xl glass-shield glow-card text-left mb-8 border border-cyan-500/30">
+        <div class="flex items-center justify-between mb-3">
+          <div class="flex items-center gap-2">
+            <span class="w-2.5 h-2.5 rounded-full bg-cyan-400 animate-pulse"></span>
+            <span id="scanner-box-title" class="text-xs font-mono uppercase tracking-wider font-bold text-slate-200">
+              Escáner Perimetral de Certeza en Vivo
+            </span>
+          </div>
+          <span class="text-[10px] font-mono text-cyan-400 bg-cyan-500/10 px-2 py-0.5 rounded border border-cyan-500/20">
+            100% No Invasivo • Cero Contraseñas
+          </span>
+        </div>
+
+        <div class="flex flex-col sm:flex-row gap-2.5">
+          <div class="relative flex-1">
+            <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-500 font-mono text-xs">
+              https://
+            </div>
+            <input id="hero-scan-input" type="text" placeholder="tudominio.com" class="w-full bg-slate-950/90 border border-slate-700/80 rounded-xl pl-20 pr-4 py-3 text-sm text-white font-mono focus:outline-none focus:border-cyan-400 focus:ring-1 focus:ring-cyan-400 transition-all">
+          </div>
+          <button onclick="executeLiveScan()" id="btn-run-scan" class="px-6 py-3 rounded-xl bg-gradient-to-r from-cyan-400 to-blue-500 hover:from-cyan-300 hover:to-blue-400 text-slate-950 font-black text-xs font-mono uppercase tracking-wider shadow-lg shadow-cyan-500/25 transition-all flex items-center justify-center gap-2 cursor-pointer">
+            <span>⚡</span> <span id="btn-scan-label">Auditar y Blindar</span>
+          </button>
+        </div>
+
+        <!-- Consola de Resultados del Escaneo en Vivo -->
+        <div id="scan-console" class="hidden mt-4 pt-4 border-t border-slate-800 font-mono text-xs space-y-2.5">
+          <!-- Dinamizado vía JS -->
+        </div>
+      </div>
+
+      <!-- Trust Metrics Rápidos -->
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 max-w-3xl mx-auto text-center font-mono text-xs text-slate-400 pt-2">
+        <div class="p-3 rounded-xl bg-slate-900/50 border border-slate-800/80">
+          <div class="text-lg font-black text-white font-sans">60s</div>
+          <div id="metric-1">Despliegue Llave en Mano</div>
+        </div>
+        <div class="p-3 rounded-xl bg-slate-900/50 border border-slate-800/80">
+          <div class="text-lg font-black text-emerald-400 font-sans">100%</div>
+          <div id="metric-2">Garantía 7 Días</div>
+        </div>
+        <div class="p-3 rounded-xl bg-slate-900/50 border border-slate-800/80">
+          <div class="text-lg font-black text-cyan-400 font-sans">RAM SOC-2</div>
+          <div id="metric-3">Cero Retención en Disco</div>
+        </div>
+        <div class="p-3 rounded-xl bg-slate-900/50 border border-slate-800/80">
+          <div class="text-lg font-black text-amber-400 font-sans">$2.30/día</div>
+          <div id="metric-4">Costo Operativo Real</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SECCIÓN DE ESCUDOS TECNOLÓGICOS (4 SHIELDS DE PAZ MENTAL) -->
+  <section class="py-16 bg-cyber-dark/60 border-y border-slate-800/80 relative">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      
+      <div class="text-center max-w-2xl mx-auto mb-14">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-xs font-mono uppercase mb-3">
+          <span>🛡️ Matriz de Blindaje Defensivo</span>
+        </div>
+        <h2 id="shields-title" class="text-2xl sm:text-4xl font-extrabold text-white tracking-tight">
+          Cuatro Escudos Tecnológicos para tu Negocio
+        </h2>
+        <p id="shields-desc" class="text-sm text-slate-400 mt-2">
+          Infraestructura desatendida diseñada para que los directores se enfoquen en crecer, no en resolver emergencias técnicas.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        
+        <!-- Escudo 1: Blindaje Perimetral -->
+        <div class="p-6 rounded-2xl glass-shield glow-card border border-cyan-500/20 hover:border-cyan-500/50 transition-all group">
+          <div class="flex items-center justify-between mb-4">
+            <div class="w-12 h-12 rounded-xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">
+              🛡️
+            </div>
+            <span class="text-[10px] font-mono px-2.5 py-1 rounded-full bg-cyan-500/10 text-cyan-300 border border-cyan-500/30">
+              Escudo Perimetral
+            </span>
+          </div>
+          <h3 id="shield-1-h" class="text-lg font-bold text-white mb-2 font-mono">Perimeter Hardening Shield</h3>
+          <p id="shield-1-p" class="text-xs text-slate-400 leading-relaxed mb-4">
+            Elimina puntos ciegos en tus cabeceras HTTP. Aplicamos políticas CSP estrictas, HSTS con precarga, mitigación contra Clickjacking y sanitización de puertos expuestos para evitar secuestros de tráfico y ataques XSS.
+          </p>
+          <div class="flex flex-wrap gap-2 text-[11px] font-mono text-cyan-300">
+            <span class="bg-slate-900 px-2 py-0.5 rounded border border-slate-800">• Content-Security-Policy</span>
+            <span class="bg-slate-900 px-2 py-0.5 rounded border border-slate-800">• Strict-Transport-Security</span>
+            <span class="bg-slate-900 px-2 py-0.5 rounded border border-slate-800">• X-Frame-Options</span>
+          </div>
+        </div>
+
+        <!-- Escudo 2: Revenue & Checkout Guard -->
+        <div class="p-6 rounded-2xl glass-shield glow-card border border-emerald-500/20 hover:border-emerald-500/50 transition-all group">
+          <div class="flex items-center justify-between mb-4">
+            <div class="w-12 h-12 rounded-xl bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">
+              💳
+            </div>
+            <span class="text-[10px] font-mono px-2.5 py-1 rounded-full bg-emerald-500/10 text-emerald-300 border border-emerald-500/30">
+              Escudo de Ingresos
+            </span>
+          </div>
+          <h3 id="shield-2-h" class="text-lg font-bold text-white mb-2 font-mono">Revenue & Checkout Guard</h3>
+          <p id="shield-2-p" class="text-xs text-slate-400 leading-relaxed mb-4">
+            Evita fugas de clientes en el checkout. Agentes autónomos que monitorean la salud de tus pasarelas (Stripe, Wompi, Lightning) y responden consultas comerciales de prospectos en WhatsApp en menos de 60 segundos.
+          </p>
+          <div class="flex flex-wrap gap-2 text-[11px] font-mono text-emerald-300">
+            <span class="bg-slate-900 px-2 py-0.5 rounded border border-slate-800">• Detección Carritos Abandonados</span>
+            <span class="bg-slate-900 px-2 py-0.5 rounded border border-slate-800">• Concierge &lt; 60s</span>
+            <span class="bg-slate-900 px-2 py-0.5 rounded border border-slate-800">• Multi-Currency Ready</span>
+          </div>
+        </div>
+
+        <!-- Escudo 3: Privacidad Bancaria SOC-2 -->
+        <div class="p-6 rounded-2xl glass-shield glow-card border border-blue-500/20 hover:border-blue-500/50 transition-all group">
+          <div class="flex items-center justify-between mb-4">
+            <div class="w-12 h-12 rounded-xl bg-blue-500/10 border border-blue-500/30 flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">
+              🔒
+            </div>
+            <span class="text-[10px] font-mono px-2.5 py-1 rounded-full bg-blue-500/10 text-blue-300 border border-blue-500/30">
+              Escudo de Privacidad
+            </span>
+          </div>
+          <h3 id="shield-3-h" class="text-lg font-bold text-white mb-2 font-mono">SOC-2 Zero-Disk Memory Vault</h3>
+          <p id="shield-3-p" class="text-xs text-slate-400 leading-relaxed mb-4">
+            Tus datos confidenciales jamás tocan un disco duro ni se utilizan para entrenar inteligencias artificiales externas. Toda la inferencia y auditoría ocurre en memoria volátil RAM y se destruye al instante.
+          </p>
+          <div class="flex flex-wrap gap-2 text-[11px] font-mono text-blue-300">
+            <span class="bg-slate-900 px-2 py-0.5 rounded border border-slate-800">• Zero Disk Persistence</span>
+            <span class="bg-slate-900 px-2 py-0.5 rounded border border-slate-800">• No-Training Policy</span>
+            <span class="bg-slate-900 px-2 py-0.5 rounded border border-slate-800">• TLS 1.3 End-to-End</span>
+          </div>
+        </div>
+
+        <!-- Escudo 4: Centinela 24/7 Autopilot -->
+        <div class="p-6 rounded-2xl glass-shield glow-card border border-amber-500/20 hover:border-amber-500/50 transition-all group">
+          <div class="flex items-center justify-between mb-4">
+            <div class="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">
+              ⚡
+            </div>
+            <span class="text-[10px] font-mono px-2.5 py-1 rounded-full bg-amber-500/10 text-amber-300 border border-amber-500/30">
+              Escudo de Continuidad
+            </span>
+          </div>
+          <h3 id="shield-4-h" class="text-lg font-bold text-white mb-2 font-mono">24/7 Autopilot Sentinel</h3>
+          <p id="shield-4-p" class="text-xs text-slate-400 leading-relaxed mb-4">
+            Un agente centinela en la nube que ejecuta comprobaciones de pulso cada 60 segundos. Si un servicio se cae o un certificado se vence, el sistema actúa de inmediato sin requerir que nadie se despierte a medianoche.
+          </p>
+          <div class="flex flex-wrap gap-2 text-[11px] font-mono text-amber-300">
+            <span class="bg-slate-900 px-2 py-0.5 rounded border border-slate-800">• Detección en &lt; 3s</span>
+            <span class="bg-slate-900 px-2 py-0.5 rounded border border-slate-800">• Auto-Remediación</span>
+            <span class="bg-slate-900 px-2 py-0.5 rounded border border-slate-800">• Cero Guardias Humanas</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN DE VIDEO BRIEFING EJECUTIVO (70 SEGUNDOS) -->
+  <section class="py-16 relative overflow-hidden">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 text-center">
+      
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/30 text-cyan-300 text-xs font-mono uppercase mb-4">
+        <span>🎬 Síntesis Ejecutiva de Dirección General</span>
+      </div>
+      <h2 id="video-heading" class="text-2xl sm:text-4xl font-extrabold text-white tracking-tight mb-3">
+        70 Segundos sobre el Costo de la Inacción
+      </h2>
+      <p id="video-desc" class="text-xs sm:text-sm text-slate-400 max-w-xl mx-auto leading-relaxed mb-8">
+        Mira cómo un escudo tecnológico desatendido resuelve los cuellos de botella operativos y protege los ingresos de tu empresa.
+      </p>
+
+      <div class="relative w-full aspect-video rounded-2xl overflow-hidden glass-shield border-2 border-cyan-500/30 shadow-2xl shadow-cyan-950/60">
+        <video id="main-executive-video" controls preload="metadata" poster="assets/videos/poster_executive.jpg" class="w-full h-full object-cover">
+          <source src="assets/videos/executive_briefing.mp4" type="video/mp4">
+          Tu navegador no soporta reproducción de video HTML5.
+        </video>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SECCIÓN FÁCIL DE CONFIGURAR (CONFIGURADOR EN 3 PASOS) -->
+  <section class="py-16 bg-cyber-dark/80 border-t border-slate-800/80">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6">
+      
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/30 text-blue-400 text-xs font-mono uppercase mb-3">
+          <span>⚙️ Cero Fricción Técnica</span>
+        </div>
+        <h2 id="steps-title" class="text-2xl sm:text-4xl font-extrabold text-white tracking-tight">
+          Fácil de Configurar en 3 Pasos
+        </h2>
+        <p id="steps-desc" class="text-xs sm:text-sm text-slate-400 mt-2">
+          No necesitas un equipo de ingenieros ni semanas de integración. El agente realiza el trabajo pesado.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 font-mono">
+        
+        <div class="p-5 rounded-xl bg-slate-900/70 border border-slate-800 text-left">
+          <div class="text-cyan-400 text-sm font-bold mb-2 flex items-center justify-between">
+            <span>PASO 01</span>
+            <span class="text-xs text-slate-500 font-sans">15 Segundos</span>
+          </div>
+          <h4 id="step-1-h" class="text-white font-bold text-sm mb-1.5 font-sans">Ingresa tu Dominio</h4>
+          <p id="step-1-p" class="text-xs text-slate-400 leading-relaxed font-sans">
+            El agente ejecuta un escaneo perimetral externo no invasivo. No pedimos contraseñas ni permisos internos.
+          </p>
+        </div>
+
+        <div class="p-5 rounded-xl bg-slate-900/70 border border-slate-800 text-left">
+          <div class="text-emerald-400 text-sm font-bold mb-2 flex items-center justify-between">
+            <span>PASO 02</span>
+            <span class="text-xs text-slate-500 font-sans">30 Segundos</span>
+          </div>
+          <h4 id="step-2-h" class="text-white font-bold text-sm mb-1.5 font-sans">Elige tu Solución</h4>
+          <p id="step-2-p" class="text-xs text-slate-400 leading-relaxed font-sans">
+            Selecciona entre un parche de blindaje inmediato ($19 USD) o la operación desatendida de un agente 24/7 ($69 USD/mes).
+          </p>
+        </div>
+
+        <div class="p-5 rounded-xl bg-slate-900/70 border border-slate-800 text-left">
+          <div class="text-amber-400 text-sm font-bold mb-2 flex items-center justify-between">
+            <span>PASO 03</span>
+            <span class="text-xs text-slate-500 font-sans">60 Segundos</span>
+          </div>
+          <h4 id="step-3-h" class="text-white font-bold text-sm mb-1.5 font-sans">Activación y Paz Mental</h4>
+          <p id="step-3-p" class="text-xs text-slate-400 leading-relaxed font-sans">
+            Despliega los parches con un clic en tu servidor o déjanos monitorear tu operación desde la nube con garantía incondicional.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN DE SOLUCIONES Y PRECIOS TRANSPARENTES -->
+  <section id="soluciones" class="py-20 relative">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-400 text-xs font-mono uppercase mb-3">
+          <span>💎 Modelos de Solución Llave en Mano</span>
+        </div>
+        <h2 id="pricing-title" class="text-3xl sm:text-4xl font-black text-white tracking-tight">
+          Precios Transparentes. Cero Letra Chica.
+        </h2>
+        <p id="pricing-desc" class="text-xs sm:text-sm text-slate-400 mt-2">
+          Soluciones directas diseñadas para pagarse solas con evitar una sola falla operativa o recuperar una sola venta.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 items-stretch">
+        
+        <!-- Solución 1: Plan Flash -->
+        <div class="p-6 sm:p-7 rounded-2xl glass-shield glow-card border border-amber-500/30 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <span class="text-xs font-mono font-bold uppercase text-amber-400 bg-amber-500/10 px-3 py-0.5 rounded border border-amber-500/20">
+                ⚡ Plan Flash
+              </span>
+              <span class="text-xs font-mono text-slate-400">Pago Único</span>
+            </div>
+            <h3 id="p1-title" class="text-xl font-bold text-white mb-2 font-mono">Blindaje Perimetral Flash</h3>
+            <div class="text-3xl font-black text-white mb-4 font-sans">
+              $19 <span class="text-xs font-normal text-slate-400 font-mono">USD</span>
+            </div>
+            <p id="p1-desc" class="text-xs text-slate-400 leading-relaxed mb-6">
+              Para empresas que necesitan cerrar vulnerabilidades de cabeceras, protegerse de ataques de clickjacking y asegurar su SSL de inmediato.
+            </p>
+            <ul class="space-y-2.5 text-xs text-slate-300 font-mono mb-8">
+              <li class="flex items-center gap-2"><span class="text-amber-400">✓</span> Auditoría forense exhaustiva (CSP/HSTS)</li>
+              <li class="flex items-center gap-2"><span class="text-amber-400">✓</span> Parches de código listos para Nginx/Cloudflare</li>
+              <li class="flex items-center gap-2"><span class="text-amber-400">✓</span> Verificación de re-escaneo en 10 minutos</li>
+              <li class="flex items-center gap-2"><span class="text-amber-400">✓</span> Cero acceso a claves o contraseñas</li>
+            </ul>
+          </div>
+          <a href="https://strike.me/rick2818" target="_blank" rel="noopener" class="w-full block text-center py-3 rounded-xl bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-400 hover:to-orange-400 text-slate-950 font-black text-xs font-mono uppercase tracking-wider shadow-lg shadow-amber-500/20 transition-all">
+            <span id="btn-p1">Activar Blindaje ($19 USD)</span>
+          </a>
+        </div>
+
+        <!-- Solución 2: Plan Pro (Recomendado) -->
+        <div class="p-6 sm:p-7 rounded-2xl glass-shield glow-card border-2 border-cyan-400 flex flex-col justify-between relative transform lg:-translate-y-2 shadow-2xl shadow-cyan-950/50">
+          <div class="absolute -top-3 left-1/2 transform -translate-x-1/2 px-3 py-0.5 rounded-full bg-cyan-400 text-slate-950 text-[10px] font-mono font-black uppercase tracking-wider">
+            ⭐ Máxima Paz Mental
+          </div>
+          <div>
+            <div class="flex items-center justify-between mb-3 mt-1">
+              <span class="text-xs font-mono font-bold uppercase text-cyan-400 bg-cyan-500/10 px-3 py-0.5 rounded border border-cyan-500/20">
+                🤖 Plan Pro
+              </span>
+              <span class="text-xs font-mono text-cyan-300">$2.30 USD / día</span>
+            </div>
+            <h3 id="p2-title" class="text-xl font-bold text-white mb-2 font-mono">Centinela Autónomo 24/7</h3>
+            <div class="text-3xl font-black text-white mb-4 font-sans">
+              $69 <span class="text-xs font-normal text-slate-400 font-mono">USD / mes</span>
+            </div>
+            <p id="p2-desc" class="text-xs text-slate-400 leading-relaxed mb-6">
+              Un operador de software autónomo que vigila tu infraestructura, atiende consultas comerciales en WhatsApp y resuelve alertas sin nómina humana.
+            </p>
+            <ul class="space-y-2.5 text-xs text-slate-300 font-mono mb-8">
+              <li class="flex items-center gap-2"><span class="text-cyan-400">✓</span> Todo lo incluido en el Plan Flash</li>
+              <li class="flex items-center gap-2"><span class="text-cyan-400">✓</span> Centinela 24/7 con comprobación cada 60s</li>
+              <li class="flex items-center gap-2"><span class="text-cyan-400">✓</span> Agente concierge para calificación y checkout</li>
+              <li class="flex items-center gap-2"><span class="text-cyan-400">✓</span> Garantía incondicional de 7 días (100% refund)</li>
+              <li class="flex items-center gap-2"><span class="text-cyan-400">✓</span> Privacidad SOC-2 (100% memoria RAM)</li>
+            </ul>
+          </div>
+          <a href="https://strike.me/rick2818" target="_blank" rel="noopener" class="w-full block text-center py-3.5 rounded-xl bg-gradient-to-r from-cyan-400 to-blue-500 hover:from-cyan-300 hover:to-blue-400 text-slate-950 font-black text-xs font-mono uppercase tracking-wider shadow-xl shadow-cyan-500/30 transition-all">
+            <span id="btn-p2">Desplegar Centinela ($69 USD/mes)</span>
+          </a>
+        </div>
+
+        <!-- Solución 3: Flota Enterprise -->
+        <div class="p-6 sm:p-7 rounded-2xl glass-shield glow-card border border-slate-700 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <span class="text-xs font-mono font-bold uppercase text-slate-300 bg-slate-800 px-3 py-0.5 rounded border border-slate-700">
+                🏢 Enterprise
+              </span>
+              <span class="text-xs font-mono text-slate-400">Multi-Jurisdicción</span>
+            </div>
+            <h3 id="p3-title" class="text-xl font-bold text-white mb-2 font-mono">Flota Multi-Agente Soberana</h3>
+            <div class="text-3xl font-black text-white mb-4 font-sans">
+              $490 <span class="text-xs font-normal text-slate-400 font-mono">USD / mes</span>
+            </div>
+            <p id="p3-desc" class="text-xs text-slate-400 leading-relaxed mb-6">
+              Para empresas con operaciones críticas en varios países que requieren agentes coordinados para marketing, ventas, cobros y defensa.
+            </p>
+            <ul class="space-y-2.5 text-xs text-slate-300 font-mono mb-8">
+              <li class="flex items-center gap-2"><span class="text-emerald-400">✓</span> Enjambre de 5 agentes coordinados</li>
+              <li class="flex items-center gap-2"><span class="text-emerald-400">✓</span> Integraciones a medida con ERP / CRM</li>
+              <li class="flex items-center gap-2"><span class="text-emerald-400">✓</span> Pasarelas bancarias y Lightning multi-divisa</li>
+              <li class="flex items-center gap-2"><span class="text-emerald-400">✓</span> Canal dedicado con SLA de 15 minutos</li>
+            </ul>
+          </div>
+          <a href="https://strike.me/rick2818" target="_blank" rel="noopener" class="w-full block text-center py-3 rounded-xl bg-slate-800 hover:bg-slate-700 text-white font-black text-xs font-mono uppercase tracking-wider border border-slate-600 transition-all">
+            <span id="btn-p3">Hablar con Ingeniería ($490 USD)</span>
+          </a>
+        </div>
+
+      </div>
+
+      <!-- Liquidación Directa Lightning -->
+      <div class="mt-8 text-center font-mono text-xs text-slate-400">
+        <span>Liquidación instantánea sin comisiones bancarias vía Bitcoin Lightning a: </span>
+        <strong class="text-cyan-400">rick2818@strike.me</strong>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- LOS 5 ANCLAJES DE PAZ MENTAL Y CONFIANZA FIDUCIARIA -->
+  <section class="py-16 bg-cyber-dark/60 border-t border-slate-800/80">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6">
+      
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <h3 id="trust-heading" class="text-xl sm:text-3xl font-extrabold text-white tracking-tight">
+          Nuestros 5 Anclajes de Paz Mental (Riesgo Cero)
+        </h3>
+        <p id="trust-sub" class="text-xs text-slate-400 mt-2">
+          Diseñado para que ninguna objeción ni temor frene la certeza operativa de tu empresa.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs font-sans">
+        
+        <div class="p-4 rounded-xl bg-slate-900/60 border border-slate-800">
+          <div class="font-bold text-cyan-400 font-mono mb-1.5 flex items-center gap-2">
+            <span>01.</span> <span id="t1-h">Cero Invasión Previa</span>
+          </div>
+          <p id="t1-p" class="text-slate-400 leading-relaxed">
+            Jamás solicitamos contraseñas, credenciales de administración ni acceso a bases de datos internas. Todas las soluciones se entregan para despliegue no invasivo en tu nube.
+          </p>
+        </div>
+
+        <div class="p-4 rounded-xl bg-slate-900/60 border border-slate-800">
+          <div class="font-bold text-cyan-400 font-mono mb-1.5 flex items-center gap-2">
+            <span>02.</span> <span id="t2-h">Micro-Riesgo y Entrada Asimétrica</span>
+          </div>
+          <p id="t2-p" class="text-slate-400 leading-relaxed">
+            Comienza con una auditoría gratuita en 15 segundos o adquiere parches de blindaje forense por solo $19 USD. La barrera de entrada es microscópica frente al valor entregado.
+          </p>
+        </div>
+
+        <div class="p-4 rounded-xl bg-slate-900/60 border border-slate-800">
+          <div class="font-bold text-emerald-400 font-mono mb-1.5 flex items-center gap-2">
+            <span>03.</span> <span id="t3-h">Garantía Incondicional de 7 Días</span>
+          </div>
+          <p id="t3-p" class="text-slate-400 leading-relaxed">
+            Si en los primeros 7 días el sistema no le ahorra al menos 10 horas de trabajo manual y dolores de cabeza a tu equipo, te reembolsamos el 100% de tu dinero sin preguntas.
+          </p>
+        </div>
+
+        <div class="p-4 rounded-xl bg-slate-900/60 border border-slate-800">
+          <div class="font-bold text-blue-400 font-mono mb-1.5 flex items-center gap-2">
+            <span>04.</span> <span id="t4-h">Privacidad Bancaria SOC-2 (Retención Cero)</span>
+          </div>
+          <p id="t4-p" class="text-slate-400 leading-relaxed">
+            Procesamiento 100% en memoria volátil RAM; ninguna conversación sensible ni dato del cliente toca disco ni se usa para entrenar modelos.
+          </p>
+        </div>
+
+        <div class="p-4 rounded-xl bg-slate-900/60 border border-slate-800 md:col-span-2">
+          <div class="font-bold text-amber-400 font-mono mb-1.5 flex items-center gap-2">
+            <span>05.</span> <span id="t5-h">Matemática de Ahorro y Retorno Objetivo</span>
+          </div>
+          <p id="t5-p" class="text-slate-400 leading-relaxed">
+            Un analista u operador cuesta $600+ USD/mes; el agente autónomo opera 24/7 por solo $2.30 USD al día ($69 USD/mes), pagándose solo con recuperar 1 venta o prevenir un incidente operativo.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-slate-800 bg-cyber-black py-8 text-center text-xs font-mono text-slate-500">
+    <div class="max-w-6xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-3">
+      <div class="flex items-center gap-2 text-slate-400">
+        <span>🛡️ <strong id="footer-brand-name">Unblock AI</strong></span>
+        <span>•</span>
+        <span>Autonomous Cyber-Defense & Operational Certainty</span>
+      </div>
+      <div>
+        <span>Desarrollado sobre Google Antigravity & Vercel Cloud 24/7</span>
+      </div>
+      <div>
+        <span>Settlement: <a href="https://strike.me/rick2818" class="text-cyan-400 underline">rick2818@strike.me</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- SCRIPT DE INTERACTIVIDAD, ESCÁNER Y MULTI-IDIOMA -->
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const domainQuery = urlParams.get('domain');
+    const langQuery = urlParams.get('lang');
+
+    let currentLanguage = (langQuery === 'en' || (!langQuery && navigator.language && navigator.language.startsWith('en'))) ? 'en' : 'es';
+
+    const I18N = {
+      es: {
+        logoSub: 'Ingeniería en Soluciones Operativas & Ciberseguridad',
+        brandText: 'DESTRABA<span class="text-cyan-400">.AI</span>',
+        brandPlain: 'Destraba AI',
+        langBtn: 'ENGLISH',
+        headerCta: 'Ver Soluciones',
+        heroBadge: 'FILOSOFÍA DE CERTEZA OPERATIVA • CERO ASESORÍAS',
+        heroTitle: 'No vendemos asesorías.<br><span class="bg-gradient-to-r from-cyan-300 via-blue-400 to-emerald-400 bg-clip-text text-transparent">Entregamos soluciones y paz mental 24/7.</span>',
+        heroDesc: 'Olvídate de consultorías eternas, cotizaciones infladas e informes teóricos. Implementamos escudos tecnológicos autónomos que blindan tu infraestructura perimetral, protegen tus ventas y absorben operaciones repetitivas mientras duermes.',
+        scannerTitle: 'Escáner Perimetral de Certeza en Vivo',
+        scanBtn: 'Auditar y Blindar',
+        metric1: 'Despliegue Llave en Mano',
+        metric2: 'Garantía 7 Días',
+        metric3: 'Cero Retención en Disco',
+        metric4: 'Costo Operativo Real',
+        shieldsTitle: 'Cuatro Escudos Tecnológicos para tu Negocio',
+        shieldsDesc: 'Infraestructura desatendida diseñada para que los directores se enfoquen en crecer, no en resolver emergencias técnicas.',
+        s1h: 'Perimeter Hardening Shield',
+        s1p: 'Elimina puntos ciegos en tus cabeceras HTTP. Aplicamos políticas CSP estrictas, HSTS con precarga, mitigación contra Clickjacking y sanitización de puertos expuestos para evitar secuestros de tráfico y ataques XSS.',
+        s2h: 'Revenue & Checkout Guard',
+        s2p: 'Evita fugas de clientes en el checkout. Agentes autónomos que monitorean la salud de tus pasarelas (Stripe, Wompi, Lightning) y responden consultas comerciales de prospectos en WhatsApp en menos de 60 segundos.',
+        s3h: 'SOC-2 Zero-Disk Memory Vault',
+        s3p: 'Tus datos confidenciales jamás tocan un disco duro ni se utilizan para entrenar inteligencias artificiales externas. Toda la inferencia y auditoría ocurre en memoria volátil RAM y se destruye al instante.',
+        s4h: '24/7 Autopilot Sentinel',
+        s4p: 'Un agente centinela en la nube que ejecuta comprobaciones de pulso cada 60 segundos. Si un servicio se cae o un certificado se vence, el sistema actúa de inmediato sin requerir que nadie se despierte a medianoche.',
+        videoHeading: '70 Segundos sobre el Costo de la Inacción',
+        videoDesc: 'Mira cómo un escudo tecnológico desatendido resuelve los cuellos de botella operativos y protege los ingresos de tu empresa.',
+        stepsTitle: 'Fácil de Configurar en 3 Pasos',
+        stepsDesc: 'No necesitas un equipo de ingenieros ni semanas de integración. El agente realiza el trabajo pesado.',
+        step1h: 'Ingresa tu Dominio',
+        step1p: 'El agente ejecuta un escaneo perimetral externo no invasivo. No pedimos contraseñas ni permisos internos.',
+        step2h: 'Elige tu Solución',
+        step2p: 'Selecciona entre un parche de blindaje inmediato ($19 USD) o la operación desatendida de un agente 24/7 ($69 USD/mes).',
+        step3h: 'Activación y Paz Mental',
+        step3p: 'Despliega los parches con un clic en tu servidor o déjanos monitorear tu operación desde la nube con garantía incondicional.',
+        pricingTitle: 'Precios Transparentes. Cero Letra Chica.',
+        pricingDesc: 'Soluciones directas diseñadas para pagarse solas con evitar una sola falla operativa o recuperar una sola venta.',
+        p1Title: 'Blindaje Perimetral Flash',
+        p1Desc: 'Para empresas que necesitan cerrar vulnerabilidades de cabeceras, protegerse de ataques de clickjacking y asegurar su SSL de inmediato.',
+        btnP1: 'Activar Blindaje ($19 USD)',
+        p2Title: 'Centinela Autónomo 24/7',
+        p2Desc: 'Un operador de software autónomo que vigila tu infraestructura, atiende consultas comerciales en WhatsApp y resuelve alertas sin nómina humana.',
+        btnP2: 'Desplegar Centinela ($69 USD/mes)',
+        p3Title: 'Flota Multi-Agente Soberana',
+        p3Desc: 'Para empresas con operaciones críticas en varios países que requieren agentes coordinados para marketing, ventas, cobros y defensa.',
+        btnP3: 'Hablar con Ingeniería ($490 USD)',
+        trustHeading: 'Nuestros 5 Anclajes de Paz Mental (Riesgo Cero)',
+        trustSub: 'Diseñado para que ninguna objeción ni temor frene la certeza operativa de tu empresa.',
+        t1h: 'Cero Invasión Previa',
+        t1p: 'Jamás solicitamos contraseñas, credenciales de administración ni acceso a bases de datos internas. Todas las soluciones se entregan para despliegue no invasivo en tu nube.',
+        t2h: 'Micro-Riesgo y Entrada Asimétrica',
+        t2p: 'Comienza con una auditoría gratuita en 15 segundos o adquiere parches de blindaje forense por solo $19 USD. La barrera de entrada es microscópica frente al valor entregado.',
+        t3h: 'Garantía Incondicional de 7 Días',
+        t3p: 'Si en los primeros 7 días el sistema no le ahorra al menos 10 horas de trabajo manual y dolores de cabeza a tu equipo, te reembolsamos el 100% de tu dinero sin preguntas.',
+        t4h: 'Privacidad Bancaria SOC-2 (Retención Cero)',
+        t4p: 'Procesamiento 100% en memoria volátil RAM; ninguna conversación sensible ni dato del cliente toca disco ni se usa para entrenar modelos.',
+        t5h: 'Matemática de Ahorro y Retorno Objetivo',
+        t5p: 'Un analista u operador cuesta $600+ USD/mes; el agente autónomo opera 24/7 por solo $2.30 USD al día ($69 USD/mes), pagándose solo con recuperar 1 venta o prevenir un incidente operativo.'
+      },
+      en: {
+        logoSub: 'Autonomous Operational Solutions & Cyber-Defense',
+        brandText: 'UNBLOCK<span class="text-cyan-400">.AI</span>',
+        brandPlain: 'Unblock AI',
+        langBtn: 'ESPAÑOL',
+        headerCta: 'View Solutions',
+        heroBadge: 'OPERATIONAL CERTAINTY PHILOSOPHY • ZERO CONSULTING',
+        heroTitle: 'We don\'t sell consulting.<br><span class="bg-gradient-to-r from-cyan-300 via-blue-400 to-emerald-400 bg-clip-text text-transparent">We deliver turnkey solutions & 24/7 peace of mind.</span>',
+        heroDesc: 'Say goodbye to endless slide decks, inflated consulting retainers, and abstract theories. We deploy autonomous technological shields that harden your perimeter, guard your revenue, and execute repetitive operations while you sleep.',
+        scannerTitle: 'Live External Perimeter Certainty Scanner',
+        scanBtn: 'Audit & Shield',
+        metric1: 'Turnkey Cloud Deployment',
+        metric2: '7-Day Guarantee',
+        metric3: 'Zero Disk Persistence',
+        metric4: 'Real Operational Cost',
+        shieldsTitle: 'Four Technological Shields for Your Business',
+        shieldsDesc: 'Unattended infrastructure engineered so executives can focus on scaling, not putting out technical fires.',
+        s1h: 'Perimeter Hardening Shield',
+        s1p: 'Eradicate blind spots in your HTTP headers. We enforce strict CSP policies, preloaded HSTS, Clickjacking mitigation, and exposed port sanitization to prevent traffic interception and XSS injections.',
+        s2h: 'Revenue & Checkout Guard',
+        s2p: 'Prevent checkout drop-offs. Autonomous agents that monitor gateway health (Stripe, Wompi, Lightning) and resolve inbound prospect questions on WhatsApp in under 60 seconds.',
+        s3h: 'SOC-2 Zero-Disk Memory Vault',
+        s3p: 'Your sensitive business data never touches a physical drive and is never used to train external models. All evaluations occur strictly in isolated volatile RAM and are wiped instantly.',
+        s4h: '24/7 Autopilot Sentinel',
+        s4p: 'A cloud sentinel executing pulse health checks every 60 seconds. If an endpoint stumbles or an SSL certificate nears expiry, autonomous scripts resolve it without waking anyone up at midnight.',
+        videoHeading: '70 Seconds on the Real Cost of Inaction',
+        videoDesc: 'Watch how an autonomous technological shield removes operational friction and defends company revenue.',
+        stepsTitle: 'Effortless 3-Step Setup',
+        stepsDesc: 'No engineering team or weeks of onboarding required. The autonomous agent handles the heavy lifting.',
+        step1h: 'Enter Your Domain',
+        step1p: 'The agent executes a non-invasive external perimeter evaluation. We never ask for passwords or internal access.',
+        step2h: 'Select Your Shield',
+        step2p: 'Choose between an instant perimeter remediation patch ($19 USD) or continuous 24/7 autonomous operation ($69 USD/mo).',
+        step3h: 'Activate & Sleep Soundly',
+        step3p: 'Deploy patches with one click to your server or let us monitor your operations from the cloud with a full 7-day guarantee.',
+        pricingTitle: 'Transparent Solutions Pricing. Zero Fine Print.',
+        pricingDesc: 'Turnkey solutions engineered to pay for themselves by stopping a single operational error or recovering a single deal.',
+        p1Title: 'Perimeter Flash Armor',
+        p1Desc: 'For businesses needing to remediate header flaws, clickjacking exposure, and SSL anomalies immediately.',
+        btnP1: 'Deploy Flash Shield ($19 USD)',
+        p2Title: '24/7 Autonomous Sentinel',
+        p2Desc: 'An unattended software operator watching your infrastructure, handling prospect qualification, and resolving issues without human payroll.',
+        btnP2: 'Deploy Pro Sentinel ($69 USD/mo)',
+        p3Title: 'Sovereign Multi-Agent Fleet',
+        p3Desc: 'For organizations with multi-country operations requiring coordinated autonomous agents for marketing, sales, settlement, and defense.',
+        btnP3: 'Talk with Engineering ($490 USD)',
+        trustHeading: 'Our 5 Fiduciary Peace of Mind Anchors (Zero Risk)',
+        trustSub: 'Engineered so zero friction or fear stands between your business and operational certainty.',
+        t1h: 'Zero Prior Invasive Access',
+        t1p: 'We never request credentials, administrative logins, or internal database access. All solutions operate externally and non-invasively.',
+        t2h: 'Micro-Risk & Asymmetric Entry',
+        t2p: 'Start with a free 15-second perimeter audit or get full production-ready remediation patches for just $19 USD.',
+        t3h: '7-Day Unconditional Guarantee',
+        t3p: 'If the system does not save your team at least 10 hours of manual labor in the first 7 days, we refund 100% of your money with zero friction.',
+        t4h: 'SOC-2 Banking Grade Privacy',
+        t4p: '100% processed in volatile RAM; zero disk retention, no customer data ever used to train external models.',
+        t5h: 'Objective ROI & Proven Savings',
+        t5p: 'A human employee costs $600+ USD/month; our autonomous agent runs 24/7 for $2.30 USD/day ($69 USD/month), paying for itself immediately.'
+      }
+    };
+
+    function setLanguage(lang) {
+      currentLanguage = lang;
+      const t = I18N[lang];
+
+      document.getElementById('brand-logo-text').innerHTML = t.brandText;
+      document.getElementById('brand-tagline-text').innerText = t.logoSub;
+      document.getElementById('footer-brand-name').innerText = t.brandPlain;
+      document.getElementById('lang-btn-label').innerText = t.langBtn;
+      document.getElementById('btn-header-cta').innerText = t.headerCta;
+
+      document.getElementById('hero-badge').innerText = t.heroBadge;
+      document.getElementById('hero-title').innerHTML = t.heroTitle;
+      document.getElementById('hero-desc').innerText = t.heroDesc;
+      document.getElementById('scanner-box-title').innerText = t.scannerTitle;
+      document.getElementById('btn-scan-label').innerText = t.scanBtn;
+
+      document.getElementById('metric-1').innerText = t.metric1;
+      document.getElementById('metric-2').innerText = t.metric2;
+      document.getElementById('metric-3').innerText = t.metric3;
+      document.getElementById('metric-4').innerText = t.metric4;
+
+      document.getElementById('shields-title').innerText = t.shieldsTitle;
+      document.getElementById('shields-desc').innerText = t.shieldsDesc;
+      document.getElementById('shield-1-h').innerText = t.s1h;
+      document.getElementById('shield-1-p').innerText = t.s1p;
+      document.getElementById('shield-2-h').innerText = t.s2h;
+      document.getElementById('shield-2-p').innerText = t.s2p;
+      document.getElementById('shield-3-h').innerText = t.s3h;
+      document.getElementById('shield-3-p').innerText = t.s3p;
+      document.getElementById('shield-4-h').innerText = t.s4h;
+      document.getElementById('shield-4-p').innerText = t.s4p;
+
+      document.getElementById('video-heading').innerText = t.videoHeading;
+      document.getElementById('video-desc').innerText = t.videoDesc;
+
+      document.getElementById('steps-title').innerText = t.stepsTitle;
+      document.getElementById('steps-desc').innerText = t.stepsDesc;
+      document.getElementById('step-1-h').innerText = t.step1h;
+      document.getElementById('step-1-p').innerText = t.step1p;
+      document.getElementById('step-2-h').innerText = t.step2h;
+      document.getElementById('step-2-p').innerText = t.step2p;
+      document.getElementById('step-3-h').innerText = t.step3h;
+      document.getElementById('step-3-p').innerText = t.step3p;
+
+      document.getElementById('pricing-title').innerText = t.pricingTitle;
+      document.getElementById('pricing-desc').innerText = t.pricingDesc;
+      document.getElementById('p1-title').innerText = t.p1Title;
+      document.getElementById('p1-desc').innerText = t.p1Desc;
+      document.getElementById('btn-p1').innerText = t.btnP1;
+      document.getElementById('p2-title').innerText = t.p2Title;
+      document.getElementById('p2-desc').innerText = t.p2Desc;
+      document.getElementById('btn-p2').innerText = t.btnP2;
+      document.getElementById('p3-title').innerText = t.p3Title;
+      document.getElementById('p3-desc').innerText = t.p3Desc;
+      document.getElementById('btn-p3').innerText = t.btnP3;
+
+      document.getElementById('trust-heading').innerText = t.trustHeading;
+      document.getElementById('trust-sub').innerText = t.trustSub;
+      document.getElementById('t1-h').innerText = t.t1h;
+      document.getElementById('t1-p').innerText = t.t1p;
+      document.getElementById('t2-h').innerText = t.t2h;
+      document.getElementById('t2-p').innerText = t.t2p;
+      document.getElementById('t3-h').innerText = t.t3h;
+      document.getElementById('t3-p').innerText = t.t3p;
+      document.getElementById('t4-h').innerText = t.t4h;
+      document.getElementById('t4-p').innerText = t.t4p;
+      document.getElementById('t5-h').innerText = t.t5h;
+      document.getElementById('t5-p').innerText = t.t5p;
+
+      document.title = (lang === 'en')
+        ? 'Unblock AI • Turnkey Operational Solutions & 24/7 Peace of Mind'
+        : 'Destraba AI • Soluciones Tecnológicas y Paz Mental 24/7';
+    }
+
+    function toggleLanguage() {
+      setLanguage(currentLanguage === 'es' ? 'en' : 'es');
+    }
+
+    if (domainQuery) {
+      document.getElementById('hero-scan-input').value = domainQuery;
+    }
+    setLanguage(currentLanguage);
+
+    function executeLiveScan() {
+      const input = document.getElementById('hero-scan-input');
+      const consoleBox = document.getElementById('scan-console');
+      const domain = input.value.trim().replace(/^https?:\/\//, '').replace(/\/.*$/, '');
+
+      if (!domain) {
+        input.focus();
+        return;
+      }
+
+      consoleBox.classList.remove('hidden');
+      consoleBox.innerHTML = `
+        <div class="flex items-center gap-2 text-cyan-400">
+          <span class="w-2 h-2 rounded-full bg-cyan-400 animate-ping"></span>
+          <span>Iniciando handshake perimetral defensivo sobre <strong>https://${domain}</strong>...</span>
+        </div>
+      `;
+
+      setTimeout(() => {
+        consoleBox.innerHTML = `
+          <div class="p-3.5 rounded-xl bg-slate-950 border border-slate-800 space-y-2.5">
+            <div class="flex items-center justify-between border-b border-slate-800 pb-2 text-slate-300 font-bold">
+              <span>Reporte Forense Preliminar: ${domain}</span>
+              <span class="text-amber-400 bg-amber-500/10 px-2 py-0.5 rounded text-[10px]">NIVEL DE EXPOSICIÓN: MEDIO</span>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-[11px]">
+              <div class="text-rose-400">✗ Content-Security-Policy (CSP): NO DETECTADA (Riesgo XSS)</div>
+              <div class="text-rose-400">✗ Strict-Transport-Security: NO FORZADA (Riesgo SSL Strip)</div>
+              <div class="text-emerald-400">✓ Certificado SSL / TLS: ACTIVO (256-bit AES)</div>
+              <div class="text-emerald-400">✓ Latencia Perimetral: 38ms (Estable)</div>
+            </div>
+            <div class="pt-2.5 border-t border-slate-800/80 flex flex-col sm:flex-row items-center justify-between gap-2">
+              <span class="text-slate-400 text-[10px]">💡 Parche de blindaje generado listo para producción en 60s.</span>
+              <div class="flex gap-2">
+                <a href="https://strike.me/rick2818" target="_blank" class="px-3.5 py-1.5 rounded-lg bg-amber-500 hover:bg-amber-400 text-slate-950 font-black text-[11px] transition-all">
+                  Blindar Ahora ($19 USD)
+                </a>
+              </div>
+            </div>
+          </div>
+        `;
+      }, 850);
+    }
+  </script>
+</body>
+</html>
