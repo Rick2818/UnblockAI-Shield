@@ -18,6 +18,7 @@
 * 💼 **LinkedIn Official Page:** [https://www.linkedin.com/company/unblock-ai-shield/](https://www.linkedin.com/company/unblock-ai-shield/)
 * ⚡ **Zero-Fee Lightning Settlement:** [`rick2818@strike.me`](https://strike.me/rick2818)
 * 📧 **Fiduciary Concierge Support:** [ricardo.destrabaai@gmail.com](mailto:ricardo.destrabaai@gmail.com)
+* 💎 **Master Prompt (Certificación 10/10):** [PROMPT_MAESTRO.md](./PROMPT_MAESTRO.md)
 * 📖 **User Manual:** [MANUAL_DE_USUARIO.md](./MANUAL_DE_USUARIO.md)
 
 ---
@@ -59,13 +60,24 @@ We don't sell theoretical consulting or 40-page PDF reports. We deliver **ready-
 unblock-shield/
 ├── assets/
 │   ├── unblock_ai_shield_logo.jpg  # High-resolution official brand logo (1:1)
-│   └── videos/                     # Executive briefing media
+│   └── videos/                     # Executive briefing media (70s Full HD 1080p)
 ├── index.html                      # Interactive bilingual web app (ES / EN) with live scanner & payment rails
+├── PROMPT_MAESTRO.md               # Certified Master Prompt (13 Invariants & Operational Instructions)
 ├── MANUAL_DE_USUARIO.md            # Comprehensive user & operational guide
 ├── vercel.json                     # Edge network configuration, security headers & routing
 ├── package.json                    # Project manifest & metadata
 └── README.md                       # Repository documentation
 ```
+
+---
+
+## 📡 Regla de Oro Inmutable: Despacho 100% en Red Real (Cero Simulación)
+
+Por directiva fiduciaria inmutable, el ecosistema opera bajo la **Regla de Oro de Despacho en Red Real**:
+1. **Cero Simulación en Producción:** Queda terminantemente prohibido el uso de banderas de prueba forzada (`dryRun = true`), simulaciones cosméticas o mocks en operaciones y crons programados.
+2. **Cero Leads Sintéticos:** 100% prospectos reales con registros MX corporativos verificados.
+3. **Envíos 100% en Vivo:** Todo correo de prospección y seguimiento (Impacto 1, 2 y 3) se transmite en vivo a través de transporte seguro SMTPS / Resend hacia los buzones principales de los destinatarios.
+4. **Auditabilidad Criptográfica:** Cada despacho exitoso genera y registra su ID de mensaje y acuse de recibo de red real en `pipeline/leads_contactados_activos.json`.
 
 ---
 
