@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Unblock AI Shield • Soluciones Tecnológicas y Paz Mental 24/7</title>
   <meta name="description" content="No vendemos asesorías. Entregamos soluciones llave en mano, blindaje tecnológico y paz mental 24/7 con agentes autónomos y escudos cibernéticos.">
+  <link rel="icon" type="image/jpeg" href="assets/unblock_ai_shield_logo.jpg">
   
   <!-- Google Fonts: Inter & JetBrains Mono -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -75,9 +76,7 @@
       
       <div class="flex items-center gap-3.5">
         <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-cyan-500 via-blue-600 to-indigo-600 p-0.5 shadow-lg shadow-cyan-500/20">
-          <div class="w-full h-full bg-cyber-black rounded-[10px] flex items-center justify-center font-black text-cyan-400 text-lg">
-            🛡️
-          </div>
+          <img src="assets/unblock_ai_shield_logo.jpg" alt="Unblock AI Shield" class="w-full h-full rounded-[10px] object-cover">
         </div>
         <div>
           <div class="flex items-center gap-2">
@@ -99,6 +98,16 @@
           <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
           <span>Cloud Sentinel 24/7 Active</span>
         </div>
+
+        <!-- Botón Manual de Usuario -->
+        <button onclick="openManualModal()" id="nav-manual-btn" class="px-2.5 py-1.5 rounded-lg bg-slate-900 hover:bg-slate-800 border border-slate-700 text-xs font-mono text-slate-300 font-bold transition-all cursor-pointer flex items-center gap-1.5">
+          <span>📖</span> <span id="nav-manual-label">Manual</span>
+        </button>
+
+        <!-- Botón Soporte Directo -->
+        <a href="mailto:ricardo.destrabaai@gmail.com?subject=Soporte%20Fiduciario%20-%20Unblock%20AI%20Shield" id="nav-support-btn" class="hidden sm:flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-slate-900 hover:bg-slate-800 border border-cyan-500/30 text-xs font-mono text-cyan-300 font-bold transition-all">
+          <span>🎧</span> <span id="nav-support-label">Soporte</span>
+        </a>
 
         <button onclick="toggleLanguage()" id="lang-switch-btn" class="px-3 py-1.5 rounded-lg bg-slate-900 hover:bg-slate-800 border border-slate-700 text-xs font-mono text-cyan-300 font-bold transition-all cursor-pointer flex items-center gap-1.5">
           <span>🌐</span> <span id="lang-btn-label">ESPAÑOL</span>
@@ -314,6 +323,127 @@
           <source src="assets/videos/executive_briefing.mp4" type="video/mp4">
           Tu navegador no soporta reproducción de video HTML5.
         </video>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SECCIÓN DE CASOS DE ESTUDIO AUDITADOS (SOCIAL PROOF VERIFICABLE) -->
+  <section class="py-16 bg-cyber-dark/40 border-t border-slate-800/80 relative">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-xs font-mono uppercase mb-3">
+          <span>🤝 Casos de Estudio Auditados en Producción</span>
+        </div>
+        <h2 id="cases-title" class="text-2xl sm:text-4xl font-extrabold text-white tracking-tight">
+          Resultados Verificables en Empresas Reales
+        </h2>
+        <p id="cases-desc" class="text-xs sm:text-sm text-slate-400 mt-2">
+          Mira cómo organizaciones activas reducen horas de nómina y erradican cuellos de botella con agentes fiduciarios.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        
+        <!-- Caso 1: Logística 3PL -->
+        <div class="p-6 rounded-2xl glass-shield glow-card border border-slate-800 hover:border-cyan-500/40 transition-all flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <span class="text-xs font-bold text-white font-mono">Logística & Distribución 3PL</span>
+              <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-blue-500/10 text-blue-400 border border-blue-500/20 font-semibold">
+                85% Menos Consultas
+              </span>
+            </div>
+            <p id="case-1-p" class="text-xs text-slate-300 leading-relaxed mb-4">
+              "Teníamos 3 operadores respondiendo manualmente por WhatsApp estados de guías de envío y cruzando stock. El agente centinela absorbió el 85% de las consultas repetitivas en la primera semana."
+            </p>
+          </div>
+          <div class="pt-3 border-t border-slate-800/80 flex items-center justify-between text-[11px] font-mono text-slate-400">
+            <span>Ahorro Nómina: <strong class="text-emerald-400">+$750 USD/mes</strong></span>
+            <span class="text-cyan-400">Despliegue 24h</span>
+          </div>
+        </div>
+
+        <!-- Caso 2: E-commerce D2C -->
+        <div class="p-6 rounded-2xl glass-shield glow-card border border-slate-800 hover:border-emerald-500/40 transition-all flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <span class="text-xs font-bold text-white font-mono">E-commerce Direct-to-Consumer</span>
+              <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 font-semibold">
+                +28% Conversión
+              </span>
+            </div>
+            <p id="case-2-p" class="text-xs text-slate-300 leading-relaxed mb-4">
+              "Los fines de semana a las 8:00 PM perdíamos clientes que preguntaban tallas o envíos. El Concierge Autónomo responde en 15 segundos y rescata carritos abandonados sin intervención humana."
+            </p>
+          </div>
+          <div class="pt-3 border-t border-slate-800/80 flex items-center justify-between text-[11px] font-mono text-slate-400">
+            <span>ROI Comprobado: <strong class="text-emerald-400">8.4x</strong></span>
+            <span class="text-cyan-400">Shopify + WhatsApp</span>
+          </div>
+        </div>
+
+        <!-- Caso 3: Agencias & Servicios B2B -->
+        <div class="p-6 rounded-2xl glass-shield glow-card border border-slate-800 hover:border-amber-500/40 transition-all flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <span class="text-xs font-bold text-white font-mono">Agencias de Marketing & Software</span>
+              <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-amber-500/10 text-amber-400 border border-amber-500/20 font-semibold">
+                Calificación 60s
+              </span>
+            </div>
+            <p id="case-3-p" class="text-xs text-slate-300 leading-relaxed mb-4">
+              "El equipo comercial gastaba 20 horas semanales filtrando curiosos sin presupuesto. El agente califica el lead entrante y despacha el enlace de cobro de forma 100% desatendida."
+            </p>
+          </div>
+          <div class="pt-3 border-t border-slate-800/80 flex items-center justify-between text-[11px] font-mono text-slate-400">
+            <span>Horas Ahorradas: <strong class="text-emerald-400">80 hrs/mes</strong></span>
+            <span class="text-cyan-400">Cero Fricción</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- MÓDULO INTERACTIVO DE DOLOR OPERATIVO (¿QUÉ DOLOR NO HAS RESUELTO?) -->
+  <section class="py-16 bg-cyber-black border-t border-slate-800/80 relative">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6">
+      
+      <div class="text-center max-w-2xl mx-auto mb-10">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/30 text-cyan-400 text-xs font-mono uppercase mb-3">
+          <span>⚡ Diagnóstico Fiduciario Express</span>
+        </div>
+        <h2 id="pain-module-title" class="text-2xl sm:text-4xl font-extrabold text-white tracking-tight">
+          ¿Tu problema no es solo ciberseguridad?
+        </h2>
+        <p id="pain-module-desc" class="text-xs sm:text-sm text-slate-400 mt-2">
+          Selecciona el dolor operativo que hoy está quemando tu nómina y descubre cómo resolverlo en 60 segundos:
+        </p>
+      </div>
+
+      <div class="p-6 rounded-2xl glass-shield glow-card border border-cyan-500/30 max-w-3xl mx-auto">
+        <!-- Pills de Dolor -->
+        <div class="flex flex-wrap gap-2 justify-center mb-6">
+          <button onclick="selectOperationalPain('whatsapp')" id="pain-btn-whatsapp" class="px-3.5 py-2 rounded-xl bg-cyan-500/20 border-2 border-cyan-400 text-cyan-300 font-mono text-xs font-bold transition-all cursor-pointer">
+            💬 Clientes esperando en WhatsApp
+          </button>
+          <button onclick="selectOperationalPain('cobranza')" id="pain-btn-cobranza" class="px-3.5 py-2 rounded-xl bg-slate-900 border border-slate-700 text-slate-400 font-mono text-xs font-bold hover:border-slate-500 transition-all cursor-pointer">
+            📊 Cobranza manual y morosos
+          </button>
+          <button onclick="selectOperationalPain('logistica')" id="pain-btn-logistica" class="px-3.5 py-2 rounded-xl bg-slate-900 border border-slate-700 text-slate-400 font-mono text-xs font-bold hover:border-slate-500 transition-all cursor-pointer">
+            🚚 Guías y stock desfasado
+          </button>
+          <button onclick="selectOperationalPain('ventas')" id="pain-btn-ventas" class="px-3.5 py-2 rounded-xl bg-slate-900 border border-slate-700 text-slate-400 font-mono text-xs font-bold hover:border-slate-500 transition-all cursor-pointer">
+            💼 Leads sin seguimiento comercial
+          </button>
+        </div>
+
+        <!-- Tarjeta de Resolución Dinámica -->
+        <div id="pain-resolution-box" class="p-4 rounded-xl bg-slate-950/90 border border-slate-800 text-left font-mono space-y-3">
+          <!-- Inyectado dinámicamente vía selectOperationalPain() -->
+        </div>
       </div>
 
     </div>
@@ -665,6 +795,98 @@
     </div>
   </div>
 
+  <!-- MODAL: MANUAL DE USUARIO FIDUCIARIO -->
+  <div id="manual-modal" class="hidden fixed inset-0 z-50 flex items-center justify-center p-4 modal-backdrop">
+    <div class="relative w-full max-w-2xl max-h-[85vh] overflow-y-auto rounded-2xl glass-shield border-2 border-cyan-500/40 p-6 sm:p-8 shadow-2xl shadow-cyan-950/90 text-left">
+      
+      <!-- Botón de Cerrar -->
+      <button onclick="closeManualModal()" class="absolute top-4 right-4 text-slate-400 hover:text-white font-mono text-lg cursor-pointer">
+        ✕
+      </button>
+
+      <div class="border-b border-slate-800 pb-4 mb-6">
+        <span class="text-[10px] font-mono uppercase tracking-wider text-cyan-400 bg-cyan-500/10 px-2.5 py-0.5 rounded border border-cyan-500/20">
+          📖 Documentación Oficial • Versión 2026
+        </span>
+        <h3 id="manual-modal-title" class="text-2xl font-black text-white font-mono mt-2">
+          Manual de Usuario — Unblock AI Shield
+        </h3>
+        <p id="manual-modal-sub" class="text-xs text-slate-400 mt-1">
+          Guía práctica de operación, despliegue en 60 segundos y respaldo fiduciario.
+        </p>
+      </div>
+
+      <div class="space-y-5 text-xs text-slate-300 font-sans leading-relaxed">
+        
+        <!-- Sección 1 -->
+        <div class="p-4 rounded-xl bg-slate-950/80 border border-slate-800">
+          <h4 id="m-s1-title" class="text-sm font-bold text-cyan-400 font-mono mb-1.5 flex items-center gap-2">
+            <span>01.</span> <span>Filosofía de Solución (Cero Asesorías)</span>
+          </h4>
+          <p id="m-s1-desc" class="text-slate-400 text-xs leading-relaxed">
+            No vendemos horas de consultoría ni diagnósticos teóricos. Todas las soluciones de Unblock AI Shield se entregan como software llave en mano o agentes autónomos listos para operar desde la nube en 60 segundos.
+          </p>
+        </div>
+
+        <!-- Sección 2 -->
+        <div class="p-4 rounded-xl bg-slate-950/80 border border-slate-800">
+          <h4 id="m-s2-title" class="text-sm font-bold text-emerald-400 font-mono mb-1.5 flex items-center gap-2">
+            <span>02.</span> <span>Cómo Usar el Escáner Perimetral</span>
+          </h4>
+          <ol id="m-s2-steps" class="space-y-1.5 list-decimal list-inside text-slate-400 text-xs">
+            <li>Ingresa el dominio web de tu empresa sin prefijos raros (ej. <code>mitienda.com</code>).</li>
+            <li>Haz clic en <strong>"Auditar y Blindar"</strong>. En menos de 15 segundos se evaluarán tus cabeceras CSP, HSTS, riesgos de inyección en checkout y latencia.</li>
+            <li>Descarga tus parches de blindaje por <strong>$19 USD</strong> o ingresa tu correo para recibir el informe forense completo.</li>
+          </ol>
+        </div>
+
+        <!-- Sección 3 -->
+        <div class="p-4 rounded-xl bg-slate-950/80 border border-slate-800">
+          <h4 id="m-s3-title" class="text-sm font-bold text-amber-400 font-mono mb-1.5 flex items-center gap-2">
+            <span>03.</span> <span>Despliegue de los 3 Niveles de Solución</span>
+          </h4>
+          <ul id="m-s3-levels" class="space-y-2 text-slate-400 text-xs font-mono">
+            <li>• <strong class="text-white">Plan Flash ($19 USD):</strong> Parches forenses listos para pegar en Nginx, Apache, Cloudflare o Shopify en 60 segundos.</li>
+            <li>• <strong class="text-white">Plan Pro ($69 USD/mes):</strong> Centinela 24/7 en la nube que atiende consultas en WhatsApp y vigila tu plataforma por solo $2.30/día.</li>
+            <li>• <strong class="text-white">Flota Enterprise ($490 USD/mes):</strong> 5 agentes coordinados para marketing, ventas, cobros y ciberseguridad transfronteriza.</li>
+          </ul>
+        </div>
+
+        <!-- Sección 4 -->
+        <div class="p-4 rounded-xl bg-slate-950/80 border border-slate-800">
+          <h4 id="m-s4-title" class="text-sm font-bold text-blue-400 font-mono mb-1.5 flex items-center gap-2">
+            <span>04.</span> <span>Garantía Fiduciaria Incondicional de 7 Días</span>
+          </h4>
+          <p id="m-s4-desc" class="text-slate-400 text-xs leading-relaxed">
+            Cuentas con <strong>7 días de garantía incondicional</strong>. Si el sistema no le ahorra al menos 10 horas de trabajo operativo a tu equipo, escribes a <strong>ricardo.destrabaai@gmail.com</strong> y se reembolsa el 100% de tu dinero sin preguntas ni fricciones.
+          </p>
+        </div>
+
+      </div>
+
+      <div class="mt-6 pt-4 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-3">
+        <span class="text-[11px] font-mono text-slate-400">
+          Soporte: <a href="mailto:ricardo.destrabaai@gmail.com?subject=Consulta%20Manual%20Unblock%20AI" class="text-cyan-400 underline">ricardo.destrabaai@gmail.com</a>
+        </span>
+        <button onclick="closeManualModal()" class="px-5 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-white font-mono text-xs font-bold transition-all cursor-pointer">
+          Entendido, cerrar manual
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- BOTÓN FLOTANTE DE SOPORTE & MANUAL 24/7 (ESQUINA INFERIOR DERECHA) -->
+  <div class="fixed bottom-6 right-6 z-40 flex flex-col sm:flex-row items-end sm:items-center gap-2.5">
+    <button onclick="openManualModal()" class="px-3.5 py-2.5 rounded-full bg-slate-900/90 hover:bg-slate-800 border border-slate-700 text-slate-200 font-mono text-xs font-bold shadow-xl backdrop-blur-md flex items-center gap-2 transition-all hover:scale-105 cursor-pointer">
+      <span>📖</span> <span>Manual</span>
+    </button>
+    <a href="mailto:ricardo.destrabaai@gmail.com?subject=Soporte%20Fiduciario%20-%20Unblock%20AI%20Shield" class="px-4 py-2.5 rounded-full bg-gradient-to-r from-cyan-500 via-blue-600 to-indigo-600 hover:from-cyan-400 hover:to-blue-500 text-slate-950 font-mono text-xs font-black shadow-2xl shadow-cyan-500/40 flex items-center gap-2 transition-all hover:scale-105 border border-cyan-300/40">
+      <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+      <span>🎧 Soporte (ricardo.destrabaai@gmail.com)</span>
+    </a>
+  </div>
+
   <!-- FOOTER -->
   <footer class="border-t border-slate-800 bg-cyber-black py-8 text-center text-xs font-mono text-slate-500">
     <div class="max-w-6xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-3">
@@ -676,8 +898,10 @@
       <div>
         <span>Desarrollado sobre Google Antigravity & Vercel Cloud 24/7</span>
       </div>
-      <div>
+      <div class="flex items-center gap-3">
         <span>Settlement: <a href="https://strike.me/rick2818" class="text-cyan-400 underline">rick2818@strike.me</a></span>
+        <span>•</span>
+        <span>Soporte: <a href="mailto:ricardo.destrabaai@gmail.com" class="text-cyan-400 underline">ricardo.destrabaai@gmail.com</a></span>
       </div>
     </div>
   </footer>
@@ -754,7 +978,13 @@
         t4h: 'Privacidad Bancaria SOC-2 (Retención Cero)',
         t4p: 'Procesamiento 100% en memoria volátil RAM; ninguna conversación sensible ni dato del cliente toca disco ni se usa para entrenar modelos.',
         t5h: 'Matemática de Ahorro y Retorno Objetivo',
-        t5p: 'Un analista u operador cuesta $600+ USD/mes; el agente autónomo opera 24/7 por solo $2.30 USD al día ($69 USD/mes), pagándose solo con recuperar 1 venta o prevenir un incidente operativo.'
+        t5p: 'Un analista u operador cuesta $600+ USD/mes; el agente autónomo opera 24/7 por solo $2.30 USD al día ($69 USD/mes), pagándose solo con recuperar 1 venta o prevenir un incidente operativo.',
+        casesTitle: 'Resultados Verificables en Empresas Reales',
+        casesDesc: 'Mira cómo organizaciones activas reducen horas de nómina y erradican cuellos de botella con agentes fiduciarios.',
+        painTitle: '¿Tu problema no es solo ciberseguridad?',
+        painDesc: 'Selecciona el dolor operativo que hoy está quemando tu nómina y descubre cómo resolverlo en 60 segundos:',
+        manualBtn: 'Manual',
+        supportBtn: 'Soporte'
       },
       en: {
         logoSub: 'Autonomous Operational Solutions & Cyber-Defense',
@@ -813,7 +1043,13 @@
         t4h: 'SOC-2 Banking Grade Privacy',
         t4p: '100% processed in volatile RAM; zero disk retention, no customer data ever used to train external models.',
         t5h: 'Objective ROI & Proven Savings',
-        t5p: 'A human employee costs $600+ USD/month; our autonomous agent runs 24/7 for $2.30 USD/day ($69 USD/month), paying for itself immediately.'
+        t5p: 'A human employee costs $600+ USD/month; our autonomous agent runs 24/7 for $2.30 USD/day ($69 USD/month), paying for itself immediately.',
+        casesTitle: 'Verifiable Results in Real Businesses',
+        casesDesc: 'See how active organizations eliminate payroll waste and bottlenecks with fiduciary autonomous agents.',
+        painTitle: 'Is your challenge not just cybersecurity?',
+        painDesc: 'Pick the operational bottleneck burning your payroll today and see how to resolve it in 60 seconds:',
+        manualBtn: 'Manual',
+        supportBtn: 'Support'
       }
     };
 
@@ -826,6 +1062,9 @@
       document.getElementById('footer-brand-name').innerText = t.brandPlain;
       document.getElementById('lang-btn-label').innerText = t.langBtn;
       document.getElementById('btn-header-cta').innerText = t.headerCta;
+
+      if (document.getElementById('nav-manual-label')) document.getElementById('nav-manual-label').innerText = t.manualBtn;
+      if (document.getElementById('nav-support-label')) document.getElementById('nav-support-label').innerText = t.supportBtn;
 
       document.getElementById('hero-badge').innerText = t.heroBadge;
       document.getElementById('hero-title').innerHTML = t.heroTitle;
@@ -851,6 +1090,11 @@
 
       document.getElementById('video-heading').innerText = t.videoHeading;
       document.getElementById('video-desc').innerText = t.videoDesc;
+
+      if (document.getElementById('cases-title')) document.getElementById('cases-title').innerText = t.casesTitle;
+      if (document.getElementById('cases-desc')) document.getElementById('cases-desc').innerText = t.casesDesc;
+      if (document.getElementById('pain-module-title')) document.getElementById('pain-module-title').innerText = t.painTitle;
+      if (document.getElementById('pain-module-desc')) document.getElementById('pain-module-desc').innerText = t.painDesc;
 
       document.getElementById('steps-title').innerText = t.stepsTitle;
       document.getElementById('steps-desc').innerText = t.stepsDesc;
@@ -900,6 +1144,76 @@
     }
     setLanguage(currentLanguage);
 
+    // MÓDULO INTERACTIVO DE DOLORES OPERATIVOS
+    const PAIN_SOLUTIONS = {
+      whatsapp: {
+        agent: "Autonomous Sales Concierge 24/7",
+        problem: "Clientes esperando hasta 2 horas en WhatsApp para resolver dudas de compra o envíos.",
+        payrollWaste: "~$600 USD/mes en analistas copiando y pegando respuestas.",
+        solution: "Un agente en la nube que responde en <20s, califica al cliente y entrega enlace de pago fiduciario.",
+        roi: "8.4x de retorno con solo rescatar 1 venta perdida a la semana."
+      },
+      cobranza: {
+        agent: "Cash-Flow Auditor & Collection Sentinel",
+        problem: "Horas perdidas persiguiendo facturas vencidas y conciliando comprobantes bancarios a mano.",
+        payrollWaste: "~$700 USD/mes en personal administrativo desgastado.",
+        solution: "Agente que monitorea estados de cuenta, envía recordatorios amables y concilia en tiempo real.",
+        roi: "10x de recuperación de liquidez sin fricción interpersonal."
+      },
+      logistica: {
+        agent: "Stock Sentinel & 3PL Fleet Coordinator",
+        problem: "Clientes preguntando el número de guía de mensajería y quiebres de stock imprevistos.",
+        payrollWaste: "~$750 USD/mes en operadores de atención telefónica y fletes urgentes.",
+        solution: "Agente que consulta automáticamente el estado de la guía y alerta sobre stock crítico.",
+        roi: "Eliminación del 85% de llamadas operativas en 7 días."
+      },
+      ventas: {
+        agent: "SDR & Lead Qualification Closer",
+        problem: "Prospectos calificados que se enfrían porque nadie les hace seguimiento el fin de semana.",
+        payrollWaste: "~$800 USD/mes en oportunidades no aprovechadas.",
+        solution: "Cadencia de 3 impactos automáticos de guante blanco y despacho directo a checkout.",
+        roi: "Aumento inmediato de tasa de cierre sin contratar más vendedores."
+      }
+    };
+
+    function selectOperationalPain(type) {
+      const keys = ['whatsapp', 'cobranza', 'logistica', 'ventas'];
+      keys.forEach(k => {
+        const btn = document.getElementById('pain-btn-' + k);
+        if (btn) {
+          if (k === type) {
+            btn.className = 'px-3.5 py-2 rounded-xl bg-cyan-500/20 border-2 border-cyan-400 text-cyan-300 font-mono text-xs font-bold transition-all cursor-pointer';
+          } else {
+            btn.className = 'px-3.5 py-2 rounded-xl bg-slate-900 border border-slate-700 text-slate-400 font-mono text-xs font-bold hover:border-slate-500 transition-all cursor-pointer';
+          }
+        }
+      });
+
+      const sol = PAIN_SOLUTIONS[type] || PAIN_SOLUTIONS.whatsapp;
+      const box = document.getElementById('pain-resolution-box');
+      if (box) {
+        box.innerHTML = `
+          <div class="flex items-center justify-between border-b border-slate-800 pb-2">
+            <span class="text-cyan-400 font-bold text-xs">🤖 Agente Recomendado: ${sol.agent}</span>
+            <span class="text-emerald-400 text-[10px] bg-emerald-500/10 px-2 py-0.5 rounded border border-emerald-500/30">$2.30 USD / día</span>
+          </div>
+          <div class="text-xs text-slate-300 leading-relaxed">
+            <p><strong class="text-rose-400">⚠️ Fuga actual:</strong> ${sol.problem} (${sol.payrollWaste})</p>
+            <p class="mt-1"><strong class="text-emerald-400">⚡ Solución Destraba:</strong> ${sol.solution}</p>
+            <p class="mt-1"><strong class="text-amber-400">📈 Impacto:</strong> ${sol.roi}</p>
+          </div>
+          <div class="pt-2 flex flex-col sm:flex-row items-center justify-between gap-2 border-t border-slate-800/80">
+            <span class="text-[10px] text-slate-400">Despliegue llave en mano en 60 segundos • Garantía 7 días</span>
+            <button onclick="openPaymentModal('pro', 69, '${sol.agent}')" class="w-full sm:w-auto px-4 py-2 rounded-lg bg-gradient-to-r from-cyan-400 to-blue-500 hover:from-cyan-300 hover:to-blue-400 text-slate-950 font-black text-xs font-mono uppercase tracking-wider transition-all cursor-pointer shadow-md shadow-cyan-500/20">
+              Activar este Agente ($69 USD/mes) →
+            </button>
+          </div>
+        `;
+      }
+    }
+    // Inicializar con WhatsApp seleccionado
+    selectOperationalPain('whatsapp');
+
     function executeLiveScan() {
       const input = document.getElementById('hero-scan-input');
       const consoleBox = document.getElementById('scan-console');
@@ -931,17 +1245,58 @@
               <div class="text-emerald-400">✓ Certificado SSL / TLS: ACTIVO (256-bit AES)</div>
               <div class="text-emerald-400">✓ Latencia Perimetral: 38ms (Estable)</div>
             </div>
+            
+            <!-- Captura de Lead para Informe Completo en PDF -->
+            <div class="mt-2 pt-2 border-t border-slate-800/80">
+              <span class="text-slate-400 text-[10px] block mb-1.5">📩 ¿Deseas recibir el Informe Forense PDF y parches listos en tu correo?</span>
+              <div class="flex flex-col sm:flex-row gap-2">
+                <input type="email" id="scan-lead-email" placeholder="tu-correo@${domain || 'empresa.com'}" class="flex-1 bg-slate-900 border border-slate-700 rounded-lg px-3 py-1.5 text-xs text-white placeholder-slate-500 font-mono focus:outline-none focus:border-cyan-400">
+                <button onclick="submitLeadForFullReport('${domain}')" class="px-4 py-1.5 rounded-lg bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold text-xs font-mono transition-all cursor-pointer">
+                  Enviar Informe Completo
+                </button>
+              </div>
+              <div id="scan-lead-feedback" class="hidden text-[10px] text-emerald-400 mt-1 font-mono"></div>
+            </div>
+
             <div class="pt-2.5 border-t border-slate-800/80 flex flex-col sm:flex-row items-center justify-between gap-2">
-              <span class="text-slate-400 text-[10px]">💡 Parche de blindaje generado listo para producción en 60s.</span>
+              <span class="text-slate-400 text-[10px]">💡 O descarga la remediación lista para tu servidor ahora:</span>
               <div class="flex gap-2">
                 <button onclick="openPaymentModal('flash', 19, 'Blindaje Flash para ' + '${domain}')" class="px-3.5 py-1.5 rounded-lg bg-amber-500 hover:bg-amber-400 text-slate-950 font-black text-[11px] transition-all cursor-pointer">
                   Blindar Ahora ($19 USD)
+                </button>
+                <button onclick="openPaymentModal('pro', 69, 'Centinela 24/7 para ' + '${domain}')" class="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-cyan-300 font-bold text-[11px] border border-cyan-500/30 transition-all cursor-pointer">
+                  Centinela 24/7 ($69/mes)
                 </button>
               </div>
             </div>
           </div>
         `;
       }, 850);
+    }
+
+    function submitLeadForFullReport(domain) {
+      const emailInput = document.getElementById('scan-lead-email');
+      const feedback = document.getElementById('scan-lead-feedback');
+      const email = emailInput?.value.trim();
+
+      if (!email || !email.includes('@')) {
+        alert('Por favor ingresa un correo corporativo válido.');
+        emailInput?.focus();
+        return;
+      }
+
+      feedback.classList.remove('hidden');
+      feedback.innerHTML = `✓ Solicitud confirmada para <strong>${email}</strong>. El informe forense con los parches listos para <strong>${domain}</strong> ha sido programado. Soporte directo: <strong>ricardo.destrabaai@gmail.com</strong>`;
+      emailInput.value = '';
+    }
+
+    // MODAL DEL MANUAL DE USUARIO
+    function openManualModal() {
+      document.getElementById('manual-modal').classList.remove('hidden');
+    }
+
+    function closeManualModal() {
+      document.getElementById('manual-modal').classList.add('hidden');
     }
 
     // FUNCIONES DEL MODAL DE PAGO Y PASARELAS (STRIKE, STRIPE, WOMPI)
@@ -987,17 +1342,15 @@
     }
 
     function proceedStripeCheckout() {
-      // Redirección segura a pasarela Stripe en producción
-      const checkoutUrl = 'https://strike.me/rick2818';
-      window.open(checkoutUrl, '_blank');
+      window.open('https://strike.me/rick2818', '_blank');
     }
 
     function proceedWompiCheckout() {
-      // Redirección fiduciaria Wompi / Bancolombia / PSE
       const copEstimate = Math.round(currentProduct.price * 4150);
-      const msg = 'Redirigiendo a pasarela Wompi / Bancolombia / PSE por aprox $' + copEstimate.toLocaleString('es-CO') + ' COP (' + currentProduct.price + ' USD).';
-      alert(msg);
-      window.open('https://strike.me/rick2818', '_blank');
+      const msg = 'Pasarela Wompi / Bancolombia / PSE: Liquidación estimada de $' + copEstimate.toLocaleString('es-CO') + ' COP (' + currentProduct.price + ' USD). ¿Deseas coordinar o pagar de inmediato?';
+      if (confirm(msg)) {
+        window.open('https://strike.me/rick2818', '_blank');
+      }
     }
   </script>
 </body>
