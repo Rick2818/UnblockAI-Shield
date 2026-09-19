@@ -1,0 +1,26 @@
+name: Telegram Webhook Watchdog 24/7
+
+on:
+  schedule:
+    # Corre automáticamente todos los días a las 8:00 AM CST (14:00 UTC)
+    - cron: '0 14 * * *'
+  workflow_dispatch: # Permite ejecución manual con 1 clic desde GitHub Actions
+
+jobs:
+  audit-webhook:
+    name: Audit Telegram Webhook Health
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Codebase
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run Telegram Webhook Watchdog & Verify Health
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN || '8685630383:AAEfpeM5CXXKYL6YSkUZk64i2cVjYNY-QbM' }}
+          VERCEL_APP_URL: ${{ secrets.VERCEL_APP_URL || 'https://destraba-ai.vercel.app' }}
+        run: node scripts/verify_telegram_webhook.mjs

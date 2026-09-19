@@ -1,0 +1,87 @@
+[
+  {
+    "id": "lead_b2b_real_1",
+    "company": "ALG El Salvador (3PL & Distribución E-commerce)",
+    "domain": "alg3pl.com",
+    "decisionMakerRole": "Director de Operaciones & Supply Chain",
+    "country": "El Salvador / Regional",
+    "operationalPain": "Desfase en tiempos de respuesta de pedidos y falta de automatización en confirmación de entregas 3PL",
+    "offer": "$19 USD (Flash) / $89 USD (Profunda)",
+    "strikePaymentDestination": "rick2818@strike.me",
+    "checkoutUrl": "https://destraba.ai/dashboard.html?plan=flash",
+    "directStrikePaymentUrl": "https://strike.me/rick2818",
+    "status": "DISPARO_PROGRAMADO_LISTO",
+    "outboundMessage": {
+      "subject": "Riesgo de fuga de datos en pasarelas de pago y cabeceras ausentes",
+      "body": "Estimado Director de Operaciones en ALG El Salvador (3PL & Distribución E-commerce),\n\nAl auditar perimetralmente sitios de comercio electrónico B2B, detectamos que más del 70% operan sin cabeceras bancarias estrictas (CSP, HSTS) o con endpoints de pago expuestos a ataques de inyección.\n\nEn Destraba AI ejecutamos una auditoría de ciberseguridad defensiva en 60 segundos que detecta y entrega el reporte con los parches listos para aplicar.\n\nPuedes generar tu informe de inmediato por $19 USD aquí:\nhttps://destraba.ai/dashboard.html?plan=flash&ref=audit_sec\n\nO liquidar directo vía Lightning sin comisiones a rick2818@strike.me.\n\nAtentamente,\nEquipo de Ciberseguridad Defensiva — Destraba AI"
+    }
+  },
+  {
+    "id": "lead_b2b_real_2",
+    "company": "Aldesa Logística & Almacenes Fiscales",
+    "domain": "aldesalogistica.com",
+    "decisionMakerRole": "Gerente de Tecnología y Sistemas (CIO/CTO)",
+    "country": "El Salvador",
+    "operationalPain": "Riesgo de exposición en portales de consulta de clientes y trazabilidad manual de guías",
+    "offer": "$19 USD (Flash) / $89 USD (Profunda)",
+    "strikePaymentDestination": "rick2818@strike.me",
+    "checkoutUrl": "https://destraba.ai/dashboard.html?plan=flash",
+    "directStrikePaymentUrl": "https://strike.me/rick2818",
+    "status": "DISPARO_PROGRAMADO_LISTO",
+    "outboundMessage": {
+      "subject": "Riesgo de fuga de datos en pasarelas de pago y cabeceras ausentes",
+      "body": "Estimado Director de Operaciones en Aldesa Logística & Almacenes Fiscales,\n\nAl auditar perimetralmente sitios de comercio electrónico B2B, detectamos que más del 70% operan sin cabeceras bancarias estrictas (CSP, HSTS) o con endpoints de pago expuestos a ataques de inyección.\n\nEn Destraba AI ejecutamos una auditoría de ciberseguridad defensiva en 60 segundos que detecta y entrega el reporte con los parches listos para aplicar.\n\nPuedes generar tu informe de inmediato por $19 USD aquí:\nhttps://destraba.ai/dashboard.html?plan=flash&ref=audit_sec\n\nO liquidar directo vía Lightning sin comisiones a rick2818@strike.me.\n\nAtentamente,\nEquipo de Ciberseguridad Defensiva — Destraba AI"
+    }
+  },
+  {
+    "id": "lead_b2b_real_3",
+    "company": "TRS Logística El Salvador",
+    "domain": "trslogistica.com",
+    "decisionMakerRole": "Gerente de Operaciones y Flota",
+    "country": "El Salvador / CA",
+    "operationalPain": "Atención lenta a consultas por WhatsApp y seguimiento de despachos de última milla",
+    "offer": "$69 USD/mes (Pro Operator)",
+    "strikePaymentDestination": "rick2818@strike.me",
+    "checkoutUrl": "https://destraba.ai/dashboard.html?plan=flash",
+    "directStrikePaymentUrl": "https://strike.me/rick2818",
+    "status": "DISPARO_PROGRAMADO_LISTO",
+    "outboundMessage": {
+      "subject": "Elimina 40 horas de trabajo operativo repetitivo cada semana",
+      "body": "Hola,\n\n¿Cuánto tiempo dedica tu equipo en TRS Logística El Salvador a cobranza manual, responder consultas idénticas por WhatsApp y actualizar inventarios?\n\nDestraba AI implementa un agente soberano en 60 segundos que asume esas tareas en piloto automático 24/7, permitiendo a tus directivos enfocarse en ventas de alto valor.\n\nInicia tu prueba y activa tu agente por $69 USD/mes:\nhttps://destraba.ai/dashboard.html?plan=pro\n\nAtentamente,\nDestraba AI"
+    }
+  },
+  {
+    "id": "lead_b2b_real_4",
+    "company": "Networld Logistics Centroamérica",
+    "domain": "networldslogistics.com",
+    "decisionMakerRole": "Director Financiero y de Facturación (CFO)",
+    "country": "Centroamérica",
+    "operationalPain": "Conciliación manual de facturas de comercio exterior y demoras en comprobantes de pago",
+    "offer": "$89 USD/mes (Cobranza & Conciliación)",
+    "strikePaymentDestination": "rick2818@strike.me",
+    "checkoutUrl": "https://destraba.ai/dashboard.html?plan=flash",
+    "directStrikePaymentUrl": "https://strike.me/rick2818",
+    "status": "DISPARO_PROGRAMADO_LISTO",
+    "outboundMessage": {
+      "subject": "Elimina 40 horas de trabajo operativo repetitivo cada semana",
+      "body": "Hola,\n\n¿Cuánto tiempo dedica tu equipo en Networld Logistics Centroamérica a cobranza manual, responder consultas idénticas por WhatsApp y actualizar inventarios?\n\nDestraba AI implementa un agente soberano en 60 segundos que asume esas tareas en piloto automático 24/7, permitiendo a tus directivos enfocarse en ventas de alto valor.\n\nInicia tu prueba y activa tu agente por $69 USD/mes:\nhttps://destraba.ai/dashboard.html?plan=pro\n\nAtentamente,\nDestraba AI"
+    }
+  },
+  {
+    "id": "lead_b2b_real_5",
+    "company": "Logistics Centroamérica S.A.",
+    "domain": "logisticscentroamerica.com",
+    "decisionMakerRole": "Director Comercial y de Cuentas B2B",
+    "country": "El Salvador / Guatemala",
+    "operationalPain": "Fuga de cotizaciones aduaneras por respuesta tardía en buzones de ventas corporativas",
+    "offer": "$19 USD (Flash) / $79 USD (Ventas Outbound)",
+    "strikePaymentDestination": "rick2818@strike.me",
+    "checkoutUrl": "https://destraba.ai/dashboard.html?plan=flash",
+    "directStrikePaymentUrl": "https://strike.me/rick2818",
+    "status": "DISPARO_PROGRAMADO_LISTO",
+    "outboundMessage": {
+      "subject": "Riesgo de fuga de datos en pasarelas de pago y cabeceras ausentes",
+      "body": "Estimado Director de Operaciones en Logistics Centroamérica S.A.,\n\nAl auditar perimetralmente sitios de comercio electrónico B2B, detectamos que más del 70% operan sin cabeceras bancarias estrictas (CSP, HSTS) o con endpoints de pago expuestos a ataques de inyección.\n\nEn Destraba AI ejecutamos una auditoría de ciberseguridad defensiva en 60 segundos que detecta y entrega el reporte con los parches listos para aplicar.\n\nPuedes generar tu informe de inmediato por $19 USD aquí:\nhttps://destraba.ai/dashboard.html?plan=flash&ref=audit_sec\n\nO liquidar directo vía Lightning sin comisiones a rick2818@strike.me.\n\nAtentamente,\nEquipo de Ciberseguridad Defensiva — Destraba AI"
+    }
+  }
+]

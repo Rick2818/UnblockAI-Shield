@@ -1,0 +1,90 @@
+[
+  {
+    "id": "dnc_1789602084010_654",
+    "email": "optout_1789602084009_7747@unique-test-1789602084009.com",
+    "domain": null,
+    "reason": "TEST_OPTOUT",
+    "addedAt": "2026-09-16T23:41:24.010Z",
+    "sha256Hash": "3b34c911bb5abc27231e173d1fd2353a7443e1b96a097facdccc68a193f878ed"
+  },
+  {
+    "id": "dnc_1789602104911_598",
+    "email": "optout_1789602104910_2537@unique-test-1789602104910.com",
+    "domain": null,
+    "reason": "TEST_OPTOUT",
+    "addedAt": "2026-09-16T23:41:44.911Z",
+    "sha256Hash": "966fbcd92f9e4c28515a48ecf82a320c3eb8391eb2a82ee635fc8d64a559f32c"
+  },
+  {
+    "id": "dnc_1789602814376_5",
+    "email": "optout_1789602814374_6659@unique-test-1789602814374.com",
+    "domain": null,
+    "reason": "TEST_OPTOUT",
+    "addedAt": "2026-09-16T23:53:34.376Z",
+    "sha256Hash": "f3c5baf1177a138519a7a208707b6e256aa4081cc550a557898e25a4ca32d92d"
+  },
+  {
+    "id": "dnc_1789602891103_11",
+    "email": "optout_1789602891102_6044@unique-test-1789602891102.com",
+    "domain": null,
+    "reason": "TEST_OPTOUT",
+    "addedAt": "2026-09-16T23:54:51.103Z",
+    "sha256Hash": "b5d8f924e165c24e2037b9690db95d553954b96288f5d8fc75ee447aab8b1b50"
+  },
+  {
+    "id": "dnc_1789603231563_223",
+    "email": "optout_1789603231563_9228@unique-test-1789603231563.com",
+    "domain": null,
+    "reason": "TEST_OPTOUT",
+    "addedAt": "2026-09-17T00:00:31.563Z",
+    "sha256Hash": "c1fbd27ee476649d1a6188ef2573c638d3872a689937a4e5833b7d85cfe3b6b7"
+  },
+  {
+    "id": "dnc_1789603616671_137",
+    "email": "optout_1789603616671_6466@unique-test-1789603616671.com",
+    "domain": null,
+    "reason": "TEST_OPTOUT",
+    "addedAt": "2026-09-17T00:06:56.671Z",
+    "sha256Hash": "94a615d546d8bd4fa4a7701e411ae402ad251abdb3475a6e1f1c1c3dade48d16"
+  },
+  {
+    "id": "dnc_1789604321553_229",
+    "email": "optout_1789604321552_3480@unique-test-1789604321552.com",
+    "domain": null,
+    "reason": "TEST_OPTOUT",
+    "addedAt": "2026-09-17T00:18:41.553Z",
+    "sha256Hash": "d1c87f06c1a9feb4e0bc497046f7265168721a38e78360a2de0a717342df16fd"
+  },
+  {
+    "id": "dnc_1789774437648_627",
+    "email": "optout_1789774437648_4925@unique-test-1789774437648.com",
+    "domain": null,
+    "reason": "TEST_OPTOUT",
+    "addedAt": "2026-09-18T23:33:57.648Z",
+    "sha256Hash": "bc8bf6a1e38e22b4a74e607d0cb2f2a297e767c945e3c46c4815b4dceabd13b7"
+  },
+  {
+    "id": "dnc_1789774810386_612",
+    "email": "optout_1789774810385_6819@unique-test-1789774810385.com",
+    "domain": null,
+    "reason": "TEST_OPTOUT",
+    "addedAt": "2026-09-18T23:40:10.386Z",
+    "sha256Hash": "762dac4c3316eb8d25aab43185b74f19535100b6cd0510c6618aa02fa2d63e97"
+  },
+  {
+    "id": "dnc_1789774835933_848",
+    "email": "optout_1789774835933_5341@unique-test-1789774835933.com",
+    "domain": null,
+    "reason": "TEST_OPTOUT",
+    "addedAt": "2026-09-18T23:40:35.933Z",
+    "sha256Hash": "2501bfb0e69d9c50b247cb064d9db9411fda194fb162e0c9a0ff2a38dd0d23fe"
+  },
+  {
+    "id": "dnc_1789778567937_278",
+    "email": "optout_1789778567936_809@unique-test-1789778567936.com",
+    "domain": null,
+    "reason": "TEST_OPTOUT",
+    "addedAt": "2026-09-19T00:42:47.937Z",
+    "sha256Hash": "fc2cd9b89c5cdb83966cc5f7151f1490585723d40e58aa3136dc9bd2daf64a39"
+  }
+]

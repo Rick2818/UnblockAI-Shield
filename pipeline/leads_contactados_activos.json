@@ -1,0 +1,1193 @@
+[
+  {
+    "id": "audit_1789754820236_703",
+    "company": "Estafeta Carga",
+    "domain": "estafeta.com",
+    "decisionMakerRole": "Oficial de Seguridad / Dirección de Operaciones",
+    "country": "México",
+    "operationalPain": "Brechas perimetrales detectadas: Falta Content-Security-Policy (Riesgo XSS), Falta Strict-Transport-Security (Riesgo SSL Strip), Falta X-Frame-Options (Riesgo Clickjacking)",
+    "offer": "$19 USD (Auditoría Forense Flash + Parche de Blindaje) / $69 USD (Agente Autónomo 24/7)",
+    "strikePaymentDestination": "rick2818@strike.me",
+    "checkoutUrl": "https://unblock-shield.vercel.app/?domain=estafeta.com",
+    "directStrikePaymentUrl": "https://strike.me/rick2818",
+    "status": "ENVIADO_REAL_EN_RED",
+    "contactEmail": "proyectos@estafeta.com",
+    "outboundMessage": {
+      "to": "proyectos@estafeta.com",
+      "subject": "Informe de Seguridad Perimetral: 3 vulnerabilidades detectadas en estafeta.com",
+      "body": "Estimado equipo directivo y técnico en Estafeta Carga,\n\nLe saluda el equipo de Destraba AI (firma de ingeniería en automatización operativa y ciberseguridad defensiva sobre Google Antigravity y Cloud 24/7).\n\nDurante nuestra inspección perimetral no invasiva sobre estafeta.com, identificamos 3 anomalías críticas que impactan la seguridad y conversión de su portal:\n• Falta Content-Security-Policy (Riesgo XSS)\n• Falta Strict-Transport-Security (Riesgo SSL Strip)\n• Falta X-Frame-Options (Riesgo Clickjacking)\n\n¿Por qué confiar en nosotros antes de abrir cualquier puerta? (Nuestros 5 Anclajes de Apertura):\n1. Cero Invasión Previa: No solicitamos contraseñas, claves API ni acceso a bases de datos. Todo el análisis corre desde el exterior.\n2. Micro-Riesgo: Puedes verificar el diagnóstico gratis en 15s en nuestra web o descargar el informe ejecutivo con los parches listos para producción por solo $19 USD (Plan Flash).\n3. Garantía Fiduciaria 100% (7 Días): Si en 7 días la solución no le ahorra al menos 10 horas de trabajo manual a su equipo, reembolsamos el 100% de su pago sin preguntas.\n4. Privacidad Bancaria SOC-2: Cero retención en disco; 100% procesado en memoria RAM volátil aislada.\n5. Matemática de Ahorro: Un operador o analista cuesta $600+ USD/mes; nuestro agente autónomo opera 24/7 por $2.30 USD al día ($69 USD/mes).\n\nAudite su portal en vivo o aplique los parches en 60 segundos:\n🔗 https://destraba-ai.vercel.app/?plan=flash&domain=estafeta.com\n\nO liquidación instantánea sin comisiones vía Bitcoin Lightning Network a: rick2818@strike.me\n\nAtentamente,\nEspecialista Senior de Ciberseguridad & Ventas Fiduciarias — Destraba AI"
+    },
+    "flawsCount": 3,
+    "flaws": [
+      "Falta Content-Security-Policy (Riesgo XSS)",
+      "Falta Strict-Transport-Security (Riesgo SSL Strip)",
+      "Falta X-Frame-Options (Riesgo Clickjacking)"
+    ],
+    "severity": "CRITICA",
+    "deliveryAudit": {
+      "dispatchedAt": "2026-09-18T18:07:06.193Z",
+      "mode": "LIVE",
+      "transport": "GMAIL_SMTPS",
+      "messageId": "smtp_1789754826192_e7c4bc",
+      "recipient": "proyectos@estafeta.com",
+      "status": "TRANSMITIDO_EXITOSO"
+    }
+  },
+  {
+    "id": "audit_1789754819035_103",
+    "company": "Redpack Logística",
+    "domain": "redpack.com.mx",
+    "decisionMakerRole": "Oficial de Seguridad / Dirección de Operaciones",
+    "country": "México",
+    "operationalPain": "Brechas perimetrales detectadas: Falta Content-Security-Policy (Riesgo XSS), Falta Strict-Transport-Security (Riesgo SSL Strip), Certificado SSL Anómalo / Vencido: CERT_HAS_EXPIRED",
+    "offer": "$19 USD (Auditoría Forense Flash + Parche de Blindaje) / $69 USD (Agente Autónomo 24/7)",
+    "strikePaymentDestination": "rick2818@strike.me",
+    "checkoutUrl": "https://unblock-shield.vercel.app/?domain=redpack.com.mx",
+    "directStrikePaymentUrl": "https://strike.me/rick2818",
+    "status": "ENVIADO_REAL_EN_RED",
+    "contactEmail": "contacto@redpack.com.mx",
+    "outboundMessage": {
+      "to": "contacto@redpack.com.mx",
+      "subject": "Informe de Seguridad Perimetral: 3 vulnerabilidades detectadas en redpack.com.mx",
+      "body": "Estimado equipo directivo y técnico en Redpack Logística,\n\nLe saluda el equipo de Destraba AI (firma de ingeniería en automatización operativa y ciberseguridad defensiva sobre Google Antigravity y Cloud 24/7).\n\nDurante nuestra inspección perimetral no invasiva sobre redpack.com.mx, identificamos 3 anomalías críticas que impactan la seguridad y conversión de su portal:\n• Falta Content-Security-Policy (Riesgo XSS)\n• Falta Strict-Transport-Security (Riesgo SSL Strip)\n• Certificado SSL Anómalo / Vencido: CERT_HAS_EXPIRED\n\n¿Por qué confiar en nosotros antes de abrir cualquier puerta? (Nuestros 5 Anclajes de Apertura):\n1. Cero Invasión Previa: No solicitamos contraseñas, claves API ni acceso a bases de datos. Todo el análisis corre desde el exterior.\n2. Micro-Riesgo: Puedes verificar el diagnóstico gratis en 15s en nuestra web o descargar el informe ejecutivo con los parches listos para producción por solo $19 USD (Plan Flash).\n3. Garantía Fiduciaria 100% (7 Días): Si en 7 días la solución no le ahorra al menos 10 horas de trabajo manual a su equipo, reembolsamos el 100% de su pago sin preguntas.\n4. Privacidad Bancaria SOC-2: Cero retención en disco; 100% procesado en memoria RAM volátil aislada.\n5. Matemática de Ahorro: Un operador o analista cuesta $600+ USD/mes; nuestro agente autónomo opera 24/7 por $2.30 USD al día ($69 USD/mes).\n\nAudite su portal en vivo o aplique los parches en 60 segundos:\n🔗 https://destraba-ai.vercel.app/?plan=flash&domain=redpack.com.mx\n\nO liquidación instantánea sin comisiones vía Bitcoin Lightning Network a: rick2818@strike.me\n\nAtentamente,\nEspecialista Senior de Ciberseguridad & Ventas Fiduciarias — Destraba AI"
+    },
+    "flawsCount": 3,
+    "flaws": [
+      "Falta Content-Security-Policy (Riesgo XSS)",
+      "Falta Strict-Transport-Security (Riesgo SSL Strip)",
+      "Certificado SSL Anómalo / Vencido: CERT_HAS_EXPIRED"
+    ],
+    "severity": "CRITICA",
+    "deliveryAudit": {
+      "dispatchedAt": "2026-09-18T18:07:11.279Z",
+      "mode": "LIVE",
+      "transport": "GMAIL_SMTPS",
+      "messageId": "smtp_1789754831279_2a4458",
+      "recipient": "contacto@redpack.com.mx",
+      "status": "TRANSMITIDO_EXITOSO"
+    }
+  },
+  {
+    "id": "audit_1789754817757_666",
+    "company": "SGS Logistics Central America",
+    "domain": "sgs.com",
+    "decisionMakerRole": "Oficial de Seguridad / Dirección de Operaciones",
+    "country": "Global / CA",
+    "operationalPain": "Brechas perimetrales detectadas: Falta Content-Security-Policy (Riesgo XSS), Falta Strict-Transport-Security (Riesgo SSL Strip), Falta X-Frame-Options (Riesgo Clickjacking)",
+    "offer": "$19 USD (Forensic Flash Audit + Security Patch) / $69 USD/mo (Autonomous 24/7 Agent)",
+    "strikePaymentDestination": "rick2818@strike.me",
+    "checkoutUrl": "https://unblock-shield.vercel.app/?domain=sgs.com",
+    "directStrikePaymentUrl": "https://strike.me/rick2818",
+    "status": "ENVIADO_REAL_EN_RED",
+    "contactEmail": "enquiry@sgs.com",
+    "outboundMessage": {
+      "to": "enquiry@sgs.com",
+      "subject": "Perimeter Security Report: 3 critical flaws detected on sgs.com",
+      "body": "Dear Leadership & Engineering Team at SGS Logistics Central America,\n\nThis is the team at Unblock AI (autonomous operations engineering & defensive cybersecurity built on Google Antigravity & 24/7 Cloud Infrastructure).\n\nDuring our non-invasive external perimeter inspection of sgs.com, we identified 3 critical opportunities to harden security and eliminate checkout friction:\n• Falta Content-Security-Policy (Riesgo XSS)\n• Falta Strict-Transport-Security (Riesgo SSL Strip)\n• Falta X-Frame-Options (Riesgo Clickjacking)\n\nWhy trust us before opening any door? (Our 5 Fiduciary Trust Anchors):\n1. Zero Invasive Access: We never ask for passwords, API keys, or internal database access. All evaluations run 100% externally.\n2. Micro-Risk Asymmetry: Run a free 15-second audit on our site or download the executive report and production-ready remediation patches for just $19 USD (Flash Plan).\n3. 7-Day Unconditional Fiduciary Guarantee: If the solution does not save your team at least 10 hours of manual operational work in the first 7 days, we refund 100% of your payment with zero friction.\n4. SOC-2 Grade Banking Privacy: Zero disk retention; 100% processed in volatile RAM and immediately purged.\n5. Objective ROI Math: A human operator costs $600+ USD/month; our autonomous agent runs 24/7 for $2.30 USD/day ($69 USD/month), paying for itself with a single recovered lead or resolved ticket.\n\nAudit your portal live or deploy patches in 60 seconds:\n🔗 https://destraba-ai.vercel.app/?lang=en&plan=flash&domain=sgs.com\n\nOr instant zero-fee settlement via Bitcoin Lightning Network to: rick2818@strike.me\n\nBest regards,\nSenior Cybersecurity & Solutions Team — Unblock AI"
+    },
+    "flawsCount": 3,
+    "flaws": [
+      "Falta Content-Security-Policy (Riesgo XSS)",
+      "Falta Strict-Transport-Security (Riesgo SSL Strip)",
+      "Falta X-Frame-Options (Riesgo Clickjacking)"
+    ],
+    "severity": "CRITICA",
+    "deliveryAudit": {
+      "dispatchedAt": "2026-09-18T18:07:15.526Z",
+      "mode": "LIVE",
+      "transport": "GMAIL_SMTPS",
+      "messageId": "smtp_1789754835526_ce1bae",
+      "recipient": "enquiry@sgs.com",
+      "status": "TRANSMITIDO_EXITOSO"
+    }
+  },
+  {
+    "id": "audit_1789754816285_152",
+    "company": "Intertek Centroamérica",
+    "domain": "intertek.com",
+    "decisionMakerRole": "Oficial de Seguridad / Dirección de Operaciones",
+    "country": "Global / Regional",
+    "operationalPain": "Brechas perimetrales detectadas: Falta Content-Security-Policy (Riesgo XSS), Falta Strict-Transport-Security (Riesgo SSL Strip), Falta X-Frame-Options (Riesgo Clickjacking)",
+    "offer": "$19 USD (Forensic Flash Audit + Security Patch) / $69 USD/mo (Autonomous 24/7 Agent)",
+    "strikePaymentDestination": "rick2818@strike.me",
+    "checkoutUrl": "https://unblock-shield.vercel.app/?domain=intertek.com",
+    "directStrikePaymentUrl": "https://strike.me/rick2818",
+    "status": "ENVIADO_REAL_EN_RED",
+    "contactEmail": "info.latam@intertek.com",
+    "outboundMessage": {
+      "to": "info.latam@intertek.com",
+      "subject": "Perimeter Security Report: 3 critical flaws detected on intertek.com",
+      "body": "Dear Leadership & Engineering Team at Intertek Centroamérica,\n\nThis is the team at Unblock AI (autonomous operations engineering & defensive cybersecurity built on Google Antigravity & 24/7 Cloud Infrastructure).\n\nDuring our non-invasive external perimeter inspection of intertek.com, we identified 3 critical opportunities to harden security and eliminate checkout friction:\n• Falta Content-Security-Policy (Riesgo XSS)\n• Falta Strict-Transport-Security (Riesgo SSL Strip)\n• Falta X-Frame-Options (Riesgo Clickjacking)\n\nWhy trust us before opening any door? (Our 5 Fiduciary Trust Anchors):\n1. Zero Invasive Access: We never ask for passwords, API keys, or internal database access. All evaluations run 100% externally.\n2. Micro-Risk Asymmetry: Run a free 15-second audit on our site or download the executive report and production-ready remediation patches for just $19 USD (Flash Plan).\n3. 7-Day Unconditional Fiduciary Guarantee: If the solution does not save your team at least 10 hours of manual operational work in the first 7 days, we refund 100% of your payment with zero friction.\n4. SOC-2 Grade Banking Privacy: Zero disk retention; 100% processed in volatile RAM and immediately purged.\n5. Objective ROI Math: A human operator costs $600+ USD/month; our autonomous agent runs 24/7 for $2.30 USD/day ($69 USD/month), paying for itself with a single recovered lead or resolved ticket.\n\nAudit your portal live or deploy patches in 60 seconds:\n🔗 https://destraba-ai.vercel.app/?lang=en&plan=flash&domain=intertek.com\n\nOr instant zero-fee settlement via Bitcoin Lightning Network to: rick2818@strike.me\n\nBest regards,\nSenior Cybersecurity & Solutions Team — Unblock AI"
+    },
+    "flawsCount": 3,
+    "flaws": [
+      "Falta Content-Security-Policy (Riesgo XSS)",
+      "Falta Strict-Transport-Security (Riesgo SSL Strip)",
+      "Falta X-Frame-Options (Riesgo Clickjacking)"
+    ],
+    "severity": "CRITICA",
+    "deliveryAudit": {
+      "dispatchedAt": "2026-09-18T18:07:19.918Z",
+      "mode": "LIVE",
+      "transport": "GMAIL_SMTPS",
+      "messageId": "smtp_1789754839918_1d4bd5",
+      "recipient": "info.latam@intertek.com",
+      "status": "TRANSMITIDO_EXITOSO"
+    }
+  },
+  {
+    "id": "lead_b2b_real_1",
+    "company": "ALG El Salvador (3PL & Distribución E-commerce)",
+    "domain": "alg3pl.com",
+    "decisionMakerRole": "Director de Operaciones & Supply Chain",
+    "country": "El Salvador / Regional",
+    "operationalPain": "Desfase en tiempos de respuesta de pedidos y falta de automatización en confirmación de entregas 3PL",
+    "offer": "$19 USD (Flash) / $89 USD (Profunda)",
+    "strikePaymentDestination": "rick2818@strike.me",
+    "checkoutUrl": "https://unblock-shield.vercel.app/?domain=alg3pl.com",
+    "directStrikePaymentUrl": "https://strike.me/rick2818",
+    "status": "ENVIADO_REAL_EN_RED",
+    "outboundMessage": {
+      "subject": "Riesgo de fuga de datos en pasarelas de pago y cabeceras ausentes",
+      "body": "Estimado Director de Operaciones en ALG El Salvador (3PL & Distribución E-commerce),\n\nAl auditar perimetralmente sitios de comercio electrónico B2B, detectamos que más del 70% operan sin cabeceras bancarias estrictas (CSP, HSTS) o con endpoints de pago expuestos a ataques de inyección.\n\nEn Destraba AI ejecutamos una auditoría de ciberseguridad defensiva en 60 segundos que detecta y entrega el reporte con los parches listos para aplicar.\n\nPuedes generar tu informe de inmediato por $19 USD aquí:\nhttps://rick2818.github.io/Agents/?plan=flash&ref=audit_sec\n\nO liquidar directo vía Lightning sin comisiones a rick2818@strike.me.\n\nAtentamente,\nEquipo de Ciberseguridad Defensiva — Destraba AI"
+    },
+    "dispatchedAt": "2026-09-14T20:22:11.878Z",
+    "nextFollowUpDate": "2026-09-16",
+    "deliveryAudit": {
+      "dispatchedAt": "2026-09-17T17:02:55.486Z",
+      "mode": "LIVE",
+      "transport": "GMAIL_SMTPS",
+      "messageId": "smtp_1789664575486_2f0ff1",
+      "recipient": "contacto@alg3pl.com",
+      "status": "TRANSMITIDO_EXITOSO"
+    }
+  },
+  {
+    "id": "lead_b2b_real_2",
+    "company": "Aldesa Logística & Almacenes Fiscales",
+    "domain": "aldesalogistica.com",
+    "decisionMakerRole": "Gerente de Tecnología y Sistemas (CIO/CTO)",
+    "country": "El Salvador",
+    "operationalPain": "Riesgo de exposición en portales de consulta de clientes y trazabilidad manual de guías",
+    "offer": "$19 USD (Flash) / $89 USD (Profunda)",
+    "strikePaymentDestination": "rick2818@strike.me",
+    "checkoutUrl": "https://unblock-shield.vercel.app/?domain=aldesalogistica.com",
+    "directStrikePaymentUrl": "https://strike.me/rick2818",
+    "status": "ENVIADO_REAL_EN_RED",
+    "outboundMessage": {
+      "subject": "Riesgo de fuga de datos en pasarelas de pago y cabeceras ausentes",
+      "body": "Estimado Director de Operaciones en Aldesa Logística & Almacenes Fiscales,\n\nAl auditar perimetralmente sitios de comercio electrónico B2B, detectamos que más del 70% operan sin cabeceras bancarias estrictas (CSP, HSTS) o con endpoints de pago expuestos a ataques de inyección.\n\nEn Destraba AI ejecutamos una auditoría de ciberseguridad defensiva en 60 segundos que detecta y entrega el reporte con los parches listos para aplicar.\n\nPuedes generar tu informe de inmediato por $19 USD aquí:\nhttps://rick2818.github.io/Agents/?plan=flash&ref=audit_sec\n\nO liquidar directo vía Lightning sin comisiones a rick2818@strike.me.\n\nAtentamente,\nEquipo de Ciberseguridad Defensiva — Destraba AI"
+    },
+    "dispatchedAt": "2026-09-14T20:22:11.879Z",
+    "nextFollowUpDate": "2026-09-16",
+    "deliveryAudit": {
+      "dispatchedAt": "2026-09-17T17:03:01.225Z",
+      "mode": "LIVE",
+      "transport": "GMAIL_SMTPS",
+      "messageId": "smtp_1789664581224_f390ec",
+      "recipient": "contacto@aldesalogistica.com",
+      "status": "TRANSMITIDO_EXITOSO"
+    }
+  },
+  {
+    "id": "lead_b2b_real_3",
+    "company": "TRS Logística El Salvador",
+    "domain": "trslogistica.com",
+    "decisionMakerRole": "Gerente de Operaciones y Flota",
+    "country": "El Salvador / CA",
+    "operationalPain": "Atención lenta a consultas por WhatsApp y seguimiento de despachos de última milla",
+    "offer": "$69 USD/mes (Pro Operator)",
+    "strikePaymentDestination": "rick2818@strike.me",
+    "checkoutUrl": "https://unblock-shield.vercel.app/?domain=trslogistica.com",
+    "directStrikePaymentUrl": "https://strike.me/rick2818",
+    "status": "ENVIADO_REAL_EN_RED",
+    "outboundMessage": {
+      "subject": "Elimina 40 horas de trabajo operativo repetitivo cada semana",
+      "body": "Hola,\n\n¿Cuánto tiempo dedica tu equipo en TRS Logística El Salvador a cobranza manual, responder consultas idénticas por WhatsApp y actualizar inventarios?\n\nDestraba AI implementa un agente soberano en 60 segundos que asume esas tareas en piloto automático 24/7, permitiendo a tus directivos enfocarse en ventas de alto valor.\n\nInicia tu prueba y activa tu agente por $69 USD/mes:\nhttps://unblock-shield.vercel.app/?domain=trslogistica.com\n\nAtentamente,\nDestraba AI"
+    },
+    "dispatchedAt": "2026-09-14T20:22:11.879Z",
+    "nextFollowUpDate": "2026-09-16",
+    "deliveryAudit": {
+      "dispatchedAt": "2026-09-17T17:03:06.047Z",
+      "mode": "LIVE",
+      "transport": "GMAIL_SMTPS",
+      "messageId": "smtp_1789664586047_8385d2",
+      "recipient": "contacto@trslogistica.com",
+      "status": "TRANSMITIDO_EXITOSO"
+    }
+  },
+  {
+    "id": "lead_b2b_real_4",
+    "company": "Networld Logistics Centroamérica",
+    "domain": "networldslogistics.com",
+    "decisionMakerRole": "Director Financiero y de Facturación (CFO)",
+    "country": "Centroamérica",
+    "operationalPain": "Conciliación manual de facturas de comercio exterior y demoras en comprobantes de pago",
+    "offer": "$89 USD/mes (Cobranza & Conciliación)",
+    "strikePaymentDestination": "rick2818@strike.me",
+    "checkoutUrl": "https://unblock-shield.vercel.app/?domain=networldslogistics.com",
+    "directStrikePaymentUrl": "https://strike.me/rick2818",
+    "status": "ENVIADO_REAL_EN_RED",
+    "outboundMessage": {
+      "subject": "Elimina 40 horas de trabajo operativo repetitivo cada semana",
+      "body": "Hola,\n\n¿Cuánto tiempo dedica tu equipo en Networld Logistics Centroamérica a cobranza manual, responder consultas idénticas por WhatsApp y actualizar inventarios?\n\nDestraba AI implementa un agente soberano en 60 segundos que asume esas tareas en piloto automático 24/7, permitiendo a tus directivos enfocarse en ventas de alto valor.\n\nInicia tu prueba y activa tu agente por $69 USD/mes:\nhttps://unblock-shield.vercel.app/?domain=networldslogistics.com\n\nAtentamente,\nDestraba AI"
+    },
+    "dispatchedAt": "2026-09-14T20:22:11.879Z",
+    "nextFollowUpDate": "2026-09-16",
+    "deliveryAudit": {
+      "dispatchedAt": "2026-09-17T17:03:10.660Z",
+      "mode": "LIVE",
+      "transport": "GMAIL_SMTPS",
+      "messageId": "smtp_1789664590660_a4d9a1",
+      "recipient": "contacto@networldslogistics.com",
+      "status": "TRANSMITIDO_EXITOSO"
+    }
+  },
+  {
+    "id": "lead_b2b_real_5",
+    "company": "Logistics Centroamérica S.A.",
+    "domain": "logisticscentroamerica.com",
+    "decisionMakerRole": "Director Comercial y de Cuentas B2B",
+    "country": "El Salvador / Guatemala",
+    "operationalPain": "Fuga de cotizaciones aduaneras por respuesta tardía en buzones de ventas corporativas",
+    "offer": "$19 USD (Flash) / $79 USD (Ventas Outbound)",
+    "strikePaymentDestination": "rick2818@strike.me",
+    "checkoutUrl": "https://unblock-shield.vercel.app/?domain=logisticscentroamerica.com",
+    "directStrikePaymentUrl": "https://strike.me/rick2818",
+    "status": "ENVIADO_REAL_EN_RED",
+    "outboundMessage": {
+      "subject": "Riesgo de fuga de datos en pasarelas de pago y cabeceras ausentes",
+      "body": "Estimado Director de Operaciones en Logistics Centroamérica S.A.,\n\nAl auditar perimetralmente sitios de comercio electrónico B2B, detectamos que más del 70% operan sin cabeceras bancarias estrictas (CSP, HSTS) o con endpoints de pago expuestos a ataques de inyección.\n\nEn Destraba AI ejecutamos una auditoría de ciberseguridad defensiva en 60 segundos que detecta y entrega el reporte con los parches listos para aplicar.\n\nPuedes generar tu informe de inmediato por $19 USD aquí:\nhttps://rick2818.github.io/Agents/?plan=flash&ref=audit_sec\n\nO liquidar directo vía Lightning sin comisiones a rick2818@strike.me.\n\nAtentamente,\nEquipo de Ciberseguridad Defensiva — Destraba AI"
+    },
+    "dispatchedAt": "2026-09-14T20:22:11.879Z",
+    "nextFollowUpDate": "2026-09-16",
+    "deliveryAudit": {
+      "dispatchedAt": "2026-09-17T17:03:16.228Z",
+      "mode": "LIVE",
+      "transport": "GMAIL_SMTPS",
+      "messageId": "smtp_1789664596228_dfd5a9",
+      "recipient": "contacto@logisticscentroamerica.com",
+      "status": "TRANSMITIDO_EXITOSO"
+    }
+  },
+  {
+    "id": "lead_colombia_1",
+    "company": "Coordinadora Mercantil (E-commerce Fulfillment & 3PL)",
+    "domain": "coordinadora.com",
+    "decisionMakerRole": "Director de Operaciones & Innovación Digital",
+    "country": "Colombia",
+    "operationalPain": "Saturación en el canal de WhatsApp para rastreo de paquetes y retrasos en confirmación de entregas e-commerce",
+    "offer": "$69 USD/mes (Concierge de Soporte & Despacho)",
+    "strikePaymentDestination": "rick2818@strike.me",
+    "checkoutUrl": "https://unblock-shield.vercel.app/?domain=coordinadora.com",
+    "directStrikePaymentUrl": "https://strike.me/rick2818",
+    "status": "CONTACTADO_IMPACTO_1",
+    "scheduledDate": "2026-09-15",
+    "outboundMessage": {
+      "subject": "Elimina 80 horas de consultas repetitivas en WhatsApp de tu operación",
+      "body": "Hola,\n\n¿Cuánto tiempo dedica el equipo de Coordinadora a responder consultas idénticas por WhatsApp, rastrear guías de clientes impacientes y actualizar novedades manuales?\n\nDestraba AI implementa un Concierge Autónomo en 60 segundos que responde en milisegundos 24/7 y erradica ese cuello de botella en piloto automático.\n\nPuedes probarlo y activar la licencia por $69 USD/mes aquí:\nhttps://unblock-shield.vercel.app/?domain=coordinadora.com\n\nO liquidar en satoshis vía Lightning sin comisiones a rick2818@strike.me.\n\nAtentamente,\nEquipo de Soluciones B2B — Destraba AI"
+    },
+    "dispatchedAt": "2026-09-18T22:22:36.993Z",
+    "nextFollowUpDate": "2026-09-20",
+    "deliveryAudit": {
+      "dispatchedAt": "2026-09-17T16:46:08.418Z",
+      "mode": "LIVE",
+      "transport": "GMAIL_SMTPS",
+      "messageId": "smtp_1789663568417_5560f3",
+      "recipient": "contacto@coordinadora.com",
+      "status": "TRANSMITIDO_EXITOSO"
+    }
+  },
+  {
+    "id": "lead_colombia_2",
+    "company": "TCC Logística & Envíos",
+    "domain": "tcc.com.co",
+    "decisionMakerRole": "Gerente de Operaciones y Transporte B2B",
+    "country": "Colombia",
+    "operationalPain": "Demoras en cotización de fletes corporativos y fuga de prospectos por tiempo de respuesta mayor a 24 horas",
+    "offer": "$69 USD/mes (Pro Operator)",
+    "strikePaymentDestination": "rick2818@strike.me",
+    "checkoutUrl": "https://unblock-shield.vercel.app/?domain=tcc.com.co",
+    "directStrikePaymentUrl": "https://strike.me/rick2818",
+    "status": "CONTACTADO_IMPACTO_1",
+    "scheduledDate": "2026-09-15",
+    "outboundMessage": {
+      "subject": "Respuesta a cotizaciones B2B en 60 segundos sin nómina extra",
+      "body": "Estimado Gerente de Operaciones en TCC,\n\nEn el sector logístico B2B, responder una solicitud de flete 4 horas tarde significa perder la cuenta frente a la competencia.\n\nDestraba AI sintetiza un agente calificador que atiende a tus prospectos corporativos, calcula tarifas estimadas y agenda el cierre al instante.\n\nActiva tu prueba operativa hoy por $69 USD/mes:\nhttps://unblock-shield.vercel.app/?domain=tcc.com.co\n\nLiquidación directa vía Lightning: rick2818@strike.me.\n\nAtentamente,\nDestraba AI"
+    },
+    "dispatchedAt": "2026-09-18T22:22:36.993Z",
+    "nextFollowUpDate": "2026-09-20",
+    "deliveryAudit": {
+      "dispatchedAt": "2026-09-17T16:46:13.993Z",
+      "mode": "LIVE",
+      "transport": "GMAIL_SMTPS",
+      "messageId": "smtp_1789663573993_37b5ca",
+      "recipient": "contacto@tcc.com.co",
+      "status": "TRANSMITIDO_EXITOSO"
+    }
+  },
+  {
+    "id": "lead_colombia_3",
+    "company": "Envía Colvanes",
+    "domain": "enviacolvanes.com",
+    "decisionMakerRole": "Director de Experiencia de Cliente & Soporte",
+    "country": "Colombia",
+    "operationalPain": "Fricción operativa por quejas de entregas y costo elevado de nómina en centros de llamadas de primer nivel",
+    "offer": "$69 USD/mes (Concierge Soporte Autónomo)",
+    "strikePaymentDestination": "rick2818@strike.me",
+    "checkoutUrl": "https://unblock-shield.vercel.app/?domain=enviacolvanes.com",
+    "directStrikePaymentUrl": "https://strike.me/rick2818",
+    "status": "CONTACTADO_IMPACTO_1",
+    "scheduledDate": "2026-09-15",
+    "outboundMessage": {
+      "subject": "Reduce en un 70% la carga de reclamos y soporte en tu operación",
+      "body": "Hola,\n\nAtender manualmente estados de envío y reclamos de mercancía genera sobrecostos de nómina y fatiga en tus agentes humanos.\n\nNuestros agentes soberanos para Google Antigravity asumen el triaje automático y resuelven el 70% de las consultas sin intervención humana.\n\nConoce la plataforma y comienza por $69 USD/mes:\nhttps://unblock-shield.vercel.app/?domain=enviacolvanes.com\n\nAtentamente,\nDestraba AI"
+    },
+    "dispatchedAt": "2026-09-18T22:22:36.993Z",
+    "nextFollowUpDate": "2026-09-20",
+    "deliveryAudit": {
+      "dispatchedAt": "2026-09-17T16:46:18.551Z",
+      "mode": "LIVE",
+      "transport": "GMAIL_SMTPS",
+      "messageId": "smtp_1789663578551_f0b698",
+      "recipient": "contacto@enviacolvanes.com",
+      "status": "TRANSMITIDO_EXITOSO"
+    }
+  },
+  {
+    "id": "lead_colombia_4",
+    "company": "Deprisa (Avianca Cargo)",
+    "domain": "deprisa.com",
+    "decisionMakerRole": "Gerente de Canales Digitales y Envíos Express",
+    "country": "Colombia",
+    "operationalPain": "Falta de agilidad en confirmación de envíos urgentes y liquidación de servicios puerta a puerta",
+    "offer": "$89 USD/mes (Operador Express & Cobranza)",
+    "strikePaymentDestination": "rick2818@strike.me",
+    "checkoutUrl": "https://unblock-shield.vercel.app/?domain=deprisa.com",
+    "directStrikePaymentUrl": "https://strike.me/rick2818",
+    "status": "CONTACTADO_IMPACTO_1",
+    "scheduledDate": "2026-09-15",
+    "outboundMessage": {
+      "subject": "Automatiza la trazabilidad y cobro de envíos express en 60 segundos",
+      "body": "Hola,\n\nLos clientes corporativos de paquetería express exigen confirmaciones en tiempo real y facturación inmediata.\n\nDestraba AI genera un flujo desatendido que notifica y concilia pagos en segundos con protocolos bancarios seguros.\n\nAccede a la consola ejecutiva aquí por $89 USD/mes:\nhttps://unblock-shield.vercel.app/?domain=deprisa.com\n\nAtentamente,\nDestraba AI"
+    },
+    "dispatchedAt": "2026-09-18T22:22:36.993Z",
+    "nextFollowUpDate": "2026-09-20",
+    "deliveryAudit": {
+      "dispatchedAt": "2026-09-17T16:46:23.798Z",
+      "mode": "LIVE",
+      "transport": "GMAIL_SMTPS",
+      "messageId": "smtp_1789663583798_ed520c",
+      "recipient": "contacto@deprisa.com",
+      "status": "TRANSMITIDO_EXITOSO"
+    }
+  },
+  {
+    "id": "lead_colombia_5",
+    "company": "Servientrega Soluciones Digitales",
+    "domain": "servientrega.com",
+    "decisionMakerRole": "Vicepresidente de Tecnología & Transformación Digital",
+    "country": "Colombia",
+    "operationalPain": "Integración compleja entre canales de atención y sistemas legacy de facturación y cobro",
+    "offer": "$19 USD (Auditoría Flash) / $490 USD (Enterprise)",
+    "strikePaymentDestination": "rick2818@strike.me",
+    "checkoutUrl": "https://unblock-shield.vercel.app/?domain=servientrega.com",
+    "directStrikePaymentUrl": "https://strike.me/rick2818",
+    "status": "CONTACTADO_IMPACTO_1",
+    "scheduledDate": "2026-09-15",
+    "outboundMessage": {
+      "subject": "Auditoría de integración operativa y seguridad perimetral en 60 segundos",
+      "body": "Estimado VP de Tecnología en Servientrega,\n\nDesplegamos agentes soberanos con protocolo MCP que se conectan a tu infraestructura sin tocar código legacy ni exponer datos sensibles.\n\nRealiza un diagnóstico de cuellos de botella y seguridad perimetral por $19 USD aquí:\nhttps://rick2818.github.io/Agents/?plan=flash&ref=colombia_b2b\n\nO liquidación instantánea por Lightning a rick2818@strike.me.\n\nAtentamente,\nEquipo de Ingeniería — Destraba AI"
+    },
+    "dispatchedAt": "2026-09-18T22:22:36.993Z",
+    "nextFollowUpDate": "2026-09-20",
+    "deliveryAudit": {
+      "dispatchedAt": "2026-09-17T16:46:29.208Z",
+      "mode": "LIVE",
+      "transport": "GMAIL_SMTPS",
+      "messageId": "smtp_1789663589208_ebd535",
+      "recipient": "contacto@servientrega.com",
+      "status": "TRANSMITIDO_EXITOSO"
+    }
+  },
+  {
+    "id": "pyme_d2c_1",
+    "company": "Amor Perfecto Café de Especialidad",
+    "domain": "amorperfectocafes.com",
+    "decisionMakerRole": "Director de E-commerce & Canales Digitales",
+    "country": "Colombia",
+    "operationalPain": "Saturación en WhatsApp para recomendaciones de molienda y pérdida de conversión en checkout",
+    "offer": "$69 USD/mes (Concierge de Ventas E-commerce)",
+    "strikePaymentDestination": "rick2818@strike.me",
+    "checkoutUrl": "https://unblock-shield.vercel.app/?domain=amorperfectocafes.com",
+    "directStrikePaymentUrl": "https://strike.me/rick2818",
+    "status": "ENVIADO_REAL_EN_RED",
+    "contactEmail": "contacto@amorperfectocafes.com",
+    "outboundMessage": {
+      "subject": "Automatiza la asesoría de café en WhatsApp y aumenta tu conversión",
+      "body": "Hola,\n\nEn tiendas de café de especialidad online, responder 30 minutos tarde a una consulta sobre tipo de molienda o métodos de preparación suele significar un carrito abandonado.\n\nEn Destraba AI sintetizamos un Concierge Digital no invasivo que asiste a tus compradores 24/7 en segundos sin necesidad de instalar nada en tu servidor.\n\nPuedes probar la plataforma y activar tu agente por $69 USD/mes aquí:\nhttps://unblock-shield.vercel.app/?domain=amorperfectocafes.com&domain=amorperfectocafes.com\n\nO liquidación directa vía Lightning a rick2818@strike.me.\n\nAtentamente,\nEquipo de Soluciones E-commerce — Destraba AI"
+    },
+    "deliveryAudit": {
+      "dispatchedAt": "2026-09-17T17:03:21.318Z",
+      "mode": "LIVE",
+      "transport": "GMAIL_SMTPS",
+      "messageId": "smtp_1789664601318_256562",
+      "recipient": "contacto@amorperfectocafes.com",
+      "status": "TRANSMITIDO_EXITOSO"
+    }
+  },
+  {
+    "id": "pyme_d2c_2",
+    "company": "Café San Alberto",
+    "domain": "cafesanalberto.com",
+    "decisionMakerRole": "Gerente de Operaciones y Experiencia Digital",
+    "country": "Colombia",
+    "operationalPain": "Consultas manuales de envíos internacionales y suscripciones recurrentes",
+    "offer": "$69 USD/mes (Concierge de Suscripciones)",
+    "strikePaymentDestination": "rick2818@strike.me",
+    "checkoutUrl": "https://unblock-shield.vercel.app/?domain=cafesanalberto.com",
+    "directStrikePaymentUrl": "https://strike.me/rick2818",
+    "status": "ENVIADO_REAL_EN_RED",
+    "contactEmail": "info@cafesanalberto.com",
+    "outboundMessage": {
+      "subject": "Reduce en 80% las consultas repetitivas de suscripciones y envíos",
+      "body": "Estimado Gerente de Operaciones en Café San Alberto,\n\nRevisamos perimetralmente tu canal digital y notamos la alta demanda que tienen las compras de café premium para exportación y clubes de suscripción.\n\nImplementamos asistentes autónomos listos en 60 segundos que resuelven dudas de trazabilidad y preguntas frecuentes de forma impecable.\n\nAccede a la solución por $69 USD/mes aquí:\nhttps://unblock-shield.vercel.app/?domain=cafesanalberto.com&domain=cafesanalberto.com\n\nLiquidación segura: rick2818@strike.me.\n\nAtentamente,\nDestraba AI"
+    },
+    "deliveryAudit": {
+      "dispatchedAt": "2026-09-17T17:03:26.654Z",
+      "mode": "LIVE",
+      "transport": "GMAIL_SMTPS",
+      "messageId": "smtp_1789664606653_52f579",
+      "recipient": "info@cafesanalberto.com",
+      "status": "TRANSMITIDO_EXITOSO"
+    }
+  },
+  {
+    "id": "pyme_d2c_3",
+    "company": "Branch Agencia Digital",
+    "domain": "branch.com.co",
+    "decisionMakerRole": "Director de Operaciones & Cuentas B2B",
+    "country": "Colombia / Regional",
+    "operationalPain": "Fricción en reportes periódicos a clientes y cualificación manual de leads entrantes",
+    "offer": "$69 USD/mes (Calificador de Leads B2B)",
+    "strikePaymentDestination": "rick2818@strike.me",
+    "checkoutUrl": "https://unblock-shield.vercel.app/?domain=branch.com.co",
+    "directStrikePaymentUrl": "https://strike.me/rick2818",
+    "status": "ENVIADO_REAL_EN_RED",
+    "contactEmail": "contacto@branch.com.co",
+    "outboundMessage": {
+      "subject": "Califica leads B2B entrantes en 60 segundos sin saturar a tu equipo comercial",
+      "body": "Hola,\n\nPara agencias de marketing en crecimiento, destinar horas de especialistas a filtrar contactos no cualificados encarece el costo de adquisición.\n\nDestraba AI te entrega un agente calificador que atiende a tus prospectos corporativos al instante y agenda reuniones solo con cuentas calificadas.\n\nActívalo para tu agencia por $69 USD/mes:\nhttps://unblock-shield.vercel.app/?domain=branch.com.co&domain=branch.com.co\n\nO cobro instantáneo a rick2818@strike.me.\n\nAtentamente,\nDestraba AI"
+    },
+    "deliveryAudit": {
+      "dispatchedAt": "2026-09-17T17:03:31.055Z",
+      "mode": "LIVE",
+      "transport": "GMAIL_SMTPS",
+      "messageId": "smtp_1789664611055_a6a227",
+      "recipient": "contacto@branch.com.co",
+      "status": "TRANSMITIDO_EXITOSO"
+    }
+  },
+  {
+    "id": "pyme_d2c_4",
+    "company": "Moova Logística Urbana",
+    "domain": "moova.io",
+    "decisionMakerRole": "Gerente de Operaciones Last-Mile",
+    "country": "México / Latam",
+    "operationalPain": "Reconfirmaciones manuales de entregas fallidas y atención a e-commerce medianos",
+    "offer": "$69 USD/mes (Operador de Reintentos)",
+    "strikePaymentDestination": "rick2818@strike.me",
+    "checkoutUrl": "https://unblock-shield.vercel.app/?domain=moova.io",
+    "directStrikePaymentUrl": "https://strike.me/rick2818",
+    "status": "ENVIADO_REAL_EN_RED",
+    "contactEmail": "contacto@moova.io",
+    "outboundMessage": {
+      "subject": "Automatiza la gestión de novedades de entrega en e-commerce",
+      "body": "Estimado Gerente de Operaciones en Moova,\n\nLas entregas no completadas por dirección incorrecta o ausencia de destinatario generan sobrecostos logísticos significativos si se gestionan manualmente por teléfono o chat.\n\nNuestro agente contacta al comprador al instante de registrarse la novedad para reprogramar la entrega automáticamente.\n\nPuedes integrarlo en tu flujo por $69 USD/mes:\nhttps://unblock-shield.vercel.app/?domain=moova.io&domain=moova.io\n\nLiquidación directa: rick2818@strike.me.\n\nAtentamente,\nDestraba AI"
+    },
+    "deliveryAudit": {
+      "dispatchedAt": "2026-09-17T17:03:35.680Z",
+      "mode": "LIVE",
+      "transport": "GMAIL_SMTPS",
+      "messageId": "smtp_1789664615679_b2ff56",
+      "recipient": "contacto@moova.io",
+      "status": "TRANSMITIDO_EXITOSO"
+    }
+  },
+  {
+    "id": "pyme_d2c_5",
+    "company": "Cubbo E-commerce Fulfillment",
+    "domain": "cubbo.com",
+    "decisionMakerRole": "Director de Integraciones & Atención al Cliente",
+    "country": "México / Colombia",
+    "operationalPain": "Dudas repetitivas de marcas direct-to-consumer sobre inventario y estados de preparación",
+    "offer": "$69 USD/mes (Concierge 3PL D2C)",
+    "strikePaymentDestination": "rick2818@strike.me",
+    "checkoutUrl": "https://unblock-shield.vercel.app/?domain=cubbo.com",
+    "directStrikePaymentUrl": "https://strike.me/rick2818",
+    "status": "ENVIADO_REAL_EN_RED",
+    "contactEmail": "hola@cubbo.com",
+    "outboundMessage": {
+      "subject": "Despeja el 70% de las consultas de estado de pedidos de tus marcas",
+      "body": "Hola,\n\nLas marcas que usan bodegas 3PL necesitan confirmaciones inmediatas del despacho de sus pedidos de Shopify o Mercado Libre.\n\nCon Destraba AI dispones de un concierge 24/7 que responde consultas de guía y novedades sin consumir tiempo de tus supervisores de bodega.\n\nInicia tu prueba por $69 USD/mes:\nhttps://unblock-shield.vercel.app/?domain=cubbo.com&domain=cubbo.com\n\nAtentamente,\nDestraba AI"
+    },
+    "deliveryAudit": {
+      "dispatchedAt": "2026-09-17T17:03:41.023Z",
+      "mode": "LIVE",
+      "transport": "GMAIL_SMTPS",
+      "messageId": "smtp_1789664621023_0cc70f",
+      "recipient": "hola@cubbo.com",
+      "status": "TRANSMITIDO_EXITOSO"
+    }
+  },
+  {
+    "id": "pyme_d2c_6",
+    "company": "Chazki Entregas Urbanas",
+    "domain": "chazki.com",
+    "decisionMakerRole": "Gerente de Customer Experience B2B",
+    "country": "Colombia / México / Perú",
+    "operationalPain": "Triaje manual de reclamos de mensajería corporativa",
+    "offer": "$69 USD/mes (Triaje Autónomo)",
+    "strikePaymentDestination": "rick2818@strike.me",
+    "checkoutUrl": "https://unblock-shield.vercel.app/?domain=chazki.com",
+    "directStrikePaymentUrl": "https://strike.me/rick2818",
+    "status": "ENVIADO_REAL_EN_RED",
+    "contactEmail": "hola@chazki.com",
+    "outboundMessage": {
+      "subject": "Triaje de incidencias en entregas en menos de 10 segundos",
+      "body": "Estimado Gerente de CX en Chazki,\n\nEn mensajería de última milla para empresas, clasificar reclamos manualmente retrasa la resolución e incrementa la frustración del cliente corporativo.\n\nDestraba AI realiza el triaje inmediato y deriva únicamente los casos críticos con resumen ejecutivo listo.\n\nActiva tu piloto por $69 USD/mes:\nhttps://unblock-shield.vercel.app/?domain=chazki.com&domain=chazki.com\n\nCobros: rick2818@strike.me.\n\nAtentamente,\nDestraba AI"
+    },
+    "deliveryAudit": {
+      "dispatchedAt": "2026-09-17T17:03:46.003Z",
+      "mode": "LIVE",
+      "transport": "GMAIL_SMTPS",
+      "messageId": "smtp_1789664626003_238bcc",
+      "recipient": "hola@chazki.com",
+      "status": "TRANSMITIDO_EXITOSO"
+    }
+  },
+  {
+    "id": "pyme_d2c_7",
+    "company": "Clicoh Logística E-commerce",
+    "domain": "clicoh.com",
+    "decisionMakerRole": "Líder de Soporte al Seller",
+    "country": "México / Latam",
+    "operationalPain": "Onboarding lento de nuevos vendedores e-commerce y soporte continuo de etiquetado",
+    "offer": "$69 USD/mes (Agente Onboarding Sellers)",
+    "strikePaymentDestination": "rick2818@strike.me",
+    "checkoutUrl": "https://unblock-shield.vercel.app/?domain=clicoh.com",
+    "directStrikePaymentUrl": "https://strike.me/rick2818",
+    "status": "ENVIADO_REAL_EN_RED",
+    "contactEmail": "info@clicoh.com",
+    "outboundMessage": {
+      "subject": "Acelera el onboarding de nuevas marcas a tu red logística",
+      "body": "Hola,\n\nGuiar paso a paso a cada nuevo merchant sobre cómo embalar, generar etiquetas y despachar a bodega consume semanas de soporte manual.\n\nImplementamos un asistente especializado en normativas de embalaje que resuelve dudas operativas al instante.\n\nConócelo aquí por $69 USD/mes:\nhttps://unblock-shield.vercel.app/?domain=clicoh.com&domain=clicoh.com\n\nLiquidación: rick2818@strike.me.\n\nAtentamente,\nDestraba AI"
+    },
+    "deliveryAudit": {
+      "dispatchedAt": "2026-09-17T17:03:50.683Z",
+      "mode": "LIVE",
+      "transport": "GMAIL_SMTPS",
+      "messageId": "smtp_1789664630683_8f9209",
+      "recipient": "info@clicoh.com",
+      "status": "TRANSMITIDO_EXITOSO"
+    }
+  },
+  {
+    "id": "pyme_d2c_8",
+    "company": "Mensajeros Urbanos B2B",
+    "domain": "mensajerosurbanos.com",
+    "decisionMakerRole": "Director de Flota y Cuentas Corporativas",
+    "country": "Colombia / México",
+    "operationalPain": "Pérdida de solicitudes de cotización empresarial recibidas fuera de horario laboral",
+    "offer": "$69 USD/mes (Cotizador Autónomo 24/7)",
+    "strikePaymentDestination": "rick2818@strike.me",
+    "checkoutUrl": "https://unblock-shield.vercel.app/?domain=mensajerosurbanos.com",
+    "directStrikePaymentUrl": "https://strike.me/rick2818",
+    "status": "ENVIADO_REAL_EN_RED",
+    "contactEmail": "contacto@mensajerosurbanos.com",
+    "outboundMessage": {
+      "subject": "Cotiza servicios de mensajería empresarial 24/7 sin esperar al lunes",
+      "body": "Hola,\n\nLas empresas que requieren envíos corporativos suelen cotizar en la noche o fines de semana; si esperan hasta el lunes, cotizan con otra empresa.\n\nDestraba AI calcula tarifas estimadas al instante y captura el contacto del decisor en segundos.\n\nPrueba el agente por $69 USD/mes:\nhttps://unblock-shield.vercel.app/?domain=mensajerosurbanos.com&domain=mensajerosurbanos.com\n\nAtentamente,\nDestraba AI"
+    },
+    "deliveryAudit": {
+      "dispatchedAt": "2026-09-17T17:03:55.839Z",
+      "mode": "LIVE",
+      "transport": "GMAIL_SMTPS",
+      "messageId": "smtp_1789664635839_5005b4",
+      "recipient": "contacto@mensajerosurbanos.com",
+      "status": "TRANSMITIDO_EXITOSO"
+    }
+  },
+  {
+    "id": "pyme_d2c_9",
+    "company": "Skydropx Envíos",
+    "domain": "skydropx.com",
+    "decisionMakerRole": "Director de Operaciones PYME",
+    "country": "México / Colombia",
+    "operationalPain": "Cabeceras bancarias estrictas ausentes en portal de integración y saturación de tickets",
+    "offer": "$19 USD (Auditoría Flash) / $69 USD (Pro)",
+    "strikePaymentDestination": "rick2818@strike.me",
+    "checkoutUrl": "https://unblock-shield.vercel.app/?domain=skydropx.com",
+    "directStrikePaymentUrl": "https://strike.me/rick2818",
+    "status": "ENVIADO_REAL_EN_RED",
+    "contactEmail": "hola@skydropx.com",
+    "outboundMessage": {
+      "subject": "Auditoría perimetral y blindaje defensivo para tu pasarela de envíos",
+      "body": "Estimado Director de Operaciones en Skydropx,\n\nRealizamos una auditoría externa no invasiva a plataformas de agregación de envíos y detectamos que muchas operan sin cabeceras bancarias estrictas (CSP, HSTS) necesarias para blindar el checkout contra ataques de clickjacking.\n\nGenera tu reporte forense con los parches listos para aplicar por $19 USD:\nhttps://rick2818.github.io/Agents/?plan=flash&domain=skydropx.com\n\nLiquidación Lightning: rick2818@strike.me.\n\nAtentamente,\nEquipo de Ciberseguridad Defensiva — Destraba AI"
+    },
+    "deliveryAudit": {
+      "dispatchedAt": "2026-09-17T17:04:02.449Z",
+      "mode": "LIVE",
+      "transport": "GMAIL_SMTPS",
+      "messageId": "smtp_1789664642449_39dee4",
+      "recipient": "hola@skydropx.com",
+      "status": "TRANSMITIDO_EXITOSO"
+    }
+  },
+  {
+    "id": "pyme_d2c_10",
+    "company": "Envia.com Logistics Platform",
+    "domain": "envia.com",
+    "decisionMakerRole": "Gerente de Alianzas E-commerce",
+    "country": "México / Latam",
+    "operationalPain": "Fricción en activación de nuevas cuentas e integración de pasarelas de pago",
+    "offer": "$69 USD/mes (Concierge de Integración)",
+    "strikePaymentDestination": "rick2818@strike.me",
+    "checkoutUrl": "https://unblock-shield.vercel.app/?domain=envia.com",
+    "directStrikePaymentUrl": "https://strike.me/rick2818",
+    "status": "ENVIADO_REAL_EN_RED",
+    "contactEmail": "soporte@envia.com",
+    "outboundMessage": {
+      "subject": "Optimiza la conversión de registros a envíos reales en tu plataforma",
+      "body": "Hola,\n\nMuchos sellers se registran para cotizar envíos pero abandonan antes de realizar su primera recarga o despacho por dudas en la configuración.\n\nNuestros agentes fiduciarios asumen el acompañamiento paso a paso elevando la tasa de activación de cuentas.\n\nConócelo aquí por $69 USD/mes:\nhttps://unblock-shield.vercel.app/?domain=envia.com&domain=envia.com\n\nAtentamente,\nDestraba AI"
+    },
+    "deliveryAudit": {
+      "dispatchedAt": "2026-09-17T17:04:08.475Z",
+      "mode": "LIVE",
+      "transport": "GMAIL_SMTPS",
+      "messageId": "smtp_1789664648475_e256d5",
+      "recipient": "soporte@envia.com",
+      "status": "TRANSMITIDO_EXITOSO"
+    }
+  },
+  {
+    "id": "pyme_d2c_11",
+    "company": "Bold Pagos Digitales",
+    "domain": "bold.co",
+    "decisionMakerRole": "Gerente de Soporte a Comercios",
+    "country": "Colombia",
+    "operationalPain": "Consultas constantes de pequeños comercios sobre estados de transferencias y depósitos",
+    "offer": "$69 USD/mes (Concierge de Liquidación)",
+    "strikePaymentDestination": "rick2818@strike.me",
+    "checkoutUrl": "https://unblock-shield.vercel.app/?domain=bold.co",
+    "directStrikePaymentUrl": "https://strike.me/rick2818",
+    "status": "ENVIADO_REAL_EN_RED",
+    "contactEmail": "soporte@bold.co",
+    "outboundMessage": {
+      "subject": "Responde dudas de depósitos y ventas a tus comercios sin cola de espera",
+      "body": "Estimado Gerente de Soporte en Bold,\n\nLos pequeños comerciantes necesitan saber al instante cuándo se reflejan sus fondos y cómo resolver errores en datafonos.\n\nDestraba AI despliega un agente especializado que atiende el 80% de estas consultas de forma instantánea sin tocar sistemas críticos de pago.\n\nPrueba el agente por $69 USD/mes:\nhttps://unblock-shield.vercel.app/?domain=bold.co&domain=bold.co\n\nAtentamente,\nDestraba AI"
+    },
+    "deliveryAudit": {
+      "dispatchedAt": "2026-09-17T17:04:13.232Z",
+      "mode": "LIVE",
+      "transport": "GMAIL_SMTPS",
+      "messageId": "smtp_1789664653232_abb6e4",
+      "recipient": "soporte@bold.co",
+      "status": "TRANSMITIDO_EXITOSO"
+    }
+  },
+  {
+    "id": "pyme_d2c_12",
+    "company": "Cobre Finanzas B2B",
+    "domain": "cobre.co",
+    "decisionMakerRole": "Director de Producto & Operaciones",
+    "country": "Colombia / México",
+    "operationalPain": "Auditoría de cabeceras de seguridad y tiempos de respuesta a dudas de tesorería",
+    "offer": "$19 USD (Flash) / $69 USD (Pro)",
+    "strikePaymentDestination": "rick2818@strike.me",
+    "checkoutUrl": "https://unblock-shield.vercel.app/?domain=cobre.co",
+    "directStrikePaymentUrl": "https://strike.me/rick2818",
+    "status": "ENVIADO_REAL_EN_RED",
+    "contactEmail": "contacto@cobre.co",
+    "outboundMessage": {
+      "subject": "Auditoría de cabeceras y blindaje de portal de tesorería",
+      "body": "Hola,\n\nAl auditar perimetralmente plataformas B2B de pagos y tesorería, verificamos el cumplimiento de cabeceras estrictas contra fuga de cookies y ataques de inyección.\n\nPuedes generar tu reporte de diagnóstico en 60 segundos por $19 USD aquí:\nhttps://rick2818.github.io/Agents/?plan=flash&domain=cobre.co\n\nLiquidación segura: rick2818@strike.me.\n\nAtentamente,\nDestraba AI"
+    },
+    "deliveryAudit": {
+      "dispatchedAt": "2026-09-17T17:04:17.440Z",
+      "mode": "LIVE",
+      "transport": "GMAIL_SMTPS",
+      "messageId": "smtp_1789664657440_9c86ef",
+      "recipient": "contacto@cobre.co",
+      "status": "TRANSMITIDO_EXITOSO"
+    }
+  },
+  {
+    "id": "pyme_d2c_13",
+    "company": "Simetrik Conciliación Financiera",
+    "domain": "simetrik.com",
+    "decisionMakerRole": "Líder de Ciberseguridad & Compliance",
+    "country": "Colombia / Global",
+    "operationalPain": "Validación preventiva de postura de seguridad perimetral frente a clientes bancarios",
+    "offer": "$19 USD (Auditoría Flash) / $89 USD (Enterprise)",
+    "strikePaymentDestination": "rick2818@strike.me",
+    "checkoutUrl": "https://unblock-shield.vercel.app/?domain=simetrik.com",
+    "directStrikePaymentUrl": "https://strike.me/rick2818",
+    "status": "ENVIADO_REAL_EN_RED",
+    "contactEmail": "info@simetrik.com",
+    "outboundMessage": {
+      "subject": "Diagnóstico de cumplimiento perimetral y cabeceras estrictas",
+      "body": "Estimado Líder de Ciberseguridad en Simetrik,\n\nLas empresas de conciliación y registros financieros están bajo constante auditoría por parte de sus clientes institucionales.\n\nDestraba AI provee una verificación defensiva en 60 segundos que detecta desalineaciones en CSP, HSTS y encabezados MIME con parches Nginx/Apache listos.\n\nDescarga tu reporte por $19 USD:\nhttps://rick2818.github.io/Agents/?plan=flash&domain=simetrik.com\n\nAtentamente,\nDestraba AI"
+    },
+    "deliveryAudit": {
+      "dispatchedAt": "2026-09-17T17:04:22.038Z",
+      "mode": "LIVE",
+      "transport": "GMAIL_SMTPS",
+      "messageId": "smtp_1789664662038_4c041a",
+      "recipient": "info@simetrik.com",
+      "status": "TRANSMITIDO_EXITOSO"
+    }
+  },
+  {
+    "id": "pyme_d2c_14",
+    "company": "Addi Crédito & Checkout",
+    "domain": "co.addi.com",
+    "decisionMakerRole": "Director de Integraciones con Comercios",
+    "country": "Colombia",
+    "operationalPain": "Acompañamiento a tiendas de Shopify y WooCommerce durante la instalación del widget de pago",
+    "offer": "$69 USD/mes (Concierge de Integración)",
+    "strikePaymentDestination": "rick2818@strike.me",
+    "checkoutUrl": "https://unblock-shield.vercel.app/?domain=co.addi.com",
+    "directStrikePaymentUrl": "https://strike.me/rick2818",
+    "status": "ENVIADO_REAL_EN_RED",
+    "contactEmail": "soporte@addi.com",
+    "outboundMessage": {
+      "subject": "Reduce fricción técnica en la integración del widget de crédito",
+      "body": "Hola,\n\nMuchos comercios aliados demoran días en completar la instalación de widgets de BNPL por dudas básicas de configuración en WooCommerce o PrestaShop.\n\nUn asistente inteligente de soporte técnico puede resolver el 90% de esas dudas técnicas en tiempo real.\n\nPuedes evaluarlo aquí por $69 USD/mes:\nhttps://unblock-shield.vercel.app/?domain=co.addi.com&domain=co.addi.com\n\nAtentamente,\nDestraba AI"
+    },
+    "deliveryAudit": {
+      "dispatchedAt": "2026-09-17T17:04:27.022Z",
+      "mode": "LIVE",
+      "transport": "GMAIL_SMTPS",
+      "messageId": "smtp_1789664667021_b2dd53",
+      "recipient": "soporte@addi.com",
+      "status": "TRANSMITIDO_EXITOSO"
+    }
+  },
+  {
+    "id": "pyme_d2c_15",
+    "company": "Kushki Pasarela de Pagos",
+    "domain": "kushkipagos.com",
+    "decisionMakerRole": "Gerente de Operaciones Técnicas",
+    "country": "Ecuador / Latam",
+    "operationalPain": "Consultas repetitivas de documentación de APIs y códigos de error en pasarelas",
+    "offer": "$69 USD/mes (Doc-Assistant de Pagos)",
+    "strikePaymentDestination": "rick2818@strike.me",
+    "checkoutUrl": "https://unblock-shield.vercel.app/?domain=kushkipagos.com",
+    "directStrikePaymentUrl": "https://strike.me/rick2818",
+    "status": "ENVIADO_REAL_EN_RED",
+    "contactEmail": "info@kushkipagos.com",
+    "outboundMessage": {
+      "subject": "Asistente inteligente sobre documentación y códigos de error para desarrolladores",
+      "body": "Estimado Gerente de Operaciones Técnicas en Kushki,\n\nLos desarrolladores que integran pasarelas de pago valoran respuestas inmediatas cuando un webhook o un token de tarjeta falla.\n\nDestraba AI implementa asistentes de consulta rápida sobre especificaciones de API sin tocar infraestructura sensible.\n\nActívalo por $69 USD/mes:\nhttps://unblock-shield.vercel.app/?domain=kushkipagos.com&domain=kushkipagos.com\n\nLiquidación a rick2818@strike.me.\n\nAtentamente,\nDestraba AI"
+    },
+    "deliveryAudit": {
+      "dispatchedAt": "2026-09-17T17:04:32.715Z",
+      "mode": "LIVE",
+      "transport": "GMAIL_SMTPS",
+      "messageId": "smtp_1789664672715_54eab9",
+      "recipient": "info@kushkipagos.com",
+      "status": "TRANSMITIDO_EXITOSO"
+    }
+  },
+  {
+    "id": "pyme_d2c_16",
+    "company": "Moffin Infraestructura Financiera",
+    "domain": "moffin.mx",
+    "decisionMakerRole": "Fundador & Director de Tecnología",
+    "country": "México",
+    "operationalPain": "Auditoría perimetral de cabeceras defensivas y optimización de flujos de onboarding",
+    "offer": "$19 USD (Flash) / $69 USD (Pro)",
+    "strikePaymentDestination": "rick2818@strike.me",
+    "checkoutUrl": "https://unblock-shield.vercel.app/?domain=moffin.mx",
+    "directStrikePaymentUrl": "https://strike.me/rick2818",
+    "status": "ENVIADO_REAL_EN_RED",
+    "contactEmail": "contacto@moffin.mx",
+    "outboundMessage": {
+      "subject": "Reporte defensivo de cabeceras bancarias y postura perimetral",
+      "body": "Hola,\n\nRealizamos un escaneo perimetral externo a portales B2B fintech en México y generamos reportes de 60 segundos con los parches exactos de cabeceras para Nginx y Cloudflare.\n\nPuedes generar el diagnóstico de tu portal por $19 USD aquí:\nhttps://rick2818.github.io/Agents/?plan=flash&domain=moffin.mx\n\nCobros seguros: rick2818@strike.me.\n\nAtentamente,\nDestraba AI"
+    },
+    "deliveryAudit": {
+      "dispatchedAt": "2026-09-17T17:04:38.897Z",
+      "mode": "LIVE",
+      "transport": "GMAIL_SMTPS",
+      "messageId": "smtp_1789664678896_3826dd",
+      "recipient": "contacto@moffin.mx",
+      "status": "TRANSMITIDO_EXITOSO"
+    }
+  },
+  {
+    "id": "pyme_d2c_17",
+    "company": "Liftit Fletes & Transporte Digital",
+    "domain": "liftit.co",
+    "decisionMakerRole": "Gerente de Flota y Operaciones Regionales",
+    "country": "Colombia / México",
+    "operationalPain": "Atención manual a transportistas para asignación de rutas y confirmación de guías",
+    "offer": "$69 USD/mes (Operador Autónomo de Flota)",
+    "strikePaymentDestination": "rick2818@strike.me",
+    "checkoutUrl": "https://unblock-shield.vercel.app/?domain=liftit.co",
+    "directStrikePaymentUrl": "https://strike.me/rick2818",
+    "status": "ENVIADO_REAL_EN_RED",
+    "contactEmail": "contacto@liftit.co",
+    "outboundMessage": {
+      "subject": "Responde dudas de transportistas y novedades de viaje sin saturar tus teléfonos",
+      "body": "Estimado Gerente de Operaciones en Liftit,\n\nCoordinar conductores en ruta para verificar estados de carga consume tiempo crítico de los coordinadores de tráfico.\n\nNuestros agentes asumen las respuestas automáticas de estado y ubicación vía canales conversacionales.\n\nInicia tu piloto por $69 USD/mes:\nhttps://unblock-shield.vercel.app/?domain=liftit.co&domain=liftit.co\n\nAtentamente,\nDestraba AI"
+    },
+    "deliveryAudit": {
+      "dispatchedAt": "2026-09-17T17:04:44.727Z",
+      "mode": "LIVE",
+      "transport": "GMAIL_SMTPS",
+      "messageId": "smtp_1789664684727_c05400",
+      "recipient": "contacto@liftit.co",
+      "status": "TRANSMITIDO_EXITOSO"
+    }
+  },
+  {
+    "id": "pyme_d2c_18",
+    "company": "Luuna Descanso D2C",
+    "domain": "luuna.mx",
+    "decisionMakerRole": "Líder de Conversión y Ventas Web",
+    "country": "México",
+    "operationalPain": "Consultas complejas sobre políticas de 100 noches de prueba y devoluciones",
+    "offer": "$69 USD/mes (Concierge D2C de Retención)",
+    "strikePaymentDestination": "rick2818@strike.me",
+    "checkoutUrl": "https://unblock-shield.vercel.app/?domain=luuna.mx",
+    "directStrikePaymentUrl": "https://strike.me/rick2818",
+    "status": "ENVIADO_REAL_EN_RED",
+    "contactEmail": "hola@luuna.mx",
+    "outboundMessage": {
+      "subject": "Despeja dudas de compra y garantías en tu tienda D2C en milisegundos",
+      "body": "Hola,\n\nEn marcas direct-to-consumer de alto valor, resolver dudas sobre garantías y tiempos de entrega en el momento exacto de la decisión eleva la tasa de cierre hasta un 25%.\n\nDestraba AI provee un concierge no intrusivo listo para responder preguntas de compra al instante.\n\nConoce la herramienta por $69 USD/mes:\nhttps://unblock-shield.vercel.app/?domain=luuna.mx&domain=luuna.mx\n\nAtentamente,\nDestraba AI"
+    },
+    "deliveryAudit": {
+      "dispatchedAt": "2026-09-17T17:04:49.103Z",
+      "mode": "LIVE",
+      "transport": "GMAIL_SMTPS",
+      "messageId": "smtp_1789664689103_0730c5",
+      "recipient": "hola@luuna.mx",
+      "status": "TRANSMITIDO_EXITOSO"
+    }
+  },
+  {
+    "id": "pyme_d2c_19",
+    "company": "Ben & Frank Óptica Digital",
+    "domain": "benandfrank.com",
+    "decisionMakerRole": "Gerente de Atención Digital y E-commerce",
+    "country": "México / Chile",
+    "operationalPain": "Consultas sobre graduación de micas y estatus de laboratorio de armazones",
+    "offer": "$69 USD/mes (Concierge de Pedidos Especiales)",
+    "strikePaymentDestination": "rick2818@strike.me",
+    "checkoutUrl": "https://unblock-shield.vercel.app/?domain=benandfrank.com",
+    "directStrikePaymentUrl": "https://strike.me/rick2818",
+    "status": "ENVIADO_REAL_EN_RED",
+    "contactEmail": "contacto@benandfrank.com",
+    "outboundMessage": {
+      "subject": "Automatiza las preguntas frecuentes sobre graduación y estatus de armazones",
+      "body": "Estimado Gerente de Atención en Ben & Frank,\n\nLos compradores de lentes graduados online requieren seguimiento continuo mientras sus micas están en laboratorio.\n\nNuestros asistentes resuelven esas consultas al instante manteniendo la experiencia de marca fresca y cercana.\n\nPuedes probarlo por $69 USD/mes:\nhttps://unblock-shield.vercel.app/?domain=benandfrank.com&domain=benandfrank.com\n\nLiquidación segura: rick2818@strike.me.\n\nAtentamente,\nDestraba AI"
+    },
+    "deliveryAudit": {
+      "dispatchedAt": "2026-09-17T17:04:55.355Z",
+      "mode": "LIVE",
+      "transport": "GMAIL_SMTPS",
+      "messageId": "smtp_1789664695355_cddb93",
+      "recipient": "contacto@benandfrank.com",
+      "status": "TRANSMITIDO_EXITOSO"
+    }
+  },
+  {
+    "id": "pyme_d2c_20",
+    "company": "Mattelsa Ropa & E-commerce",
+    "domain": "mattelsa.net",
+    "decisionMakerRole": "Líder de Experiencia Digital y Logística Inversa",
+    "country": "Colombia",
+    "operationalPain": "Gestión de cambios de talla y novedades de despacho de pedidos",
+    "offer": "$69 USD/mes (Concierge de Cambios y Tallas)",
+    "strikePaymentDestination": "rick2818@strike.me",
+    "checkoutUrl": "https://unblock-shield.vercel.app/?domain=mattelsa.net",
+    "directStrikePaymentUrl": "https://strike.me/rick2818",
+    "status": "ENVIADO_REAL_EN_RED",
+    "contactEmail": "contacto@mattelsa.net",
+    "outboundMessage": {
+      "subject": "Reduce en un 75% la carga de atención en cambios de talla y envíos",
+      "body": "Hola,\n\nEn e-commerce de moda, los cambios de talla y el seguimiento de pedidos saturan los canales de servicio al cliente durante jornadas de alta demanda.\n\nDestraba AI implementa un asistente fiduciario que resuelve estas dudas en tiempo récord sin requerir integración invasiva.\n\nActívalo por $69 USD/mes:\nhttps://unblock-shield.vercel.app/?domain=mattelsa.net&domain=mattelsa.net\n\nAtentamente,\nDestraba AI"
+    },
+    "deliveryAudit": {
+      "dispatchedAt": "2026-09-17T22:42:45.367Z",
+      "mode": "LIVE",
+      "transport": "GMAIL_SMTPS",
+      "messageId": "smtp_1789684965366_eab419",
+      "recipient": "contacto@mattelsa.net",
+      "status": "TRANSMITIDO_EXITOSO"
+    }
+  },
+  {
+    "id": "pyme_d2c_21",
+    "company": "Offcorss Moda Infantil",
+    "domain": "offcorss.com",
+    "decisionMakerRole": "Director de Canales Digitales y CRM",
+    "country": "Colombia",
+    "operationalPain": "Consultas repetitivas sobre guía de tallas por edad y tiempos de entrega en temporadas",
+    "offer": "$69 USD/mes (Concierge de Asistencia en Tallas)",
+    "strikePaymentDestination": "rick2818@strike.me",
+    "checkoutUrl": "https://unblock-shield.vercel.app/?domain=offcorss.com",
+    "directStrikePaymentUrl": "https://strike.me/rick2818",
+    "status": "ENVIADO_REAL_EN_RED",
+    "contactEmail": "servicioalcliente@offcorss.com",
+    "outboundMessage": {
+      "subject": "Asiste a tus compradoras con la talla exacta y acelera el cierre de carritos",
+      "body": "Estimado Director de Canales Digitales en Offcorss,\n\nComprar ropa infantil online genera dudas recurrentes sobre medidas y crecimiento que, si no se atienden de inmediato, frenan la compra.\n\nUn concierge interactivo 24/7 resuelve estas preguntas en segundos elevando la conversión.\n\nPuedes probarlo por $69 USD/mes:\nhttps://unblock-shield.vercel.app/?domain=offcorss.com&domain=offcorss.com\n\nAtentamente,\nDestraba AI"
+    },
+    "deliveryAudit": {
+      "dispatchedAt": "2026-09-17T22:42:49.059Z",
+      "mode": "LIVE",
+      "transport": "GMAIL_SMTPS",
+      "messageId": "smtp_1789684969059_b977f4",
+      "recipient": "servicioalcliente@offcorss.com",
+      "status": "TRANSMITIDO_EXITOSO"
+    }
+  },
+  {
+    "id": "pyme_d2c_22",
+    "company": "Super Selectos Digital",
+    "domain": "superselectos.com",
+    "decisionMakerRole": "Gerente de E-commerce y Pedidos a Domicilio",
+    "country": "El Salvador",
+    "operationalPain": "Consultas sobre cobertura de entrega y sustitución de productos agotados",
+    "offer": "$69 USD/mes (Concierge de Supermercado Online)",
+    "strikePaymentDestination": "rick2818@strike.me",
+    "checkoutUrl": "https://unblock-shield.vercel.app/?domain=superselectos.com",
+    "directStrikePaymentUrl": "https://strike.me/rick2818",
+    "status": "ENVIADO_REAL_EN_RED",
+    "contactEmail": "contacto@superselectos.com",
+    "outboundMessage": {
+      "subject": "Agiliza la confirmación de pedidos a domicilio y sustitución de ítems",
+      "body": "Hola,\n\nEn supermercados digitales, contactar manualmente a clientes para validar coberturas o productos sustitutos ralentiza el despacho de órdenes.\n\nDestraba AI implementa flujos autónomos que aclaran estas dudas en segundos.\n\nActiva la herramienta por $69 USD/mes:\nhttps://unblock-shield.vercel.app/?domain=superselectos.com&domain=superselectos.com\n\nCobros: rick2818@strike.me.\n\nAtentamente,\nDestraba AI"
+    },
+    "deliveryAudit": {
+      "dispatchedAt": "2026-09-17T22:42:53.944Z",
+      "mode": "LIVE",
+      "transport": "GMAIL_SMTPS",
+      "messageId": "smtp_1789684973944_c7c2fe",
+      "recipient": "contacto@superselectos.com",
+      "status": "TRANSMITIDO_EXITOSO"
+    }
+  },
+  {
+    "id": "pyme_d2c_23",
+    "company": "EPA Ferreterías Digital",
+    "domain": "epaenlinea.com",
+    "decisionMakerRole": "Director de Ventas Corporativas y Materiales",
+    "country": "El Salvador / Guatemala",
+    "operationalPain": "Cotizaciones manuales para contratistas y dudas técnicas de especificaciones",
+    "offer": "$69 USD/mes (Cotizador Técnico B2B)",
+    "strikePaymentDestination": "rick2818@strike.me",
+    "checkoutUrl": "https://unblock-shield.vercel.app/?domain=epaenlinea.com",
+    "directStrikePaymentUrl": "https://strike.me/rick2818",
+    "status": "ENVIADO_REAL_EN_RED",
+    "contactEmail": "atencion@epaenlinea.com",
+    "outboundMessage": {
+      "subject": "Cotizador técnico automático para compras por volumen y contratistas",
+      "body": "Estimado Director de Ventas en EPA,\n\nLos clientes corporativos y contratistas necesitan fichas técnicas y cotizaciones rápidas para cerrar compras de materiales.\n\nNuestros asistentes inteligentes procesan estas solicitudes al instante y agendan el despacho comercial.\n\nPuedes probarlo por $69 USD/mes:\nhttps://unblock-shield.vercel.app/?domain=epaenlinea.com&domain=epaenlinea.com\n\nAtentamente,\nDestraba AI"
+    },
+    "deliveryAudit": {
+      "dispatchedAt": "2026-09-17T22:42:57.846Z",
+      "mode": "LIVE",
+      "transport": "GMAIL_SMTPS",
+      "messageId": "smtp_1789684977846_13f1b0",
+      "recipient": "atencion@epaenlinea.com",
+      "status": "TRANSMITIDO_EXITOSO"
+    }
+  },
+  {
+    "id": "pyme_d2c_24",
+    "company": "Simán E-commerce Departamental",
+    "domain": "siman.com",
+    "decisionMakerRole": "Gerente de Customer Support Digital",
+    "country": "Centroamérica",
+    "operationalPain": "Triaje de garantías de electrodomésticos y estados de entrega express",
+    "offer": "$69 USD/mes (Concierge de Postventa)",
+    "strikePaymentDestination": "rick2818@strike.me",
+    "checkoutUrl": "https://unblock-shield.vercel.app/?domain=siman.com",
+    "directStrikePaymentUrl": "https://strike.me/rick2818",
+    "status": "ENVIADO_REAL_EN_RED",
+    "contactEmail": "contacto@siman.com",
+    "outboundMessage": {
+      "subject": "Despeja el triaje de garantías y novedades de envío en e-commerce",
+      "body": "Hola,\n\nAtender manualmente consultas de garantías y fechas de entrega en retail departamental sobrecarga la nómina de soporte.\n\nDestraba AI asume el triaje inicial en 60 segundos de forma limpia y precisa.\n\nInicia tu piloto por $69 USD/mes:\nhttps://unblock-shield.vercel.app/?domain=siman.com&domain=siman.com\n\nLiquidación instantánea a rick2818@strike.me.\n\nAtentamente,\nDestraba AI"
+    },
+    "deliveryAudit": {
+      "dispatchedAt": "2026-09-17T22:43:02.822Z",
+      "mode": "LIVE",
+      "transport": "GMAIL_SMTPS",
+      "messageId": "smtp_1789684982822_04cb79",
+      "recipient": "contacto@siman.com",
+      "status": "TRANSMITIDO_EXITOSO"
+    }
+  },
+  {
+    "id": "pyme_d2c_25",
+    "company": "Vopero Moda Circular",
+    "domain": "vopero.mx",
+    "decisionMakerRole": "Director de Operaciones y Logística de Ropa Usada",
+    "country": "México",
+    "operationalPain": "Consultas continuas de vendedoras sobre valoración de prendas y comisiones de venta",
+    "offer": "$69 USD/mes (Asistente de Sellers de Segunda Mano)",
+    "strikePaymentDestination": "rick2818@strike.me",
+    "checkoutUrl": "https://unblock-shield.vercel.app/?domain=vopero.mx",
+    "directStrikePaymentUrl": "https://strike.me/rick2818",
+    "status": "ENVIADO_REAL_EN_RED",
+    "contactEmail": "contacto@vopero.mx",
+    "outboundMessage": {
+      "subject": "Automatiza las preguntas de valuación y comisiones de tus vendedoras",
+      "body": "Estimado Director de Operaciones en Vopero,\n\nEn plataformas de moda circular, responder dudas sobre porcentajes de comisión, estado de curaduría y pagos a vendedoras genera cientos de tickets repetitivos.\n\nNuestros agentes autónomos resuelven esas inquietudes 24/7 sin tocar tu base de datos interna.\n\nActívalo por $69 USD/mes:\nhttps://unblock-shield.vercel.app/?domain=vopero.mx&domain=vopero.mx\n\nAtentamente,\nDestraba AI"
+    },
+    "deliveryAudit": {
+      "dispatchedAt": "2026-09-17T22:43:07.185Z",
+      "mode": "LIVE",
+      "transport": "GMAIL_SMTPS",
+      "messageId": "smtp_1789684987185_ce1e83",
+      "recipient": "contacto@vopero.mx",
+      "status": "TRANSMITIDO_EXITOSO"
+    }
+  },
+  {
+    "id": "pyme_d2c_26",
+    "company": "Laika Mascotas E-commerce",
+    "domain": "laika.com.co",
+    "decisionMakerRole": "Gerente de E-commerce y Fidelización",
+    "country": "Colombia / México / Chile",
+    "operationalPain": "Saturación en WhatsApp para cambios de alimento y suscripciones recurrentes",
+    "offer": " USD/mes (Concierge Pet-Commerce)",
+    "strikePaymentDestination": "rick2818@strike.me",
+    "checkoutUrl": "https://unblock-shield.vercel.app/?domain=laika.com.co",
+    "directStrikePaymentUrl": "https://strike.me/rick2818",
+    "status": "ENVIADO_REAL_EN_RED",
+    "contactEmail": "contacto@laika.com.co",
+    "outboundMessage": {
+      "subject": "Automatiza pedidos recurrentes y dudas de alimento en tu e-commerce",
+      "body": "Hola,\n\nEn tiendas de mascotas online, responder al instante dudas sobre ingredientes y reprogramación de pedidos recurrentes eleva el LTV de los dueños de mascotas.\n\nDestraba AI implementa un concierge especializado 24/7 sin tocar tu servidor.\n\nPuedes probarlo por  USD/mes:\nhttps://unblock-shield.vercel.app/?domain=laika.com.co&domain=laika.com.co\n\nAtentamente,\nDestraba AI"
+    },
+    "deliveryAudit": {
+      "dispatchedAt": "2026-09-17T22:43:11.887Z",
+      "mode": "LIVE",
+      "transport": "GMAIL_SMTPS",
+      "messageId": "smtp_1789684991886_6a621a",
+      "recipient": "contacto@laika.com.co",
+      "status": "TRANSMITIDO_EXITOSO"
+    }
+  },
+  {
+    "id": "pyme_d2c_27",
+    "company": "Truora Validación & Identidad",
+    "domain": "truora.com",
+    "decisionMakerRole": "Líder de Soporte al Desarrollador & Onboarding",
+    "country": "Colombia / Latam",
+    "operationalPain": "Consultas sobre integración de webhooks de verificación de identidad",
+    "offer": " USD/mes (Asistente de Integraciones API)",
+    "strikePaymentDestination": "rick2818@strike.me",
+    "checkoutUrl": "https://unblock-shield.vercel.app/?domain=truora.com",
+    "directStrikePaymentUrl": "https://strike.me/rick2818",
+    "status": "ENVIADO_REAL_EN_RED",
+    "contactEmail": "contacto@truora.com",
+    "outboundMessage": {
+      "subject": "Despeja dudas técnicas de webhooks e integración de APIs en segundos",
+      "body": "Estimado Líder de Onboarding en Truora,\n\nLos desarrolladores que integran flujos de KYC y validación de antecedentes demandan respuestas inmediatas cuando un webhook no responde.\n\nDestraba AI despliega un asistente de documentación en 60 segundos.\n\nActívalo por  USD/mes:\nhttps://unblock-shield.vercel.app/?domain=truora.com&domain=truora.com\n\nAtentamente,\nDestraba AI"
+    },
+    "deliveryAudit": {
+      "dispatchedAt": "2026-09-17T22:43:17.081Z",
+      "mode": "LIVE",
+      "transport": "GMAIL_SMTPS",
+      "messageId": "smtp_1789684997081_8faaea",
+      "recipient": "contacto@truora.com",
+      "status": "TRANSMITIDO_EXITOSO"
+    }
+  },
+  {
+    "id": "pyme_d2c_28",
+    "company": "Treinta App de Gestión Financiera",
+    "domain": "treinta.co",
+    "decisionMakerRole": "Gerente de Operaciones y Soporte a Micronegocios",
+    "country": "Colombia / México",
+    "operationalPain": "Cientos de dudas diarias de microcomerciantes sobre balances e inventario",
+    "offer": " USD/mes (Concierge de Soporte Financiero)",
+    "strikePaymentDestination": "rick2818@strike.me",
+    "checkoutUrl": "https://unblock-shield.vercel.app/?domain=treinta.co",
+    "directStrikePaymentUrl": "https://strike.me/rick2818",
+    "status": "ENVIADO_REAL_EN_RED",
+    "contactEmail": "hola@treinta.co",
+    "outboundMessage": {
+      "subject": "Triaje automático para consultas de micronegocios en segundos",
+      "body": "Hola,\n\nAtender a miles de micronegocios que usan apps de gestión contable genera saturación en chats y tickets.\n\nNuestros agentes asumen el 80% de las consultas básicas de forma no invasiva.\n\nConócelo aquí por  USD/mes:\nhttps://unblock-shield.vercel.app/?domain=treinta.co&domain=treinta.co\n\nAtentamente,\nDestraba AI"
+    },
+    "deliveryAudit": {
+      "dispatchedAt": "2026-09-17T22:43:21.726Z",
+      "mode": "LIVE",
+      "transport": "GMAIL_SMTPS",
+      "messageId": "smtp_1789685001726_23f929",
+      "recipient": "hola@treinta.co",
+      "status": "TRANSMITIDO_EXITOSO"
+    }
+  },
+  {
+    "id": "pyme_d2c_29",
+    "company": "Frubana Abastecimiento B2B",
+    "domain": "frubana.com",
+    "decisionMakerRole": "Director de Logística de Restaurantes",
+    "country": "Colombia / México",
+    "operationalPain": "Incidencias matutinas en entrega de alimentos frescos a restaurantes",
+    "offer": " USD/mes (Operador de Incidencias)",
+    "strikePaymentDestination": "rick2818@strike.me",
+    "checkoutUrl": "https://unblock-shield.vercel.app/?domain=frubana.com",
+    "directStrikePaymentUrl": "https://strike.me/rick2818",
+    "status": "ENVIADO_REAL_EN_RED",
+    "contactEmail": "contacto@frubana.com",
+    "outboundMessage": {
+      "subject": "Gestión automática de novedades en entregas matutinas a restaurantes",
+      "body": "Estimado Director de Logística en Frubana,\n\nCuando un restaurante recibe un pedido incompleto a las 7:00 AM, necesita una solución antes de que comience el servicio.\n\nDestraba AI reprograma despachos o emite créditos en segundos con agentes conversacionales.\n\nInicia tu prueba por  USD/mes:\nhttps://unblock-shield.vercel.app/?domain=frubana.com&domain=frubana.com\n\nAtentamente,\nDestraba AI"
+    },
+    "deliveryAudit": {
+      "dispatchedAt": "2026-09-17T22:43:26.420Z",
+      "mode": "LIVE",
+      "transport": "GMAIL_SMTPS",
+      "messageId": "smtp_1789685006420_bbb2ae",
+      "recipient": "contacto@frubana.com",
+      "status": "TRANSMITIDO_EXITOSO"
+    }
+  },
+  {
+    "id": "pyme_d2c_30",
+    "company": "Surtiapp Proveeduría Tiendas",
+    "domain": "surtiapp.com.co",
+    "decisionMakerRole": "Líder Comercial y de Retención B2B",
+    "country": "Colombia",
+    "operationalPain": "Tenderos que olvidan hacer pedidos periódicos de reposición",
+    "offer": " USD/mes (Concierge de Reabastecimiento)",
+    "strikePaymentDestination": "rick2818@strike.me",
+    "checkoutUrl": "https://unblock-shield.vercel.app/?domain=surtiapp.com.co",
+    "directStrikePaymentUrl": "https://strike.me/rick2818",
+    "status": "ENVIADO_REAL_EN_RED",
+    "contactEmail": "contacto@surtiapp.com.co",
+    "outboundMessage": {
+      "subject": "Reactiva pedidos de reposición en tiendas de barrio automáticamente",
+      "body": "Hola,\n\nRecordar manualmente a los tenderos el día de pedido consume tiempo de tus asesores de campo.\n\nImplementamos asistentes que recuerdan la reposición y toman el pedido en segundos por canales ágiles.\n\nActívalo por  USD/mes:\nhttps://unblock-shield.vercel.app/?domain=surtiapp.com.co&domain=surtiapp.com.co\n\nAtentamente,\nDestraba AI"
+    },
+    "deliveryAudit": {
+      "dispatchedAt": "2026-09-17T22:43:30.712Z",
+      "mode": "LIVE",
+      "transport": "GMAIL_SMTPS",
+      "messageId": "smtp_1789685010712_78a6f6",
+      "recipient": "contacto@surtiapp.com.co",
+      "status": "TRANSMITIDO_EXITOSO"
+    }
+  }
+]

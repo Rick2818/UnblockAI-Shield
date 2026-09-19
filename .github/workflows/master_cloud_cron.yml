@@ -1,0 +1,23 @@
+name: Master Cloud Dispatcher 24/7
+
+on:
+  schedule:
+    # Corre cada 15 minutos desatendido 24/7 en la nube (Pilar 1: Cero dependencia local)
+    - cron: '*/15 * * * *'
+  workflow_dispatch: # Permite disparo manual desde GitHub
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Master Cloud Dispatcher Endpoint
+        env:
+          VERCEL_APP_URL: ${{ secrets.VERCEL_APP_URL || 'https://destraba-ai.vercel.app' }}
+          CRON_SECRET: ${{ secrets.CRON_SECRET || secrets.PLATFORM_MASTER_KEY || 'destraba_cron_sec_2026_prod' }}
+        run: |
+          echo "Disparando Master Cloud Dispatcher en $VERCEL_APP_URL/api/cron/master-dispatcher..."
+          curl -s -f -X POST \
+            -H "Authorization: Bearer $CRON_SECRET" \
+            -H "Content-Type: application/json" \
+            -d '{"task":"all"}' \
+            "$VERCEL_APP_URL/api/cron/master-dispatcher"

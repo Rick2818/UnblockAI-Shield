@@ -1,0 +1,31 @@
+{
+  "mcpServers": {
+    "mcp-agent-generator": {
+      "command": "python",
+      "args": [
+        "c:/Users/Ricardo/Desktop/Agents/main.py",
+        "--server"
+      ],
+      "env": {
+        "PYTHONIOENCODING": "utf-8"
+      },
+      "description": "Servidor MCP generador de arquitecturas multi-agente fiduciarias con Gemini Flash 2.5."
+    },
+    "microsaas-builder-mcp": {
+      "command": "node",
+      "args": [
+        "scripts/microsaas_builder_mcp.mjs"
+      ],
+      "env": {
+        "NODE_ENV": "production"
+      },
+      "description": "Servidor MCP de Fabricación & Scaffolding de MicroSaaS con cabeceras bancarias, RLS, middleware de seguridad y pasarelas fiduciarias (Wompi SV, Stripe, Strike Lightning).",
+      "tools": [
+        "scaffold_project_structure",
+        "generate_supabase_schema",
+        "inject_security_middleware",
+        "configure_payment_gateway"
+      ]
+    }
+  }
+}

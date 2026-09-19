@@ -1,0 +1,62 @@
+name: Autonomous Hunter 24/7
+
+on:
+  schedule:
+    # Corre automáticamente de lunes a viernes a las 9:00 AM CST (15:00 UTC) y 2:00 PM CST (20:00 UTC)
+    - cron: '0 15,20 * * 1-5'
+  workflow_dispatch: # Permite ejecución manual con 1 clic desde GitHub
+    inputs:
+      cadence_action:
+        description: 'Acción de cadencia outbound'
+        required: true
+        default: 'all'
+        type: choice
+        options:
+          - all
+          - impact_2_video_followup
+          - impact_1_new_leads
+
+# Sin esto, el GITHUB_TOKEN por defecto es de solo lectura en repos creados
+# después de feb-2023, y el paso de "git push" de abajo falla siempre.
+permissions:
+  contents: write
+
+jobs:
+  hunt:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Codebase
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run 24/7 Autonomous Hunter & Generate Opportunities
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY || secrets.RESFND_APT_KEY }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST || 'smtp.gmail.com' }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT || '465' }}
+          SMTP_USER: ${{ secrets.SMTP_USER || 'ricardo.destrabaai@gmail.com' }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          SMTP_FROM: ${{ secrets.SMTP_FROM || 'Destraba AI <ricardo.destrabaai@gmail.com>' }}
+          STRIKE_LIGHTNING_ADDRESS: ${{ secrets.STRIKE_LIGHTNING_ADDRESS || 'rick2818@strike.me' }}
+          OFFICIAL_SUPPORT_EMAIL: ${{ secrets.OFFICIAL_SUPPORT_EMAIL || 'ricardo.destrabaai@gmail.com' }}
+          BATCH_LIMIT: '25'
+          CADENCE_ACTION: ${{ inputs.cadence_action || 'all' }}
+        run: node scripts/outbound/run_cron_hunter.mjs
+
+      - name: Commit & Persist Pipeline Updates
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add pipeline/
+          if ! git diff --staged --quiet; then
+            git commit -m "chore(pipeline): update autonomous audit results [skip ci]"
+            # rebase por si otro run empujó entre el checkout y este punto
+            git pull --rebase origin "${GITHUB_REF_NAME}" || true
+            git push
+          else
+            echo "Sin cambios en pipeline/ — nada que commitear."
+          fi

@@ -1,0 +1,50 @@
+name: Cadence Monday 2:00 PM - Peace of Mind 24/7 (Follow-up)
+
+on:
+  schedule:
+    # Corre los lunes a las 2:00 PM CST (20:00 UTC) para seguimiento de paz mental a cohortes previas
+    - cron: '0 20 * * 1'
+  workflow_dispatch: # Permite ejecución manual con 1 clic desde GitHub Actions
+
+permissions:
+  contents: write
+
+jobs:
+  dispatch_peace_of_mind:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Codebase
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Execute 2:00 PM Peace of Mind & 70s Video Briefing Follow-up
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY || secrets.RESFND_APT_KEY }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST || 'smtp.gmail.com' }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT || '465' }}
+          SMTP_USER: ${{ secrets.SMTP_USER || 'ricardo.destrabaai@gmail.com' }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          SMTP_FROM: ${{ secrets.SMTP_FROM || 'Destraba AI <ricardo.destrabaai@gmail.com>' }}
+          STRIKE_LIGHTNING_ADDRESS: ${{ secrets.STRIKE_LIGHTNING_ADDRESS || 'rick2818@strike.me' }}
+          OFFICIAL_SUPPORT_EMAIL: ${{ secrets.OFFICIAL_SUPPORT_EMAIL || 'ricardo.destrabaai@gmail.com' }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_AUTHORIZED_USER_ID: ${{ secrets.TELEGRAM_AUTHORIZED_USER_ID || '6311509947' }}
+          BATCH_LIMIT: '50'
+        run: node scripts/outbound/dispatch_peace_of_mind_followup.mjs
+
+      - name: Commit & Persist Pipeline Updates
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add pipeline/
+          if ! git diff --staged --quiet; then
+            git commit -m "chore(pipeline): record monday 8am peace of mind video follow-up [skip ci]"
+            git pull --rebase origin "${GITHUB_REF_NAME}" || true
+            git push
+          else
+            echo "Sin cambios en pipeline/ — nada que commitear."
+          fi

@@ -1,0 +1,13 @@
+[
+  {
+    "id": "evt_ana_guevara_20260916",
+    "title": "Reunión con la abogada Ana Guevara",
+    "location": "Oficinas de la abogada Ana Guevara",
+    "eventTime": "2026-09-16T10:00:00-06:00",
+    "reminderTime": "2026-09-16T09:15:00-06:00",
+    "reminderMinutes": 45,
+    "reminderFired": false,
+    "voiceMessage": "Buenos días Don Ricardo, le recuerdo que en 45 minutos, a las 10:00 AM, tiene programada su reunión presencial con la abogada Ana Guevara en sus oficinas. Todo listo para su salida.",
+    "voiceMessageEn": "Good morning Ricardo, this is your executive reminder that in 45 minutes, at 10:00 AM, you have your scheduled meeting with attorney Ana Guevara at her offices."
+  }
+]
