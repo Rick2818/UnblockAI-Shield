@@ -4,6 +4,7 @@
   "description": "Unblock AI Shield • Autonomous Cyber-Defense, Perimeter Hardening & Turnkey Peace of Mind for Business Leaders",
   "main": "index.html",
   "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./assets/css/styles.css --minify",
     "start": "npx serve ."
   },
   "keywords": [
@@ -14,5 +15,8 @@
     "defense-shield"
   ],
   "author": "Unblock AI & Destraba AI",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
 }
