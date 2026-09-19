@@ -908,10 +908,31 @@
 
   <!-- SCRIPT DE INTERACTIVIDAD, ESCÁNER, PASARELAS Y MULTI-IDIOMA -->
   <script>
+    function escapeHTML(str) {
+      return String(str || '')
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+    }
+
+    function cleanAndValidateDomain(raw) {
+      if (!raw) return null;
+      const stripped = String(raw).trim().toLowerCase()
+        .replace(/^https?:\/\//i, '')
+        .replace(/\/.*$/, '')
+        .replace(/[^a-z0-9.-]/g, '');
+      const domainRegex = /^[a-z0-9]([a-z0-9-]{0,61}[a-z0-9])?(\.[a-z0-9]([a-z0-9-]{0,61}[a-z0-9])?)+$/;
+      return domainRegex.test(stripped) ? stripped : null;
+    }
+
     const urlParams = new URLSearchParams(window.location.search);
-    const domainQuery = urlParams.get('domain');
+    const rawDomain = urlParams.get('domain');
+    const domainQuery = cleanAndValidateDomain(rawDomain);
     const langQuery = urlParams.get('lang');
 
+    let currentScannedDomain = domainQuery || '';
     let currentLanguage = (langQuery === 'en' || (!langQuery && navigator.language && navigator.language.startsWith('en'))) ? 'en' : 'es';
 
     let currentProduct = {
@@ -1217,18 +1238,23 @@
     function executeLiveScan() {
       const input = document.getElementById('hero-scan-input');
       const consoleBox = document.getElementById('scan-console');
-      const domain = input.value.trim().replace(/^https?:\/\//, '').replace(/\/.*$/, '');
+      const raw = input.value;
+      const validDomain = cleanAndValidateDomain(raw);
 
-      if (!domain) {
+      if (!validDomain) {
+        alert('Por favor ingresa un nombre de dominio válido (ejemplo: tuempresa.com o subdominio.empresa.com)');
         input.focus();
         return;
       }
+
+      currentScannedDomain = validDomain;
+      const safeDomain = escapeHTML(validDomain);
 
       consoleBox.classList.remove('hidden');
       consoleBox.innerHTML = `
         <div class="flex items-center gap-2 text-cyan-400">
           <span class="w-2 h-2 rounded-full bg-cyan-400 animate-ping"></span>
-          <span>Iniciando handshake perimetral defensivo sobre <strong>https://${domain}</strong>...</span>
+          <span>Iniciando handshake perimetral defensivo sobre <strong>https://${safeDomain}</strong>...</span>
         </div>
       `;
 
@@ -1236,7 +1262,7 @@
         consoleBox.innerHTML = `
           <div class="p-3.5 rounded-xl bg-slate-950 border border-slate-800 space-y-2.5">
             <div class="flex items-center justify-between border-b border-slate-800 pb-2 text-slate-300 font-bold">
-              <span>Reporte Forense Preliminar: ${domain}</span>
+              <span>Reporte Forense Preliminar: ${safeDomain}</span>
               <span class="text-amber-400 bg-amber-500/10 px-2 py-0.5 rounded text-[10px]">NIVEL DE EXPOSICIÓN: MEDIO</span>
             </div>
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-[11px]">
@@ -1250,8 +1276,8 @@
             <div class="mt-2 pt-2 border-t border-slate-800/80">
               <span class="text-slate-400 text-[10px] block mb-1.5">📩 ¿Deseas recibir el Informe Forense PDF y parches listos en tu correo?</span>
               <div class="flex flex-col sm:flex-row gap-2">
-                <input type="email" id="scan-lead-email" placeholder="tu-correo@${domain || 'empresa.com'}" class="flex-1 bg-slate-900 border border-slate-700 rounded-lg px-3 py-1.5 text-xs text-white placeholder-slate-500 font-mono focus:outline-none focus:border-cyan-400">
-                <button onclick="submitLeadForFullReport('${domain}')" class="px-4 py-1.5 rounded-lg bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold text-xs font-mono transition-all cursor-pointer">
+                <input type="email" id="scan-lead-email" placeholder="tu-correo@${safeDomain}" class="flex-1 bg-slate-900 border border-slate-700 rounded-lg px-3 py-1.5 text-xs text-white placeholder-slate-500 font-mono focus:outline-none focus:border-cyan-400">
+                <button type="button" id="scan-lead-submit-btn" onclick="submitLeadForFullReport()" class="px-4 py-1.5 rounded-lg bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold text-xs font-mono transition-all cursor-pointer">
                   Enviar Informe Completo
                 </button>
               </div>
@@ -1261,10 +1287,10 @@
             <div class="pt-2.5 border-t border-slate-800/80 flex flex-col sm:flex-row items-center justify-between gap-2">
               <span class="text-slate-400 text-[10px]">💡 O descarga la remediación lista para tu servidor ahora:</span>
               <div class="flex gap-2">
-                <button onclick="openPaymentModal('flash', 19, 'Blindaje Flash para ' + '${domain}')" class="px-3.5 py-1.5 rounded-lg bg-amber-500 hover:bg-amber-400 text-slate-950 font-black text-[11px] transition-all cursor-pointer">
+                <button type="button" onclick="triggerCheckoutForCurrentDomain('flash')" class="px-3.5 py-1.5 rounded-lg bg-amber-500 hover:bg-amber-400 text-slate-950 font-black text-[11px] transition-all cursor-pointer">
                   Blindar Ahora ($19 USD)
                 </button>
-                <button onclick="openPaymentModal('pro', 69, 'Centinela 24/7 para ' + '${domain}')" class="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-cyan-300 font-bold text-[11px] border border-cyan-500/30 transition-all cursor-pointer">
+                <button type="button" onclick="triggerCheckoutForCurrentDomain('pro')" class="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-cyan-300 font-bold text-[11px] border border-cyan-500/30 transition-all cursor-pointer">
                   Centinela 24/7 ($69/mes)
                 </button>
               </div>
@@ -1274,20 +1300,51 @@
       }, 850);
     }
 
-    function submitLeadForFullReport(domain) {
+    function triggerCheckoutForCurrentDomain(tier) {
+      const d = currentScannedDomain || 'tu empresa';
+      if (tier === 'flash') {
+        openPaymentModal('flash', 19, 'Blindaje Flash para ' + d);
+      } else {
+        openPaymentModal('pro', 69, 'Centinela 24/7 para ' + d);
+      }
+    }
+
+    async function submitLeadForFullReport() {
+      const domain = currentScannedDomain || 'empresa.com';
       const emailInput = document.getElementById('scan-lead-email');
       const feedback = document.getElementById('scan-lead-feedback');
+      const submitBtn = document.getElementById('scan-lead-submit-btn');
       const email = emailInput?.value.trim();
 
-      if (!email || !email.includes('@')) {
+      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      if (!email || !emailRegex.test(email)) {
         alert('Por favor ingresa un correo corporativo válido.');
         emailInput?.focus();
         return;
       }
 
+      if (submitBtn) {
+        submitBtn.disabled = true;
+        submitBtn.innerText = 'Enviando...';
+      }
+
+      try {
+        await fetch('/api/lead', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ email, domain, timestamp: new Date().toISOString() })
+        });
+      } catch (err) {
+        console.warn('[Lead Capture Local Fallback]', err);
+      }
+
       feedback.classList.remove('hidden');
-      feedback.innerHTML = `✓ Solicitud confirmada para <strong>${email}</strong>. El informe forense con los parches listos para <strong>${domain}</strong> ha sido programado. Soporte directo: <strong>ricardo.destrabaai@gmail.com</strong>`;
+      feedback.textContent = `✓ Solicitud confirmada para ${email}. El informe forense con los parches listos para ${domain} ha sido programado. Soporte directo: ricardo.destrabaai@gmail.com`;
       emailInput.value = '';
+      if (submitBtn) {
+        submitBtn.disabled = false;
+        submitBtn.innerText = 'Enviado ✓';
+      }
     }
 
     // MODAL DEL MANUAL DE USUARIO
