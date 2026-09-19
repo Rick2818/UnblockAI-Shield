@@ -1,7 +1,7 @@
 {
-  "name": "unblock-shield",
+  "name": "unblock-ai-shield",
   "version": "1.0.0",
-  "description": "Autonomous Cyber-Defense, Perimeter Hardening & Turnkey Peace of Mind for Business Leaders",
+  "description": "Unblock AI Shield • Autonomous Cyber-Defense, Perimeter Hardening & Turnkey Peace of Mind for Business Leaders",
   "main": "index.html",
   "scripts": {
     "start": "npx serve ."
