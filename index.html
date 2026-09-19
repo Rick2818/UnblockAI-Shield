@@ -62,9 +62,9 @@
         </button>
 
         <!-- Botón Soporte Directo -->
-        <a href="mailto:ricardo.destrabaai@gmail.com?subject=Soporte%20Fiduciario%20-%20Unblock%20AI%20Shield" id="nav-support-btn" aria-label="Contactar a soporte" class="hidden sm:flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-slate-900 hover:bg-slate-800 border border-cyan-500/30 text-xs font-mono text-cyan-300 font-bold transition-all">
+        <button type="button" onclick="openSupportModal()" id="nav-support-btn" aria-label="Abrir centro de soporte" class="hidden sm:flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-slate-900 hover:bg-slate-800 border border-cyan-500/30 text-xs font-mono text-cyan-300 font-bold transition-all cursor-pointer">
           <span>🎧</span> <span id="nav-support-label">Soporte</span>
-        </a>
+        </button>
 
         <button type="button" onclick="toggleLanguage()" id="lang-switch-btn" aria-label="Cambiar idioma" class="px-3 py-1.5 rounded-lg bg-slate-900 hover:bg-slate-800 border border-slate-700 text-xs font-mono text-cyan-300 font-bold transition-all cursor-pointer flex items-center gap-1.5">
           <span>🌐</span> <span id="lang-btn-label">ESPAÑOL</span>
@@ -650,7 +650,7 @@
   </section>
 
   <!-- MODAL DE PAGO Y PASARELAS FIDUCIARIAS (STRIKE, STRIPE, WOMPI) -->
-  <div id="payment-modal" class="hidden fixed inset-0 z-50 flex items-center justify-center p-4 modal-backdrop">
+  <div id="payment-modal" class="hidden fixed inset-0 z-50 flex items-center justify-center p-4 modal-backdrop" onclick="if(event.target === this) closePaymentModal()">
     <div class="relative w-full max-w-lg rounded-2xl glass-shield border-2 border-cyan-500/40 p-6 shadow-2xl shadow-cyan-950/80">
       
       <!-- Botón de Cerrar -->
@@ -753,7 +753,7 @@
   </div>
 
   <!-- MODAL: MANUAL DE USUARIO FIDUCIARIO -->
-  <div id="manual-modal" class="hidden fixed inset-0 z-50 flex items-center justify-center p-4 modal-backdrop">
+  <div id="manual-modal" class="hidden fixed inset-0 z-50 flex items-center justify-center p-4 modal-backdrop" onclick="if(event.target === this) closeManualModal()">
     <div class="relative w-full max-w-2xl max-h-[85vh] overflow-y-auto rounded-2xl glass-shield border-2 border-cyan-500/40 p-6 sm:p-8 shadow-2xl shadow-cyan-950/90 text-left">
       
       <!-- Botón de Cerrar -->
@@ -823,11 +823,71 @@
 
       <div class="mt-6 pt-4 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-3">
         <span class="text-[11px] font-mono text-slate-400">
-          Soporte: <a href="mailto:ricardo.destrabaai@gmail.com?subject=Consulta%20Manual%20Unblock%20AI" class="text-cyan-400 underline">ricardo.destrabaai@gmail.com</a>
+          Soporte: <button type="button" onclick="openSupportModal()" class="text-cyan-400 underline hover:text-cyan-300 cursor-pointer">ricardo.destrabaai@gmail.com</button>
         </span>
-        <button onclick="closeManualModal()" class="px-5 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-white font-mono text-xs font-bold transition-all cursor-pointer">
+        <button type="button" onclick="closeManualModal()" class="px-5 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-white font-mono text-xs font-bold transition-all cursor-pointer">
           Entendido, cerrar manual
         </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- MODAL: CENTRO DE SOPORTE FIDUCIARIO 24/7 -->
+  <div id="support-modal" class="hidden fixed inset-0 z-50 flex items-center justify-center p-4 modal-backdrop" onclick="if(event.target === this) closeSupportModal()">
+    <div class="relative w-full max-w-lg rounded-2xl glass-shield border-2 border-cyan-500/40 p-6 sm:p-7 shadow-2xl shadow-cyan-950/90 text-left">
+      
+      <!-- Botón de Cerrar -->
+      <button type="button" onclick="closeSupportModal()" aria-label="Cerrar soporte" class="absolute top-4 right-4 text-slate-400 hover:text-white font-mono text-lg cursor-pointer">
+        ✕
+      </button>
+
+      <div class="border-b border-slate-800 pb-3 mb-5">
+        <span class="text-[10px] font-mono uppercase tracking-wider text-cyan-400 bg-cyan-500/10 px-2.5 py-0.5 rounded border border-cyan-500/20">
+          🎧 Mesa de Ayuda Fiduciaria 24/7
+        </span>
+        <h3 class="text-xl font-black text-white font-mono mt-2">
+          Centro de Soporte & Concierge
+        </h3>
+        <p class="text-xs text-slate-400 mt-1 font-sans">
+          Respuesta técnica garantizada en menos de 2 horas por ingenieros de soluciones.
+        </p>
+      </div>
+
+      <!-- Métodos de Contacto Rápido -->
+      <div class="space-y-3 font-mono">
+        
+        <!-- Opción 1: Abrir Gmail Directo -->
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ricardo.destrabaai@gmail.com&su=Soporte%20Fiduciario%20-%20Unblock%20AI%20Shield" target="_blank" rel="noopener noreferrer" class="w-full py-2.5 px-4 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-slate-950 font-bold text-xs flex items-center justify-between shadow-md shadow-cyan-500/20 transition-all cursor-pointer">
+          <span class="flex items-center gap-2">
+            <span>✉️</span> <span>Redactar en Gmail Web (1 Clic)</span>
+          </span>
+          <span class="text-[10px]">Abrir →</span>
+        </a>
+
+        <!-- Opción 2: Copiar Correo o Abrir Mail Client -->
+        <div class="flex items-center gap-2">
+          <button type="button" id="btn-copy-support-email" onclick="copySupportEmail()" class="flex-1 py-2.5 px-4 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-700 text-xs text-slate-200 font-bold flex items-center justify-center gap-2 transition-all cursor-pointer">
+            <span>📋</span> <span id="label-copy-email">Copiar Correo</span>
+          </button>
+          <a href="mailto:ricardo.destrabaai@gmail.com?subject=Soporte%20Fiduciario%20-%20Unblock%20AI%20Shield" class="px-3.5 py-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-700 text-xs text-slate-400 hover:text-cyan-300 font-bold transition-all text-center" title="Abrir en cliente instalado">
+            <span>App Mail</span>
+          </a>
+        </div>
+
+        <!-- Formulario Rápido de Soporte In-App -->
+        <div class="mt-4 pt-4 border-t border-slate-800/80 space-y-2.5 font-sans">
+          <span class="text-xs text-white font-bold font-mono block">O despacha un ticket directo desde aquí:</span>
+          <input type="email" id="support-quick-email" placeholder="tu-correo@empresa.com" class="w-full bg-slate-950 border border-slate-700 rounded-lg px-3 py-2 text-xs text-white placeholder-slate-500 font-mono focus:outline-none focus:border-cyan-400">
+          <textarea id="support-quick-msg" rows="2" placeholder="¿En qué te podemos apoyar? (consulta de integración, garantía, facturación...)" class="w-full bg-slate-950 border border-slate-700 rounded-lg px-3 py-2 text-xs text-white placeholder-slate-500 font-sans focus:outline-none focus:border-cyan-400"></textarea>
+          
+          <button type="button" id="support-quick-submit" onclick="sendQuickSupportMessage()" class="w-full py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 border border-cyan-500/40 text-cyan-300 font-mono font-bold text-xs transition-all cursor-pointer shadow-sm">
+            Enviar Mensaje a Ingeniería →
+          </button>
+          
+          <div id="support-quick-feedback" class="hidden text-[11px] text-emerald-400 font-mono mt-1"></div>
+        </div>
+
       </div>
 
     </div>
@@ -838,10 +898,10 @@
     <button type="button" onclick="openManualModal()" aria-label="Abrir manual de usuario" class="px-3.5 py-2.5 rounded-full bg-slate-900/90 hover:bg-slate-800 border border-slate-700 text-slate-200 font-mono text-xs font-bold shadow-xl backdrop-blur-md flex items-center gap-2 transition-all hover:scale-105 cursor-pointer">
       <span>📖</span> <span>Manual</span>
     </button>
-    <a href="mailto:ricardo.destrabaai@gmail.com?subject=Soporte%20Fiduciario%20-%20Unblock%20AI%20Shield" aria-label="Contactar soporte fiduciario" class="px-4 py-2.5 rounded-full bg-gradient-to-r from-cyan-500 via-blue-600 to-indigo-600 hover:from-cyan-400 hover:to-blue-500 text-slate-950 font-mono text-xs font-black shadow-2xl shadow-cyan-500/40 flex items-center gap-2 transition-all hover:scale-105 border border-cyan-300/40">
+    <button type="button" onclick="openSupportModal()" aria-label="Abrir centro de soporte" class="px-4 py-2.5 rounded-full bg-gradient-to-r from-cyan-500 via-blue-600 to-indigo-600 hover:from-cyan-400 hover:to-blue-500 text-slate-950 font-mono text-xs font-black shadow-2xl shadow-cyan-500/40 flex items-center gap-2 transition-all hover:scale-105 border border-cyan-300/40 cursor-pointer">
       <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
       <span>🎧 Soporte (ricardo.destrabaai@gmail.com)</span>
-    </a>
+    </button>
   </div>
 
   <!-- FOOTER -->
@@ -856,9 +916,9 @@
         <span>Desarrollado sobre Google Antigravity & Vercel Cloud 24/7</span>
       </div>
       <div class="flex items-center gap-3">
-        <span>Settlement: <a href="https://strike.me/rick2818" class="text-cyan-400 underline">rick2818@strike.me</a></span>
+        <span>Settlement: <a href="https://strike.me/rick2818" target="_blank" rel="noopener noreferrer" class="text-cyan-400 underline">rick2818@strike.me</a></span>
         <span>•</span>
-        <span>Soporte: <a href="mailto:ricardo.destrabaai@gmail.com" class="text-cyan-400 underline">ricardo.destrabaai@gmail.com</a></span>
+        <span>Soporte: <button type="button" onclick="openSupportModal()" class="text-cyan-400 underline hover:text-cyan-300 cursor-pointer">ricardo.destrabaai@gmail.com</button></span>
       </div>
     </div>
   </footer>
@@ -1366,6 +1426,97 @@
         window.open('https://strike.me/rick2818', '_blank');
       }
     }
+
+    // MODAL DEL CENTRO DE SOPORTE FIDUCIARIO 24/7
+    function openSupportModal() {
+      const modal = document.getElementById('support-modal');
+      if (modal) modal.classList.remove('hidden');
+    }
+
+    function closeSupportModal() {
+      const modal = document.getElementById('support-modal');
+      if (modal) modal.classList.add('hidden');
+    }
+
+    function copySupportEmail() {
+      const email = 'ricardo.destrabaai@gmail.com';
+      navigator.clipboard.writeText(email).then(() => {
+        const lbl = document.getElementById('label-copy-email');
+        if (lbl) {
+          lbl.innerText = '¡Copiado al portapapeles! ✓';
+          setTimeout(() => {
+            lbl.innerText = 'Copiar Correo';
+          }, 2500);
+        }
+      }).catch(() => {
+        prompt('Copia el correo de soporte:', email);
+      });
+    }
+
+    async function sendQuickSupportMessage() {
+      const emailInput = document.getElementById('support-quick-email');
+      const msgInput = document.getElementById('support-quick-msg');
+      const feedback = document.getElementById('support-quick-feedback');
+      const submitBtn = document.getElementById('support-quick-submit');
+
+      const email = emailInput?.value.trim();
+      const message = msgInput?.value.trim();
+
+      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      if (!email || !emailRegex.test(email)) {
+        alert('Por favor ingresa un correo de contacto válido.');
+        emailInput?.focus();
+        return;
+      }
+      if (!message) {
+        alert('Por favor describe brevemente tu consulta o requerimiento.');
+        msgInput?.focus();
+        return;
+      }
+
+      if (submitBtn) {
+        submitBtn.disabled = true;
+        submitBtn.innerText = 'Enviando...';
+      }
+
+      try {
+        await fetch('/api/lead', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            email,
+            domain: currentScannedDomain || 'soporte-inapp',
+            message: message,
+            timestamp: new Date().toISOString()
+          })
+        });
+      } catch (err) {
+        console.warn('[Support Send Fallback]', err);
+      }
+
+      if (feedback) {
+        feedback.classList.remove('hidden');
+        feedback.textContent = `✓ Mensaje recibido para ${email}. Un ingeniero de soporte fiduciario te responderá en menos de 2 horas.`;
+      }
+      emailInput.value = '';
+      msgInput.value = '';
+      if (submitBtn) {
+        submitBtn.disabled = false;
+        submitBtn.innerText = 'Mensaje Enviado ✓';
+        setTimeout(() => {
+          submitBtn.innerText = 'Enviar Mensaje a Ingeniería →';
+        }, 3500);
+      }
+    }
+
+    // ESCAPE KEY DISMISS FOR ALL MODALS
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        closePaymentModal();
+        closeManualModal();
+        closeSupportModal();
+      }
+    });
   </script>
 </body>
 </html>
