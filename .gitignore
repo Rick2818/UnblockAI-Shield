@@ -1,5 +1,5 @@
 node_modules
 .vercel
 .env
-
-.vercel
+production_video/scenes/
+production_video/*.mp4

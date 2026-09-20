@@ -1,0 +1,110 @@
+{
+  "total_duration": 113.65,
+  "scenes": [
+    {
+      "scene": 1,
+      "text": "En el mundo empresarial actual, el tiempo y la certeza son los activos más valiosos de cualquier organización.",
+      "audio_file": "production_video/audio/scene_01.mp3",
+      "audio_duration": 7.08,
+      "scene_duration": 7.68
+    },
+    {
+      "scene": 2,
+      "text": "Identificar el momento exacto para evolucionar requiere visión estratégica y un liderazgo dispuesto a dar el siguiente paso.",
+      "audio_file": "production_video/audio/scene_02.mp3",
+      "audio_duration": 8.04,
+      "scene_duration": 8.64
+    },
+    {
+      "scene": 3,
+      "text": "Cada desafío corporativo demanda soluciones a la medida, lejos de fórmulas genéricas o respuestas improvisadas.",
+      "audio_file": "production_video/audio/scene_03.mp3",
+      "audio_duration": 7.704,
+      "scene_duration": 8.3
+    },
+    {
+      "scene": 4,
+      "text": "Porque la verdadera precisión no se mide en intenciones, sino en la capacidad de ejecutar con absoluta puntualidad.",
+      "audio_file": "production_video/audio/scene_04.mp3",
+      "audio_duration": 7.272,
+      "scene_duration": 7.87
+    },
+    {
+      "scene": 5,
+      "text": "El primer paso hacia la transformación comienza cuando decidimos buscar la alianza correcta en el mercado.",
+      "audio_file": "production_video/audio/scene_05.mp3",
+      "audio_duration": 6.528,
+      "scene_duration": 7.13
+    },
+    {
+      "scene": 6,
+      "text": "Entender a profundidad las necesidades de un cliente es la base indispensable de cualquier propuesta de valor.",
+      "audio_file": "production_video/audio/scene_06.mp3",
+      "audio_duration": 6.576,
+      "scene_duration": 7.18
+    },
+    {
+      "scene": 7,
+      "text": "Nuestro servicio no busca imponer cambios drásticos, sino articular soluciones fluidas que potencien el modelo actual.",
+      "audio_file": "production_video/audio/scene_07.mp3",
+      "audio_duration": 7.776,
+      "scene_duration": 8.38
+    },
+    {
+      "scene": 8,
+      "text": "La claridad en cada etapa del proceso permite construir una relación basada en la transparencia y la confianza mutua.",
+      "audio_file": "production_video/audio/scene_08.mp3",
+      "audio_duration": 6.672,
+      "scene_duration": 7.27
+    },
+    {
+      "scene": 9,
+      "text": "Escuchar con atención y adaptarse al contexto de cada negocio marca la diferencia entre un proveedor y un socio.",
+      "audio_file": "production_video/audio/scene_09.mp3",
+      "audio_duration": 6.888,
+      "scene_duration": 7.49
+    },
+    {
+      "scene": 10,
+      "text": "Diseñamos cada solución con el rigor técnico y la solidez necesarios para garantizar un retorno tangible.",
+      "audio_file": "production_video/audio/scene_10.mp3",
+      "audio_duration": 6.816,
+      "scene_duration": 7.42
+    },
+    {
+      "scene": 11,
+      "text": "Cuando los objetivos de ambas partes se alinean, los acuerdos se consolidan de manera natural y sostenible.",
+      "audio_file": "production_video/audio/scene_11.mp3",
+      "audio_duration": 6.696,
+      "scene_duration": 7.3
+    },
+    {
+      "scene": 12,
+      "text": "Un apretón de manos representa mucho más que un contrato firmado; simboliza un compromiso de resultados.",
+      "audio_file": "production_video/audio/scene_12.mp3",
+      "audio_duration": 6.888,
+      "scene_duration": 7.49
+    },
+    {
+      "scene": 13,
+      "text": "El éxito de una estrategia integral se refleja de inmediato en la tranquilidad de quienes toman las decisiones.",
+      "audio_file": "production_video/audio/scene_13.mp3",
+      "audio_duration": 6.6,
+      "scene_duration": 7.2
+    },
+    {
+      "scene": 14,
+      "text": "Contar con el respaldo adecuado permite a las organizaciones avanzar con paso firme hacia sus metas más ambiciosas.",
+      "audio_file": "production_video/audio/scene_14.mp3",
+      "audio_duration": 6.552,
+      "scene_duration": 7.15
+    },
+    {
+      "scene": 15,
+      "text": "Construir el futuro de una empresa es posible cuando la visión correcta se une con el servicio indicado.",
+      "audio_file": "production_video/audio/scene_15.mp3",
+      "audio_duration": 6.552,
+      "scene_duration": 7.15
+    }
+  ]
+}
