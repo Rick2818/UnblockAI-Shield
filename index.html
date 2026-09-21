@@ -685,7 +685,7 @@
           </h4>
           <ol id="m-s2-steps" class="space-y-1.5 list-decimal list-inside text-slate-400 text-xs">
             <li>Ingresa el dominio web de tu empresa sin prefijos raros (ej. <code>mitienda.com</code>).</li>
-            <li>Haz clic en <strong>"Auditar y Blindar"</strong>. En menos de 15 segundos se evaluarán tus cabeceras CSP, HSTS, riesgos de inyección en checkout y latencia.</li>
+            <li>Haz clic en <strong>"Auditar y Blindar"</strong>. En unos segundos se revisarán las cabeceras de seguridad públicas de tu dominio (CSP, HSTS, anti-clickjacking, entre otras) y tu certificado TLS.</li>
             <li>Descarga tus parches de blindaje por <strong>$19 USD</strong> o ingresa tu correo para recibir el informe técnico completo.</li>
           </ol>
         </div>
@@ -869,7 +869,7 @@
           </h4>
           <ol id="m-s2-steps" class="space-y-1.5 list-decimal list-inside text-slate-400 text-xs">
             <li>Ingresa el dominio web de tu empresa sin prefijos raros (ej. <code>mitienda.com</code>).</li>
-            <li>Haz clic en <strong>"Auditar y Blindar"</strong>. En menos de 15 segundos se evaluarán tus cabeceras CSP, HSTS, riesgos de inyección en checkout y latencia.</li>
+            <li>Haz clic en <strong>"Auditar y Blindar"</strong>. En unos segundos se revisarán las cabeceras de seguridad públicas de tu dominio (CSP, HSTS, anti-clickjacking, entre otras) y tu certificado TLS.</li>
             <li>Descarga tus parches de blindaje por <strong>$19 USD</strong> o ingresa tu correo para recibir el informe técnico completo.</li>
           </ol>
         </div>
@@ -923,21 +923,21 @@
       <div class="border-b border-slate-800 pb-5 mb-6">
         <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
           <span class="text-[10px] font-mono uppercase tracking-wider text-cyan-400 bg-cyan-500/10 px-3 py-1 rounded-full border border-cyan-500/30 font-bold">
-            🛡️ Dossier Técnico de Blindaje Perimetral • Certificación SOC-2 RAM
+            🛡️ Informe de Cabeceras de Seguridad y TLS
           </span>
           <span class="text-[10px] font-mono text-slate-400" id="report-timestamp">
             <!-- Dinamizado vía JS -->
           </span>
         </div>
         <h2 class="text-2xl sm:text-3xl font-black text-white font-mono tracking-tight">
-          Informe Técnico de Vulnerabilidades: <span id="report-domain-title" class="text-cyan-400">tudominio.com</span>
+          Informe de Cabeceras de Seguridad: <span id="report-domain-title" class="text-cyan-400">tudominio.com</span>
         </h2>
         <div class="flex flex-wrap items-center gap-4 mt-3 text-xs font-mono">
-          <span class="text-rose-400 bg-rose-500/10 border border-rose-500/30 px-2.5 py-1 rounded font-bold">
-            CALIFICACIÓN PERIMETRAL: C- (EXPOSICIÓN ALTA · CVSS 7.8)
+          <span id="report-grade-badge" class="text-slate-300 bg-slate-500/10 border border-slate-500/30 px-2.5 py-1 rounded font-bold">
+            CALIFICACIÓN: …
           </span>
           <span class="text-slate-400">
-            Auditado por: <strong>Unblock AI Shield Autonomous Engine</strong>
+            Fuente: <strong>petición HTTPS pública hecha desde nuestros servidores</strong>
           </span>
         </div>
       </div>
@@ -946,61 +946,16 @@
       <div class="p-4 rounded-xl bg-slate-950/80 border border-slate-800 mb-6 text-xs text-slate-300 leading-relaxed font-sans">
         <p class="font-bold text-white mb-1 font-mono text-sm">📋 Resumen Ejecutivo para la Dirección:</p>
         <p>
-          El escaneo perimetral no invasivo ejecutado sobre <strong id="report-domain-summary" class="text-cyan-300">tudominio.com</strong> identificó la ausencia de directivas defensivas obligatorias en las cabeceras HTTP. Esta condición expone las transacciones, sesiones de clientes y pasarelas de pago a inyecciones de código malicioso, secuestro en iframes y degradación SSL. A continuación se desglosan los hallazgos críticos y el parche exacto para mitigarlos en menos de 5 minutos.
+          <span id="report-summary-text">Analizando…</span>
         </p>
       </div>
 
-      <!-- Matriz de Vulnerabilidades Encontradas -->
+      <!-- Resultados reales del análisis (se rellena por JS con datos de /api/scan) -->
       <div class="mb-6 font-mono text-xs">
         <h3 class="text-sm font-bold text-white uppercase tracking-wider mb-3 flex items-center gap-2">
-          <span>🚨</span> <span>Vectores Críticos Detectados en <span id="report-domain-vectors">tudominio.com</span></span>
+          <span>🔎</span> <span>Resultados del análisis en <span id="report-domain-vectors">tudominio.com</span></span>
         </h3>
-        
-        <div class="space-y-3">
-          <!-- Vulnerabilidad 1 -->
-          <div class="p-3.5 rounded-xl bg-rose-950/20 border border-rose-500/30">
-            <div class="flex items-center justify-between mb-1.5">
-              <span class="text-rose-400 font-bold">1. Content-Security-Policy (CSP) Ausente</span>
-              <span class="text-[10px] bg-rose-500/20 text-rose-300 px-2 py-0.5 rounded border border-rose-500/30">CRÍTICO · CVSS 7.8</span>
-            </div>
-            <p class="text-[11px] text-slate-300 font-sans leading-relaxed">
-              El servidor no restringe la procedencia de scripts ejecutables en el navegador del cliente. Un atacante puede inyectar código malicioso (DOM-XSS) para robar tokens de autenticación o redirigir el checkout.
-            </p>
-          </div>
-
-          <!-- Vulnerabilidad 2 -->
-          <div class="p-3.5 rounded-xl bg-rose-950/20 border border-rose-500/30">
-            <div class="flex items-center justify-between mb-1.5">
-              <span class="text-rose-400 font-bold">2. Strict-Transport-Security (HSTS) Desactivado</span>
-              <span class="text-[10px] bg-rose-500/20 text-rose-300 px-2 py-0.5 rounded border border-rose-500/30">ALTO · CVSS 7.5</span>
-            </div>
-            <p class="text-[11px] text-slate-300 font-sans leading-relaxed">
-              Falta la cabecera HSTS con precarga (preload). Permite ataques de degradación (SSL Strip / Man-in-the-Middle) que fuerzan conexiones HTTP en texto claro en redes públicas.
-            </p>
-          </div>
-
-          <!-- Vulnerabilidad 3 -->
-          <div class="p-3.5 rounded-xl bg-amber-950/20 border border-amber-500/30">
-            <div class="flex items-center justify-between mb-1.5">
-              <span class="text-amber-400 font-bold">3. X-Frame-Options no configurado</span>
-              <span class="text-[10px] bg-amber-500/20 text-amber-300 px-2 py-0.5 rounded border border-amber-500/30">MEDIO · CVSS 6.1</span>
-            </div>
-            <p class="text-[11px] text-slate-300 font-sans leading-relaxed">
-              El portal puede ser incrustado en iframes transparentes por terceros para engañar al usuario final y capturar clics no autorizados (ataques de Clickjacking).
-            </p>
-          </div>
-
-          <!-- Vulnerabilidad 4 (Operativa) -->
-          <div class="p-3.5 rounded-xl bg-amber-950/20 border border-amber-500/30">
-            <div class="flex items-center justify-between mb-1.5">
-              <span class="text-amber-400 font-bold">4. Fuga Comercial Fuera de Horario (Sin Agente 24/7)</span>
-              <span class="text-[10px] bg-amber-500/20 text-amber-300 px-2 py-0.5 rounded border border-amber-500/30">IMPACTO EN VENTAS · 68% Fuga</span>
-            </div>
-            <p class="text-[11px] text-slate-300 font-sans leading-relaxed">
-              No se detectó un agente autónomo de respuesta en tiempo real (&lt;20s). Los prospectos que intentan comprar o resolver dudas de noche o fines de semana abandonan hacia la competencia.
-            </p>
-          </div>
-        </div>
+        <div id="report-findings" class="space-y-3"></div>
       </div>
 
       <!-- Sección del Parche Listo para Producción -->
@@ -1024,6 +979,7 @@
             <span>📋</span> <span id="label-copy-patch">Copiar Parche</span>
           </button>
         </div>
+        <p id="patch-note" class="text-[10px] text-slate-400 mt-2 font-sans leading-relaxed"></p>
       </div>
 
       <!-- Los 5 Anclajes de Garantía Fiduciaria -->
@@ -1035,10 +991,14 @@
           <div><strong class="text-cyan-300">1. Cero Invasión Previa:</strong> Sin contraseñas ni accesos a bases de datos.</div>
           <div><strong class="text-cyan-300">2. Micro-Riesgo Asimétrico:</strong> Parche por $19 USD o Agente por $2.30/día ($69/mes).</div>
           <div><strong class="text-cyan-300">3. Garantía Incondicional 7 Días:</strong> Reembolso 100% si no ahorra 10+ horas.</div>
-          <div><strong class="text-cyan-300">4. Privacidad SOC-2:</strong> Procesamiento en RAM volátil, cero retención en disco.</div>
+          <div><strong class="text-cyan-300">4. Transparencia:</strong> Solo leemos información pública de tu dominio (cabeceras y certificado TLS).</div>
           <div class="sm:col-span-2"><strong class="text-cyan-300">5. Matemática ROI Harvard:</strong> Se amortiza recuperando una sola venta o previniendo un solo ataque.</div>
         </div>
       </div>
+
+      <p class="text-[10px] text-slate-500 font-sans leading-relaxed mb-4">
+        Alcance: este informe refleja únicamente lo que tu servidor respondió públicamente a una petición HTTPS hecha desde nuestros servidores en el momento indicado (cabeceras de seguridad y datos básicos del certificado). No es una prueba de intrusión ni evalúa vulnerabilidades de la aplicación; los resultados pueden variar según región, CDN o filtros anti-bots.
+      </p>
 
       <!-- Barra de Acciones Finales -->
       <div class="pt-4 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-3 font-mono">
@@ -1482,11 +1442,117 @@
     // Inicializar con WhatsApp seleccionado
     selectOperationalPain('whatsapp');
 
-    function executeLiveScan() {
+    let lastScan = null; // último resultado REAL de /api/scan
+
+    async function requestScan(domain) {
+      let resp;
+      try {
+        resp = await fetch('/api/scan', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ domain })
+        });
+      } catch (err) {
+        return { ok: false, error: { code: 'network', message: 'No pudimos contactar el servicio de análisis. Revisa tu conexión e inténtalo de nuevo.' } };
+      }
+      try {
+        return await resp.json();
+      } catch (err) {
+        return { ok: false, error: { code: 'bad_response', message: 'Respuesta inesperada del servicio de análisis. Inténtalo de nuevo.' } };
+      }
+    }
+
+    const CHECK_ICON = { ok: '✓', warn: '⚠', fail: '✗' };
+    const CHECK_TEXT_CLASS = { ok: 'text-emerald-400', warn: 'text-amber-400', fail: 'text-rose-400' };
+    const CHECK_STATUS_WORD = { ok: 'correcto', warn: 'mejorable', fail: 'no detectado' };
+    const SEVERITY_WORD = { alta: 'ALTA', media: 'MEDIA', baja: 'BAJA' };
+
+    function gradeBadgeClass(grade) {
+      if (grade === 'A' || grade === 'B') return 'text-emerald-400 bg-emerald-500/10';
+      if (grade === 'C') return 'text-amber-400 bg-amber-500/10';
+      return 'text-rose-400 bg-rose-500/10';
+    }
+
+    function renderScanConsole(scan) {
+      const safeDomain = escapeHTML(scan.domain);
+      const issues = scan.checks.filter(c => c.status !== 'ok').length;
+
+      const rows = scan.checks.map(c =>
+        `<div class="${CHECK_TEXT_CLASS[c.status]}">${CHECK_ICON[c.status]} ${escapeHTML(c.label.split(' (')[0])}: ${CHECK_STATUS_WORD[c.status]}</div>`
+      ).join('');
+
+      let tlsRow = '';
+      if (scan.tls) {
+        const soon = scan.tls.daysLeft !== null && scan.tls.daysLeft < 14;
+        const bits = [scan.tls.protocol, scan.tls.daysLeft !== null ? `vence en ${scan.tls.daysLeft} días` : null].filter(Boolean).join(' · ');
+        tlsRow = `<div class="${soon ? 'text-amber-400' : 'text-emerald-400'}">${soon ? '⚠' : '✓'} Certificado TLS válido${bits ? ' (' + escapeHTML(bits) + ')' : ''}</div>`;
+      }
+      const ttfbRow = `<div class="text-slate-300">⏱ Primera respuesta del servidor: ${Number(scan.ttfbMs) || 0} ms (medido desde nuestros servidores)</div>`;
+
+      const caveats = (scan.caveats || []).map(n => `<div class="text-amber-400 text-[10px]">⚠ ${escapeHTML(n)}</div>`).join('');
+
+      const upsell = issues > 0 ? `
+            <div class="pt-2.5 border-t border-slate-800/80 flex flex-col sm:flex-row items-center justify-between gap-2">
+              <span class="text-slate-400 text-[10px]">💡 ¿Prefieres que lo apliquemos por ti?</span>
+              <div class="flex gap-2">
+                <button type="button" onclick="triggerCheckoutForCurrentDomain('flash')" class="px-3.5 py-1.5 rounded-lg bg-amber-500 hover:bg-amber-400 text-slate-950 font-black text-[11px] transition-all cursor-pointer">
+                  Blindar Ahora ($19 USD)
+                </button>
+                <button type="button" onclick="triggerCheckoutForCurrentDomain('pro')" class="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-cyan-300 font-bold text-[11px] border border-cyan-500/30 transition-all cursor-pointer">
+                  Centinela 24/7 ($69/mes)
+                </button>
+              </div>
+            </div>` : `
+            <div class="pt-2.5 border-t border-slate-800/80 text-emerald-400 text-[11px]">✓ No detectamos cabeceras faltantes en esta revisión. No necesitas parche.</div>`;
+
+      return `
+          <div class="p-3.5 rounded-xl bg-slate-950 border border-slate-800 space-y-2.5">
+            <div class="flex items-center justify-between border-b border-slate-800 pb-2 text-slate-300 font-bold">
+              <span>Diagnóstico de cabeceras: ${safeDomain}</span>
+              <span class="${gradeBadgeClass(scan.grade)} px-2 py-0.5 rounded text-[10px]">CALIFICACIÓN ${escapeHTML(scan.grade)} · ${Number(scan.score) || 0}/100</span>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-[11px]">
+              ${rows}
+              ${tlsRow}
+              ${ttfbRow}
+            </div>
+            ${caveats}
+
+            <div class="mt-2.5 pt-2.5 border-t border-slate-800/80 flex flex-col sm:flex-row items-center justify-between gap-2.5 bg-gradient-to-r from-cyan-950/40 via-blue-950/30 to-slate-900/60 p-3 rounded-xl border border-cyan-500/30">
+              <div class="flex items-center gap-2.5">
+                <div class="w-8 h-8 rounded-lg bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-300 text-sm">
+                  📄
+                </div>
+                <div>
+                  <div class="text-xs font-bold text-white font-mono">Informe detallado listo</div>
+                  <div class="text-[10px] text-slate-400 font-sans">Detalle por cabecera${issues > 0 ? ' y parches Nginx/Vercel/Apache/Cloudflare' : ''}</div>
+                </div>
+              </div>
+              <button type="button" onclick="openReportModal('${safeDomain}')" class="w-full sm:w-auto px-4 py-2 rounded-lg bg-gradient-to-r from-cyan-400 to-blue-500 hover:from-cyan-300 hover:to-blue-400 text-slate-950 font-black text-xs font-mono transition-all cursor-pointer shadow-md shadow-cyan-500/25 flex items-center justify-center gap-1.5 hover:scale-[1.02]">
+                <span>🔍</span> <span>Ver Informe Completo en Pantalla →</span>
+              </button>
+            </div>
+
+            <div class="mt-2 pt-2 border-t border-slate-800/80">
+              <span class="text-slate-400 text-[10px] block mb-1.5">📩 ¿Quieres recibir este diagnóstico${issues > 0 ? ' y los parches' : ''} en tu correo?</span>
+              <div class="flex flex-col sm:flex-row gap-2">
+                <input type="email" id="scan-lead-email" placeholder="tu-correo@${safeDomain}" class="flex-1 bg-slate-900 border border-slate-700 rounded-lg px-3 py-1.5 text-xs text-white placeholder-slate-500 font-mono focus:outline-none focus:border-cyan-400">
+                <button type="button" id="scan-lead-submit-btn" onclick="submitLeadForFullReport()" class="px-4 py-1.5 rounded-lg bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold text-xs font-mono transition-all cursor-pointer">
+                  Enviar y Abrir Informe
+                </button>
+              </div>
+              <div id="scan-lead-feedback" class="hidden text-[10px] text-emerald-400 mt-1 font-mono"></div>
+            </div>
+            ${upsell}
+          </div>
+        `;
+    }
+
+    async function executeLiveScan() {
       const input = document.getElementById('hero-scan-input');
       const consoleBox = document.getElementById('scan-console');
-      const raw = input.value;
-      const validDomain = cleanAndValidateDomain(raw);
+      const scanBtn = document.getElementById('btn-run-scan');
+      const validDomain = cleanAndValidateDomain(input.value);
 
       if (!validDomain) {
         alert('Por favor ingresa un nombre de dominio válido (ejemplo: tuempresa.com o subdominio.empresa.com)');
@@ -1501,66 +1567,30 @@
       consoleBox.innerHTML = `
         <div class="flex items-center gap-2 text-cyan-400">
           <span class="w-2 h-2 rounded-full bg-cyan-400 animate-ping"></span>
-          <span>Iniciando handshake perimetral defensivo sobre <strong>https://${safeDomain}</strong>...</span>
+          <span>Analizando cabeceras de seguridad y certificado de <strong>https://${safeDomain}</strong>...</span>
         </div>
       `;
+      if (scanBtn) scanBtn.disabled = true;
 
-      setTimeout(() => {
+      const scan = await requestScan(validDomain);
+
+      if (scanBtn) scanBtn.disabled = false;
+
+      if (!scan.ok) {
+        const msg = escapeHTML((scan.error && scan.error.message) || 'No pudimos completar el análisis.');
+        const isTls = scan.error && scan.error.code === 'tls_error';
         consoleBox.innerHTML = `
-          <div class="p-3.5 rounded-xl bg-slate-950 border border-slate-800 space-y-2.5">
-            <div class="flex items-center justify-between border-b border-slate-800 pb-2 text-slate-300 font-bold">
-              <span>Diagnóstico Perimetral Preliminar: ${safeDomain}</span>
-              <span class="text-amber-400 bg-amber-500/10 px-2 py-0.5 rounded text-[10px]">NIVEL DE EXPOSICIÓN: MEDIO</span>
-            </div>
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-[11px]">
-              <div class="text-rose-400">✗ Content-Security-Policy (CSP): NO DETECTADA (Riesgo XSS)</div>
-              <div class="text-rose-400">✗ Strict-Transport-Security: NO FORZADA (Riesgo SSL Strip)</div>
-              <div class="text-emerald-400">✓ Certificado SSL / TLS: ACTIVO (256-bit AES)</div>
-              <div class="text-emerald-400">✓ Latencia Perimetral: 38ms (Estable)</div>
-            </div>
-
-            <!-- Botón Destacado: Abrir Informe Completo en Pantalla de Inmediato -->
-            <div class="mt-2.5 pt-2.5 border-t border-slate-800/80 flex flex-col sm:flex-row items-center justify-between gap-2.5 bg-gradient-to-r from-cyan-950/40 via-blue-950/30 to-slate-900/60 p-3 rounded-xl border border-cyan-500/30">
-              <div class="flex items-center gap-2.5">
-                <div class="w-8 h-8 rounded-lg bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-300 text-sm">
-                  📄
-                </div>
-                <div>
-                  <div class="text-xs font-bold text-white font-mono">Dossier Técnico de Blindaje Listo</div>
-                  <div class="text-[10px] text-slate-400 font-sans">Parches Nginx/Vercel/Apache y matriz de riesgo completa</div>
-                </div>
-              </div>
-              <button type="button" onclick="openReportModal('${safeDomain}')" class="w-full sm:w-auto px-4 py-2 rounded-lg bg-gradient-to-r from-cyan-400 to-blue-500 hover:from-cyan-300 hover:to-blue-400 text-slate-950 font-black text-xs font-mono transition-all cursor-pointer shadow-md shadow-cyan-500/25 flex items-center justify-center gap-1.5 hover:scale-[1.02]">
-                <span>🔍</span> <span>Ver Informe Completo en Pantalla →</span>
-              </button>
-            </div>
-            
-            <!-- Captura de Lead para Copia en PDF al Correo -->
-            <div class="mt-2 pt-2 border-t border-slate-800/80">
-              <span class="text-slate-400 text-[10px] block mb-1.5">📩 ¿Deseas recibir este Diagnóstico Técnico y parches listos en tu correo?</span>
-              <div class="flex flex-col sm:flex-row gap-2">
-                <input type="email" id="scan-lead-email" placeholder="tu-correo@${safeDomain}" class="flex-1 bg-slate-900 border border-slate-700 rounded-lg px-3 py-1.5 text-xs text-white placeholder-slate-500 font-mono focus:outline-none focus:border-cyan-400">
-                <button type="button" id="scan-lead-submit-btn" onclick="submitLeadForFullReport()" class="px-4 py-1.5 rounded-lg bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold text-xs font-mono transition-all cursor-pointer">
-                  Enviar y Abrir Informe
-                </button>
-              </div>
-              <div id="scan-lead-feedback" class="hidden text-[10px] text-emerald-400 mt-1 font-mono"></div>
-            </div>
-
-            <div class="pt-2.5 border-t border-slate-800/80 flex flex-col sm:flex-row items-center justify-between gap-2">
-              <span class="text-slate-400 text-[10px]">💡 O descarga la remediación lista para tu servidor ahora:</span>
-              <div class="flex gap-2">
-                <button type="button" onclick="triggerCheckoutForCurrentDomain('flash')" class="px-3.5 py-1.5 rounded-lg bg-amber-500 hover:bg-amber-400 text-slate-950 font-black text-[11px] transition-all cursor-pointer">
-                  Blindar Ahora ($19 USD)
-                </button>
-                <button type="button" onclick="triggerCheckoutForCurrentDomain('pro')" class="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-cyan-300 font-bold text-[11px] border border-cyan-500/30 transition-all cursor-pointer">
-                  Centinela 24/7 ($69/mes)
-                </button>
-              </div>
-            </div>
+          <div class="p-3.5 rounded-xl bg-slate-950 border border-slate-800 space-y-1.5">
+            <div class="${isTls ? 'text-rose-400' : 'text-amber-400'} font-bold">${isTls ? '✗' : '⚠'} ${msg}</div>
+            ${isTls ? '<div class="text-slate-400 text-[10px] font-sans">Un certificado que falla la verificación es un hallazgo real: los navegadores mostrarán una advertencia a tus visitantes.</div>' : ''}
           </div>
         `;
-      }, 850);
+        return;
+      }
+
+      lastScan = scan;
+      currentScannedDomain = scan.domain;
+      consoleBox.innerHTML = renderScanConsole(scan);
     }
 
     function triggerCheckoutForCurrentDomain(tier) {
@@ -1591,18 +1621,35 @@
         submitBtn.innerText = 'Enviando...';
       }
 
+      let sent = false;
+      let errorMessage = '';
       try {
-        await fetch('/api/lead', {
+        const resp = await fetch('/api/lead', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ email, domain, timestamp: new Date().toISOString() })
         });
+        const data = await resp.json().catch(() => ({}));
+        sent = resp.ok;
+        errorMessage = data.error || '';
       } catch (err) {
-        console.warn('[Lead Capture Local Fallback]', err);
+        errorMessage = 'No pudimos contactar el servidor. Inténtalo de nuevo.';
       }
 
       feedback.classList.remove('hidden');
-      feedback.textContent = `✓ ¡Informe técnico enviado! Hemos transmitido el diagnóstico y los parches de remediación para ${domain} directamente a ${email}. Revisa tu bandeja de entrada. Soporte directo: ricardo.destrabaai@gmail.com`;
+
+      if (!sent) {
+        feedback.className = 'text-[10px] text-rose-400 mt-1 font-mono';
+        feedback.textContent = '✗ ' + (errorMessage || 'No pudimos enviar el informe. Inténtalo de nuevo.');
+        if (submitBtn) {
+          submitBtn.disabled = false;
+          submitBtn.innerText = 'Enviar y Abrir Informe';
+        }
+        return;
+      }
+
+      feedback.className = 'text-[10px] text-emerald-400 mt-1 font-mono';
+      feedback.textContent = `✓ Informe enviado a ${email}. Revisa tu bandeja de entrada (y spam). Soporte directo: ricardo.destrabaai@gmail.com`;
       emailInput.value = '';
       if (submitBtn) {
         submitBtn.disabled = false;
@@ -1741,12 +1788,14 @@
     }
 
     // MODAL DEL INFORME TÉCNICO Y DIAGNÓSTICO PERIMETRAL
-    const PATCHES = {
-      nginx: `# Directiva de cabeceras de blindaje perimetral para Nginx\nadd_header Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https:; font-src 'self' https://fonts.gstatic.com; frame-ancestors 'none';" always;\nadd_header Strict-Transport-Security "max-age=63072000; includeSubDomains; preload" always;\nadd_header X-Frame-Options "DENY" always;\nadd_header X-Content-Type-Options "nosniff" always;\nadd_header Referrer-Policy "strict-origin-when-cross-origin" always;\nadd_header Permissions-Policy "camera=(), microphone=(), geolocation=()" always;`,
-      vercel: `// Configuración de cabeceras defensivas para vercel.json\n{\n  "headers": [\n    {\n      "source": "/(.*)",\n      "headers": [\n        { "key": "Content-Security-Policy", "value": "default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; frame-ancestors 'none';" },\n        { "key": "Strict-Transport-Security", "value": "max-age=63072000; includeSubDomains; preload" },\n        { "key": "X-Frame-Options", "value": "DENY" },\n        { "key": "X-Content-Type-Options", "value": "nosniff" },\n        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },\n        { "key": "Permissions-Policy", "value": "camera=(), microphone=(), geolocation=()" }\n      ]\n    }\n  ]\n}`,
-      apache: `# Directiva de cabeceras seguras para Apache (.htaccess)\n<IfModule mod_headers.c>\n  Header always set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https:; font-src 'self' https://fonts.gstatic.com; frame-ancestors 'none';"\n  Header always set Strict-Transport-Security "max-age=63072000; includeSubDomains; preload"\n  Header always set X-Frame-Options "DENY"\n  Header always set X-Content-Type-Options "nosniff"\n  Header always set Referrer-Policy "strict-origin-when-cross-origin"\n  Header always set Permissions-Policy "camera=(), microphone=(), geolocation=()"\n</IfModule>`,
-      cf: `// Cloudflare Worker / Response Header Transform Rule\naddEventListener('fetch', event => {\n  event.respondWith(handleRequest(event.request));\n});\n\nasync function handleRequest(request) {\n  const response = await fetch(request);\n  const newHeaders = new Headers(response.headers);\n  newHeaders.set('Content-Security-Policy', "default-src 'self'; script-src 'self' 'unsafe-inline'; frame-ancestors 'none';");\n  newHeaders.set('Strict-Transport-Security', 'max-age=63072000; includeSubDomains; preload');\n  newHeaders.set('X-Frame-Options', 'DENY');\n  newHeaders.set('X-Content-Type-Options', 'nosniff');\n  newHeaders.set('Referrer-Policy', 'strict-origin-when-cross-origin');\n  return new Response(response.body, { status: response.status, statusText: response.statusText, headers: newHeaders });\n}`
-    };
+    // Parches generados por el servidor a partir del resultado REAL del escaneo (solo lo que faltó)
+    let currentPatches = null;
+    const PATCH_KEYS = { nginx: 'nginx', vercel: 'vercel', apache: 'apache', cf: 'cloudflare' };
+
+    function getPatchText(tab) {
+      if (!currentPatches) return '# No se detectaron cabeceras faltantes en este análisis: no necesitas parche.';
+      return currentPatches[PATCH_KEYS[tab]] || currentPatches.nginx;
+    }
 
     let activePatchTab = 'nginx';
 
@@ -1764,11 +1813,11 @@
         }
       });
       const pre = document.getElementById('patch-code-content');
-      if (pre) pre.textContent = PATCHES[tab] || PATCHES.nginx;
+      if (pre) pre.textContent = getPatchText(tab);
     }
 
     function copyPatchCode() {
-      const text = PATCHES[activePatchTab] || PATCHES.nginx;
+      const text = getPatchText(activePatchTab);
       navigator.clipboard.writeText(text).then(() => {
         const lbl = document.getElementById('label-copy-patch');
         if (lbl) {
@@ -1780,19 +1829,86 @@
       });
     }
 
-    function openReportModal(domain) {
-      const d = domain || currentScannedDomain || 'tuempresa.com';
-      const titleEl = document.getElementById('report-domain-title');
-      const sumEl = document.getElementById('report-domain-summary');
-      const vecEl = document.getElementById('report-domain-vectors');
+    function renderReportFindings(scan) {
+      const box = document.getElementById('report-findings');
+      if (!box) return;
+      const styleFor = {
+        ok:   { card: 'bg-slate-900/60 border-emerald-500/30', title: 'text-emerald-400', tag: 'bg-emerald-500/20 text-emerald-300 border-emerald-500/30' },
+        warn: { card: 'bg-amber-950/20 border-amber-500/30',     title: 'text-amber-400',   tag: 'bg-amber-500/20 text-amber-300 border-amber-500/30' },
+        fail: { card: 'bg-rose-950/20 border-rose-500/30',       title: 'text-rose-400',    tag: 'bg-rose-500/20 text-rose-300 border-rose-500/30' }
+      };
+      const order = { fail: 0, warn: 1, ok: 2 };
+      const sorted = scan.checks.slice().sort((a, b) => order[a.status] - order[b.status]);
+      box.innerHTML = sorted.map((c, idx) => {
+        const st = styleFor[c.status];
+        const tag = c.status === 'ok' ? 'CORRECTO' : `SEVERIDAD ${SEVERITY_WORD[c.severity] || 'BAJA'}`;
+        const value = c.value ? `<p class="text-[10px] text-slate-500 font-mono mt-1" style="word-break:break-all">Valor detectado: ${escapeHTML(c.value)}</p>` : '';
+        return `
+          <div class="p-3.5 rounded-xl border ${st.card}">
+            <div class="flex items-center justify-between mb-1.5">
+              <span class="${st.title} font-bold">${idx + 1}. ${escapeHTML(c.label)}</span>
+              <span class="text-[10px] ${st.tag} px-2 py-0.5 rounded border">${tag}</span>
+            </div>
+            <p class="text-[11px] text-slate-300 font-sans leading-relaxed">${escapeHTML(c.detail)}</p>
+            ${value}
+          </div>`;
+      }).join('');
+    }
+
+    function fillReport(scan) {
+      const badge = document.getElementById('report-grade-badge');
+      if (badge) {
+        badge.className = gradeBadgeClass(scan.grade) + ' border border-slate-700 px-2.5 py-1 rounded font-bold';
+        badge.textContent = `CALIFICACIÓN: ${scan.grade} (${scan.score}/100)`;
+      }
+      const sumEl = document.getElementById('report-summary-text');
+      if (sumEl) {
+        const s = scan.summary;
+        sumEl.textContent = `Se revisaron las cabeceras de seguridad y el certificado TLS que ${scan.domain} devuelve públicamente: ${s.passed} correctas, ${s.warned} por mejorar y ${s.failed} no detectadas.` +
+          (s.warned + s.failed > 0 ? ' Abajo tienes el detalle y un parche que incluye únicamente lo que falta.' : ' No hay nada pendiente en estas verificaciones.');
+      }
       const timeEl = document.getElementById('report-timestamp');
-      if (titleEl) titleEl.innerText = d;
-      if (sumEl) sumEl.innerText = d;
-      if (vecEl) vecEl.innerText = d;
-      if (timeEl) timeEl.innerText = new Date().toLocaleString();
+      if (timeEl) timeEl.innerText = new Date(scan.scannedAt).toLocaleString();
+      renderReportFindings(scan);
+      currentPatches = scan.patches || null;
+      const note = document.getElementById('patch-note');
+      if (note) {
+        note.textContent = currentPatches && /Report-Only/.test(currentPatches.nginx)
+          ? 'La CSP se entrega en modo solo-reporte a propósito: una CSP genérica puede romper tu sitio. Despliégala, revisa la consola del navegador, ajústala a tus dominios y luego cámbiala a Content-Security-Policy.'
+          : '';
+      }
       switchPatchTab('nginx');
+    }
+
+    async function openReportModal(domain) {
+      const d = cleanAndValidateDomain(domain) || currentScannedDomain || '';
+      const titleEl = document.getElementById('report-domain-title');
+      const vecEl = document.getElementById('report-domain-vectors');
+      const sumEl = document.getElementById('report-summary-text');
+      if (titleEl) titleEl.innerText = d || 'tudominio.com';
+      if (vecEl) vecEl.innerText = d || 'tudominio.com';
+
       const modal = document.getElementById('report-modal');
       if (modal) modal.classList.remove('hidden');
+
+      // Reutiliza el último escaneo real si es del mismo dominio y tiene menos de 10 minutos
+      const fresh = lastScan && lastScan.domain === d && (Date.now() - new Date(lastScan.scannedAt).getTime()) < 600000;
+      if (fresh) { fillReport(lastScan); return; }
+
+      if (!d) {
+        if (sumEl) sumEl.textContent = 'Ingresa un dominio en el escáner para generar el informe.';
+        return;
+      }
+      if (sumEl) sumEl.textContent = 'Analizando…';
+      const box = document.getElementById('report-findings');
+      if (box) box.innerHTML = '';
+      const scan = await requestScan(d);
+      if (!scan.ok) {
+        if (sumEl) sumEl.textContent = (scan.error && scan.error.message) || 'No pudimos completar el análisis.';
+        return;
+      }
+      lastScan = scan;
+      fillReport(scan);
     }
 
     function closeReportModal() {
