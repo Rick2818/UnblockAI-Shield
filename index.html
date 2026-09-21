@@ -276,12 +276,15 @@
       </p>
 
       <!-- Selector de Video Ejecutivo -->
-      <div class="flex justify-center gap-3 mb-8">
+      <div class="flex flex-wrap justify-center gap-3 mb-8">
         <button type="button" id="btn-vid-sales" onclick="switchVideo('sales')" class="px-4 py-2 rounded-xl bg-cyan-500 text-slate-950 font-bold text-xs font-mono transition-all cursor-pointer shadow-lg shadow-cyan-500/30">
           💼 Agente de Ventas B2B (Caso Harvard · 2m)
         </button>
         <button type="button" id="btn-vid-exec" onclick="switchVideo('exec')" class="px-4 py-2 rounded-xl bg-slate-800 text-slate-300 hover:text-white font-bold text-xs font-mono transition-all cursor-pointer">
           🏛️ Síntesis de Dirección (70s)
+        </button>
+        <button type="button" id="btn-vid-master" onclick="switchVideo('master')" class="px-4 py-2 rounded-xl bg-slate-800 text-slate-300 hover:text-white font-bold text-xs font-mono transition-all cursor-pointer">
+          ⚡ Master Pitch Institucional (3m)
         </button>
       </div>
 
@@ -1680,9 +1683,16 @@
       const desc = document.getElementById('video-desc');
       const btnSales = document.getElementById('btn-vid-sales');
       const btnExec = document.getElementById('btn-vid-exec');
+      const btnMaster = document.getElementById('btn-vid-master');
       if (!vid) return;
 
       const isEn = (new URLSearchParams(window.location.search).get('lang') === 'en');
+      const activeClass = 'px-4 py-2 rounded-xl bg-cyan-500 text-slate-950 font-bold text-xs font-mono transition-all cursor-pointer shadow-lg shadow-cyan-500/30';
+      const inactiveClass = 'px-4 py-2 rounded-xl bg-slate-800 text-slate-300 hover:text-white font-bold text-xs font-mono transition-all cursor-pointer';
+
+      if (btnSales) btnSales.className = inactiveClass;
+      if (btnExec) btnExec.className = inactiveClass;
+      if (btnMaster) btnMaster.className = inactiveClass;
 
       if (type === 'sales') {
         vid.poster = 'assets/videos/poster_sales_closer.jpg';
@@ -1697,13 +1707,8 @@
             ? 'Rigorous technical diagnosis, economic ROI breakdown, and fiduciary closing with Harvard Business School standard.'
             : 'Diagnóstico riguroso, descomposición económica de ROI y cierre fiduciario con estándar Harvard Business School.';
         }
-        if (btnSales) {
-          btnSales.className = 'px-4 py-2 rounded-xl bg-cyan-500 text-slate-950 font-bold text-xs font-mono transition-all cursor-pointer shadow-lg shadow-cyan-500/30';
-        }
-        if (btnExec) {
-          btnExec.className = 'px-4 py-2 rounded-xl bg-slate-800 text-slate-300 hover:text-white font-bold text-xs font-mono transition-all cursor-pointer';
-        }
-      } else {
+        if (btnSales) btnSales.className = activeClass;
+      } else if (type === 'exec') {
         vid.poster = 'assets/videos/poster_executive.jpg';
         vid.src = 'assets/videos/executive_briefing.mp4';
         if (heading) {
@@ -1716,12 +1721,21 @@
             ? 'Watch how an unattended tech shield resolves operational bottlenecks and protects your company revenue.'
             : 'Mira cómo un escudo tecnológico desatendido resuelve los cuellos de botella operativos y protege los ingresos de tu empresa.';
         }
-        if (btnExec) {
-          btnExec.className = 'px-4 py-2 rounded-xl bg-cyan-500 text-slate-950 font-bold text-xs font-mono transition-all cursor-pointer shadow-lg shadow-cyan-500/30';
+        if (btnExec) btnExec.className = activeClass;
+      } else if (type === 'master') {
+        vid.poster = 'assets/videos/poster_sales_closer.jpg';
+        vid.src = 'assets/videos/boltech_master_pitch.mp4';
+        if (heading) {
+          heading.innerText = isEn
+            ? 'Enterprise Master Pitch: BolTech & UnblockAI Shield'
+            : 'Master Pitch Institucional: BolTech & UnblockAI Shield';
         }
-        if (btnSales) {
-          btnSales.className = 'px-4 py-2 rounded-xl bg-slate-800 text-slate-300 hover:text-white font-bold text-xs font-mono transition-all cursor-pointer';
+        if (desc) {
+          desc.innerText = isEn
+            ? 'Comprehensive 15-scene briefing on perimeter hardening, multi-currency settlement, and unattended fiduciary scale.'
+            : 'Presentación ejecutiva de 15 escenas sobre blindaje perimetral, liquidación multidivisa y escala desatendida.';
         }
+        if (btnMaster) btnMaster.className = activeClass;
       }
       vid.load();
     }
