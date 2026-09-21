@@ -31,10 +31,10 @@ export default async function handler(req, res) {
     let textContent = '';
 
     if (!isCustomSupportInquiry) {
-      // INFORME FORENSE COMPLETO (SOLICITUD DE ESCÁNER PERIMETRAL)
-      subject = `[INFORME FORENSE] Diagnóstico Perimetral y Parches de Remediación para ${cleanDomain} — Unblock AI Shield`;
+      // INFORME TÉCNICO DE BLINDAJE Y REMEDIACIÓN (SOLICITUD DE ESCÁNER PERIMETRAL)
+      subject = `[DIAGNÓSTICO TÉCNICO] Análisis Perimetral y Parches de Remediación para ${cleanDomain} — Unblock AI Shield`;
 
-      textContent = `UNBLOCK AI SHIELD — INFORME FORENSE PERIMETRAL Y REMEDIACIÓN
+      textContent = `UNBLOCK AI SHIELD — DIAGNÓSTICO PERIMETRAL Y REMEDIACIÓN TÉCNICA
 Dominio Auditado: ${cleanDomain}
 Destinatario: ${cleanEmail}
 Fecha de Emisión: ${new Date().toUTCString()}
@@ -44,7 +44,7 @@ Estimado Director / Equipo Ejecutivo de ${cleanDomain}:
 
 Hemos completado el análisis perimetral no invasivo de 15 segundos para su infraestructura en ${cleanDomain}. A continuación, presentamos los hallazgos críticos detectados y los parches de remediación listos para producción:
 
-1. HALLAZGOS FORENSES CRÍTICOS DETECTADOS EN ${cleanDomain}:
+1. HALLAZGOS TÉCNICOS CRÍTICOS DETECTADOS EN ${cleanDomain}:
 - [ALERTA CRÍTICA] Cabecera Content-Security-Policy (CSP) Ausente o Permisiva: Su servidor no restringe la ejecución de scripts de terceros, exponiendo a sus usuarios y pasarela de pago a ataques de inyección DOM-XSS y robo de sesiones.
 - [VULNERABILIDAD ALTA] Falta de HSTS (HTTP Strict Transport Security): Ausencia de política de transporte estricto con precarga, permitiendo ataques de degradación SSL/TLS (Man-in-the-Middle).
 - [RIESGO OPERATIVO] X-Frame-Options no configurado: Su dominio puede ser embebido en iframes externos por ciberdelincuentes para ataques de Clickjacking.
@@ -103,7 +103,7 @@ Portal Oficial: https://unblock-shield.vercel.app`;
 <body>
   <div class="container">
     <div class="header">
-      <p>Unblock AI Shield · Auditoría Forense Perimetral</p>
+      <p>Unblock AI Shield · Diagnóstico Perimetral & Blindaje Técnico</p>
       <h1>Informe Técnico y Remediación para ${cleanDomain}</h1>
     </div>
     <div class="content">
@@ -131,7 +131,7 @@ add_header Permissions-Policy "camera=(), microphone=(), geolocation=()" always;
       <div class="anchors-grid">
         <h4 style="margin: 0 0 12px 0; color: #f8fafc; font-size: 14px; text-transform: uppercase; letter-spacing: 0.1em;">💎 Los 5 Anclajes de Certeza Fiduciaria</h4>
         <div class="anchor-item"><strong>1. Cero Invasión Previa:</strong> No solicitamos credenciales ni accesos a bases de datos. Todo opera perimetralmente desde la nube.</div>
-        <div class="anchor-item"><strong>2. Micro-Riesgo Asimétrico:</strong> Parche forense por $19 USD o Agente Centinela 24/7 por solo $2.30 USD/día ($69 USD/mes).</div>
+        <div class="anchor-item"><strong>2. Micro-Riesgo Asimétrico:</strong> Parche de blindaje por $19 USD o Agente Centinela 24/7 por solo $2.30 USD/día ($69 USD/mes).</div>
         <div class="anchor-item"><strong>3. Garantía Fiduciaria de 7 Días:</strong> Si no le ahorra al menos 10 horas de fricción operativa, le reembolsamos el 100% sin preguntas.</div>
         <div class="anchor-item"><strong>4. Privacidad Bancaria SOC-2:</strong> Procesamiento en memoria volátil RAM; cero almacenamiento en disco de sus datos corporativos.</div>
         <div class="anchor-item"><strong>5. Retorno de Inversión (ROI):</strong> Un analista cuesta $600+ USD/mes; nuestro sistema opera 24/7 pagándose solo con recuperar 1 sola venta.</div>
@@ -214,7 +214,7 @@ Unblock AI Shield & Destraba AI`;
     if (process.env.TELEGRAM_BOT_TOKEN && (process.env.TELEGRAM_AUTHORIZED_USER_ID || process.env.TELEGRAM_CHAT_ID)) {
       const chatId = process.env.TELEGRAM_AUTHORIZED_USER_ID || process.env.TELEGRAM_CHAT_ID;
       try {
-        const text = `🎯 *LEAD PROCESADO EN RED REAL (UNBLOCK AI SHIELD)*\n\n📧 *Email:* \`${cleanEmail}\`\n🌐 *Dominio:* \`${cleanDomain}\`\n📨 *Tipo:* ${isCustomSupportInquiry ? 'Consulta de Soporte' : 'Informe Forense Completo'}\n🚀 *Transporte:* \`${dispatchResult.transport}\`\n🆔 *MessageID:* \`${dispatchResult.messageId}\`\n⏰ *Fecha:* \`${leadTime}\``;
+        const text = `🎯 *LEAD PROCESADO EN RED REAL (UNBLOCK AI SHIELD)*\n\n📧 *Email:* \`${cleanEmail}\`\n🌐 *Dominio:* \`${cleanDomain}\`\n📨 *Tipo:* ${isCustomSupportInquiry ? 'Consulta de Soporte' : 'Diagnóstico de Blindaje'}\n🚀 *Transporte:* \`${dispatchResult.transport}\`\n🆔 *MessageID:* \`${dispatchResult.messageId}\`\n⏰ *Fecha:* \`${leadTime}\``;
         await fetch(`https://api.telegram.org/bot${process.env.TELEGRAM_BOT_TOKEN}/sendMessage`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
@@ -231,13 +231,13 @@ Unblock AI Shield & Destraba AI`;
 
     return res.status(200).json({
       success: true,
-      message: 'Informe forense completo enviado exitosamente a tu correo corporativo.',
+      message: 'Diagnóstico técnico y parches de remediación enviados exitosamente a tu correo corporativo.',
       domain: cleanDomain,
       transport: dispatchResult.transport,
       messageId: dispatchResult.messageId
     });
   } catch (err) {
     console.error('[LEAD HANDLER CRITICAL ERROR]', err);
-    return res.status(500).json({ error: 'Error interno al procesar el informe forense', details: err.message });
+    return res.status(500).json({ error: 'Error interno al procesar el diagnóstico técnico', details: err.message });
   }
 }

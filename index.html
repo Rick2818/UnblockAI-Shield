@@ -496,7 +496,7 @@
               Para empresas que necesitan cerrar vulnerabilidades de cabeceras, protegerse de ataques de clickjacking y asegurar su SSL de inmediato.
             </p>
             <ul class="space-y-2.5 text-xs text-slate-300 font-mono mb-8">
-              <li class="flex items-center gap-2"><span class="text-amber-400">✓</span> Auditoría forense exhaustiva (CSP/HSTS)</li>
+              <li class="flex items-center gap-2"><span class="text-amber-400">✓</span> Auditoría técnica exhaustiva (CSP/HSTS)</li>
               <li class="flex items-center gap-2"><span class="text-amber-400">✓</span> Parches de código listos para Nginx/Cloudflare</li>
               <li class="flex items-center gap-2"><span class="text-amber-400">✓</span> Verificación de re-escaneo en 10 minutos</li>
               <li class="flex items-center gap-2"><span class="text-amber-400">✓</span> Cero acceso a claves o contraseñas</li>
@@ -614,7 +614,7 @@
             <span>02.</span> <span id="t2-h">Micro-Riesgo y Entrada Asimétrica</span>
           </div>
           <p id="t2-p" class="text-slate-400 leading-relaxed">
-            Comienza con una auditoría gratuita en 15 segundos o adquiere parches de blindaje forense por solo $19 USD. La barrera de entrada es microscópica frente al valor entregado.
+            Comienza con una auditoría gratuita en 15 segundos o adquiere parches de blindaje técnico por solo $19 USD. La barrera de entrada es microscópica frente al valor entregado.
           </p>
         </div>
 
@@ -623,7 +623,7 @@
             <span>03.</span> <span id="t3-h">Garantía Incondicional de 7 Días</span>
           </div>
           <p id="t3-p" class="text-slate-400 leading-relaxed">
-            Si en los primeros 7 días el sistema no le ahorra al menos 10 horas de trabajo manual y dolores de cabeza a tu equipo, te reembolsamos el 100% de tu dinero sin preguntas.
+            Si en los primeros 7 días el sistema no le ahorra al menos 10 horas de trabajo manual y dolores de cabeza a tu equipo, te reembolsamos el 100% de tu dinero sin preguntas ni condiciones ocultas.
           </p>
         </div>
 
@@ -636,16 +636,80 @@
           </p>
         </div>
 
-        <div class="p-4 rounded-xl bg-slate-900/60 border border-slate-800 md:col-span-2">
-          <div class="font-bold text-amber-400 font-mono mb-1.5 flex items-center gap-2">
+        <div class="p-4 rounded-xl bg-slate-900/60 border border-slate-800">
+          <div class="font-bold text-purple-400 font-mono mb-1.5 flex items-center gap-2">
             <span>05.</span> <span id="t5-h">Matemática de Ahorro y Retorno Objetivo</span>
           </div>
           <p id="t5-p" class="text-slate-400 leading-relaxed">
             Un analista u operador cuesta $600+ USD/mes; el agente autónomo opera 24/7 por solo $2.30 USD al día ($69 USD/mes), pagándose solo con recuperar 1 venta o prevenir un incidente operativo.
           </p>
         </div>
+      </div>
+    </div>
+
+    <!-- SECCIÓN DE MANUAL DE OPERACIÓN Y PREGUNTAS FRECUENTES -->
+    <div class="mt-16 pt-12 border-t border-slate-800/80">
+      <div class="text-center max-w-2xl mx-auto mb-10">
+        <h3 id="manual-title" class="text-2xl font-black text-white tracking-tight mb-3">Manual Operativo de Acceso Rápido</h3>
+        <p id="manual-subtitle" class="text-slate-400 text-sm">Todo lo que necesitas saber para auditar, blindar y automatizar tu negocio en minutos.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+        <!-- Sección 1 -->
+        <div class="p-4 rounded-xl bg-slate-950/80 border border-slate-800">
+          <h4 id="m-s1-title" class="text-sm font-bold text-cyan-400 font-mono mb-1.5 flex items-center gap-2">
+            <span>01.</span> <span>Filosofía Zero-Invasion</span>
+          </h4>
+          <p id="m-s1-desc" class="text-slate-400 text-xs leading-relaxed">
+            No necesitas entregarnos credenciales ni acceso root a tu infraestructura. Todo diagnóstico y servicio opera desde la nube perimetral, analizando cabeceras y puertos públicos.
+          </p>
+        </div>
+
+        <!-- Sección 2 -->
+        <div class="p-4 rounded-xl bg-slate-950/80 border border-slate-800">
+          <h4 id="m-s2-title" class="text-sm font-bold text-emerald-400 font-mono mb-1.5 flex items-center gap-2">
+            <span>02.</span> <span>Cómo Usar el Escáner Perimetral</span>
+          </h4>
+          <ol id="m-s2-steps" class="space-y-1.5 list-decimal list-inside text-slate-400 text-xs">
+            <li>Ingresa el dominio web de tu empresa sin prefijos raros (ej. <code>mitienda.com</code>).</li>
+            <li>Haz clic en <strong>"Auditar y Blindar"</strong>. En menos de 15 segundos se evaluarán tus cabeceras CSP, HSTS, riesgos de inyección en checkout y latencia.</li>
+            <li>Descarga tus parches de blindaje por <strong>$19 USD</strong> o ingresa tu correo para recibir el informe técnico completo.</li>
+          </ol>
+        </div>
+
+        <!-- Sección 3 -->
+        <div class="p-4 rounded-xl bg-slate-950/80 border border-slate-800">
+          <h4 id="m-s3-title" class="text-sm font-bold text-amber-400 font-mono mb-1.5 flex items-center gap-2">
+            <span>03.</span> <span>Despliegue de los 3 Niveles de Solución</span>
+          </h4>
+          <ul id="m-s3-levels" class="space-y-2 text-slate-400 text-xs font-mono">
+            <li>• <strong class="text-white">Plan Flash ($19 USD):</strong> Parches de remediación listos para pegar en Nginx, Apache, Cloudflare o Shopify en 60 segundos.</li>
+            <li>• <strong class="text-white">Plan Pro ($69 USD/mes):</strong> Centinela 24/7 en la nube que atiende consultas en WhatsApp y vigila tu plataforma por solo $2.30/día.</li>
+            <li>• <strong class="text-white">Flota Enterprise ($490 USD/mes):</strong> 5 agentes coordinados para marketing, ventas, cobros y ciberseguridad transfronteriza.</li>
+          </ul>
+        </div>
+
+        <!-- Sección 4 -->
+        <div class="p-4 rounded-xl bg-slate-950/80 border border-slate-800">
+          <h4 id="m-s4-title" class="text-sm font-bold text-blue-400 font-mono mb-1.5 flex items-center gap-2">
+            <span>04.</span> <span>Garantía Fiduciaria Incondicional de 7 Días</span>
+          </h4>
+          <p id="m-s4-desc" class="text-slate-400 text-xs leading-relaxed">
+            Cuentas con <strong>7 días de garantía incondicional</strong>. Si el sistema no le ahorra al menos 10 horas de trabajo operativo a tu equipo, escribes a <strong>ricardo.destrabaai@gmail.com</strong> y se reembolsa el 100% de tu dinero sin preguntas ni fricciones.
+          </p>
+        </div>
 
       </div>
+
+      <div class="mt-6 pt-4 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-3">
+        <span class="text-[11px] font-mono text-slate-400">
+          Soporte: <button type="button" onclick="openSupportModal()" class="text-cyan-400 underline hover:text-cyan-300 cursor-pointer">ricardo.destrabaai@gmail.com</button>
+        </span>
+        <button type="button" onclick="closeManualModal()" class="px-5 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-white font-mono text-xs font-bold transition-all cursor-pointer">
+          Entendido, cerrar manual
+        </button>
+      </div>
+
     </div>
   </section>
 
@@ -1279,7 +1343,7 @@
         consoleBox.innerHTML = `
           <div class="p-3.5 rounded-xl bg-slate-950 border border-slate-800 space-y-2.5">
             <div class="flex items-center justify-between border-b border-slate-800 pb-2 text-slate-300 font-bold">
-              <span>Reporte Forense Preliminar: ${safeDomain}</span>
+              <span>Diagnóstico Perimetral Preliminar: ${safeDomain}</span>
               <span class="text-amber-400 bg-amber-500/10 px-2 py-0.5 rounded text-[10px]">NIVEL DE EXPOSICIÓN: MEDIO</span>
             </div>
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-[11px]">
@@ -1291,7 +1355,7 @@
             
             <!-- Captura de Lead para Informe Completo en PDF -->
             <div class="mt-2 pt-2 border-t border-slate-800/80">
-              <span class="text-slate-400 text-[10px] block mb-1.5">📩 ¿Deseas recibir el Informe Forense PDF y parches listos en tu correo?</span>
+              <span class="text-slate-400 text-[10px] block mb-1.5">📩 ¿Deseas recibir el Diagnóstico Técnico y parches listos en tu correo?</span>
               <div class="flex flex-col sm:flex-row gap-2">
                 <input type="email" id="scan-lead-email" placeholder="tu-correo@${safeDomain}" class="flex-1 bg-slate-900 border border-slate-700 rounded-lg px-3 py-1.5 text-xs text-white placeholder-slate-500 font-mono focus:outline-none focus:border-cyan-400">
                 <button type="button" id="scan-lead-submit-btn" onclick="submitLeadForFullReport()" class="px-4 py-1.5 rounded-lg bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold text-xs font-mono transition-all cursor-pointer">
@@ -1356,7 +1420,7 @@
       }
 
       feedback.classList.remove('hidden');
-      feedback.textContent = `✓ ¡Informe forense enviado! Hemos transmitido el diagnóstico y los parches de remediación para ${domain} directamente a ${email}. Revisa tu bandeja de entrada. Soporte directo: ricardo.destrabaai@gmail.com`;
+      feedback.textContent = `✓ ¡Informe técnico enviado! Hemos transmitido el diagnóstico y los parches de remediación para ${domain} directamente a ${email}. Revisa tu bandeja de entrada. Soporte directo: ricardo.destrabaai@gmail.com`;
       emailInput.value = '';
       if (submitBtn) {
         submitBtn.disabled = false;
