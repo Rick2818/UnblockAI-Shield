@@ -48,9 +48,35 @@ We don't sell theoretical consulting or 40-page PDF reports. We deliver **ready-
 
 | Tier | Investment | Description | Deliverable |
 | :--- | :--- | :--- | :--- |
-| **Flash Plan** | **$19 USD** *(One-time)* | Non-invasive perimeter forensic audit + Ready-to-use hardening patches for Nginx / Apache / Cloudflare / Shopify. | Code patches delivered in 60s. |
+| **Flash Plan** | **$19 USD** *(One-time)* | Non-invasive perimeter diagnostic + Ready-to-use hardening patches for Nginx / Apache / Cloudflare / Shopify. | Code patches delivered in 60s. |
 | **Pro Plan** | **$69 USD/mo** *($2.30/day)* | 24/7 Autonomous sentinel, continuous checkout monitoring, and 7-day unconditional guarantee. | 24/7 active cloud sentinel. |
 | **Enterprise Plan** | **$490 USD/mo** | Fleet of 5 coordinated autonomous agents for cross-border operations (growth, sales, checkout defense, billing). | Dedicated sovereign infrastructure. |
+
+---
+
+## 🛠️ Mandatory Base SDK Stack & MCP Server (Antigravity Prerequisite)
+
+> **Fiduciary Directive:** Before initializing Antigravity on any new workstation or developing a new MicroSaaS, the following 12 base SDKs and the MCP server `mcp-agent-generator` MUST be pre-installed:
+
+```bash
+# Universal base stack installation
+npm install @google/genai zod dotenv docx pdf-lib stripe cheerio resend @supabase/supabase-js nanoid validator deep-email-validator
+```
+
+### Core Architecture Components:
+1. **`@google/genai` (v2.23.0):** Official Gemini 2.5 Flash / Pro SDK for reasoning and tool calling.
+2. **`zod` (v3.24.2):** Runtime contract validation and strictly typed in-memory objects.
+3. **`dotenv` (v16.4.7):** Local environment secrets management (`.env`).
+4. **`docx` (v9.5.1):** In-memory Word document generation with track-changes and redlines (<10s).
+5. **`pdf-lib` (v1.17.1):** In-memory executive technical PDF report generation (SOC-2 zero-disk persistence).
+6. **`stripe` (v17.7.0):** US/EU cross-border payment bridge routed to Strike Lightning / Wompi.
+7. **`cheerio` (v1.0.0):** 15ms DOM parser for non-invasive perimeter security scanning.
+8. **`resend` (v4.1.2):** Serverless typed email delivery to Primary Inbox (zero sandbox / zero spam).
+9. **`@supabase/supabase-js` (v2.49.1):** Cloud PostgreSQL persistence with Row-Level Security (RLS).
+10. **`nanoid` (v5.1.3):** Cryptographically secure IDs for licenses and immutable audit records.
+11. **`validator` (v13.12.0):** RFC string escaping and input sanitization against XSS and CRLF injection.
+12. **`deep-email-validator` (v0.1.21):** Real-time MX, DNS, and disposable email zero-bounce check.
+* **MCP Server:** `mcp-agent-generator` (`~/.gemini/antigravity/mcp/mcp-agent-generator`) for automated multi-agent synthesis.
 
 ---
 
