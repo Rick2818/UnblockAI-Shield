@@ -29,12 +29,14 @@
     "@google/genai": "^2.23.0",
     "@supabase/supabase-js": "^2.116.0",
     "cheerio": "^1.2.0",
+    "deep-email-validator": "^0.1.27",
     "docx": "^9.7.1",
     "dotenv": "^18.0.2",
     "nanoid": "^6.0.1",
     "pdf-lib": "^1.17.1",
     "resend": "^6.28.1",
     "stripe": "^22.6.2",
+    "validator": "^13.15.35",
     "zod": "^4.6.5"
   }
 }
