@@ -266,18 +266,28 @@
     <div class="max-w-4xl mx-auto px-4 sm:px-6 text-center">
       
       <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/30 text-cyan-300 text-xs font-mono uppercase mb-4">
-        <span>🎬 Síntesis Ejecutiva de Dirección General</span>
+        <span>🎬 Sala de Presentaciones Ejecutivas</span>
       </div>
       <h2 id="video-heading" class="text-2xl sm:text-4xl font-extrabold text-white tracking-tight mb-3">
-        70 Segundos sobre el Costo de la Inacción
+        Agente de Ventas B2B: El Caso UnblockAI Shield
       </h2>
-      <p id="video-desc" class="text-xs sm:text-sm text-slate-400 max-w-xl mx-auto leading-relaxed mb-8">
-        Mira cómo un escudo tecnológico desatendido resuelve los cuellos de botella operativos y protege los ingresos de tu empresa.
+      <p id="video-desc" class="text-xs sm:text-sm text-slate-400 max-w-xl mx-auto leading-relaxed mb-6">
+        Diagnóstico riguroso, descomposición económica de ROI y cierre fiduciario con estándar Harvard Business School.
       </p>
 
+      <!-- Selector de Video Ejecutivo -->
+      <div class="flex justify-center gap-3 mb-8">
+        <button type="button" id="btn-vid-sales" onclick="switchVideo('sales')" class="px-4 py-2 rounded-xl bg-cyan-500 text-slate-950 font-bold text-xs font-mono transition-all cursor-pointer shadow-lg shadow-cyan-500/30">
+          💼 Agente de Ventas B2B (Caso Harvard · 2m)
+        </button>
+        <button type="button" id="btn-vid-exec" onclick="switchVideo('exec')" class="px-4 py-2 rounded-xl bg-slate-800 text-slate-300 hover:text-white font-bold text-xs font-mono transition-all cursor-pointer">
+          🏛️ Síntesis de Dirección (70s)
+        </button>
+      </div>
+
       <div class="relative w-full aspect-video rounded-2xl overflow-hidden glass-shield border-2 border-cyan-500/30 shadow-2xl shadow-cyan-950/60">
-        <video id="main-executive-video" controls preload="metadata" poster="assets/videos/poster_executive.jpg" class="w-full h-full object-cover">
-          <source src="assets/videos/executive_briefing.mp4" type="video/mp4">
+        <video id="main-executive-video" controls preload="metadata" poster="assets/videos/poster_sales_closer.jpg" class="w-full h-full object-cover">
+          <source src="assets/videos/sales_closer_briefing.mp4" type="video/mp4">
           Tu navegador no soporta reproducción de video HTML5.
         </video>
       </div>
@@ -1489,6 +1499,59 @@
       if (confirm(msg)) {
         window.open('https://strike.me/rick2818', '_blank');
       }
+    }
+
+    // SELECTOR DE PRESENTACIONES DE VIDEO EJECUTIVO
+    function switchVideo(type) {
+      const vid = document.getElementById('main-executive-video');
+      const heading = document.getElementById('video-heading');
+      const desc = document.getElementById('video-desc');
+      const btnSales = document.getElementById('btn-vid-sales');
+      const btnExec = document.getElementById('btn-vid-exec');
+      if (!vid) return;
+
+      const isEn = (new URLSearchParams(window.location.search).get('lang') === 'en');
+
+      if (type === 'sales') {
+        vid.poster = 'assets/videos/poster_sales_closer.jpg';
+        vid.src = 'assets/videos/sales_closer_briefing.mp4';
+        if (heading) {
+          heading.innerText = isEn
+            ? 'B2B Sales Agent: UnblockAI Shield Case Study'
+            : 'Agente de Ventas B2B: El Caso UnblockAI Shield';
+        }
+        if (desc) {
+          desc.innerText = isEn
+            ? 'Rigorous technical diagnosis, economic ROI breakdown, and fiduciary closing with Harvard Business School standard.'
+            : 'Diagnóstico riguroso, descomposición económica de ROI y cierre fiduciario con estándar Harvard Business School.';
+        }
+        if (btnSales) {
+          btnSales.className = 'px-4 py-2 rounded-xl bg-cyan-500 text-slate-950 font-bold text-xs font-mono transition-all cursor-pointer shadow-lg shadow-cyan-500/30';
+        }
+        if (btnExec) {
+          btnExec.className = 'px-4 py-2 rounded-xl bg-slate-800 text-slate-300 hover:text-white font-bold text-xs font-mono transition-all cursor-pointer';
+        }
+      } else {
+        vid.poster = 'assets/videos/poster_executive.jpg';
+        vid.src = 'assets/videos/executive_briefing.mp4';
+        if (heading) {
+          heading.innerText = isEn
+            ? '70 Seconds on the Cost of Inaction'
+            : '70 Segundos sobre el Costo de la Inacción';
+        }
+        if (desc) {
+          desc.innerText = isEn
+            ? 'Watch how an unattended tech shield resolves operational bottlenecks and protects your company revenue.'
+            : 'Mira cómo un escudo tecnológico desatendido resuelve los cuellos de botella operativos y protege los ingresos de tu empresa.';
+        }
+        if (btnExec) {
+          btnExec.className = 'px-4 py-2 rounded-xl bg-cyan-500 text-slate-950 font-bold text-xs font-mono transition-all cursor-pointer shadow-lg shadow-cyan-500/30';
+        }
+        if (btnSales) {
+          btnSales.className = 'px-4 py-2 rounded-xl bg-slate-800 text-slate-300 hover:text-white font-bold text-xs font-mono transition-all cursor-pointer';
+        }
+      }
+      vid.load();
     }
 
     // MODAL DEL CENTRO DE SOPORTE FIDUCIARIO 24/7

@@ -3,3 +3,5 @@ node_modules
 .env
 production_video/scenes/
 production_video/*.mp4
+boltech_video/
+scratch/
