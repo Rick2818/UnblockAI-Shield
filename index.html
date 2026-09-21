@@ -867,7 +867,7 @@
           <ol id="m-s2-steps" class="space-y-1.5 list-decimal list-inside text-slate-400 text-xs">
             <li>Ingresa el dominio web de tu empresa sin prefijos raros (ej. <code>mitienda.com</code>).</li>
             <li>Haz clic en <strong>"Auditar y Blindar"</strong>. En menos de 15 segundos se evaluarán tus cabeceras CSP, HSTS, riesgos de inyección en checkout y latencia.</li>
-            <li>Descarga tus parches de blindaje por <strong>$19 USD</strong> o ingresa tu correo para recibir el informe forense completo.</li>
+            <li>Descarga tus parches de blindaje por <strong>$19 USD</strong> o ingresa tu correo para recibir el informe técnico completo.</li>
           </ol>
         </div>
 
@@ -877,7 +877,7 @@
             <span>03.</span> <span>Despliegue de los 3 Niveles de Solución</span>
           </h4>
           <ul id="m-s3-levels" class="space-y-2 text-slate-400 text-xs font-mono">
-            <li>• <strong class="text-white">Plan Flash ($19 USD):</strong> Parches forenses listos para pegar en Nginx, Apache, Cloudflare o Shopify en 60 segundos.</li>
+            <li>• <strong class="text-white">Plan Flash ($19 USD):</strong> Parches de blindaje listos para pegar en Nginx, Apache, Cloudflare o Shopify en 60 segundos.</li>
             <li>• <strong class="text-white">Plan Pro ($69 USD/mes):</strong> Centinela 24/7 en la nube que atiende consultas en WhatsApp y vigila tu plataforma por solo $2.30/día.</li>
             <li>• <strong class="text-white">Flota Enterprise ($490 USD/mes):</strong> 5 agentes coordinados para marketing, ventas, cobros y ciberseguridad transfronteriza.</li>
           </ul>
@@ -907,7 +907,7 @@
     </div>
   </div>
 
-  <!-- MODAL: INFORME TÉCNICO Y DIAGNÓSTICO FORENSE COMPLETO -->
+  <!-- MODAL: INFORME TÉCNICO Y DIAGNÓSTICO PERIMETRAL COMPLETO -->
   <div id="report-modal" class="hidden fixed inset-0 z-50 flex items-center justify-center p-4 modal-backdrop overflow-y-auto" onclick="if(event.target === this) closeReportModal()">
     <div class="relative w-full max-w-3xl max-h-[90vh] overflow-y-auto rounded-2xl glass-shield border-2 border-cyan-500/50 p-6 sm:p-8 shadow-2xl shadow-cyan-950/90 text-left my-8">
       
@@ -916,7 +916,7 @@
         ✕
       </button>
 
-      <!-- Encabezado del Dossier Forense -->
+      <!-- Encabezado del Dossier Técnico -->
       <div class="border-b border-slate-800 pb-5 mb-6">
         <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
           <span class="text-[10px] font-mono uppercase tracking-wider text-cyan-400 bg-cyan-500/10 px-3 py-1 rounded-full border border-cyan-500/30 font-bold">
@@ -1237,7 +1237,7 @@
         t1h: 'Cero Invasión Previa',
         t1p: 'Jamás solicitamos contraseñas, credenciales de administración ni acceso a bases de datos internas. Todas las soluciones se entregan para despliegue no invasivo en tu nube.',
         t2h: 'Micro-Riesgo y Entrada Asimétrica',
-        t2p: 'Comienza con una auditoría gratuita en 15 segundos o adquiere parches de blindaje forense por solo $19 USD. La barrera de entrada es microscópica frente al valor entregado.',
+        t2p: 'Comienza con una auditoría gratuita en 15 segundos o adquiere parches de blindaje técnico por solo $19 USD. La barrera de entrada es microscópica frente al valor entregado.',
         t3h: 'Garantía Incondicional de 7 Días',
         t3p: 'Si en los primeros 7 días el sistema no le ahorra al menos 10 horas de trabajo manual y dolores de cabeza a tu equipo, te reembolsamos el 100% de tu dinero sin preguntas.',
         t4h: 'Privacidad Bancaria SOC-2 (Retención Cero)',
@@ -1523,7 +1523,7 @@
                   📄
                 </div>
                 <div>
-                  <div class="text-xs font-bold text-white font-mono">Dossier Técnico Forense Listo</div>
+                  <div class="text-xs font-bold text-white font-mono">Dossier Técnico de Blindaje Listo</div>
                   <div class="text-[10px] text-slate-400 font-sans">Parches Nginx/Vercel/Apache y matriz de riesgo completa</div>
                 </div>
               </div>
@@ -1606,7 +1606,7 @@
         submitBtn.innerText = 'Enviado a tu Correo ✓';
       }
 
-      // Desplegar automáticamente el informe forense completo en pantalla
+      // Desplegar automáticamente el informe técnico completo en pantalla
       openReportModal(domain);
     }
 
@@ -1726,7 +1726,7 @@
       vid.load();
     }
 
-    // MODAL DEL INFORME TÉCNICO Y FORENSE COMPLETO
+    // MODAL DEL INFORME TÉCNICO Y DIAGNÓSTICO PERIMETRAL
     const PATCHES = {
       nginx: `# Directiva de cabeceras de blindaje perimetral para Nginx\nadd_header Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https:; font-src 'self' https://fonts.gstatic.com; frame-ancestors 'none';" always;\nadd_header Strict-Transport-Security "max-age=63072000; includeSubDomains; preload" always;\nadd_header X-Frame-Options "DENY" always;\nadd_header X-Content-Type-Options "nosniff" always;\nadd_header Referrer-Policy "strict-origin-when-cross-origin" always;\nadd_header Permissions-Policy "camera=(), microphone=(), geolocation=()" always;`,
       vercel: `// Configuración de cabeceras defensivas para vercel.json\n{\n  "headers": [\n    {\n      "source": "/(.*)",\n      "headers": [\n        { "key": "Content-Security-Policy", "value": "default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; frame-ancestors 'none';" },\n        { "key": "Strict-Transport-Security", "value": "max-age=63072000; includeSubDomains; preload" },\n        { "key": "X-Frame-Options", "value": "DENY" },\n        { "key": "X-Content-Type-Options", "value": "nosniff" },\n        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },\n        { "key": "Permissions-Policy", "value": "camera=(), microphone=(), geolocation=()" }\n      ]\n    }\n  ]\n}`,
