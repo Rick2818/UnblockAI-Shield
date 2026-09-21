@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth bg-slate-950 text-slate-100">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BolTech Group — Enterprise Cloud Automation & Defensive Infrastructure</title>
+  
+  <meta name="description" content="BolTech Group es un holding tecnológico privado que diseña, opera e invierte en software autónomo, infraestructura cloud defensiva y soluciones de ciberseguridad perimetral para empresas globales.">
+  <meta name="keywords" content="BolTech Group, Unblock AI Shield, AuditFlow AI, ciberseguridad defensiva, automatizacion empresarial, cloud security, Google Antigravity, Ricardo Bolaños">
+  <link rel="canonical" href="https://unblock-shield.vercel.app/boltech">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://unblock-shield.vercel.app/boltech">
+  <meta property="og:title" content="BolTech Group — Enterprise Cloud & Autonomous Software Holding">
+  <meta property="og:description" content="Infraestructura autónoma, ciberseguridad defensiva y paz mental operativa para empresas de alto rendimiento.">
+  <meta property="og:image" content="https://unblock-shield.vercel.app/og-image.png">
+
+  <!-- Google Fonts: Inter & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            display: ['"Plus Jakarta Sans"', 'sans-serif'],
+            mono: ['"JetBrains Mono"', 'monospace'],
+          },
+          colors: {
+            brand: {
+              cyan: '#06b6d4',
+              emerald: '#10b981',
+              violet: '#6366f1',
+              gold: '#f59e0b',
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #020617;
+      overflow-x: hidden;
+    }
+    .font-display { font-family: '"Plus Jakarta Sans"', sans-serif; }
+    .font-mono { font-family: '"JetBrains Mono"', monospace; }
+
+    /* Efectos de Iluminación Ambiental */
+    .glow-cyan {
+      background: radial-gradient(circle, rgba(6,182,212,0.15) 0%, rgba(2,6,23,0) 70%);
+    }
+    .glow-violet {
+      background: radial-gradient(circle, rgba(99,102,241,0.12) 0%, rgba(2,6,23,0) 70%);
+    }
+    .glow-emerald {
+      background: radial-gradient(circle, rgba(16,185,129,0.12) 0%, rgba(2,6,23,0) 70%);
+    }
+
+    /* Glassmorphism de Lujo */
+    .glass-card {
+      background: rgba(15, 23, 42, 0.65);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .glass-card:hover {
+      border-color: rgba(6, 182, 212, 0.35);
+      box-shadow: 0 20px 40px -15px rgba(6, 182, 212, 0.12);
+    }
+
+    .glass-nav {
+      background: rgba(2, 6, 23, 0.85);
+      backdrop-filter: blur(20px);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    /* Animaciones suaves */
+    @keyframes pulseDot {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.3; transform: scale(1.2); }
+    }
+    .pulse-dot { animation: pulseDot 2.2s infinite ease-in-out; }
+
+    @keyframes floatLight {
+      0%, 100% { transform: translateY(0px) scale(1); }
+      50% { transform: translateY(-15px) scale(1.05); }
+    }
+    .floating-mesh { animation: floatLight 10s ease-in-out infinite; }
+
+    /* Gradient Text */
+    .text-gradient-cyan {
+      background: linear-gradient(135deg, #ffffff 30%, #38bdf8 70%, #06b6d4 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .text-gradient-gold {
+      background: linear-gradient(135deg, #fde68a 0%, #f59e0b 60%, #d97706 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  </style>
+</head>
+
+<body class="relative text-slate-100 selection:bg-cyan-500/30 selection:text-cyan-200">
+
+  <!-- Luces Ambientales de Fondo -->
+  <div class="fixed inset-0 pointer-events-none z-0 overflow-hidden">
+    <div class="absolute -top-40 left-1/4 w-[650px] h-[650px] glow-cyan floating-mesh"></div>
+    <div class="absolute top-1/3 -right-40 w-[600px] h-[600px] glow-violet floating-mesh" style="animation-delay: -3s;"></div>
+    <div class="absolute bottom-10 left-10 w-[550px] h-[550px] glow-emerald floating-mesh" style="animation-delay: -6s;"></div>
+    <div class="absolute inset-0 bg-[radial-gradient(#ffffff0a_1px,transparent_1px)] [background-size:24px_24px] opacity-40"></div>
+  </div>
+
+  <!-- Navegación Superior Ejecutiva -->
+  <nav class="fixed top-0 inset-x-0 z-50 glass-nav">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      
+      <!-- Brand Logo / Monograma -->
+      <a href="/boltech" class="flex items-center gap-3.5 group">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-cyan-600 via-indigo-600 to-blue-500 p-[1.5px] shadow-lg shadow-cyan-500/20 group-hover:shadow-cyan-500/40 transition-all duration-300">
+          <div class="w-full h-full bg-slate-950 rounded-[10px] flex items-center justify-center">
+            <span class="font-display font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-indigo-300 text-lg tracking-wider">BT</span>
+          </div>
+        </div>
+        <div>
+          <span class="font-display font-bold text-white text-lg tracking-tight block group-hover:text-cyan-300 transition-colors">
+            BolTech Group
+          </span>
+          <span class="text-[10px] font-mono uppercase tracking-widest text-slate-400 block -mt-1">
+            Technology Holding & Studio
+          </span>
+        </div>
+      </a>
+
+      <!-- Navigation Links -->
+      <div class="hidden md:flex items-center gap-8 text-xs font-medium text-slate-300">
+        <a href="#proposito" class="hover:text-cyan-400 transition-colors" data-i18n="nav-purpose">Propósito</a>
+        <a href="#video" class="hover:text-cyan-400 transition-colors text-cyan-300 font-semibold flex items-center gap-1.5" data-i18n="nav-video"><span class="pulse-dot w-1.5 h-1.5 rounded-full bg-cyan-400"></span>Master Pitch</a>
+        <a href="#portafolio" class="hover:text-cyan-400 transition-colors" data-i18n="nav-portfolio">Portafolio</a>
+        <a href="#paz-mental" class="hover:text-cyan-400 transition-colors" data-i18n="nav-peace">Paz Mental</a>
+        <a href="#liderazgo" class="hover:text-cyan-400 transition-colors" data-i18n="nav-leadership">Liderazgo</a>
+        <a href="https://www.linkedin.com/in/ricbol/" target="_blank" rel="noopener" class="flex items-center gap-1.5 text-slate-400 hover:text-white transition-colors">
+          <svg class="w-3.5 h-3.5 fill-[#0a66c2]" viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.2V10.9H6.46M7.83 6.45a1.62 1.62 0 0 0-1.63 1.63 1.63 1.63 0 0 0 1.63 1.63 1.63 1.63 0 0 0 1.63-1.63c0-.9-.73-1.63-1.63-1.63Z"/></svg>
+          <span>LinkedIn</span>
+        </a>
+      </div>
+
+      <!-- Action & Language Switches -->
+      <div class="flex items-center gap-3">
+        <!-- Idioma ES / EN -->
+        <button onclick="toggleLanguage()" id="lang-btn" class="px-2.5 py-1.5 rounded-lg bg-slate-900 border border-slate-700/80 hover:border-cyan-400/50 text-xs font-mono text-cyan-300 transition-all flex items-center gap-1">
+          <span>🌐</span>
+          <span id="lang-label">EN</span>
+        </button>
+
+        <!-- CTA Principal -->
+        <a href="https://unblock-shield.vercel.app" class="px-4 py-2 rounded-xl bg-gradient-to-r from-cyan-500 via-blue-600 to-indigo-600 hover:from-cyan-400 hover:to-indigo-500 text-white font-semibold text-xs transition-all shadow-md shadow-cyan-500/20 border border-cyan-400/30 flex items-center gap-1.5">
+          <span data-i18n="cta-primary-nav">Explorar Unblock AI</span>
+          <span class="text-[11px]">→</span>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- CONTENIDO PRINCIPAL -->
+  <main class="relative z-10 pt-32 sm:pt-40 pb-24">
+
+    <!-- ===================================================================== -->
+    <!-- 1. HERO SECTION: AUTORIDAD, VISIÓN Y CONTROL                          -->
+    <!-- ===================================================================== -->
+    <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-8 sm:pt-16 pb-20">
+      
+      <!-- Pill Badge -->
+      <div class="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-slate-900/90 border border-cyan-500/30 text-cyan-300 text-xs font-mono font-medium shadow-lg shadow-cyan-500/10 mb-8 fade-in">
+        <span class="pulse-dot w-2 h-2 rounded-full bg-cyan-400"></span>
+        <span data-i18n="hero-pill">HOLDING TECNOLÓGICO & VENTURE STUDIO DE INFRAESTRUCTURA AUTÓNOMA</span>
+      </div>
+
+      <!-- Titular Maestro -->
+      <h1 class="font-display text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-white max-w-5xl mx-auto leading-[1.12] mb-6">
+        <span data-i18n="hero-h1-1">Ingeniería autónoma que protege su capital y le devuelve</span>
+        <span class="text-gradient-cyan block mt-2" data-i18n="hero-h1-2">la paz mental operativa 24/7.</span>
+      </h1>
+
+      <!-- Subtítulo de Alto Impacto -->
+      <p class="text-base sm:text-xl text-slate-300 max-w-3xl mx-auto font-normal leading-relaxed mb-10 text-balance" data-i18n="hero-desc">
+        En <strong>BolTech Group</strong> diseñamos, operamos e invertimos en arquitecturas de software autónomo que erradican la fricción operativa, blindan el perímetro web y blindan el flujo de caja en empresas de alto rendimiento sin tocar código legado ni violar la privacidad.
+      </p>
+
+      <!-- Botones de Acción Hero -->
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4 max-w-md mx-auto mb-16">
+        <a href="https://unblock-shield.vercel.app" class="w-full sm:w-auto px-6 py-3.5 rounded-xl bg-gradient-to-r from-cyan-500 via-blue-600 to-indigo-600 hover:from-cyan-400 hover:to-indigo-500 text-white font-bold text-sm shadow-xl shadow-cyan-500/25 transition-all flex items-center justify-center gap-2 group">
+          <span data-i18n="hero-btn-flagship">Descubrir Unblock AI Shield</span>
+          <span class="group-hover:translate-x-0.5 transition-transform">→</span>
+        </a>
+
+        <a href="https://www.linkedin.com/in/ricbol/" target="_blank" rel="noopener" class="w-full sm:w-auto px-6 py-3.5 rounded-xl bg-slate-900/80 hover:bg-slate-800 border border-slate-700/80 hover:border-slate-500 text-slate-200 font-semibold text-sm transition-all flex items-center justify-center gap-2">
+          <svg class="w-4 h-4 fill-[#0a66c2]" viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.2V10.9H6.46M7.83 6.45a1.62 1.62 0 0 0-1.63 1.63 1.63 1.63 0 0 0 1.63 1.63 1.63 1.63 0 0 0 1.63-1.63c0-.9-.73-1.63-1.63-1.63Z"/></svg>
+          <span data-i18n="hero-btn-linkedin">Conectar con Dirección</span>
+        </a>
+      </div>
+
+      <!-- Barra de Respaldo Institucional -->
+      <div class="pt-8 border-t border-slate-800/80 max-w-4xl mx-auto">
+        <p class="text-[11px] font-mono uppercase tracking-widest text-slate-400 mb-6" data-i18n="hero-badges-title">
+          Estándares de Grado Bancario & Ecosistema de Operación
+        </p>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-left">
+          <div class="p-3 rounded-xl bg-slate-900/40 border border-slate-800 flex items-center gap-3">
+            <span class="text-xl">🛡️</span>
+            <div>
+              <span class="text-xs font-bold text-white block">SOC-2 Privacy</span>
+              <span class="text-[10px] text-slate-400">Zero-Disk Retention</span>
+            </div>
+          </div>
+          <div class="p-3 rounded-xl bg-slate-900/40 border border-slate-800 flex items-center gap-3">
+            <span class="text-xl">⚡</span>
+            <div>
+              <span class="text-xs font-bold text-white block">Lightning Core</span>
+              <span class="text-[10px] text-slate-400">Instant USD Settlement</span>
+            </div>
+          </div>
+          <div class="p-3 rounded-xl bg-slate-900/40 border border-slate-800 flex items-center gap-3">
+            <span class="text-xl">☁️</span>
+            <div>
+              <span class="text-xs font-bold text-white block">Vercel & Google</span>
+              <span class="text-[10px] text-slate-400">Antigravity 2.0 Cloud</span>
+            </div>
+          </div>
+          <div class="p-3 rounded-xl bg-slate-900/40 border border-slate-800 flex items-center gap-3">
+            <span class="text-xl">⚖️</span>
+            <div>
+              <span class="text-xs font-bold text-white block">Fiduciary Shield</span>
+              <span class="text-[10px] text-slate-400">100% Guaranteed ROI</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================== -->
+    <!-- PRESENTACIÓN EJECUTIVA EN VIDEO: MASTER PITCH BOLTECH GROUP           -->
+    <!-- ===================================================================== -->
+    <section id="video" class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
+      <div class="text-center max-w-3xl mx-auto mb-8">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/30 text-cyan-400 text-xs font-mono uppercase mb-3">
+          <span class="pulse-dot w-2 h-2 rounded-full bg-cyan-400"></span>
+          <span data-i18n="video-pill">SESIÓN ESTRATÉGICA DE DIRECCIÓN • HOLDING PITCH</span>
+        </div>
+        <h2 class="font-display text-2xl sm:text-4xl font-extrabold text-white tracking-tight" data-i18n="video-title">
+          Master Pitch: Infraestructura Autónoma & Ciberseguridad Fiduciaria
+        </h2>
+        <p class="text-xs sm:text-sm text-slate-400 mt-2" data-i18n="video-desc">
+          Sesión ejecutiva de 15 escenas sobre blindaje perimetral, liquidación multidivisa y escala desatendida.
+        </p>
+      </div>
+
+      <!-- Selector de Presentación de Video -->
+      <div class="flex flex-wrap justify-center gap-3 mb-6">
+        <button type="button" id="btn-boltech-master" onclick="switchBoltechVideo('master')" class="px-4 py-2 rounded-xl bg-cyan-500 text-slate-950 font-bold text-xs font-mono transition-all cursor-pointer shadow-lg shadow-cyan-500/30">
+          ⚡ Master Pitch BolTech (3m)
+        </button>
+        <button type="button" id="btn-boltech-sales" onclick="switchBoltechVideo('sales')" class="px-4 py-2 rounded-xl bg-slate-900 border border-slate-800 text-slate-300 hover:text-white font-bold text-xs font-mono transition-all cursor-pointer">
+          💼 Agente de Ventas B2B (Caso Harvard · 2m)
+        </button>
+        <button type="button" id="btn-boltech-exec" onclick="switchBoltechVideo('exec')" class="px-4 py-2 rounded-xl bg-slate-900 border border-slate-800 text-slate-300 hover:text-white font-bold text-xs font-mono transition-all cursor-pointer">
+          🏛️ Síntesis de Dirección (70s)
+        </button>
+      </div>
+
+      <div class="relative w-full aspect-video rounded-2xl overflow-hidden glass-card border-2 border-cyan-500/30 shadow-2xl shadow-cyan-950/60">
+        <video id="boltech-pitch-video" controls playsinline webkit-playsinline controlsList="nodownload" preload="metadata" poster="assets/videos/poster_sales_closer.jpg" class="w-full h-full object-cover">
+          <source src="assets/videos/boltech_master_pitch.mp4" type="video/mp4">
+          Tu navegador no soporta reproducción de video HTML5.
+        </video>
+      </div>
+
+      <div class="flex flex-wrap items-center justify-between gap-4 mt-4 px-2 text-[11px] font-mono text-slate-400">
+        <span class="flex items-center gap-1.5 text-cyan-300">
+          <span class="w-2 h-2 rounded-full bg-cyan-400 pulse-dot"></span>
+          <span>Resolución 1080p · Subtítulos Ejecutivos Incrustados</span>
+        </span>
+        <span class="text-slate-400">Audio Neuronal Calibrado (/ʃiːld/) · Cero Términos Invasivos</span>
+      </div>
+    </section>
+
+    <!-- ===================================================================== -->
+    <!-- 2. EL VALOR CENTRAL: PAZ MENTAL Y LIBERACIÓN OPERATIVA                -->
+    <!-- ===================================================================== -->
+    <section id="paz-mental" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="text-cyan-400 font-mono text-xs uppercase tracking-widest block mb-2" data-i18n="peace-tag">FILOSOFÍA FUNDACIONAL</span>
+        <h2 class="font-display text-3xl sm:text-4xl font-extrabold text-white tracking-tight" data-i18n="peace-title">
+          ¿Por qué Paz Mental? El fin de la fatiga tecnológica.
+        </h2>
+        <p class="text-slate-300 text-sm sm:text-base mt-4" data-i18n="peace-desc">
+          En la era de la sobrecarga de herramientas y suscripciones inútiles, BolTech Group opera bajo una regla no negociable: <strong>si un sistema no le ahorra tiempo al líder y no blinda sus ingresos, no merece existir.</strong>
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        
+        <!-- Tarjeta 1 -->
+        <div class="glass-card rounded-2xl p-8 transition-all duration-300 relative overflow-hidden">
+          <div class="w-12 h-12 rounded-xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-2xl mb-6">
+            🕊️
+          </div>
+          <h3 class="font-display text-lg font-bold text-white mb-2" data-i18n="peace-c1-t">
+            Cero Invasión & Cero Fricción
+          </h3>
+          <p class="text-slate-300 text-xs sm:text-sm leading-relaxed" data-i18n="peace-c1-d">
+            Nunca solicitamos acceso a sus servidores, contraseñas maestras ni bases de datos. Nuestras auditorías y agentes operan externamente desde la nube, brindando diagnósticos clínicos sin alterar su operación diaria.
+          </p>
+        </div>
+
+        <!-- Tarjeta 2 -->
+        <div class="glass-card rounded-2xl p-8 transition-all duration-300 relative overflow-hidden">
+          <div class="w-12 h-12 rounded-xl bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-2xl mb-6">
+            🧠
+          </div>
+          <h3 class="font-display text-lg font-bold text-white mb-2" data-i18n="peace-c2-t">
+            Privacidad SOC-2 en Memoria Volátil
+          </h3>
+          <p class="text-slate-300 text-xs sm:text-sm leading-relaxed" data-i18n="peace-c2-d">
+            Cero retención en disco. Todo procesamiento ocurre en memoria RAM aislada y se destruye al concluir la transacción. Ninguna información sensible se utiliza para entrenar modelos públicos.
+          </p>
+        </div>
+
+        <!-- Tarjeta 3 -->
+        <div class="glass-card rounded-2xl p-8 transition-all duration-300 relative overflow-hidden">
+          <div class="w-12 h-12 rounded-xl bg-indigo-500/10 border border-indigo-500/30 flex items-center justify-center text-2xl mb-6">
+            📈
+          </div>
+          <h3 class="font-display text-lg font-bold text-white mb-2" data-i18n="peace-c3-t">
+            Matemática de Rendimiento Fiduciario
+          </h3>
+          <p class="text-slate-300 text-xs sm:text-sm leading-relaxed" data-i18n="peace-c3-d">
+            Un consultor de seguridad cobra entre $600 y $3,000 USD por semanas de demora. Nuestras divisiones entregan soluciones inmediatas desde $19 USD que se pagan solas al evitar un solo incidente crítico.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================== -->
+    <!-- 3. EL PORTAFOLIO: DIVISIONES ACTIVAS BAJO EL HOLDING                 -->
+    <!-- ===================================================================== -->
+    <section id="portafolio" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="text-cyan-400 font-mono text-xs uppercase tracking-widest block mb-2" data-i18n="port-tag">DIVISIONES DEL GRUPO</span>
+        <h2 class="font-display text-3xl sm:text-4xl font-extrabold text-white tracking-tight" data-i18n="port-title">
+          Soluciones de Ingeniería con Enfoque Especializado
+        </h2>
+        <p class="text-slate-300 text-sm sm:text-base mt-4" data-i18n="port-desc">
+          Operamos unidades de negocio autónomas, cada una diseñada para erradicar un dolor empresarial crítico con rigor técnico y cero intervención humana.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        
+        <!-- DIVISIÓN 1: UNBLOCK AI SHIELD (BUQUE INSIGNIA ACTIVO) -->
+        <div class="glass-card rounded-3xl p-8 sm:p-10 border border-cyan-500/30 relative overflow-hidden flex flex-col justify-between group">
+          <div class="absolute -right-20 -top-20 w-60 h-60 bg-cyan-500/10 rounded-full blur-3xl pointer-events-none group-hover:bg-cyan-500/20 transition-all duration-500"></div>
+
+          <div>
+            <!-- Header de Tarjeta -->
+            <div class="flex items-center justify-between gap-4 mb-6">
+              <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[11px] font-mono font-bold bg-cyan-500/20 text-cyan-300 border border-cyan-400/30">
+                <span class="w-2 h-2 rounded-full bg-cyan-400 pulse-dot"></span>
+                <span>DIVISIÓN INSIGNIA • ACTIVA</span>
+              </span>
+              <span class="text-xs font-mono text-slate-400">v3.2 Cloud Edge</span>
+            </div>
+
+            <!-- Título y Descripción -->
+            <h3 class="font-display text-2xl sm:text-3xl font-extrabold text-white mb-2">
+              Unblock AI Shield
+            </h3>
+            <p class="text-xs font-mono text-cyan-300 mb-4">
+              Plataforma Dual: Ciberseguridad Defensiva & Fábrica de Agentes Autónomos
+            </p>
+            <p class="text-slate-300 text-sm leading-relaxed mb-6" data-i18n="unblock-card-desc">
+              Solución empresarial que unifica la protección de activos digitales y la erradicación del trabajo manual en dos capacidades estratégicas:
+            </p>
+
+            <!-- Los 2 Servicios Unificados -->
+            <div class="space-y-4 mb-8 text-xs">
+              <div class="p-3.5 rounded-xl bg-slate-900/80 border border-cyan-500/30">
+                <div class="flex items-center gap-2 mb-1.5">
+                  <span class="text-base">🛡️</span>
+                  <span class="font-bold text-white text-xs">Servicio 1: Diagnóstico & Blindaje Perimetral Web</span>
+                </div>
+                <p class="text-slate-300 text-[11px] leading-relaxed">
+                  Analiza y remedia en 15 segundos la ausencia de cabeceras críticas (CSP, HSTS, X-Frame-Options) sin pedir contraseñas, blindando tus pasarelas de pago contra robo de tarjetas (Magecart) e inyecciones XSS.
+                </p>
+              </div>
+
+              <div class="p-3.5 rounded-xl bg-slate-900/80 border border-indigo-500/30">
+                <div class="flex items-center gap-2 mb-1.5">
+                  <span class="text-base">🤖</span>
+                  <span class="font-bold text-white text-xs">Servicio 2: Síntesis de Agentes a la Medida</span>
+                </div>
+                <p class="text-slate-300 text-[11px] leading-relaxed">
+                  Elabora agentes soberanos que eliminan cuellos de botella del día a día: atención al cliente 24/7, calificación de prospectos B2B, rastreo de pedidos y automatización operativa sin tocar código legado.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Botón de Acción -->
+          <div class="pt-6 border-t border-slate-800/80 flex items-center justify-between">
+            <div>
+              <span class="text-[10px] uppercase font-mono text-slate-400 block">Despliegue Global</span>
+              <span class="text-xs font-semibold text-emerald-400">Envíos y Auditorías Activas 24/7</span>
+            </div>
+            <a href="https://unblock-shield.vercel.app" class="px-5 py-2.5 rounded-xl bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold text-xs shadow-lg shadow-cyan-500/20 transition-all flex items-center gap-1.5">
+              <span>Abrir Plataforma</span>
+              <span>↗</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- DIVISIÓN 2: AUDIFLOW AI (AUDITORÍA FORENSE DE CONTRATOS B2B) -->
+        <div class="glass-card rounded-3xl p-8 sm:p-10 border border-indigo-500/30 relative overflow-hidden flex flex-col justify-between group opacity-95 hover:opacity-100 transition-opacity">
+          <div class="absolute -right-20 -top-20 w-60 h-60 bg-indigo-500/10 rounded-full blur-3xl pointer-events-none group-hover:bg-indigo-500/20 transition-all duration-500"></div>
+
+          <div>
+            <!-- Header de Tarjeta -->
+            <div class="flex items-center justify-between gap-4 mb-6">
+              <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[11px] font-mono font-bold bg-indigo-500/20 text-indigo-300 border border-indigo-400/30">
+                <span class="w-2 h-2 rounded-full bg-indigo-400 pulse-dot"></span>
+                <span>⚖️ DIVISIÓN LEGALTECH & CONTRATOS • ACTIVA</span>
+              </span>
+              <a href="https://audiflowai.com" target="_blank" rel="noopener" class="text-xs font-mono text-cyan-300 hover:underline flex items-center gap-1">
+                <span>audiflowai.com</span>
+                <span class="text-[10px]">↗</span>
+              </a>
+            </div>
+
+            <!-- Título y Descripción -->
+            <h3 class="font-display text-2xl sm:text-3xl font-extrabold text-white mb-2">
+              Audiflow AI
+            </h3>
+            <p class="text-xs font-mono text-indigo-300 mb-4">
+              Auditoría Forense de Contratos B2B & Redlines en Word (.docx) en &lt;10s
+            </p>
+            <p class="text-slate-300 text-sm leading-relaxed mb-6" data-i18n="auditflow-card-desc">
+              Plataforma de ingeniería legal y financiera que audita contratos comerciales B2B en menos de 10 segundos en memoria RAM volátil. Detecta cláusulas abusivas, desequilibrios de responsabilidad y previene fugas de caja ($3,500 - $18,500 USD por contrato), entregando el archivo Word (.docx) con marcas de revisión (redlines) listas para negociar sin abogados costosos.
+            </p>
+
+            <!-- Lista de Capacidades -->
+            <div class="space-y-3 mb-6 text-xs text-slate-300">
+              <div class="flex items-start gap-2.5">
+                <span class="text-indigo-400 font-bold">✓</span>
+                <span><strong>Redlines Automáticos en Word (.docx):</strong> Informe forense instantáneo con marcas de cambio y comentarios de contrapropuesta.</span>
+              </div>
+              <div class="flex items-start gap-2.5">
+                <span class="text-indigo-400 font-bold">✓</span>
+                <span><strong>Privacidad Bancaria (EU GDPR Art. 28):</strong> Cero retención en disco. Procesamiento 100% en RAM volátil que se destruye tras la auditoría.</span>
+              </div>
+              <div class="flex items-start gap-2.5">
+                <span class="text-indigo-400 font-bold">✓</span>
+                <span><strong>Prevención de Fugas Financieras:</strong> Blindaje contra penalizaciones ocultas, indemnidades asimétricas y cláusulas de renovación automática.</span>
+              </div>
+            </div>
+
+            <!-- Precios Transparentes (Sin "Consultar Precios") -->
+            <div class="mb-6 p-4 rounded-2xl bg-slate-900/90 border border-indigo-500/30">
+              <div class="text-[11px] font-mono text-indigo-300 uppercase tracking-wider mb-2.5 flex items-center justify-between">
+                <span class="font-bold">💰 Precios Oficiales (Sin Costos Ocultos)</span>
+                <span class="text-slate-400 text-[10px]">Liquidación en USD</span>
+              </div>
+              <div class="grid grid-cols-3 gap-2.5 text-center text-xs">
+                <div class="p-2.5 rounded-xl bg-slate-950/70 border border-slate-800">
+                  <div class="text-[10px] text-slate-400 font-medium">Plan Flash</div>
+                  <div class="text-base font-extrabold text-white my-0.5">$19 <span class="text-[10px] text-slate-400 font-normal">USD</span></div>
+                  <div class="text-[9px] text-emerald-400 font-mono">1 Contrato Único</div>
+                </div>
+                <div class="p-2.5 rounded-xl bg-indigo-950/50 border border-indigo-500/40 shadow-lg shadow-indigo-500/10">
+                  <div class="text-[10px] text-indigo-300 font-bold">Plan Pro</div>
+                  <div class="text-base font-extrabold text-cyan-300 my-0.5">$69 <span class="text-[10px] text-slate-400 font-normal">USD/mes</span></div>
+                  <div class="text-[9px] text-indigo-300 font-mono">Hasta 20 contratos</div>
+                </div>
+                <div class="p-2.5 rounded-xl bg-slate-950/70 border border-slate-800">
+                  <div class="text-[10px] text-slate-400 font-medium">Enterprise</div>
+                  <div class="text-base font-extrabold text-white my-0.5">$490 <span class="text-[10px] text-slate-400 font-normal">USD/mes</span></div>
+                  <div class="text-[9px] text-slate-400 font-mono">Ilimitado + SLA</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Botón de Acción -->
+          <div class="pt-6 border-t border-slate-800/80 flex items-center justify-between">
+            <div>
+              <span class="text-[10px] uppercase font-mono text-slate-400 block">Dominio Oficial</span>
+              <a href="https://audiflowai.com" target="_blank" rel="noopener" class="text-xs font-semibold text-indigo-300 hover:text-white transition-colors">audiflowai.com</a>
+            </div>
+            <a href="https://audiflowai.com" target="_blank" rel="noopener" class="px-5 py-2.5 rounded-xl bg-gradient-to-r from-indigo-600 to-blue-600 hover:from-indigo-500 hover:to-blue-500 text-white font-bold text-xs shadow-lg shadow-indigo-500/20 transition-all flex items-center gap-1.5">
+              <span>Visitar audiflowai.com</span>
+              <span>↗</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================== -->
+    <!-- 4. MONITOR EN VIVO: TELEMETRÍA DEL HOLDING                            -->
+    <!-- ===================================================================== -->
+    <section class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <div class="glass-card rounded-2xl p-6 font-mono text-xs border border-slate-800 shadow-2xl relative">
+        <div class="flex items-center justify-between pb-3 border-b border-slate-800 mb-4 text-[11px] text-slate-400">
+          <div class="flex items-center gap-2">
+            <span class="w-3 h-3 rounded-full bg-rose-500/80 inline-block"></span>
+            <span class="w-3 h-3 rounded-full bg-amber-500/80 inline-block"></span>
+            <span class="w-3 h-3 rounded-full bg-emerald-500/80 inline-block"></span>
+            <span class="text-slate-300 font-bold ml-2">boltech-cloud-monitor :: console-v2.6</span>
+          </div>
+          <span class="text-emerald-400 flex items-center gap-1">
+            <span class="pulse-dot w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
+            SYSTEM OPERATIONAL
+          </span>
+        </div>
+
+        <div class="space-y-2 text-slate-300">
+          <p><span class="text-slate-500">[2026-09-21T10:48:00Z]</span> <span class="text-cyan-400">INIT:</span> BolTech Group autonomous daemon orchestrator loaded.</p>
+          <p><span class="text-slate-500">[2026-09-21T10:48:01Z]</span> <span class="text-indigo-400">DIVISION:</span> Unblock AI Shield active on Vercel Cloud & Google Antigravity.</p>
+          <p><span class="text-slate-500">[2026-09-21T10:48:02Z]</span> <span class="text-emerald-400">SECURITY:</span> 41 enterprise root domains audited. Perimeter flaw remediation ready.</p>
+          <p><span class="text-slate-500">[2026-09-21T10:48:03Z]</span> <span class="text-amber-400">PRIVACY:</span> SOC-2 protocol verified. Volatile RAM execution, zero disk retention.</p>
+          <p class="text-cyan-300 pt-2"><span class="text-emerald-400">✓</span> All commercial and technical pipelines synchronized with fiduciary governance.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================== -->
+    <!-- 5. LIDERAZGO & GOBERNANZA: EL RESPALDO DEL FUNDADOR                   -->
+    <!-- ===================================================================== -->
+    <section id="liderazgo" class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+      <div class="glass-card rounded-3xl p-8 sm:p-12 border border-slate-800 text-left relative overflow-hidden">
+        <div class="flex flex-col sm:flex-row items-center sm:items-start gap-6 sm:gap-8">
+          
+          <!-- Avatar Monograma / Sello -->
+          <div class="w-24 h-24 sm:w-28 sm:h-28 rounded-2xl bg-gradient-to-tr from-cyan-600 to-indigo-600 p-1 flex-shrink-0 shadow-xl shadow-cyan-500/20">
+            <div class="w-full h-full bg-slate-950 rounded-[14px] flex flex-col items-center justify-center text-center p-2">
+              <span class="font-display font-extrabold text-white text-2xl tracking-wider">RB</span>
+              <span class="text-[9px] font-mono text-cyan-300 uppercase tracking-tight mt-0.5">BolTech</span>
+            </div>
+          </div>
+
+          <!-- Datos del Líder -->
+          <div class="flex-1 text-center sm:text-left">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-3">
+              <div>
+                <h3 class="font-display text-2xl font-bold text-white">Ricardo Bolaños</h3>
+                <p class="text-xs font-mono text-cyan-300" data-i18n="leader-role">Founder & Managing Director — BolTech Group</p>
+              </div>
+
+              <!-- Enlace LinkedIn Verificado -->
+              <a href="https://www.linkedin.com/in/ricbol/" target="_blank" rel="noopener" class="inline-flex items-center justify-center gap-1.5 px-3.5 py-1.5 rounded-lg bg-[#0a66c2]/20 hover:bg-[#0a66c2]/40 border border-[#0a66c2]/50 text-cyan-200 text-xs font-semibold transition-all">
+                <svg class="w-3.5 h-3.5 fill-[#0a66c2]" viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.2V10.9H6.46M7.83 6.45a1.62 1.62 0 0 0-1.63 1.63 1.63 1.63 0 0 0 1.63 1.63 1.63 1.63 0 0 0 1.63-1.63c0-.9-.73-1.63-1.63-1.63Z"/></svg>
+                <span>Verificar en LinkedIn</span>
+                <span class="text-[10px]">↗</span>
+              </a>
+            </div>
+
+            <!-- Cita Fiduciaria -->
+            <blockquote class="text-slate-300 text-xs sm:text-sm leading-relaxed italic border-l-2 border-cyan-500/50 pl-4 my-4" data-i18n="leader-quote">
+              «Sin clientes no hay ingresos, y sin ingresos no hay trabajo. En BolTech Group no construimos juguetes conceptuales ni prototipos frágiles; estructuramos soluciones de software que resuelven dolores de caja reales, liquidan en minutos y le devuelven la paz mental al empresario.»
+            </blockquote>
+
+            <div class="flex flex-wrap items-center gap-4 pt-2 text-[11px] text-slate-400 font-mono">
+              <span class="flex items-center gap-1"><span class="text-emerald-400">✓</span> Identidad Verificada</span>
+              <span class="flex items-center gap-1"><span class="text-emerald-400">✓</span> Custodia Directa de Soluciones</span>
+              <span class="flex items-center gap-1"><span class="text-emerald-400">✓</span> Cero Intermediarios</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================== -->
+    <!-- 6. LLAMADO A LA ACCIÓN FINAL (CTA)                                    -->
+    <!-- ===================================================================== -->
+    <section class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center py-16">
+      <div class="glass-card rounded-3xl p-10 sm:p-14 border border-cyan-500/30 relative overflow-hidden">
+        <div class="absolute inset-0 glow-cyan opacity-40 pointer-events-none"></div>
+
+        <h2 class="font-display text-3xl sm:text-4xl font-extrabold text-white tracking-tight mb-4" data-i18n="final-cta-title">
+          ¿Listo para blindar su empresa y operar con paz mental?
+        </h2>
+        <p class="text-slate-300 text-sm sm:text-base max-w-2xl mx-auto mb-8" data-i18n="final-cta-desc">
+          Audite el perímetro web de su plataforma de forma gratuita en 15 segundos con Unblock AI Shield o comuníquese directamente con nuestra dirección ejecutiva.
+        </p>
+
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+          <a href="https://unblock-shield.vercel.app" class="w-full sm:w-auto px-8 py-3.5 rounded-xl bg-gradient-to-r from-cyan-500 via-blue-600 to-indigo-600 hover:from-cyan-400 hover:to-indigo-500 text-white font-bold text-sm shadow-xl shadow-cyan-500/25 transition-all flex items-center justify-center gap-2">
+            <span data-i18n="final-cta-btn1">Escanear Sitio Gratis con Unblock AI</span>
+            <span>⚡</span>
+          </a>
+          <a href="https://www.linkedin.com/in/ricbol/" target="_blank" rel="noopener" class="w-full sm:w-auto px-8 py-3.5 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-700 text-slate-200 font-semibold text-sm transition-all flex items-center justify-center gap-2">
+            <span>Mensaje en LinkedIn</span>
+            <span>↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- PIE DE PÁGINA INSTITUCIONAL -->
+  <footer class="border-t border-slate-900 py-12 relative z-10 text-xs text-slate-400">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-6">
+      
+      <div class="flex items-center gap-3">
+        <div class="w-7 h-7 rounded-lg bg-slate-900 border border-slate-700 flex items-center justify-center text-xs font-bold text-cyan-400 font-display">
+          BT
+        </div>
+        <div>
+          <span class="text-white font-bold text-xs block">BolTech Group</span>
+          <span class="text-[10px] text-slate-400">Enterprise Software & Cloud Security Holding</span>
+        </div>
+      </div>
+
+      <div class="flex flex-wrap items-center justify-center gap-6 text-[11px]">
+        <a href="https://unblock-shield.vercel.app" class="hover:text-cyan-400 transition-colors">Unblock AI Shield</a>
+        <a href="https://audiflowai.com" target="_blank" rel="noopener" class="hover:text-cyan-400 transition-colors">Audiflow AI (audiflowai.com)</a>
+        <a href="https://www.linkedin.com/company/146617304/" target="_blank" rel="noopener" class="hover:text-cyan-400 transition-colors flex items-center gap-1">
+          <svg class="w-3 h-3 fill-[#0a66c2]" viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.2V10.9H6.46M7.83 6.45a1.62 1.62 0 0 0-1.63 1.63 1.63 1.63 0 0 0 1.63 1.63 1.63 1.63 0 0 0 1.63-1.63c0-.9-.73-1.63-1.63-1.63Z"/></svg>
+          <span>LinkedIn Empresa</span>
+        </a>
+        <a href="https://www.linkedin.com/in/ricbol/" target="_blank" rel="noopener" class="hover:text-cyan-400 transition-colors">LinkedIn Fundador</a>
+        <a href="https://unblock-shield.vercel.app" class="hover:text-cyan-400 transition-colors">Contacto Unblock AI Shield</a>
+      </div>
+
+      <div class="text-[11px] text-slate-400 text-center sm:text-right">
+        © 2026 BolTech Group. Todos los derechos reservados.<br/>
+        <span class="font-mono text-[10px]">Cero Retención en Disco • Liquidación en USD</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- SCRIPT DE INTERNACIONALIZACIÓN (ES / EN) -->
+  <script>
+    const translations = {
+      es: {
+        'nav-purpose': 'Propósito',
+        'nav-video': 'Master Pitch',
+        'nav-portfolio': 'Portafolio',
+        'nav-peace': 'Paz Mental',
+        'nav-leadership': 'Liderazgo',
+        'cta-primary-nav': 'Explorar Unblock AI',
+        'video-pill': 'SESIÓN ESTRATÉGICA DE DIRECCIÓN • HOLDING PITCH',
+        'video-title': 'Master Pitch: Infraestructura Autónoma & Ciberseguridad Fiduciaria',
+        'video-desc': 'Sesión ejecutiva de 15 escenas sobre blindaje perimetral, liquidación multidivisa y escala desatendida.',
+        'hero-pill': 'HOLDING TECNOLÓGICO & VENTURE STUDIO DE INFRAESTRUCTURA AUTÓNOMA',
+        'hero-h1-1': 'Ingeniería autónoma que protege su capital y le devuelve',
+        'hero-h1-2': 'la paz mental operativa 24/7.',
+        'hero-desc': 'En BolTech Group diseñamos, operamos e invertimos en arquitecturas de software autónomo que erradican la fricción operativa, blindan el perímetro web y blindan el flujo de caja en empresas de alto rendimiento sin tocar código legado ni violar la privacidad.',
+        'hero-btn-flagship': 'Descubrir Unblock AI Shield',
+        'hero-btn-linkedin': 'Conectar con Dirección',
+        'hero-badges-title': 'Estándares de Grado Bancario & Ecosistema de Operación',
+        'peace-tag': 'FILOSOFÍA FUNDACIONAL',
+        'peace-title': '¿Por qué Paz Mental? El fin de la fatiga tecnológica.',
+        'peace-desc': 'En la era de la sobrecarga de herramientas y suscripciones inútiles, BolTech Group opera bajo una regla no negociable: si un sistema no le ahorra tiempo al líder y no blinda sus ingresos, no merece existir.',
+        'peace-c1-t': 'Cero Invasión & Cero Fricción',
+        'peace-c1-d': 'Nunca solicitamos acceso a sus servidores, contraseñas maestras ni bases de datos. Nuestras auditorías y agentes operan externamente desde la nube, brindando diagnósticos clínicos sin alterar su operación diaria.',
+        'peace-c2-t': 'Privacidad SOC-2 en Memoria Volátil',
+        'peace-c2-d': 'Cero retención en disco. Todo procesamiento ocurre en memoria RAM aislada y se destruye al concluir la transacción. Ninguna información sensible se utiliza para entrenar modelos públicos.',
+        'peace-c3-t': 'Matemática de Rendimiento Fiduciario',
+        'peace-c3-d': 'Un consultor de seguridad cobra entre $600 y $3,000 USD por semanas de demora. Nuestras divisiones entregan soluciones inmediatas desde $19 USD que se pagan solas al evitar un solo incidente crítico.',
+        'port-tag': 'DIVISIONES DEL GRUPO',
+        'port-title': 'Soluciones de Ingeniería con Enfoque Especializado',
+        'port-desc': 'Operamos unidades de negocio autónomas, cada una diseñada para erradicar un dolor empresarial crítico con rigor técnico y cero intervención humana.',
+        'unblock-card-desc': 'Solución integral que unifica ciberseguridad perimetral y automatización operativa: (1) Diagnóstico y blindaje de vulnerabilidades web en 15s (CSP, HSTS, X-Frame) y (2) Síntesis de agentes autónomos a la medida para resolver cuellos de botella diarios, atención al cliente 24/7 y ventas.',
+        'auditflow-card-desc': 'Plataforma de ingeniería legal y financiera que audita contratos comerciales B2B en menos de 10 segundos en memoria RAM volátil. Detecta cláusulas abusivas, desequilibrios de responsabilidad y previene fugas de caja ($3,500 - $18,500 USD por contrato), entregando el archivo Word (.docx) con marcas de revisión (redlines) listas para negociar sin abogados costosos.',
+        'leader-role': 'Founder & Managing Director — BolTech Group',
+        'leader-quote': '«Sin clientes no hay ingresos, y sin ingresos no hay trabajo. En BolTech Group no construimos juguetes conceptuales ni prototipos frágiles; estructuramos soluciones de software que resuelven dolores de caja reales, liquidan en minutos y le devuelven la paz mental al empresario.»',
+        'final-cta-title': '¿Listo para blindar su empresa y operar con paz mental?',
+        'final-cta-desc': 'Audite el perímetro web de su plataforma de forma gratuita en 15 segundos con Unblock AI Shield o comuníquese directamente con nuestra dirección ejecutiva.',
+        'final-cta-btn1': 'Escanear Sitio Gratis con Unblock AI'
+      },
+      en: {
+        'nav-purpose': 'Purpose',
+        'nav-video': 'Master Pitch',
+        'nav-portfolio': 'Portfolio',
+        'nav-peace': 'Peace of Mind',
+        'nav-leadership': 'Leadership',
+        'cta-primary-nav': 'Explore Unblock AI',
+        'video-pill': 'EXECUTIVE STRATEGY SESSION • HOLDING PITCH',
+        'video-title': 'Master Pitch: Autonomous Infrastructure & Fiduciary Cybersecurity',
+        'video-desc': '15-scene executive briefing on perimeter hardening, multi-currency settlement, and unattended scale.',
+        'hero-pill': 'AUTONOMOUS CLOUD INFRASTRUCTURE & TECH VENTURE HOLDING',
+        'hero-h1-1': 'Autonomous engineering defending your capital and delivering',
+        'hero-h1-2': 'true 24/7 operational peace of mind.',
+        'hero-desc': 'At BolTech Group, we build, operate, and back autonomous software architectures that eliminate operational drag, harden cloud perimeters, and protect corporate cash flows for high-volume enterprises without legacy friction or privacy compromises.',
+        'hero-btn-flagship': 'Discover Unblock AI Shield',
+        'hero-btn-linkedin': 'Connect with Leadership',
+        'hero-badges-title': 'Bank-Grade Standards & Operating Ecosystem',
+        'peace-tag': 'FOUNDATIONAL PHILOSOPHY',
+        'peace-title': 'Why Peace of Mind? An end to tech stack fatigue.',
+        'peace-desc': 'In an era of bloated software stacks and endless SaaS waste, BolTech Group operates by one non-negotiable rule: if a system does not save hours for leadership and safeguard cash flow, it has no right to exist.',
+        'peace-c1-t': 'Zero Intrusion & Zero Friction',
+        'peace-c1-d': 'We never request database access, server passwords, or internal keys. All audits and agents run externally from the cloud, providing deep clinical diagnostics without interrupting day-to-day operations.',
+        'peace-c2-t': 'SOC-2 In-Memory RAM Privacy',
+        'peace-c2-d': 'Zero-disk retention. Processing executes 100% in volatile isolated RAM and is purged immediately upon completion. No customer data is ever saved or used for AI training.',
+        'peace-c3-t': 'Asymmetric Fiduciary ROI',
+        'peace-c3-d': 'External pentest consultancies bill $600 to $3,000+ USD with multi-week delays. Our divisions deliver instant production-ready solutions starting at $19 USD that pay for themselves upon preventing a single incident.',
+        'port-tag': 'GROUP DIVISIONS',
+        'port-title': 'Purpose-Built Engineering Units',
+        'port-desc': 'We operate autonomous specialized business divisions, each architected to solve a critical enterprise bottleneck with technical precision and zero human intervention.',
+        'unblock-card-desc': 'Unified enterprise platform pairing defensive cybersecurity with operational automation: (1) Non-invasive 15-second perimeter auditing & header hardening (CSP, HSTS, X-Frame) and (2) Custom autonomous agent synthesis to eradicate bottlenecks in customer service, sales qualification, and day-to-day operations.',
+        'auditflow-card-desc': 'B2B contract clinical auditing & redline generation engine delivering reviewed Word (.docx) files in under 10 seconds. Processes 100% in volatile RAM (EU GDPR Art. 28, zero disk retention), preventing $3,500 - $18,500 USD in hidden liabilities, indemnity traps, and financial leakage before signing.',
+        'leader-role': 'Founder & Managing Director — BolTech Group',
+        'leader-quote': '«Without paying clients there is no revenue, and without revenue there is no business. At BolTech Group, we do not build fragile prototypes; we engineer sovereign software that resolves real cash leaks, settles in minutes, and restores true peace of mind to leadership.»',
+        'final-cta-title': 'Ready to harden your enterprise and operate with total peace of mind?',
+        'final-cta-desc': 'Run a free 15-second perimeter audit on your platform with Unblock AI Shield or connect directly with our executive office.',
+        'final-cta-btn1': 'Run Free Scan with Unblock AI'
+      }
+    };
+
+    let currentLang = 'es';
+
+    function setLanguage(lang) {
+      currentLang = lang;
+      const dict = translations[lang];
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (dict[key]) {
+          el.innerHTML = dict[key];
+        }
+      });
+      document.getElementById('lang-label').innerText = (lang === 'es') ? 'EN' : 'ES';
+      document.documentElement.lang = lang;
+    }
+
+    function toggleLanguage() {
+      setLanguage(currentLang === 'es' ? 'en' : 'es');
+    }
+
+    // Video Switcher for BolTech Group App
+    function switchBoltechVideo(type) {
+      const vid = document.getElementById('boltech-pitch-video');
+      const btnMaster = document.getElementById('btn-boltech-master');
+      const btnSales = document.getElementById('btn-boltech-sales');
+      const btnExec = document.getElementById('btn-boltech-exec');
+      if (!vid) return;
+
+      const activeClass = 'px-4 py-2 rounded-xl bg-cyan-500 text-slate-950 font-bold text-xs font-mono transition-all cursor-pointer shadow-lg shadow-cyan-500/30';
+      const inactiveClass = 'px-4 py-2 rounded-xl bg-slate-900 border border-slate-800 text-slate-300 hover:text-white font-bold text-xs font-mono transition-all cursor-pointer';
+
+      if (btnMaster) btnMaster.className = inactiveClass;
+      if (btnSales) btnSales.className = inactiveClass;
+      if (btnExec) btnExec.className = inactiveClass;
+
+      if (type === 'master') {
+        vid.poster = 'assets/videos/poster_sales_closer.jpg';
+        vid.src = 'assets/videos/boltech_master_pitch.mp4';
+        if (btnMaster) btnMaster.className = activeClass;
+      } else if (type === 'sales') {
+        vid.poster = 'assets/videos/poster_sales_closer.jpg';
+        vid.src = 'assets/videos/sales_closer_briefing.mp4';
+        if (btnSales) btnSales.className = activeClass;
+      } else if (type === 'exec') {
+        vid.poster = 'assets/videos/poster_executive.jpg';
+        vid.src = 'assets/videos/executive_briefing.mp4';
+        if (btnExec) btnExec.className = activeClass;
+      }
+      vid.load();
+    }
+
+    // Auto-detect browser language or query param ?lang=en
+    document.addEventListener('DOMContentLoaded', () => {
+      const params = new URLSearchParams(window.location.search);
+      const urlLang = params.get('lang');
+      if (urlLang === 'en' || (!urlLang && navigator.language && !navigator.language.startsWith('es'))) {
+        setLanguage('en');
+      }
+    });
+  </script>
+</body>
+</html>

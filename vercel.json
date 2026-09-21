@@ -3,6 +3,9 @@
   "outputDirectory": ".",
   "cleanUrls": true,
   "trailingSlash": false,
+  "rewrites": [
+    { "source": "/boltech", "destination": "/boltech.html" }
+  ],
   "headers": [
     {
       "source": "/assets/css/(.*)",
