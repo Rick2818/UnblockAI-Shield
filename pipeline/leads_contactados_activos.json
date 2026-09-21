@@ -10,12 +10,12 @@
     "strikePaymentDestination": "rick2818@strike.me",
     "checkoutUrl": "https://unblock-shield.vercel.app/?domain=estafeta.com",
     "directStrikePaymentUrl": "https://strike.me/rick2818",
-    "status": "ENVIADO_REAL_EN_RED",
+    "status": "ENVIADO_IMPACTO_2_PAZ_MENTAL",
     "contactEmail": "proyectos@estafeta.com",
     "outboundMessage": {
       "to": "proyectos@estafeta.com",
-      "subject": "Informe de Seguridad Perimetral: 3 vulnerabilidades detectadas en estafeta.com",
-      "body": "Estimado equipo directivo y técnico en Estafeta Carga,\n\nLe saluda el equipo de Destraba AI (firma de ingeniería en automatización operativa y ciberseguridad defensiva sobre Google Antigravity y Cloud 24/7).\n\nDurante nuestra inspección perimetral no invasiva sobre estafeta.com, identificamos 3 anomalías críticas que impactan la seguridad y conversión de su portal:\n• Falta Content-Security-Policy (Riesgo XSS)\n• Falta Strict-Transport-Security (Riesgo SSL Strip)\n• Falta X-Frame-Options (Riesgo Clickjacking)\n\n¿Por qué confiar en nosotros antes de abrir cualquier puerta? (Nuestros 5 Anclajes de Apertura):\n1. Cero Invasión Previa: No solicitamos contraseñas, claves API ni acceso a bases de datos. Todo el análisis corre desde el exterior.\n2. Micro-Riesgo: Puedes verificar el diagnóstico gratis en 15s en nuestra web o descargar el informe ejecutivo con los parches listos para producción por solo $19 USD (Plan Flash).\n3. Garantía Fiduciaria 100% (7 Días): Si en 7 días la solución no le ahorra al menos 10 horas de trabajo manual a su equipo, reembolsamos el 100% de su pago sin preguntas.\n4. Privacidad Bancaria SOC-2: Cero retención en disco; 100% procesado en memoria RAM volátil aislada.\n5. Matemática de Ahorro: Un operador o analista cuesta $600+ USD/mes; nuestro agente autónomo opera 24/7 por $2.30 USD al día ($69 USD/mes).\n\nAudite su portal en vivo o aplique los parches en 60 segundos:\n🔗 https://destraba-ai.vercel.app/?plan=flash&domain=estafeta.com\n\nO liquidación instantánea sin comisiones vía Bitcoin Lightning Network a: rick2818@strike.me\n\nAtentamente,\nEspecialista Senior de Ciberseguridad & Ventas Fiduciarias — Destraba AI"
+      "subject": "🎬 Video de 70s: La paz mental de operar estafeta.com 100% blindado 24/7",
+      "body": "Estimado equipo directivo y de operaciones en Estafeta Carga,\n\nLe escribo en seguimiento a nuestra notificación perimetral previa con una premisa clara:\n\nNo vendemos horas de consultoría teórica, diagnósticos abstractos ni reuniones interminables. Entregamos soluciones llave en mano y la auténtica paz mental de operar 24/7 sin riesgos mientras usted y su equipo descansan.\n\n¿Cuánto vale para su dirección tener la certeza absoluta de que sus pasarelas de pago no fallarán silenciosamente, que no existen cabeceras vulnerables a inyección y que los datos de sus clientes están blindados?\n\n▶️ VEA EL VIDEO BRIEFING EJECUTIVO (70 Segundos):\n🔗 https://unblock-shield.vercel.app/?domain=estafeta.com\n\nPuntos clave de por qué directores confían en nosotros (Nuestros 5 Anclajes de Confianza):\n1. Cero Invasión Previa: Jamás solicitamos contraseñas, claves API ni acceso a bases de datos internas. Todo opera de forma defensiva desde el perímetro en la nube.\n2. Micro-Riesgo Asimétrico: Descargue el informe forense con los parches listos para pegar en producción por solo $19 USD (Plan Flash).\n3. Centinela Autónomo 24/7: Agente soberano que vigila su infraestructura por solo $2.30 USD al día ($69 USD/mes).\n4. Garantía Fiduciaria Total de 7 Días: Si en su primera semana el sistema no le ahorra al menos 10 horas de trabajo manual, reembolsamos el 100% de su pago sin fricción ni preguntas.\n5. Privacidad Bancaria SOC-2: Cero retención en disco; 100% procesado en memoria volátil RAM y purgado al instante.\n\nVea el video explicativo y aplique el blindaje en 60 segundos:\n🔗 https://unblock-shield.vercel.app/?domain=estafeta.com\n\nLiquidación directa e instantánea por Bitcoin Lightning Network a: rick2818@strike.me\n\nQuedo a su entera disposición.\n\nAtentamente,\nEspecialista Senior en Seguridad y Automatización Fiduciaria — Destraba AI"
     },
     "flawsCount": 3,
     "flaws": [
@@ -25,13 +25,17 @@
     ],
     "severity": "CRITICA",
     "deliveryAudit": {
-      "dispatchedAt": "2026-09-18T18:07:06.193Z",
+      "dispatchedAt": "2026-09-21T22:54:16.165Z",
       "mode": "LIVE",
+      "impact": 2,
+      "cadenceType": "PAZ_MENTAL_VIDEO_70S",
       "transport": "GMAIL_SMTPS",
-      "messageId": "smtp_1789754826192_e7c4bc",
+      "messageId": "smtp_1790031256165_940387",
       "recipient": "proyectos@estafeta.com",
       "status": "TRANSMITIDO_EXITOSO"
-    }
+    },
+    "targetImpact": 2,
+    "currentImpact": 2
   },
   {
     "id": "audit_1789754819035_103",
@@ -44,12 +48,12 @@
     "strikePaymentDestination": "rick2818@strike.me",
     "checkoutUrl": "https://unblock-shield.vercel.app/?domain=redpack.com.mx",
     "directStrikePaymentUrl": "https://strike.me/rick2818",
-    "status": "ENVIADO_REAL_EN_RED",
+    "status": "ENVIADO_IMPACTO_2_PAZ_MENTAL",
     "contactEmail": "contacto@redpack.com.mx",
     "outboundMessage": {
       "to": "contacto@redpack.com.mx",
-      "subject": "Informe de Seguridad Perimetral: 3 vulnerabilidades detectadas en redpack.com.mx",
-      "body": "Estimado equipo directivo y técnico en Redpack Logística,\n\nLe saluda el equipo de Destraba AI (firma de ingeniería en automatización operativa y ciberseguridad defensiva sobre Google Antigravity y Cloud 24/7).\n\nDurante nuestra inspección perimetral no invasiva sobre redpack.com.mx, identificamos 3 anomalías críticas que impactan la seguridad y conversión de su portal:\n• Falta Content-Security-Policy (Riesgo XSS)\n• Falta Strict-Transport-Security (Riesgo SSL Strip)\n• Certificado SSL Anómalo / Vencido: CERT_HAS_EXPIRED\n\n¿Por qué confiar en nosotros antes de abrir cualquier puerta? (Nuestros 5 Anclajes de Apertura):\n1. Cero Invasión Previa: No solicitamos contraseñas, claves API ni acceso a bases de datos. Todo el análisis corre desde el exterior.\n2. Micro-Riesgo: Puedes verificar el diagnóstico gratis en 15s en nuestra web o descargar el informe ejecutivo con los parches listos para producción por solo $19 USD (Plan Flash).\n3. Garantía Fiduciaria 100% (7 Días): Si en 7 días la solución no le ahorra al menos 10 horas de trabajo manual a su equipo, reembolsamos el 100% de su pago sin preguntas.\n4. Privacidad Bancaria SOC-2: Cero retención en disco; 100% procesado en memoria RAM volátil aislada.\n5. Matemática de Ahorro: Un operador o analista cuesta $600+ USD/mes; nuestro agente autónomo opera 24/7 por $2.30 USD al día ($69 USD/mes).\n\nAudite su portal en vivo o aplique los parches en 60 segundos:\n🔗 https://destraba-ai.vercel.app/?plan=flash&domain=redpack.com.mx\n\nO liquidación instantánea sin comisiones vía Bitcoin Lightning Network a: rick2818@strike.me\n\nAtentamente,\nEspecialista Senior de Ciberseguridad & Ventas Fiduciarias — Destraba AI"
+      "subject": "🎬 Video de 70s: La paz mental de operar redpack.com.mx 100% blindado 24/7",
+      "body": "Estimado equipo directivo y de operaciones en Redpack Logística,\n\nLe escribo en seguimiento a nuestra notificación perimetral previa con una premisa clara:\n\nNo vendemos horas de consultoría teórica, diagnósticos abstractos ni reuniones interminables. Entregamos soluciones llave en mano y la auténtica paz mental de operar 24/7 sin riesgos mientras usted y su equipo descansan.\n\n¿Cuánto vale para su dirección tener la certeza absoluta de que sus pasarelas de pago no fallarán silenciosamente, que no existen cabeceras vulnerables a inyección y que los datos de sus clientes están blindados?\n\n▶️ VEA EL VIDEO BRIEFING EJECUTIVO (70 Segundos):\n🔗 https://unblock-shield.vercel.app/?domain=redpack.com.mx\n\nPuntos clave de por qué directores confían en nosotros (Nuestros 5 Anclajes de Confianza):\n1. Cero Invasión Previa: Jamás solicitamos contraseñas, claves API ni acceso a bases de datos internas. Todo opera de forma defensiva desde el perímetro en la nube.\n2. Micro-Riesgo Asimétrico: Descargue el informe forense con los parches listos para pegar en producción por solo $19 USD (Plan Flash).\n3. Centinela Autónomo 24/7: Agente soberano que vigila su infraestructura por solo $2.30 USD al día ($69 USD/mes).\n4. Garantía Fiduciaria Total de 7 Días: Si en su primera semana el sistema no le ahorra al menos 10 horas de trabajo manual, reembolsamos el 100% de su pago sin fricción ni preguntas.\n5. Privacidad Bancaria SOC-2: Cero retención en disco; 100% procesado en memoria volátil RAM y purgado al instante.\n\nVea el video explicativo y aplique el blindaje en 60 segundos:\n🔗 https://unblock-shield.vercel.app/?domain=redpack.com.mx\n\nLiquidación directa e instantánea por Bitcoin Lightning Network a: rick2818@strike.me\n\nQuedo a su entera disposición.\n\nAtentamente,\nEspecialista Senior en Seguridad y Automatización Fiduciaria — Destraba AI"
     },
     "flawsCount": 3,
     "flaws": [
@@ -59,13 +63,17 @@
     ],
     "severity": "CRITICA",
     "deliveryAudit": {
-      "dispatchedAt": "2026-09-18T18:07:11.279Z",
+      "dispatchedAt": "2026-09-21T22:54:23.511Z",
       "mode": "LIVE",
+      "impact": 2,
+      "cadenceType": "PAZ_MENTAL_VIDEO_70S",
       "transport": "GMAIL_SMTPS",
-      "messageId": "smtp_1789754831279_2a4458",
+      "messageId": "smtp_1790031263510_bbdb84",
       "recipient": "contacto@redpack.com.mx",
       "status": "TRANSMITIDO_EXITOSO"
-    }
+    },
+    "targetImpact": 2,
+    "currentImpact": 2
   },
   {
     "id": "audit_1789754817757_666",
@@ -78,12 +86,12 @@
     "strikePaymentDestination": "rick2818@strike.me",
     "checkoutUrl": "https://unblock-shield.vercel.app/?domain=sgs.com",
     "directStrikePaymentUrl": "https://strike.me/rick2818",
-    "status": "ENVIADO_REAL_EN_RED",
+    "status": "ENVIADO_IMPACTO_2_PAZ_MENTAL",
     "contactEmail": "enquiry@sgs.com",
     "outboundMessage": {
       "to": "enquiry@sgs.com",
-      "subject": "Perimeter Security Report: 3 critical flaws detected on sgs.com",
-      "body": "Dear Leadership & Engineering Team at SGS Logistics Central America,\n\nThis is the team at Unblock AI (autonomous operations engineering & defensive cybersecurity built on Google Antigravity & 24/7 Cloud Infrastructure).\n\nDuring our non-invasive external perimeter inspection of sgs.com, we identified 3 critical opportunities to harden security and eliminate checkout friction:\n• Falta Content-Security-Policy (Riesgo XSS)\n• Falta Strict-Transport-Security (Riesgo SSL Strip)\n• Falta X-Frame-Options (Riesgo Clickjacking)\n\nWhy trust us before opening any door? (Our 5 Fiduciary Trust Anchors):\n1. Zero Invasive Access: We never ask for passwords, API keys, or internal database access. All evaluations run 100% externally.\n2. Micro-Risk Asymmetry: Run a free 15-second audit on our site or download the executive report and production-ready remediation patches for just $19 USD (Flash Plan).\n3. 7-Day Unconditional Fiduciary Guarantee: If the solution does not save your team at least 10 hours of manual operational work in the first 7 days, we refund 100% of your payment with zero friction.\n4. SOC-2 Grade Banking Privacy: Zero disk retention; 100% processed in volatile RAM and immediately purged.\n5. Objective ROI Math: A human operator costs $600+ USD/month; our autonomous agent runs 24/7 for $2.30 USD/day ($69 USD/month), paying for itself with a single recovered lead or resolved ticket.\n\nAudit your portal live or deploy patches in 60 seconds:\n🔗 https://destraba-ai.vercel.app/?lang=en&plan=flash&domain=sgs.com\n\nOr instant zero-fee settlement via Bitcoin Lightning Network to: rick2818@strike.me\n\nBest regards,\nSenior Cybersecurity & Solutions Team — Unblock AI"
+      "subject": "🎬 70s Video: 24/7 peace of mind and perimeter defense for sgs.com",
+      "body": "Dear Executive & Operations Team at SGS Logistics Central America,\n\nI am reaching out following our recent perimeter scan with a simple, direct commitment:\n\nWe do not sell theoretical advisory hours, lengthy PowerPoints, or billable consulting sessions. We deliver turnkey sovereign solutions and genuine 24/7 peace of mind while your team sleeps.\n\nHow much is it worth to know that your checkout pipeline will never silently drop transactions, that banking headers are strictly enforced, and that no perimeter injection can breach your customer data?\n\n▶️ WATCH THE 70-SECOND EXECUTIVE VIDEO BRIEFING:\n🔗 https://unblock-shield.vercel.app/?lang=en&domain=sgs.com\n\nWhy leading executives trust our infrastructure (Our 5 Fiduciary Trust Anchors):\n1. Zero Invasive Access: We never touch passwords, internal databases, or API credentials. 100% evaluated and deployed safely from the cloud perimeter.\n2. Micro-Risk Turnkey Solution: Download production-ready code patches in a single .zip for just $19 USD (Flash Plan).\n3. 24/7 Autopilot Sentinel: Autonomous agent continuously monitoring your endpoints for $69 USD/month ($2.30 USD/day).\n4. 7-Day Unconditional Fiduciary Guarantee: If this solution does not save your operations at least 10 hours in the first week, we refund 100% of your payment with zero questions.\n5. SOC-2 Grade Volatile Memory Vault: Zero disk storage; all operations run in isolated volatile RAM and are purged instantly.\n\nInspect your portal live or activate immediate peace of mind in 60 seconds:\n🔗 https://unblock-shield.vercel.app/?lang=en&domain=sgs.com\n\nInstant zero-fee settlement via Bitcoin Lightning Network: rick2818@strike.me\n\nBest regards,\nSenior Solutions & Cyber-Defense Team — Unblock AI"
     },
     "flawsCount": 3,
     "flaws": [
@@ -93,13 +101,17 @@
     ],
     "severity": "CRITICA",
     "deliveryAudit": {
-      "dispatchedAt": "2026-09-18T18:07:15.526Z",
+      "dispatchedAt": "2026-09-21T22:54:30.611Z",
       "mode": "LIVE",
+      "impact": 2,
+      "cadenceType": "PAZ_MENTAL_VIDEO_70S",
       "transport": "GMAIL_SMTPS",
-      "messageId": "smtp_1789754835526_ce1bae",
+      "messageId": "smtp_1790031270611_191fc8",
       "recipient": "enquiry@sgs.com",
       "status": "TRANSMITIDO_EXITOSO"
-    }
+    },
+    "targetImpact": 2,
+    "currentImpact": 2
   },
   {
     "id": "audit_1789754816285_152",
@@ -112,12 +124,12 @@
     "strikePaymentDestination": "rick2818@strike.me",
     "checkoutUrl": "https://unblock-shield.vercel.app/?domain=intertek.com",
     "directStrikePaymentUrl": "https://strike.me/rick2818",
-    "status": "ENVIADO_REAL_EN_RED",
+    "status": "ENVIADO_IMPACTO_2_PAZ_MENTAL",
     "contactEmail": "info.latam@intertek.com",
     "outboundMessage": {
       "to": "info.latam@intertek.com",
-      "subject": "Perimeter Security Report: 3 critical flaws detected on intertek.com",
-      "body": "Dear Leadership & Engineering Team at Intertek Centroamérica,\n\nThis is the team at Unblock AI (autonomous operations engineering & defensive cybersecurity built on Google Antigravity & 24/7 Cloud Infrastructure).\n\nDuring our non-invasive external perimeter inspection of intertek.com, we identified 3 critical opportunities to harden security and eliminate checkout friction:\n• Falta Content-Security-Policy (Riesgo XSS)\n• Falta Strict-Transport-Security (Riesgo SSL Strip)\n• Falta X-Frame-Options (Riesgo Clickjacking)\n\nWhy trust us before opening any door? (Our 5 Fiduciary Trust Anchors):\n1. Zero Invasive Access: We never ask for passwords, API keys, or internal database access. All evaluations run 100% externally.\n2. Micro-Risk Asymmetry: Run a free 15-second audit on our site or download the executive report and production-ready remediation patches for just $19 USD (Flash Plan).\n3. 7-Day Unconditional Fiduciary Guarantee: If the solution does not save your team at least 10 hours of manual operational work in the first 7 days, we refund 100% of your payment with zero friction.\n4. SOC-2 Grade Banking Privacy: Zero disk retention; 100% processed in volatile RAM and immediately purged.\n5. Objective ROI Math: A human operator costs $600+ USD/month; our autonomous agent runs 24/7 for $2.30 USD/day ($69 USD/month), paying for itself with a single recovered lead or resolved ticket.\n\nAudit your portal live or deploy patches in 60 seconds:\n🔗 https://destraba-ai.vercel.app/?lang=en&plan=flash&domain=intertek.com\n\nOr instant zero-fee settlement via Bitcoin Lightning Network to: rick2818@strike.me\n\nBest regards,\nSenior Cybersecurity & Solutions Team — Unblock AI"
+      "subject": "🎬 70s Video: 24/7 peace of mind and perimeter defense for intertek.com",
+      "body": "Dear Executive & Operations Team at Intertek Centroamérica,\n\nI am reaching out following our recent perimeter scan with a simple, direct commitment:\n\nWe do not sell theoretical advisory hours, lengthy PowerPoints, or billable consulting sessions. We deliver turnkey sovereign solutions and genuine 24/7 peace of mind while your team sleeps.\n\nHow much is it worth to know that your checkout pipeline will never silently drop transactions, that banking headers are strictly enforced, and that no perimeter injection can breach your customer data?\n\n▶️ WATCH THE 70-SECOND EXECUTIVE VIDEO BRIEFING:\n🔗 https://unblock-shield.vercel.app/?lang=en&domain=intertek.com\n\nWhy leading executives trust our infrastructure (Our 5 Fiduciary Trust Anchors):\n1. Zero Invasive Access: We never touch passwords, internal databases, or API credentials. 100% evaluated and deployed safely from the cloud perimeter.\n2. Micro-Risk Turnkey Solution: Download production-ready code patches in a single .zip for just $19 USD (Flash Plan).\n3. 24/7 Autopilot Sentinel: Autonomous agent continuously monitoring your endpoints for $69 USD/month ($2.30 USD/day).\n4. 7-Day Unconditional Fiduciary Guarantee: If this solution does not save your operations at least 10 hours in the first week, we refund 100% of your payment with zero questions.\n5. SOC-2 Grade Volatile Memory Vault: Zero disk storage; all operations run in isolated volatile RAM and are purged instantly.\n\nInspect your portal live or activate immediate peace of mind in 60 seconds:\n🔗 https://unblock-shield.vercel.app/?lang=en&domain=intertek.com\n\nInstant zero-fee settlement via Bitcoin Lightning Network: rick2818@strike.me\n\nBest regards,\nSenior Solutions & Cyber-Defense Team — Unblock AI"
     },
     "flawsCount": 3,
     "flaws": [
@@ -127,13 +139,17 @@
     ],
     "severity": "CRITICA",
     "deliveryAudit": {
-      "dispatchedAt": "2026-09-18T18:07:19.918Z",
+      "dispatchedAt": "2026-09-21T22:54:34.843Z",
       "mode": "LIVE",
+      "impact": 2,
+      "cadenceType": "PAZ_MENTAL_VIDEO_70S",
       "transport": "GMAIL_SMTPS",
-      "messageId": "smtp_1789754839918_1d4bd5",
+      "messageId": "smtp_1790031274843_0c6051",
       "recipient": "info.latam@intertek.com",
       "status": "TRANSMITIDO_EXITOSO"
-    }
+    },
+    "targetImpact": 2,
+    "currentImpact": 2
   },
   {
     "id": "lead_b2b_real_1",
@@ -146,21 +162,26 @@
     "strikePaymentDestination": "rick2818@strike.me",
     "checkoutUrl": "https://unblock-shield.vercel.app/?domain=alg3pl.com",
     "directStrikePaymentUrl": "https://strike.me/rick2818",
-    "status": "ENVIADO_REAL_EN_RED",
+    "status": "ENVIADO_IMPACTO_2_PAZ_MENTAL",
     "outboundMessage": {
-      "subject": "Riesgo de fuga de datos en pasarelas de pago y cabeceras ausentes",
-      "body": "Estimado Director de Operaciones en ALG El Salvador (3PL & Distribución E-commerce),\n\nAl auditar perimetralmente sitios de comercio electrónico B2B, detectamos que más del 70% operan sin cabeceras bancarias estrictas (CSP, HSTS) o con endpoints de pago expuestos a ataques de inyección.\n\nEn Destraba AI ejecutamos una auditoría de ciberseguridad defensiva en 60 segundos que detecta y entrega el reporte con los parches listos para aplicar.\n\nPuedes generar tu informe de inmediato por $19 USD aquí:\nhttps://rick2818.github.io/Agents/?plan=flash&ref=audit_sec\n\nO liquidar directo vía Lightning sin comisiones a rick2818@strike.me.\n\nAtentamente,\nEquipo de Ciberseguridad Defensiva — Destraba AI"
+      "to": "contacto@alg3pl.com",
+      "subject": "🎬 Video de 70s: La paz mental de operar alg3pl.com 100% blindado 24/7",
+      "body": "Estimado equipo directivo y de operaciones en ALG El Salvador (3PL & Distribución E-commerce),\n\nLe escribo en seguimiento a nuestra notificación perimetral previa con una premisa clara:\n\nNo vendemos horas de consultoría teórica, diagnósticos abstractos ni reuniones interminables. Entregamos soluciones llave en mano y la auténtica paz mental de operar 24/7 sin riesgos mientras usted y su equipo descansan.\n\n¿Cuánto vale para su dirección tener la certeza absoluta de que sus pasarelas de pago no fallarán silenciosamente, que no existen cabeceras vulnerables a inyección y que los datos de sus clientes están blindados?\n\n▶️ VEA EL VIDEO BRIEFING EJECUTIVO (70 Segundos):\n🔗 https://unblock-shield.vercel.app/?domain=alg3pl.com\n\nPuntos clave de por qué directores confían en nosotros (Nuestros 5 Anclajes de Confianza):\n1. Cero Invasión Previa: Jamás solicitamos contraseñas, claves API ni acceso a bases de datos internas. Todo opera de forma defensiva desde el perímetro en la nube.\n2. Micro-Riesgo Asimétrico: Descargue el informe forense con los parches listos para pegar en producción por solo $19 USD (Plan Flash).\n3. Centinela Autónomo 24/7: Agente soberano que vigila su infraestructura por solo $2.30 USD al día ($69 USD/mes).\n4. Garantía Fiduciaria Total de 7 Días: Si en su primera semana el sistema no le ahorra al menos 10 horas de trabajo manual, reembolsamos el 100% de su pago sin fricción ni preguntas.\n5. Privacidad Bancaria SOC-2: Cero retención en disco; 100% procesado en memoria volátil RAM y purgado al instante.\n\nVea el video explicativo y aplique el blindaje en 60 segundos:\n🔗 https://unblock-shield.vercel.app/?domain=alg3pl.com\n\nLiquidación directa e instantánea por Bitcoin Lightning Network a: rick2818@strike.me\n\nQuedo a su entera disposición.\n\nAtentamente,\nEspecialista Senior en Seguridad y Automatización Fiduciaria — Destraba AI"
     },
     "dispatchedAt": "2026-09-14T20:22:11.878Z",
     "nextFollowUpDate": "2026-09-16",
     "deliveryAudit": {
-      "dispatchedAt": "2026-09-17T17:02:55.486Z",
+      "dispatchedAt": "2026-09-21T22:54:41.616Z",
       "mode": "LIVE",
+      "impact": 2,
+      "cadenceType": "PAZ_MENTAL_VIDEO_70S",
       "transport": "GMAIL_SMTPS",
-      "messageId": "smtp_1789664575486_2f0ff1",
+      "messageId": "smtp_1790031281616_69f876",
       "recipient": "contacto@alg3pl.com",
       "status": "TRANSMITIDO_EXITOSO"
-    }
+    },
+    "targetImpact": 2,
+    "currentImpact": 2
   },
   {
     "id": "lead_b2b_real_2",
@@ -173,21 +194,26 @@
     "strikePaymentDestination": "rick2818@strike.me",
     "checkoutUrl": "https://unblock-shield.vercel.app/?domain=aldesalogistica.com",
     "directStrikePaymentUrl": "https://strike.me/rick2818",
-    "status": "ENVIADO_REAL_EN_RED",
+    "status": "ENVIADO_IMPACTO_2_PAZ_MENTAL",
     "outboundMessage": {
-      "subject": "Riesgo de fuga de datos en pasarelas de pago y cabeceras ausentes",
-      "body": "Estimado Director de Operaciones en Aldesa Logística & Almacenes Fiscales,\n\nAl auditar perimetralmente sitios de comercio electrónico B2B, detectamos que más del 70% operan sin cabeceras bancarias estrictas (CSP, HSTS) o con endpoints de pago expuestos a ataques de inyección.\n\nEn Destraba AI ejecutamos una auditoría de ciberseguridad defensiva en 60 segundos que detecta y entrega el reporte con los parches listos para aplicar.\n\nPuedes generar tu informe de inmediato por $19 USD aquí:\nhttps://rick2818.github.io/Agents/?plan=flash&ref=audit_sec\n\nO liquidar directo vía Lightning sin comisiones a rick2818@strike.me.\n\nAtentamente,\nEquipo de Ciberseguridad Defensiva — Destraba AI"
+      "to": "contacto@aldesalogistica.com",
+      "subject": "🎬 Video de 70s: La paz mental de operar aldesalogistica.com 100% blindado 24/7",
+      "body": "Estimado equipo directivo y de operaciones en Aldesa Logística & Almacenes Fiscales,\n\nLe escribo en seguimiento a nuestra notificación perimetral previa con una premisa clara:\n\nNo vendemos horas de consultoría teórica, diagnósticos abstractos ni reuniones interminables. Entregamos soluciones llave en mano y la auténtica paz mental de operar 24/7 sin riesgos mientras usted y su equipo descansan.\n\n¿Cuánto vale para su dirección tener la certeza absoluta de que sus pasarelas de pago no fallarán silenciosamente, que no existen cabeceras vulnerables a inyección y que los datos de sus clientes están blindados?\n\n▶️ VEA EL VIDEO BRIEFING EJECUTIVO (70 Segundos):\n🔗 https://unblock-shield.vercel.app/?domain=aldesalogistica.com\n\nPuntos clave de por qué directores confían en nosotros (Nuestros 5 Anclajes de Confianza):\n1. Cero Invasión Previa: Jamás solicitamos contraseñas, claves API ni acceso a bases de datos internas. Todo opera de forma defensiva desde el perímetro en la nube.\n2. Micro-Riesgo Asimétrico: Descargue el informe forense con los parches listos para pegar en producción por solo $19 USD (Plan Flash).\n3. Centinela Autónomo 24/7: Agente soberano que vigila su infraestructura por solo $2.30 USD al día ($69 USD/mes).\n4. Garantía Fiduciaria Total de 7 Días: Si en su primera semana el sistema no le ahorra al menos 10 horas de trabajo manual, reembolsamos el 100% de su pago sin fricción ni preguntas.\n5. Privacidad Bancaria SOC-2: Cero retención en disco; 100% procesado en memoria volátil RAM y purgado al instante.\n\nVea el video explicativo y aplique el blindaje en 60 segundos:\n🔗 https://unblock-shield.vercel.app/?domain=aldesalogistica.com\n\nLiquidación directa e instantánea por Bitcoin Lightning Network a: rick2818@strike.me\n\nQuedo a su entera disposición.\n\nAtentamente,\nEspecialista Senior en Seguridad y Automatización Fiduciaria — Destraba AI"
     },
     "dispatchedAt": "2026-09-14T20:22:11.879Z",
     "nextFollowUpDate": "2026-09-16",
     "deliveryAudit": {
-      "dispatchedAt": "2026-09-17T17:03:01.225Z",
+      "dispatchedAt": "2026-09-21T22:54:45.513Z",
       "mode": "LIVE",
+      "impact": 2,
+      "cadenceType": "PAZ_MENTAL_VIDEO_70S",
       "transport": "GMAIL_SMTPS",
-      "messageId": "smtp_1789664581224_f390ec",
+      "messageId": "smtp_1790031285512_b314a1",
       "recipient": "contacto@aldesalogistica.com",
       "status": "TRANSMITIDO_EXITOSO"
-    }
+    },
+    "targetImpact": 2,
+    "currentImpact": 2
   },
   {
     "id": "lead_b2b_real_3",
@@ -200,21 +226,26 @@
     "strikePaymentDestination": "rick2818@strike.me",
     "checkoutUrl": "https://unblock-shield.vercel.app/?domain=trslogistica.com",
     "directStrikePaymentUrl": "https://strike.me/rick2818",
-    "status": "ENVIADO_REAL_EN_RED",
+    "status": "ENVIADO_IMPACTO_2_PAZ_MENTAL",
     "outboundMessage": {
-      "subject": "Elimina 40 horas de trabajo operativo repetitivo cada semana",
-      "body": "Hola,\n\n¿Cuánto tiempo dedica tu equipo en TRS Logística El Salvador a cobranza manual, responder consultas idénticas por WhatsApp y actualizar inventarios?\n\nDestraba AI implementa un agente soberano en 60 segundos que asume esas tareas en piloto automático 24/7, permitiendo a tus directivos enfocarse en ventas de alto valor.\n\nInicia tu prueba y activa tu agente por $69 USD/mes:\nhttps://unblock-shield.vercel.app/?domain=trslogistica.com\n\nAtentamente,\nDestraba AI"
+      "to": "contacto@trslogistica.com",
+      "subject": "🎬 Video de 70s: La paz mental de operar trslogistica.com 100% blindado 24/7",
+      "body": "Estimado equipo directivo y de operaciones en TRS Logística El Salvador,\n\nLe escribo en seguimiento a nuestra notificación perimetral previa con una premisa clara:\n\nNo vendemos horas de consultoría teórica, diagnósticos abstractos ni reuniones interminables. Entregamos soluciones llave en mano y la auténtica paz mental de operar 24/7 sin riesgos mientras usted y su equipo descansan.\n\n¿Cuánto vale para su dirección tener la certeza absoluta de que sus pasarelas de pago no fallarán silenciosamente, que no existen cabeceras vulnerables a inyección y que los datos de sus clientes están blindados?\n\n▶️ VEA EL VIDEO BRIEFING EJECUTIVO (70 Segundos):\n🔗 https://unblock-shield.vercel.app/?domain=trslogistica.com\n\nPuntos clave de por qué directores confían en nosotros (Nuestros 5 Anclajes de Confianza):\n1. Cero Invasión Previa: Jamás solicitamos contraseñas, claves API ni acceso a bases de datos internas. Todo opera de forma defensiva desde el perímetro en la nube.\n2. Micro-Riesgo Asimétrico: Descargue el informe forense con los parches listos para pegar en producción por solo $19 USD (Plan Flash).\n3. Centinela Autónomo 24/7: Agente soberano que vigila su infraestructura por solo $2.30 USD al día ($69 USD/mes).\n4. Garantía Fiduciaria Total de 7 Días: Si en su primera semana el sistema no le ahorra al menos 10 horas de trabajo manual, reembolsamos el 100% de su pago sin fricción ni preguntas.\n5. Privacidad Bancaria SOC-2: Cero retención en disco; 100% procesado en memoria volátil RAM y purgado al instante.\n\nVea el video explicativo y aplique el blindaje en 60 segundos:\n🔗 https://unblock-shield.vercel.app/?domain=trslogistica.com\n\nLiquidación directa e instantánea por Bitcoin Lightning Network a: rick2818@strike.me\n\nQuedo a su entera disposición.\n\nAtentamente,\nEspecialista Senior en Seguridad y Automatización Fiduciaria — Destraba AI"
     },
     "dispatchedAt": "2026-09-14T20:22:11.879Z",
     "nextFollowUpDate": "2026-09-16",
     "deliveryAudit": {
-      "dispatchedAt": "2026-09-17T17:03:06.047Z",
+      "dispatchedAt": "2026-09-21T22:54:50.662Z",
       "mode": "LIVE",
+      "impact": 2,
+      "cadenceType": "PAZ_MENTAL_VIDEO_70S",
       "transport": "GMAIL_SMTPS",
-      "messageId": "smtp_1789664586047_8385d2",
+      "messageId": "smtp_1790031290662_7adbcc",
       "recipient": "contacto@trslogistica.com",
       "status": "TRANSMITIDO_EXITOSO"
-    }
+    },
+    "targetImpact": 2,
+    "currentImpact": 2
   },
   {
     "id": "lead_b2b_real_4",
@@ -227,21 +258,26 @@
     "strikePaymentDestination": "rick2818@strike.me",
     "checkoutUrl": "https://unblock-shield.vercel.app/?domain=networldslogistics.com",
     "directStrikePaymentUrl": "https://strike.me/rick2818",
-    "status": "ENVIADO_REAL_EN_RED",
+    "status": "ENVIADO_IMPACTO_2_PAZ_MENTAL",
     "outboundMessage": {
-      "subject": "Elimina 40 horas de trabajo operativo repetitivo cada semana",
-      "body": "Hola,\n\n¿Cuánto tiempo dedica tu equipo en Networld Logistics Centroamérica a cobranza manual, responder consultas idénticas por WhatsApp y actualizar inventarios?\n\nDestraba AI implementa un agente soberano en 60 segundos que asume esas tareas en piloto automático 24/7, permitiendo a tus directivos enfocarse en ventas de alto valor.\n\nInicia tu prueba y activa tu agente por $69 USD/mes:\nhttps://unblock-shield.vercel.app/?domain=networldslogistics.com\n\nAtentamente,\nDestraba AI"
+      "to": "contacto@networldslogistics.com",
+      "subject": "🎬 Video de 70s: La paz mental de operar networldslogistics.com 100% blindado 24/7",
+      "body": "Estimado equipo directivo y de operaciones en Networld Logistics Centroamérica,\n\nLe escribo en seguimiento a nuestra notificación perimetral previa con una premisa clara:\n\nNo vendemos horas de consultoría teórica, diagnósticos abstractos ni reuniones interminables. Entregamos soluciones llave en mano y la auténtica paz mental de operar 24/7 sin riesgos mientras usted y su equipo descansan.\n\n¿Cuánto vale para su dirección tener la certeza absoluta de que sus pasarelas de pago no fallarán silenciosamente, que no existen cabeceras vulnerables a inyección y que los datos de sus clientes están blindados?\n\n▶️ VEA EL VIDEO BRIEFING EJECUTIVO (70 Segundos):\n🔗 https://unblock-shield.vercel.app/?domain=networldslogistics.com\n\nPuntos clave de por qué directores confían en nosotros (Nuestros 5 Anclajes de Confianza):\n1. Cero Invasión Previa: Jamás solicitamos contraseñas, claves API ni acceso a bases de datos internas. Todo opera de forma defensiva desde el perímetro en la nube.\n2. Micro-Riesgo Asimétrico: Descargue el informe forense con los parches listos para pegar en producción por solo $19 USD (Plan Flash).\n3. Centinela Autónomo 24/7: Agente soberano que vigila su infraestructura por solo $2.30 USD al día ($69 USD/mes).\n4. Garantía Fiduciaria Total de 7 Días: Si en su primera semana el sistema no le ahorra al menos 10 horas de trabajo manual, reembolsamos el 100% de su pago sin fricción ni preguntas.\n5. Privacidad Bancaria SOC-2: Cero retención en disco; 100% procesado en memoria volátil RAM y purgado al instante.\n\nVea el video explicativo y aplique el blindaje en 60 segundos:\n🔗 https://unblock-shield.vercel.app/?domain=networldslogistics.com\n\nLiquidación directa e instantánea por Bitcoin Lightning Network a: rick2818@strike.me\n\nQuedo a su entera disposición.\n\nAtentamente,\nEspecialista Senior en Seguridad y Automatización Fiduciaria — Destraba AI"
     },
     "dispatchedAt": "2026-09-14T20:22:11.879Z",
     "nextFollowUpDate": "2026-09-16",
     "deliveryAudit": {
-      "dispatchedAt": "2026-09-17T17:03:10.660Z",
+      "dispatchedAt": "2026-09-21T22:54:56.169Z",
       "mode": "LIVE",
+      "impact": 2,
+      "cadenceType": "PAZ_MENTAL_VIDEO_70S",
       "transport": "GMAIL_SMTPS",
-      "messageId": "smtp_1789664590660_a4d9a1",
+      "messageId": "smtp_1790031296169_6d3c8b",
       "recipient": "contacto@networldslogistics.com",
       "status": "TRANSMITIDO_EXITOSO"
-    }
+    },
+    "targetImpact": 2,
+    "currentImpact": 2
   },
   {
     "id": "lead_b2b_real_5",
@@ -254,21 +290,26 @@
     "strikePaymentDestination": "rick2818@strike.me",
     "checkoutUrl": "https://unblock-shield.vercel.app/?domain=logisticscentroamerica.com",
     "directStrikePaymentUrl": "https://strike.me/rick2818",
-    "status": "ENVIADO_REAL_EN_RED",
+    "status": "ENVIADO_IMPACTO_2_PAZ_MENTAL",
     "outboundMessage": {
-      "subject": "Riesgo de fuga de datos en pasarelas de pago y cabeceras ausentes",
-      "body": "Estimado Director de Operaciones en Logistics Centroamérica S.A.,\n\nAl auditar perimetralmente sitios de comercio electrónico B2B, detectamos que más del 70% operan sin cabeceras bancarias estrictas (CSP, HSTS) o con endpoints de pago expuestos a ataques de inyección.\n\nEn Destraba AI ejecutamos una auditoría de ciberseguridad defensiva en 60 segundos que detecta y entrega el reporte con los parches listos para aplicar.\n\nPuedes generar tu informe de inmediato por $19 USD aquí:\nhttps://rick2818.github.io/Agents/?plan=flash&ref=audit_sec\n\nO liquidar directo vía Lightning sin comisiones a rick2818@strike.me.\n\nAtentamente,\nEquipo de Ciberseguridad Defensiva — Destraba AI"
+      "to": "contacto@logisticscentroamerica.com",
+      "subject": "🎬 Video de 70s: La paz mental de operar logisticscentroamerica.com 100% blindado 24/7",
+      "body": "Estimado equipo directivo y de operaciones en Logistics Centroamérica S.A.,\n\nLe escribo en seguimiento a nuestra notificación perimetral previa con una premisa clara:\n\nNo vendemos horas de consultoría teórica, diagnósticos abstractos ni reuniones interminables. Entregamos soluciones llave en mano y la auténtica paz mental de operar 24/7 sin riesgos mientras usted y su equipo descansan.\n\n¿Cuánto vale para su dirección tener la certeza absoluta de que sus pasarelas de pago no fallarán silenciosamente, que no existen cabeceras vulnerables a inyección y que los datos de sus clientes están blindados?\n\n▶️ VEA EL VIDEO BRIEFING EJECUTIVO (70 Segundos):\n🔗 https://unblock-shield.vercel.app/?domain=logisticscentroamerica.com\n\nPuntos clave de por qué directores confían en nosotros (Nuestros 5 Anclajes de Confianza):\n1. Cero Invasión Previa: Jamás solicitamos contraseñas, claves API ni acceso a bases de datos internas. Todo opera de forma defensiva desde el perímetro en la nube.\n2. Micro-Riesgo Asimétrico: Descargue el informe forense con los parches listos para pegar en producción por solo $19 USD (Plan Flash).\n3. Centinela Autónomo 24/7: Agente soberano que vigila su infraestructura por solo $2.30 USD al día ($69 USD/mes).\n4. Garantía Fiduciaria Total de 7 Días: Si en su primera semana el sistema no le ahorra al menos 10 horas de trabajo manual, reembolsamos el 100% de su pago sin fricción ni preguntas.\n5. Privacidad Bancaria SOC-2: Cero retención en disco; 100% procesado en memoria volátil RAM y purgado al instante.\n\nVea el video explicativo y aplique el blindaje en 60 segundos:\n🔗 https://unblock-shield.vercel.app/?domain=logisticscentroamerica.com\n\nLiquidación directa e instantánea por Bitcoin Lightning Network a: rick2818@strike.me\n\nQuedo a su entera disposición.\n\nAtentamente,\nEspecialista Senior en Seguridad y Automatización Fiduciaria — Destraba AI"
     },
     "dispatchedAt": "2026-09-14T20:22:11.879Z",
     "nextFollowUpDate": "2026-09-16",
     "deliveryAudit": {
-      "dispatchedAt": "2026-09-17T17:03:16.228Z",
+      "dispatchedAt": "2026-09-21T22:55:00.119Z",
       "mode": "LIVE",
+      "impact": 2,
+      "cadenceType": "PAZ_MENTAL_VIDEO_70S",
       "transport": "GMAIL_SMTPS",
-      "messageId": "smtp_1789664596228_dfd5a9",
+      "messageId": "smtp_1790031300119_e2e56e",
       "recipient": "contacto@logisticscentroamerica.com",
       "status": "TRANSMITIDO_EXITOSO"
-    }
+    },
+    "targetImpact": 2,
+    "currentImpact": 2
   },
   {
     "id": "lead_colombia_1",
@@ -281,22 +322,27 @@
     "strikePaymentDestination": "rick2818@strike.me",
     "checkoutUrl": "https://unblock-shield.vercel.app/?domain=coordinadora.com",
     "directStrikePaymentUrl": "https://strike.me/rick2818",
-    "status": "CONTACTADO_IMPACTO_1",
+    "status": "ENVIADO_IMPACTO_2_PAZ_MENTAL",
     "scheduledDate": "2026-09-15",
     "outboundMessage": {
-      "subject": "Elimina 80 horas de consultas repetitivas en WhatsApp de tu operación",
-      "body": "Hola,\n\n¿Cuánto tiempo dedica el equipo de Coordinadora a responder consultas idénticas por WhatsApp, rastrear guías de clientes impacientes y actualizar novedades manuales?\n\nDestraba AI implementa un Concierge Autónomo en 60 segundos que responde en milisegundos 24/7 y erradica ese cuello de botella en piloto automático.\n\nPuedes probarlo y activar la licencia por $69 USD/mes aquí:\nhttps://unblock-shield.vercel.app/?domain=coordinadora.com\n\nO liquidar en satoshis vía Lightning sin comisiones a rick2818@strike.me.\n\nAtentamente,\nEquipo de Soluciones B2B — Destraba AI"
+      "to": "contacto@coordinadora.com",
+      "subject": "🎬 Video de 70s: La paz mental de operar coordinadora.com 100% blindado 24/7",
+      "body": "Estimado equipo directivo y de operaciones en Coordinadora Mercantil (E-commerce Fulfillment & 3PL),\n\nLe escribo en seguimiento a nuestra notificación perimetral previa con una premisa clara:\n\nNo vendemos horas de consultoría teórica, diagnósticos abstractos ni reuniones interminables. Entregamos soluciones llave en mano y la auténtica paz mental de operar 24/7 sin riesgos mientras usted y su equipo descansan.\n\n¿Cuánto vale para su dirección tener la certeza absoluta de que sus pasarelas de pago no fallarán silenciosamente, que no existen cabeceras vulnerables a inyección y que los datos de sus clientes están blindados?\n\n▶️ VEA EL VIDEO BRIEFING EJECUTIVO (70 Segundos):\n🔗 https://unblock-shield.vercel.app/?domain=coordinadora.com\n\nPuntos clave de por qué directores confían en nosotros (Nuestros 5 Anclajes de Confianza):\n1. Cero Invasión Previa: Jamás solicitamos contraseñas, claves API ni acceso a bases de datos internas. Todo opera de forma defensiva desde el perímetro en la nube.\n2. Micro-Riesgo Asimétrico: Descargue el informe forense con los parches listos para pegar en producción por solo $19 USD (Plan Flash).\n3. Centinela Autónomo 24/7: Agente soberano que vigila su infraestructura por solo $2.30 USD al día ($69 USD/mes).\n4. Garantía Fiduciaria Total de 7 Días: Si en su primera semana el sistema no le ahorra al menos 10 horas de trabajo manual, reembolsamos el 100% de su pago sin fricción ni preguntas.\n5. Privacidad Bancaria SOC-2: Cero retención en disco; 100% procesado en memoria volátil RAM y purgado al instante.\n\nVea el video explicativo y aplique el blindaje en 60 segundos:\n🔗 https://unblock-shield.vercel.app/?domain=coordinadora.com\n\nLiquidación directa e instantánea por Bitcoin Lightning Network a: rick2818@strike.me\n\nQuedo a su entera disposición.\n\nAtentamente,\nEspecialista Senior en Seguridad y Automatización Fiduciaria — Destraba AI"
     },
     "dispatchedAt": "2026-09-18T22:22:36.993Z",
     "nextFollowUpDate": "2026-09-20",
     "deliveryAudit": {
-      "dispatchedAt": "2026-09-17T16:46:08.418Z",
+      "dispatchedAt": "2026-09-21T22:55:03.548Z",
       "mode": "LIVE",
+      "impact": 2,
+      "cadenceType": "PAZ_MENTAL_VIDEO_70S",
       "transport": "GMAIL_SMTPS",
-      "messageId": "smtp_1789663568417_5560f3",
+      "messageId": "smtp_1790031303548_01d3cb",
       "recipient": "contacto@coordinadora.com",
       "status": "TRANSMITIDO_EXITOSO"
-    }
+    },
+    "targetImpact": 2,
+    "currentImpact": 2
   },
   {
     "id": "lead_colombia_2",
@@ -309,22 +355,27 @@
     "strikePaymentDestination": "rick2818@strike.me",
     "checkoutUrl": "https://unblock-shield.vercel.app/?domain=tcc.com.co",
     "directStrikePaymentUrl": "https://strike.me/rick2818",
-    "status": "CONTACTADO_IMPACTO_1",
+    "status": "ENVIADO_IMPACTO_2_PAZ_MENTAL",
     "scheduledDate": "2026-09-15",
     "outboundMessage": {
-      "subject": "Respuesta a cotizaciones B2B en 60 segundos sin nómina extra",
-      "body": "Estimado Gerente de Operaciones en TCC,\n\nEn el sector logístico B2B, responder una solicitud de flete 4 horas tarde significa perder la cuenta frente a la competencia.\n\nDestraba AI sintetiza un agente calificador que atiende a tus prospectos corporativos, calcula tarifas estimadas y agenda el cierre al instante.\n\nActiva tu prueba operativa hoy por $69 USD/mes:\nhttps://unblock-shield.vercel.app/?domain=tcc.com.co\n\nLiquidación directa vía Lightning: rick2818@strike.me.\n\nAtentamente,\nDestraba AI"
+      "to": "contacto@tcc.com.co",
+      "subject": "🎬 Video de 70s: La paz mental de operar tcc.com.co 100% blindado 24/7",
+      "body": "Estimado equipo directivo y de operaciones en TCC Logística & Envíos,\n\nLe escribo en seguimiento a nuestra notificación perimetral previa con una premisa clara:\n\nNo vendemos horas de consultoría teórica, diagnósticos abstractos ni reuniones interminables. Entregamos soluciones llave en mano y la auténtica paz mental de operar 24/7 sin riesgos mientras usted y su equipo descansan.\n\n¿Cuánto vale para su dirección tener la certeza absoluta de que sus pasarelas de pago no fallarán silenciosamente, que no existen cabeceras vulnerables a inyección y que los datos de sus clientes están blindados?\n\n▶️ VEA EL VIDEO BRIEFING EJECUTIVO (70 Segundos):\n🔗 https://unblock-shield.vercel.app/?domain=tcc.com.co\n\nPuntos clave de por qué directores confían en nosotros (Nuestros 5 Anclajes de Confianza):\n1. Cero Invasión Previa: Jamás solicitamos contraseñas, claves API ni acceso a bases de datos internas. Todo opera de forma defensiva desde el perímetro en la nube.\n2. Micro-Riesgo Asimétrico: Descargue el informe forense con los parches listos para pegar en producción por solo $19 USD (Plan Flash).\n3. Centinela Autónomo 24/7: Agente soberano que vigila su infraestructura por solo $2.30 USD al día ($69 USD/mes).\n4. Garantía Fiduciaria Total de 7 Días: Si en su primera semana el sistema no le ahorra al menos 10 horas de trabajo manual, reembolsamos el 100% de su pago sin fricción ni preguntas.\n5. Privacidad Bancaria SOC-2: Cero retención en disco; 100% procesado en memoria volátil RAM y purgado al instante.\n\nVea el video explicativo y aplique el blindaje en 60 segundos:\n🔗 https://unblock-shield.vercel.app/?domain=tcc.com.co\n\nLiquidación directa e instantánea por Bitcoin Lightning Network a: rick2818@strike.me\n\nQuedo a su entera disposición.\n\nAtentamente,\nEspecialista Senior en Seguridad y Automatización Fiduciaria — Destraba AI"
     },
     "dispatchedAt": "2026-09-18T22:22:36.993Z",
     "nextFollowUpDate": "2026-09-20",
     "deliveryAudit": {
-      "dispatchedAt": "2026-09-17T16:46:13.993Z",
+      "dispatchedAt": "2026-09-21T22:55:07.265Z",
       "mode": "LIVE",
+      "impact": 2,
+      "cadenceType": "PAZ_MENTAL_VIDEO_70S",
       "transport": "GMAIL_SMTPS",
-      "messageId": "smtp_1789663573993_37b5ca",
+      "messageId": "smtp_1790031307264_57a499",
       "recipient": "contacto@tcc.com.co",
       "status": "TRANSMITIDO_EXITOSO"
-    }
+    },
+    "targetImpact": 2,
+    "currentImpact": 2
   },
   {
     "id": "lead_colombia_3",
@@ -337,22 +388,27 @@
     "strikePaymentDestination": "rick2818@strike.me",
     "checkoutUrl": "https://unblock-shield.vercel.app/?domain=enviacolvanes.com",
     "directStrikePaymentUrl": "https://strike.me/rick2818",
-    "status": "CONTACTADO_IMPACTO_1",
+    "status": "ENVIADO_IMPACTO_2_PAZ_MENTAL",
     "scheduledDate": "2026-09-15",
     "outboundMessage": {
-      "subject": "Reduce en un 70% la carga de reclamos y soporte en tu operación",
-      "body": "Hola,\n\nAtender manualmente estados de envío y reclamos de mercancía genera sobrecostos de nómina y fatiga en tus agentes humanos.\n\nNuestros agentes soberanos para Google Antigravity asumen el triaje automático y resuelven el 70% de las consultas sin intervención humana.\n\nConoce la plataforma y comienza por $69 USD/mes:\nhttps://unblock-shield.vercel.app/?domain=enviacolvanes.com\n\nAtentamente,\nDestraba AI"
+      "to": "contacto@enviacolvanes.com",
+      "subject": "🎬 Video de 70s: La paz mental de operar enviacolvanes.com 100% blindado 24/7",
+      "body": "Estimado equipo directivo y de operaciones en Envía Colvanes,\n\nLe escribo en seguimiento a nuestra notificación perimetral previa con una premisa clara:\n\nNo vendemos horas de consultoría teórica, diagnósticos abstractos ni reuniones interminables. Entregamos soluciones llave en mano y la auténtica paz mental de operar 24/7 sin riesgos mientras usted y su equipo descansan.\n\n¿Cuánto vale para su dirección tener la certeza absoluta de que sus pasarelas de pago no fallarán silenciosamente, que no existen cabeceras vulnerables a inyección y que los datos de sus clientes están blindados?\n\n▶️ VEA EL VIDEO BRIEFING EJECUTIVO (70 Segundos):\n🔗 https://unblock-shield.vercel.app/?domain=enviacolvanes.com\n\nPuntos clave de por qué directores confían en nosotros (Nuestros 5 Anclajes de Confianza):\n1. Cero Invasión Previa: Jamás solicitamos contraseñas, claves API ni acceso a bases de datos internas. Todo opera de forma defensiva desde el perímetro en la nube.\n2. Micro-Riesgo Asimétrico: Descargue el informe forense con los parches listos para pegar en producción por solo $19 USD (Plan Flash).\n3. Centinela Autónomo 24/7: Agente soberano que vigila su infraestructura por solo $2.30 USD al día ($69 USD/mes).\n4. Garantía Fiduciaria Total de 7 Días: Si en su primera semana el sistema no le ahorra al menos 10 horas de trabajo manual, reembolsamos el 100% de su pago sin fricción ni preguntas.\n5. Privacidad Bancaria SOC-2: Cero retención en disco; 100% procesado en memoria volátil RAM y purgado al instante.\n\nVea el video explicativo y aplique el blindaje en 60 segundos:\n🔗 https://unblock-shield.vercel.app/?domain=enviacolvanes.com\n\nLiquidación directa e instantánea por Bitcoin Lightning Network a: rick2818@strike.me\n\nQuedo a su entera disposición.\n\nAtentamente,\nEspecialista Senior en Seguridad y Automatización Fiduciaria — Destraba AI"
     },
     "dispatchedAt": "2026-09-18T22:22:36.993Z",
     "nextFollowUpDate": "2026-09-20",
     "deliveryAudit": {
-      "dispatchedAt": "2026-09-17T16:46:18.551Z",
+      "dispatchedAt": "2026-09-21T22:55:11.264Z",
       "mode": "LIVE",
+      "impact": 2,
+      "cadenceType": "PAZ_MENTAL_VIDEO_70S",
       "transport": "GMAIL_SMTPS",
-      "messageId": "smtp_1789663578551_f0b698",
+      "messageId": "smtp_1790031311264_db03d3",
       "recipient": "contacto@enviacolvanes.com",
       "status": "TRANSMITIDO_EXITOSO"
-    }
+    },
+    "targetImpact": 2,
+    "currentImpact": 2
   },
   {
     "id": "lead_colombia_4",
@@ -365,22 +421,27 @@
     "strikePaymentDestination": "rick2818@strike.me",
     "checkoutUrl": "https://unblock-shield.vercel.app/?domain=deprisa.com",
     "directStrikePaymentUrl": "https://strike.me/rick2818",
-    "status": "CONTACTADO_IMPACTO_1",
+    "status": "ENVIADO_IMPACTO_2_PAZ_MENTAL",
     "scheduledDate": "2026-09-15",
     "outboundMessage": {
-      "subject": "Automatiza la trazabilidad y cobro de envíos express en 60 segundos",
-      "body": "Hola,\n\nLos clientes corporativos de paquetería express exigen confirmaciones en tiempo real y facturación inmediata.\n\nDestraba AI genera un flujo desatendido que notifica y concilia pagos en segundos con protocolos bancarios seguros.\n\nAccede a la consola ejecutiva aquí por $89 USD/mes:\nhttps://unblock-shield.vercel.app/?domain=deprisa.com\n\nAtentamente,\nDestraba AI"
+      "to": "contacto@deprisa.com",
+      "subject": "🎬 Video de 70s: La paz mental de operar deprisa.com 100% blindado 24/7",
+      "body": "Estimado equipo directivo y de operaciones en Deprisa (Avianca Cargo),\n\nLe escribo en seguimiento a nuestra notificación perimetral previa con una premisa clara:\n\nNo vendemos horas de consultoría teórica, diagnósticos abstractos ni reuniones interminables. Entregamos soluciones llave en mano y la auténtica paz mental de operar 24/7 sin riesgos mientras usted y su equipo descansan.\n\n¿Cuánto vale para su dirección tener la certeza absoluta de que sus pasarelas de pago no fallarán silenciosamente, que no existen cabeceras vulnerables a inyección y que los datos de sus clientes están blindados?\n\n▶️ VEA EL VIDEO BRIEFING EJECUTIVO (70 Segundos):\n🔗 https://unblock-shield.vercel.app/?domain=deprisa.com\n\nPuntos clave de por qué directores confían en nosotros (Nuestros 5 Anclajes de Confianza):\n1. Cero Invasión Previa: Jamás solicitamos contraseñas, claves API ni acceso a bases de datos internas. Todo opera de forma defensiva desde el perímetro en la nube.\n2. Micro-Riesgo Asimétrico: Descargue el informe forense con los parches listos para pegar en producción por solo $19 USD (Plan Flash).\n3. Centinela Autónomo 24/7: Agente soberano que vigila su infraestructura por solo $2.30 USD al día ($69 USD/mes).\n4. Garantía Fiduciaria Total de 7 Días: Si en su primera semana el sistema no le ahorra al menos 10 horas de trabajo manual, reembolsamos el 100% de su pago sin fricción ni preguntas.\n5. Privacidad Bancaria SOC-2: Cero retención en disco; 100% procesado en memoria volátil RAM y purgado al instante.\n\nVea el video explicativo y aplique el blindaje en 60 segundos:\n🔗 https://unblock-shield.vercel.app/?domain=deprisa.com\n\nLiquidación directa e instantánea por Bitcoin Lightning Network a: rick2818@strike.me\n\nQuedo a su entera disposición.\n\nAtentamente,\nEspecialista Senior en Seguridad y Automatización Fiduciaria — Destraba AI"
     },
     "dispatchedAt": "2026-09-18T22:22:36.993Z",
     "nextFollowUpDate": "2026-09-20",
     "deliveryAudit": {
-      "dispatchedAt": "2026-09-17T16:46:23.798Z",
+      "dispatchedAt": "2026-09-21T22:55:15.719Z",
       "mode": "LIVE",
+      "impact": 2,
+      "cadenceType": "PAZ_MENTAL_VIDEO_70S",
       "transport": "GMAIL_SMTPS",
-      "messageId": "smtp_1789663583798_ed520c",
+      "messageId": "smtp_1790031315719_5c90ea",
       "recipient": "contacto@deprisa.com",
       "status": "TRANSMITIDO_EXITOSO"
-    }
+    },
+    "targetImpact": 2,
+    "currentImpact": 2
   },
   {
     "id": "lead_colombia_5",
@@ -393,22 +454,27 @@
     "strikePaymentDestination": "rick2818@strike.me",
     "checkoutUrl": "https://unblock-shield.vercel.app/?domain=servientrega.com",
     "directStrikePaymentUrl": "https://strike.me/rick2818",
-    "status": "CONTACTADO_IMPACTO_1",
+    "status": "ENVIADO_IMPACTO_2_PAZ_MENTAL",
     "scheduledDate": "2026-09-15",
     "outboundMessage": {
-      "subject": "Auditoría de integración operativa y seguridad perimetral en 60 segundos",
-      "body": "Estimado VP de Tecnología en Servientrega,\n\nDesplegamos agentes soberanos con protocolo MCP que se conectan a tu infraestructura sin tocar código legacy ni exponer datos sensibles.\n\nRealiza un diagnóstico de cuellos de botella y seguridad perimetral por $19 USD aquí:\nhttps://rick2818.github.io/Agents/?plan=flash&ref=colombia_b2b\n\nO liquidación instantánea por Lightning a rick2818@strike.me.\n\nAtentamente,\nEquipo de Ingeniería — Destraba AI"
+      "to": "contacto@servientrega.com",
+      "subject": "🎬 Video de 70s: La paz mental de operar servientrega.com 100% blindado 24/7",
+      "body": "Estimado equipo directivo y de operaciones en Servientrega Soluciones Digitales,\n\nLe escribo en seguimiento a nuestra notificación perimetral previa con una premisa clara:\n\nNo vendemos horas de consultoría teórica, diagnósticos abstractos ni reuniones interminables. Entregamos soluciones llave en mano y la auténtica paz mental de operar 24/7 sin riesgos mientras usted y su equipo descansan.\n\n¿Cuánto vale para su dirección tener la certeza absoluta de que sus pasarelas de pago no fallarán silenciosamente, que no existen cabeceras vulnerables a inyección y que los datos de sus clientes están blindados?\n\n▶️ VEA EL VIDEO BRIEFING EJECUTIVO (70 Segundos):\n🔗 https://unblock-shield.vercel.app/?domain=servientrega.com\n\nPuntos clave de por qué directores confían en nosotros (Nuestros 5 Anclajes de Confianza):\n1. Cero Invasión Previa: Jamás solicitamos contraseñas, claves API ni acceso a bases de datos internas. Todo opera de forma defensiva desde el perímetro en la nube.\n2. Micro-Riesgo Asimétrico: Descargue el informe forense con los parches listos para pegar en producción por solo $19 USD (Plan Flash).\n3. Centinela Autónomo 24/7: Agente soberano que vigila su infraestructura por solo $2.30 USD al día ($69 USD/mes).\n4. Garantía Fiduciaria Total de 7 Días: Si en su primera semana el sistema no le ahorra al menos 10 horas de trabajo manual, reembolsamos el 100% de su pago sin fricción ni preguntas.\n5. Privacidad Bancaria SOC-2: Cero retención en disco; 100% procesado en memoria volátil RAM y purgado al instante.\n\nVea el video explicativo y aplique el blindaje en 60 segundos:\n🔗 https://unblock-shield.vercel.app/?domain=servientrega.com\n\nLiquidación directa e instantánea por Bitcoin Lightning Network a: rick2818@strike.me\n\nQuedo a su entera disposición.\n\nAtentamente,\nEspecialista Senior en Seguridad y Automatización Fiduciaria — Destraba AI"
     },
     "dispatchedAt": "2026-09-18T22:22:36.993Z",
     "nextFollowUpDate": "2026-09-20",
     "deliveryAudit": {
-      "dispatchedAt": "2026-09-17T16:46:29.208Z",
+      "dispatchedAt": "2026-09-21T22:55:19.553Z",
       "mode": "LIVE",
+      "impact": 2,
+      "cadenceType": "PAZ_MENTAL_VIDEO_70S",
       "transport": "GMAIL_SMTPS",
-      "messageId": "smtp_1789663589208_ebd535",
+      "messageId": "smtp_1790031319553_09e50a",
       "recipient": "contacto@servientrega.com",
       "status": "TRANSMITIDO_EXITOSO"
-    }
+    },
+    "targetImpact": 2,
+    "currentImpact": 2
   },
   {
     "id": "pyme_d2c_1",
@@ -421,20 +487,25 @@
     "strikePaymentDestination": "rick2818@strike.me",
     "checkoutUrl": "https://unblock-shield.vercel.app/?domain=amorperfectocafes.com",
     "directStrikePaymentUrl": "https://strike.me/rick2818",
-    "status": "ENVIADO_REAL_EN_RED",
+    "status": "ENVIADO_IMPACTO_2_PAZ_MENTAL",
     "contactEmail": "contacto@amorperfectocafes.com",
     "outboundMessage": {
-      "subject": "Automatiza la asesoría de café en WhatsApp y aumenta tu conversión",
-      "body": "Hola,\n\nEn tiendas de café de especialidad online, responder 30 minutos tarde a una consulta sobre tipo de molienda o métodos de preparación suele significar un carrito abandonado.\n\nEn Destraba AI sintetizamos un Concierge Digital no invasivo que asiste a tus compradores 24/7 en segundos sin necesidad de instalar nada en tu servidor.\n\nPuedes probar la plataforma y activar tu agente por $69 USD/mes aquí:\nhttps://unblock-shield.vercel.app/?domain=amorperfectocafes.com&domain=amorperfectocafes.com\n\nO liquidación directa vía Lightning a rick2818@strike.me.\n\nAtentamente,\nEquipo de Soluciones E-commerce — Destraba AI"
+      "to": "contacto@amorperfectocafes.com",
+      "subject": "🎬 Video de 70s: La paz mental de operar amorperfectocafes.com 100% blindado 24/7",
+      "body": "Estimado equipo directivo y de operaciones en Amor Perfecto Café de Especialidad,\n\nLe escribo en seguimiento a nuestra notificación perimetral previa con una premisa clara:\n\nNo vendemos horas de consultoría teórica, diagnósticos abstractos ni reuniones interminables. Entregamos soluciones llave en mano y la auténtica paz mental de operar 24/7 sin riesgos mientras usted y su equipo descansan.\n\n¿Cuánto vale para su dirección tener la certeza absoluta de que sus pasarelas de pago no fallarán silenciosamente, que no existen cabeceras vulnerables a inyección y que los datos de sus clientes están blindados?\n\n▶️ VEA EL VIDEO BRIEFING EJECUTIVO (70 Segundos):\n🔗 https://unblock-shield.vercel.app/?domain=amorperfectocafes.com\n\nPuntos clave de por qué directores confían en nosotros (Nuestros 5 Anclajes de Confianza):\n1. Cero Invasión Previa: Jamás solicitamos contraseñas, claves API ni acceso a bases de datos internas. Todo opera de forma defensiva desde el perímetro en la nube.\n2. Micro-Riesgo Asimétrico: Descargue el informe forense con los parches listos para pegar en producción por solo $19 USD (Plan Flash).\n3. Centinela Autónomo 24/7: Agente soberano que vigila su infraestructura por solo $2.30 USD al día ($69 USD/mes).\n4. Garantía Fiduciaria Total de 7 Días: Si en su primera semana el sistema no le ahorra al menos 10 horas de trabajo manual, reembolsamos el 100% de su pago sin fricción ni preguntas.\n5. Privacidad Bancaria SOC-2: Cero retención en disco; 100% procesado en memoria volátil RAM y purgado al instante.\n\nVea el video explicativo y aplique el blindaje en 60 segundos:\n🔗 https://unblock-shield.vercel.app/?domain=amorperfectocafes.com\n\nLiquidación directa e instantánea por Bitcoin Lightning Network a: rick2818@strike.me\n\nQuedo a su entera disposición.\n\nAtentamente,\nEspecialista Senior en Seguridad y Automatización Fiduciaria — Destraba AI"
     },
     "deliveryAudit": {
-      "dispatchedAt": "2026-09-17T17:03:21.318Z",
+      "dispatchedAt": "2026-09-21T22:55:24.027Z",
       "mode": "LIVE",
+      "impact": 2,
+      "cadenceType": "PAZ_MENTAL_VIDEO_70S",
       "transport": "GMAIL_SMTPS",
-      "messageId": "smtp_1789664601318_256562",
+      "messageId": "smtp_1790031324026_bd9934",
       "recipient": "contacto@amorperfectocafes.com",
       "status": "TRANSMITIDO_EXITOSO"
-    }
+    },
+    "targetImpact": 2,
+    "currentImpact": 2
   },
   {
     "id": "pyme_d2c_2",
@@ -447,20 +518,25 @@
     "strikePaymentDestination": "rick2818@strike.me",
     "checkoutUrl": "https://unblock-shield.vercel.app/?domain=cafesanalberto.com",
     "directStrikePaymentUrl": "https://strike.me/rick2818",
-    "status": "ENVIADO_REAL_EN_RED",
+    "status": "ENVIADO_IMPACTO_2_PAZ_MENTAL",
     "contactEmail": "info@cafesanalberto.com",
     "outboundMessage": {
-      "subject": "Reduce en 80% las consultas repetitivas de suscripciones y envíos",
-      "body": "Estimado Gerente de Operaciones en Café San Alberto,\n\nRevisamos perimetralmente tu canal digital y notamos la alta demanda que tienen las compras de café premium para exportación y clubes de suscripción.\n\nImplementamos asistentes autónomos listos en 60 segundos que resuelven dudas de trazabilidad y preguntas frecuentes de forma impecable.\n\nAccede a la solución por $69 USD/mes aquí:\nhttps://unblock-shield.vercel.app/?domain=cafesanalberto.com&domain=cafesanalberto.com\n\nLiquidación segura: rick2818@strike.me.\n\nAtentamente,\nDestraba AI"
+      "to": "info@cafesanalberto.com",
+      "subject": "🎬 Video de 70s: La paz mental de operar cafesanalberto.com 100% blindado 24/7",
+      "body": "Estimado equipo directivo y de operaciones en Café San Alberto,\n\nLe escribo en seguimiento a nuestra notificación perimetral previa con una premisa clara:\n\nNo vendemos horas de consultoría teórica, diagnósticos abstractos ni reuniones interminables. Entregamos soluciones llave en mano y la auténtica paz mental de operar 24/7 sin riesgos mientras usted y su equipo descansan.\n\n¿Cuánto vale para su dirección tener la certeza absoluta de que sus pasarelas de pago no fallarán silenciosamente, que no existen cabeceras vulnerables a inyección y que los datos de sus clientes están blindados?\n\n▶️ VEA EL VIDEO BRIEFING EJECUTIVO (70 Segundos):\n🔗 https://unblock-shield.vercel.app/?domain=cafesanalberto.com\n\nPuntos clave de por qué directores confían en nosotros (Nuestros 5 Anclajes de Confianza):\n1. Cero Invasión Previa: Jamás solicitamos contraseñas, claves API ni acceso a bases de datos internas. Todo opera de forma defensiva desde el perímetro en la nube.\n2. Micro-Riesgo Asimétrico: Descargue el informe forense con los parches listos para pegar en producción por solo $19 USD (Plan Flash).\n3. Centinela Autónomo 24/7: Agente soberano que vigila su infraestructura por solo $2.30 USD al día ($69 USD/mes).\n4. Garantía Fiduciaria Total de 7 Días: Si en su primera semana el sistema no le ahorra al menos 10 horas de trabajo manual, reembolsamos el 100% de su pago sin fricción ni preguntas.\n5. Privacidad Bancaria SOC-2: Cero retención en disco; 100% procesado en memoria volátil RAM y purgado al instante.\n\nVea el video explicativo y aplique el blindaje en 60 segundos:\n🔗 https://unblock-shield.vercel.app/?domain=cafesanalberto.com\n\nLiquidación directa e instantánea por Bitcoin Lightning Network a: rick2818@strike.me\n\nQuedo a su entera disposición.\n\nAtentamente,\nEspecialista Senior en Seguridad y Automatización Fiduciaria — Destraba AI"
     },
     "deliveryAudit": {
-      "dispatchedAt": "2026-09-17T17:03:26.654Z",
+      "dispatchedAt": "2026-09-21T22:55:28.112Z",
       "mode": "LIVE",
+      "impact": 2,
+      "cadenceType": "PAZ_MENTAL_VIDEO_70S",
       "transport": "GMAIL_SMTPS",
-      "messageId": "smtp_1789664606653_52f579",
+      "messageId": "smtp_1790031328112_199f43",
       "recipient": "info@cafesanalberto.com",
       "status": "TRANSMITIDO_EXITOSO"
-    }
+    },
+    "targetImpact": 2,
+    "currentImpact": 2
   },
   {
     "id": "pyme_d2c_3",
@@ -473,20 +549,25 @@
     "strikePaymentDestination": "rick2818@strike.me",
     "checkoutUrl": "https://unblock-shield.vercel.app/?domain=branch.com.co",
     "directStrikePaymentUrl": "https://strike.me/rick2818",
-    "status": "ENVIADO_REAL_EN_RED",
+    "status": "ENVIADO_IMPACTO_2_PAZ_MENTAL",
     "contactEmail": "contacto@branch.com.co",
     "outboundMessage": {
-      "subject": "Califica leads B2B entrantes en 60 segundos sin saturar a tu equipo comercial",
-      "body": "Hola,\n\nPara agencias de marketing en crecimiento, destinar horas de especialistas a filtrar contactos no cualificados encarece el costo de adquisición.\n\nDestraba AI te entrega un agente calificador que atiende a tus prospectos corporativos al instante y agenda reuniones solo con cuentas calificadas.\n\nActívalo para tu agencia por $69 USD/mes:\nhttps://unblock-shield.vercel.app/?domain=branch.com.co&domain=branch.com.co\n\nO cobro instantáneo a rick2818@strike.me.\n\nAtentamente,\nDestraba AI"
+      "to": "contacto@branch.com.co",
+      "subject": "🎬 Video de 70s: La paz mental de operar branch.com.co 100% blindado 24/7",
+      "body": "Estimado equipo directivo y de operaciones en Branch Agencia Digital,\n\nLe escribo en seguimiento a nuestra notificación perimetral previa con una premisa clara:\n\nNo vendemos horas de consultoría teórica, diagnósticos abstractos ni reuniones interminables. Entregamos soluciones llave en mano y la auténtica paz mental de operar 24/7 sin riesgos mientras usted y su equipo descansan.\n\n¿Cuánto vale para su dirección tener la certeza absoluta de que sus pasarelas de pago no fallarán silenciosamente, que no existen cabeceras vulnerables a inyección y que los datos de sus clientes están blindados?\n\n▶️ VEA EL VIDEO BRIEFING EJECUTIVO (70 Segundos):\n🔗 https://unblock-shield.vercel.app/?domain=branch.com.co\n\nPuntos clave de por qué directores confían en nosotros (Nuestros 5 Anclajes de Confianza):\n1. Cero Invasión Previa: Jamás solicitamos contraseñas, claves API ni acceso a bases de datos internas. Todo opera de forma defensiva desde el perímetro en la nube.\n2. Micro-Riesgo Asimétrico: Descargue el informe forense con los parches listos para pegar en producción por solo $19 USD (Plan Flash).\n3. Centinela Autónomo 24/7: Agente soberano que vigila su infraestructura por solo $2.30 USD al día ($69 USD/mes).\n4. Garantía Fiduciaria Total de 7 Días: Si en su primera semana el sistema no le ahorra al menos 10 horas de trabajo manual, reembolsamos el 100% de su pago sin fricción ni preguntas.\n5. Privacidad Bancaria SOC-2: Cero retención en disco; 100% procesado en memoria volátil RAM y purgado al instante.\n\nVea el video explicativo y aplique el blindaje en 60 segundos:\n🔗 https://unblock-shield.vercel.app/?domain=branch.com.co\n\nLiquidación directa e instantánea por Bitcoin Lightning Network a: rick2818@strike.me\n\nQuedo a su entera disposición.\n\nAtentamente,\nEspecialista Senior en Seguridad y Automatización Fiduciaria — Destraba AI"
     },
     "deliveryAudit": {
-      "dispatchedAt": "2026-09-17T17:03:31.055Z",
+      "dispatchedAt": "2026-09-21T22:55:31.674Z",
       "mode": "LIVE",
+      "impact": 2,
+      "cadenceType": "PAZ_MENTAL_VIDEO_70S",
       "transport": "GMAIL_SMTPS",
-      "messageId": "smtp_1789664611055_a6a227",
+      "messageId": "smtp_1790031331674_715154",
       "recipient": "contacto@branch.com.co",
       "status": "TRANSMITIDO_EXITOSO"
-    }
+    },
+    "targetImpact": 2,
+    "currentImpact": 2
   },
   {
     "id": "pyme_d2c_4",
@@ -499,20 +580,25 @@
     "strikePaymentDestination": "rick2818@strike.me",
     "checkoutUrl": "https://unblock-shield.vercel.app/?domain=moova.io",
     "directStrikePaymentUrl": "https://strike.me/rick2818",
-    "status": "ENVIADO_REAL_EN_RED",
+    "status": "ENVIADO_IMPACTO_2_PAZ_MENTAL",
     "contactEmail": "contacto@moova.io",
     "outboundMessage": {
-      "subject": "Automatiza la gestión de novedades de entrega en e-commerce",
-      "body": "Estimado Gerente de Operaciones en Moova,\n\nLas entregas no completadas por dirección incorrecta o ausencia de destinatario generan sobrecostos logísticos significativos si se gestionan manualmente por teléfono o chat.\n\nNuestro agente contacta al comprador al instante de registrarse la novedad para reprogramar la entrega automáticamente.\n\nPuedes integrarlo en tu flujo por $69 USD/mes:\nhttps://unblock-shield.vercel.app/?domain=moova.io&domain=moova.io\n\nLiquidación directa: rick2818@strike.me.\n\nAtentamente,\nDestraba AI"
+      "to": "contacto@moova.io",
+      "subject": "🎬 Video de 70s: La paz mental de operar moova.io 100% blindado 24/7",
+      "body": "Estimado equipo directivo y de operaciones en Moova Logística Urbana,\n\nLe escribo en seguimiento a nuestra notificación perimetral previa con una premisa clara:\n\nNo vendemos horas de consultoría teórica, diagnósticos abstractos ni reuniones interminables. Entregamos soluciones llave en mano y la auténtica paz mental de operar 24/7 sin riesgos mientras usted y su equipo descansan.\n\n¿Cuánto vale para su dirección tener la certeza absoluta de que sus pasarelas de pago no fallarán silenciosamente, que no existen cabeceras vulnerables a inyección y que los datos de sus clientes están blindados?\n\n▶️ VEA EL VIDEO BRIEFING EJECUTIVO (70 Segundos):\n🔗 https://unblock-shield.vercel.app/?domain=moova.io\n\nPuntos clave de por qué directores confían en nosotros (Nuestros 5 Anclajes de Confianza):\n1. Cero Invasión Previa: Jamás solicitamos contraseñas, claves API ni acceso a bases de datos internas. Todo opera de forma defensiva desde el perímetro en la nube.\n2. Micro-Riesgo Asimétrico: Descargue el informe forense con los parches listos para pegar en producción por solo $19 USD (Plan Flash).\n3. Centinela Autónomo 24/7: Agente soberano que vigila su infraestructura por solo $2.30 USD al día ($69 USD/mes).\n4. Garantía Fiduciaria Total de 7 Días: Si en su primera semana el sistema no le ahorra al menos 10 horas de trabajo manual, reembolsamos el 100% de su pago sin fricción ni preguntas.\n5. Privacidad Bancaria SOC-2: Cero retención en disco; 100% procesado en memoria volátil RAM y purgado al instante.\n\nVea el video explicativo y aplique el blindaje en 60 segundos:\n🔗 https://unblock-shield.vercel.app/?domain=moova.io\n\nLiquidación directa e instantánea por Bitcoin Lightning Network a: rick2818@strike.me\n\nQuedo a su entera disposición.\n\nAtentamente,\nEspecialista Senior en Seguridad y Automatización Fiduciaria — Destraba AI"
     },
     "deliveryAudit": {
-      "dispatchedAt": "2026-09-17T17:03:35.680Z",
+      "dispatchedAt": "2026-09-21T22:55:35.936Z",
       "mode": "LIVE",
+      "impact": 2,
+      "cadenceType": "PAZ_MENTAL_VIDEO_70S",
       "transport": "GMAIL_SMTPS",
-      "messageId": "smtp_1789664615679_b2ff56",
+      "messageId": "smtp_1790031335935_b2fbd5",
       "recipient": "contacto@moova.io",
       "status": "TRANSMITIDO_EXITOSO"
-    }
+    },
+    "targetImpact": 2,
+    "currentImpact": 2
   },
   {
     "id": "pyme_d2c_5",
@@ -525,20 +611,25 @@
     "strikePaymentDestination": "rick2818@strike.me",
     "checkoutUrl": "https://unblock-shield.vercel.app/?domain=cubbo.com",
     "directStrikePaymentUrl": "https://strike.me/rick2818",
-    "status": "ENVIADO_REAL_EN_RED",
+    "status": "ENVIADO_IMPACTO_2_PAZ_MENTAL",
     "contactEmail": "hola@cubbo.com",
     "outboundMessage": {
-      "subject": "Despeja el 70% de las consultas de estado de pedidos de tus marcas",
-      "body": "Hola,\n\nLas marcas que usan bodegas 3PL necesitan confirmaciones inmediatas del despacho de sus pedidos de Shopify o Mercado Libre.\n\nCon Destraba AI dispones de un concierge 24/7 que responde consultas de guía y novedades sin consumir tiempo de tus supervisores de bodega.\n\nInicia tu prueba por $69 USD/mes:\nhttps://unblock-shield.vercel.app/?domain=cubbo.com&domain=cubbo.com\n\nAtentamente,\nDestraba AI"
+      "to": "hola@cubbo.com",
+      "subject": "🎬 Video de 70s: La paz mental de operar cubbo.com 100% blindado 24/7",
+      "body": "Estimado equipo directivo y de operaciones en Cubbo E-commerce Fulfillment,\n\nLe escribo en seguimiento a nuestra notificación perimetral previa con una premisa clara:\n\nNo vendemos horas de consultoría teórica, diagnósticos abstractos ni reuniones interminables. Entregamos soluciones llave en mano y la auténtica paz mental de operar 24/7 sin riesgos mientras usted y su equipo descansan.\n\n¿Cuánto vale para su dirección tener la certeza absoluta de que sus pasarelas de pago no fallarán silenciosamente, que no existen cabeceras vulnerables a inyección y que los datos de sus clientes están blindados?\n\n▶️ VEA EL VIDEO BRIEFING EJECUTIVO (70 Segundos):\n🔗 https://unblock-shield.vercel.app/?domain=cubbo.com\n\nPuntos clave de por qué directores confían en nosotros (Nuestros 5 Anclajes de Confianza):\n1. Cero Invasión Previa: Jamás solicitamos contraseñas, claves API ni acceso a bases de datos internas. Todo opera de forma defensiva desde el perímetro en la nube.\n2. Micro-Riesgo Asimétrico: Descargue el informe forense con los parches listos para pegar en producción por solo $19 USD (Plan Flash).\n3. Centinela Autónomo 24/7: Agente soberano que vigila su infraestructura por solo $2.30 USD al día ($69 USD/mes).\n4. Garantía Fiduciaria Total de 7 Días: Si en su primera semana el sistema no le ahorra al menos 10 horas de trabajo manual, reembolsamos el 100% de su pago sin fricción ni preguntas.\n5. Privacidad Bancaria SOC-2: Cero retención en disco; 100% procesado en memoria volátil RAM y purgado al instante.\n\nVea el video explicativo y aplique el blindaje en 60 segundos:\n🔗 https://unblock-shield.vercel.app/?domain=cubbo.com\n\nLiquidación directa e instantánea por Bitcoin Lightning Network a: rick2818@strike.me\n\nQuedo a su entera disposición.\n\nAtentamente,\nEspecialista Senior en Seguridad y Automatización Fiduciaria — Destraba AI"
     },
     "deliveryAudit": {
-      "dispatchedAt": "2026-09-17T17:03:41.023Z",
+      "dispatchedAt": "2026-09-21T22:55:39.783Z",
       "mode": "LIVE",
+      "impact": 2,
+      "cadenceType": "PAZ_MENTAL_VIDEO_70S",
       "transport": "GMAIL_SMTPS",
-      "messageId": "smtp_1789664621023_0cc70f",
+      "messageId": "smtp_1790031339783_de391a",
       "recipient": "hola@cubbo.com",
       "status": "TRANSMITIDO_EXITOSO"
-    }
+    },
+    "targetImpact": 2,
+    "currentImpact": 2
   },
   {
     "id": "pyme_d2c_6",
@@ -551,20 +642,25 @@
     "strikePaymentDestination": "rick2818@strike.me",
     "checkoutUrl": "https://unblock-shield.vercel.app/?domain=chazki.com",
     "directStrikePaymentUrl": "https://strike.me/rick2818",
-    "status": "ENVIADO_REAL_EN_RED",
+    "status": "ENVIADO_IMPACTO_2_PAZ_MENTAL",
     "contactEmail": "hola@chazki.com",
     "outboundMessage": {
-      "subject": "Triaje de incidencias en entregas en menos de 10 segundos",
-      "body": "Estimado Gerente de CX en Chazki,\n\nEn mensajería de última milla para empresas, clasificar reclamos manualmente retrasa la resolución e incrementa la frustración del cliente corporativo.\n\nDestraba AI realiza el triaje inmediato y deriva únicamente los casos críticos con resumen ejecutivo listo.\n\nActiva tu piloto por $69 USD/mes:\nhttps://unblock-shield.vercel.app/?domain=chazki.com&domain=chazki.com\n\nCobros: rick2818@strike.me.\n\nAtentamente,\nDestraba AI"
+      "to": "hola@chazki.com",
+      "subject": "🎬 Video de 70s: La paz mental de operar chazki.com 100% blindado 24/7",
+      "body": "Estimado equipo directivo y de operaciones en Chazki Entregas Urbanas,\n\nLe escribo en seguimiento a nuestra notificación perimetral previa con una premisa clara:\n\nNo vendemos horas de consultoría teórica, diagnósticos abstractos ni reuniones interminables. Entregamos soluciones llave en mano y la auténtica paz mental de operar 24/7 sin riesgos mientras usted y su equipo descansan.\n\n¿Cuánto vale para su dirección tener la certeza absoluta de que sus pasarelas de pago no fallarán silenciosamente, que no existen cabeceras vulnerables a inyección y que los datos de sus clientes están blindados?\n\n▶️ VEA EL VIDEO BRIEFING EJECUTIVO (70 Segundos):\n🔗 https://unblock-shield.vercel.app/?domain=chazki.com\n\nPuntos clave de por qué directores confían en nosotros (Nuestros 5 Anclajes de Confianza):\n1. Cero Invasión Previa: Jamás solicitamos contraseñas, claves API ni acceso a bases de datos internas. Todo opera de forma defensiva desde el perímetro en la nube.\n2. Micro-Riesgo Asimétrico: Descargue el informe forense con los parches listos para pegar en producción por solo $19 USD (Plan Flash).\n3. Centinela Autónomo 24/7: Agente soberano que vigila su infraestructura por solo $2.30 USD al día ($69 USD/mes).\n4. Garantía Fiduciaria Total de 7 Días: Si en su primera semana el sistema no le ahorra al menos 10 horas de trabajo manual, reembolsamos el 100% de su pago sin fricción ni preguntas.\n5. Privacidad Bancaria SOC-2: Cero retención en disco; 100% procesado en memoria volátil RAM y purgado al instante.\n\nVea el video explicativo y aplique el blindaje en 60 segundos:\n🔗 https://unblock-shield.vercel.app/?domain=chazki.com\n\nLiquidación directa e instantánea por Bitcoin Lightning Network a: rick2818@strike.me\n\nQuedo a su entera disposición.\n\nAtentamente,\nEspecialista Senior en Seguridad y Automatización Fiduciaria — Destraba AI"
     },
     "deliveryAudit": {
-      "dispatchedAt": "2026-09-17T17:03:46.003Z",
+      "dispatchedAt": "2026-09-21T22:55:44.178Z",
       "mode": "LIVE",
+      "impact": 2,
+      "cadenceType": "PAZ_MENTAL_VIDEO_70S",
       "transport": "GMAIL_SMTPS",
-      "messageId": "smtp_1789664626003_238bcc",
+      "messageId": "smtp_1790031344178_4c4c49",
       "recipient": "hola@chazki.com",
       "status": "TRANSMITIDO_EXITOSO"
-    }
+    },
+    "targetImpact": 2,
+    "currentImpact": 2
   },
   {
     "id": "pyme_d2c_7",
@@ -577,20 +673,25 @@
     "strikePaymentDestination": "rick2818@strike.me",
     "checkoutUrl": "https://unblock-shield.vercel.app/?domain=clicoh.com",
     "directStrikePaymentUrl": "https://strike.me/rick2818",
-    "status": "ENVIADO_REAL_EN_RED",
+    "status": "ENVIADO_IMPACTO_2_PAZ_MENTAL",
     "contactEmail": "info@clicoh.com",
     "outboundMessage": {
-      "subject": "Acelera el onboarding de nuevas marcas a tu red logística",
-      "body": "Hola,\n\nGuiar paso a paso a cada nuevo merchant sobre cómo embalar, generar etiquetas y despachar a bodega consume semanas de soporte manual.\n\nImplementamos un asistente especializado en normativas de embalaje que resuelve dudas operativas al instante.\n\nConócelo aquí por $69 USD/mes:\nhttps://unblock-shield.vercel.app/?domain=clicoh.com&domain=clicoh.com\n\nLiquidación: rick2818@strike.me.\n\nAtentamente,\nDestraba AI"
+      "to": "info@clicoh.com",
+      "subject": "🎬 Video de 70s: La paz mental de operar clicoh.com 100% blindado 24/7",
+      "body": "Estimado equipo directivo y de operaciones en Clicoh Logística E-commerce,\n\nLe escribo en seguimiento a nuestra notificación perimetral previa con una premisa clara:\n\nNo vendemos horas de consultoría teórica, diagnósticos abstractos ni reuniones interminables. Entregamos soluciones llave en mano y la auténtica paz mental de operar 24/7 sin riesgos mientras usted y su equipo descansan.\n\n¿Cuánto vale para su dirección tener la certeza absoluta de que sus pasarelas de pago no fallarán silenciosamente, que no existen cabeceras vulnerables a inyección y que los datos de sus clientes están blindados?\n\n▶️ VEA EL VIDEO BRIEFING EJECUTIVO (70 Segundos):\n🔗 https://unblock-shield.vercel.app/?domain=clicoh.com\n\nPuntos clave de por qué directores confían en nosotros (Nuestros 5 Anclajes de Confianza):\n1. Cero Invasión Previa: Jamás solicitamos contraseñas, claves API ni acceso a bases de datos internas. Todo opera de forma defensiva desde el perímetro en la nube.\n2. Micro-Riesgo Asimétrico: Descargue el informe forense con los parches listos para pegar en producción por solo $19 USD (Plan Flash).\n3. Centinela Autónomo 24/7: Agente soberano que vigila su infraestructura por solo $2.30 USD al día ($69 USD/mes).\n4. Garantía Fiduciaria Total de 7 Días: Si en su primera semana el sistema no le ahorra al menos 10 horas de trabajo manual, reembolsamos el 100% de su pago sin fricción ni preguntas.\n5. Privacidad Bancaria SOC-2: Cero retención en disco; 100% procesado en memoria volátil RAM y purgado al instante.\n\nVea el video explicativo y aplique el blindaje en 60 segundos:\n🔗 https://unblock-shield.vercel.app/?domain=clicoh.com\n\nLiquidación directa e instantánea por Bitcoin Lightning Network a: rick2818@strike.me\n\nQuedo a su entera disposición.\n\nAtentamente,\nEspecialista Senior en Seguridad y Automatización Fiduciaria — Destraba AI"
     },
     "deliveryAudit": {
-      "dispatchedAt": "2026-09-17T17:03:50.683Z",
+      "dispatchedAt": "2026-09-21T22:55:47.946Z",
       "mode": "LIVE",
+      "impact": 2,
+      "cadenceType": "PAZ_MENTAL_VIDEO_70S",
       "transport": "GMAIL_SMTPS",
-      "messageId": "smtp_1789664630683_8f9209",
+      "messageId": "smtp_1790031347945_6978ad",
       "recipient": "info@clicoh.com",
       "status": "TRANSMITIDO_EXITOSO"
-    }
+    },
+    "targetImpact": 2,
+    "currentImpact": 2
   },
   {
     "id": "pyme_d2c_8",
@@ -603,20 +704,25 @@
     "strikePaymentDestination": "rick2818@strike.me",
     "checkoutUrl": "https://unblock-shield.vercel.app/?domain=mensajerosurbanos.com",
     "directStrikePaymentUrl": "https://strike.me/rick2818",
-    "status": "ENVIADO_REAL_EN_RED",
+    "status": "ENVIADO_IMPACTO_2_PAZ_MENTAL",
     "contactEmail": "contacto@mensajerosurbanos.com",
     "outboundMessage": {
-      "subject": "Cotiza servicios de mensajería empresarial 24/7 sin esperar al lunes",
-      "body": "Hola,\n\nLas empresas que requieren envíos corporativos suelen cotizar en la noche o fines de semana; si esperan hasta el lunes, cotizan con otra empresa.\n\nDestraba AI calcula tarifas estimadas al instante y captura el contacto del decisor en segundos.\n\nPrueba el agente por $69 USD/mes:\nhttps://unblock-shield.vercel.app/?domain=mensajerosurbanos.com&domain=mensajerosurbanos.com\n\nAtentamente,\nDestraba AI"
+      "to": "contacto@mensajerosurbanos.com",
+      "subject": "🎬 Video de 70s: La paz mental de operar mensajerosurbanos.com 100% blindado 24/7",
+      "body": "Estimado equipo directivo y de operaciones en Mensajeros Urbanos B2B,\n\nLe escribo en seguimiento a nuestra notificación perimetral previa con una premisa clara:\n\nNo vendemos horas de consultoría teórica, diagnósticos abstractos ni reuniones interminables. Entregamos soluciones llave en mano y la auténtica paz mental de operar 24/7 sin riesgos mientras usted y su equipo descansan.\n\n¿Cuánto vale para su dirección tener la certeza absoluta de que sus pasarelas de pago no fallarán silenciosamente, que no existen cabeceras vulnerables a inyección y que los datos de sus clientes están blindados?\n\n▶️ VEA EL VIDEO BRIEFING EJECUTIVO (70 Segundos):\n🔗 https://unblock-shield.vercel.app/?domain=mensajerosurbanos.com\n\nPuntos clave de por qué directores confían en nosotros (Nuestros 5 Anclajes de Confianza):\n1. Cero Invasión Previa: Jamás solicitamos contraseñas, claves API ni acceso a bases de datos internas. Todo opera de forma defensiva desde el perímetro en la nube.\n2. Micro-Riesgo Asimétrico: Descargue el informe forense con los parches listos para pegar en producción por solo $19 USD (Plan Flash).\n3. Centinela Autónomo 24/7: Agente soberano que vigila su infraestructura por solo $2.30 USD al día ($69 USD/mes).\n4. Garantía Fiduciaria Total de 7 Días: Si en su primera semana el sistema no le ahorra al menos 10 horas de trabajo manual, reembolsamos el 100% de su pago sin fricción ni preguntas.\n5. Privacidad Bancaria SOC-2: Cero retención en disco; 100% procesado en memoria volátil RAM y purgado al instante.\n\nVea el video explicativo y aplique el blindaje en 60 segundos:\n🔗 https://unblock-shield.vercel.app/?domain=mensajerosurbanos.com\n\nLiquidación directa e instantánea por Bitcoin Lightning Network a: rick2818@strike.me\n\nQuedo a su entera disposición.\n\nAtentamente,\nEspecialista Senior en Seguridad y Automatización Fiduciaria — Destraba AI"
     },
     "deliveryAudit": {
-      "dispatchedAt": "2026-09-17T17:03:55.839Z",
+      "dispatchedAt": "2026-09-21T22:55:51.547Z",
       "mode": "LIVE",
+      "impact": 2,
+      "cadenceType": "PAZ_MENTAL_VIDEO_70S",
       "transport": "GMAIL_SMTPS",
-      "messageId": "smtp_1789664635839_5005b4",
+      "messageId": "smtp_1790031351547_1964bf",
       "recipient": "contacto@mensajerosurbanos.com",
       "status": "TRANSMITIDO_EXITOSO"
-    }
+    },
+    "targetImpact": 2,
+    "currentImpact": 2
   },
   {
     "id": "pyme_d2c_9",
@@ -629,20 +735,25 @@
     "strikePaymentDestination": "rick2818@strike.me",
     "checkoutUrl": "https://unblock-shield.vercel.app/?domain=skydropx.com",
     "directStrikePaymentUrl": "https://strike.me/rick2818",
-    "status": "ENVIADO_REAL_EN_RED",
+    "status": "ENVIADO_IMPACTO_2_PAZ_MENTAL",
     "contactEmail": "hola@skydropx.com",
     "outboundMessage": {
-      "subject": "Auditoría perimetral y blindaje defensivo para tu pasarela de envíos",
-      "body": "Estimado Director de Operaciones en Skydropx,\n\nRealizamos una auditoría externa no invasiva a plataformas de agregación de envíos y detectamos que muchas operan sin cabeceras bancarias estrictas (CSP, HSTS) necesarias para blindar el checkout contra ataques de clickjacking.\n\nGenera tu reporte forense con los parches listos para aplicar por $19 USD:\nhttps://rick2818.github.io/Agents/?plan=flash&domain=skydropx.com\n\nLiquidación Lightning: rick2818@strike.me.\n\nAtentamente,\nEquipo de Ciberseguridad Defensiva — Destraba AI"
+      "to": "hola@skydropx.com",
+      "subject": "🎬 Video de 70s: La paz mental de operar skydropx.com 100% blindado 24/7",
+      "body": "Estimado equipo directivo y de operaciones en Skydropx Envíos,\n\nLe escribo en seguimiento a nuestra notificación perimetral previa con una premisa clara:\n\nNo vendemos horas de consultoría teórica, diagnósticos abstractos ni reuniones interminables. Entregamos soluciones llave en mano y la auténtica paz mental de operar 24/7 sin riesgos mientras usted y su equipo descansan.\n\n¿Cuánto vale para su dirección tener la certeza absoluta de que sus pasarelas de pago no fallarán silenciosamente, que no existen cabeceras vulnerables a inyección y que los datos de sus clientes están blindados?\n\n▶️ VEA EL VIDEO BRIEFING EJECUTIVO (70 Segundos):\n🔗 https://unblock-shield.vercel.app/?domain=skydropx.com\n\nPuntos clave de por qué directores confían en nosotros (Nuestros 5 Anclajes de Confianza):\n1. Cero Invasión Previa: Jamás solicitamos contraseñas, claves API ni acceso a bases de datos internas. Todo opera de forma defensiva desde el perímetro en la nube.\n2. Micro-Riesgo Asimétrico: Descargue el informe forense con los parches listos para pegar en producción por solo $19 USD (Plan Flash).\n3. Centinela Autónomo 24/7: Agente soberano que vigila su infraestructura por solo $2.30 USD al día ($69 USD/mes).\n4. Garantía Fiduciaria Total de 7 Días: Si en su primera semana el sistema no le ahorra al menos 10 horas de trabajo manual, reembolsamos el 100% de su pago sin fricción ni preguntas.\n5. Privacidad Bancaria SOC-2: Cero retención en disco; 100% procesado en memoria volátil RAM y purgado al instante.\n\nVea el video explicativo y aplique el blindaje en 60 segundos:\n🔗 https://unblock-shield.vercel.app/?domain=skydropx.com\n\nLiquidación directa e instantánea por Bitcoin Lightning Network a: rick2818@strike.me\n\nQuedo a su entera disposición.\n\nAtentamente,\nEspecialista Senior en Seguridad y Automatización Fiduciaria — Destraba AI"
     },
     "deliveryAudit": {
-      "dispatchedAt": "2026-09-17T17:04:02.449Z",
+      "dispatchedAt": "2026-09-21T22:55:55.244Z",
       "mode": "LIVE",
+      "impact": 2,
+      "cadenceType": "PAZ_MENTAL_VIDEO_70S",
       "transport": "GMAIL_SMTPS",
-      "messageId": "smtp_1789664642449_39dee4",
+      "messageId": "smtp_1790031355243_5a7d58",
       "recipient": "hola@skydropx.com",
       "status": "TRANSMITIDO_EXITOSO"
-    }
+    },
+    "targetImpact": 2,
+    "currentImpact": 2
   },
   {
     "id": "pyme_d2c_10",
@@ -655,20 +766,25 @@
     "strikePaymentDestination": "rick2818@strike.me",
     "checkoutUrl": "https://unblock-shield.vercel.app/?domain=envia.com",
     "directStrikePaymentUrl": "https://strike.me/rick2818",
-    "status": "ENVIADO_REAL_EN_RED",
+    "status": "ENVIADO_IMPACTO_2_PAZ_MENTAL",
     "contactEmail": "soporte@envia.com",
     "outboundMessage": {
-      "subject": "Optimiza la conversión de registros a envíos reales en tu plataforma",
-      "body": "Hola,\n\nMuchos sellers se registran para cotizar envíos pero abandonan antes de realizar su primera recarga o despacho por dudas en la configuración.\n\nNuestros agentes fiduciarios asumen el acompañamiento paso a paso elevando la tasa de activación de cuentas.\n\nConócelo aquí por $69 USD/mes:\nhttps://unblock-shield.vercel.app/?domain=envia.com&domain=envia.com\n\nAtentamente,\nDestraba AI"
+      "to": "soporte@envia.com",
+      "subject": "🎬 Video de 70s: La paz mental de operar envia.com 100% blindado 24/7",
+      "body": "Estimado equipo directivo y de operaciones en Envia.com Logistics Platform,\n\nLe escribo en seguimiento a nuestra notificación perimetral previa con una premisa clara:\n\nNo vendemos horas de consultoría teórica, diagnósticos abstractos ni reuniones interminables. Entregamos soluciones llave en mano y la auténtica paz mental de operar 24/7 sin riesgos mientras usted y su equipo descansan.\n\n¿Cuánto vale para su dirección tener la certeza absoluta de que sus pasarelas de pago no fallarán silenciosamente, que no existen cabeceras vulnerables a inyección y que los datos de sus clientes están blindados?\n\n▶️ VEA EL VIDEO BRIEFING EJECUTIVO (70 Segundos):\n🔗 https://unblock-shield.vercel.app/?domain=envia.com\n\nPuntos clave de por qué directores confían en nosotros (Nuestros 5 Anclajes de Confianza):\n1. Cero Invasión Previa: Jamás solicitamos contraseñas, claves API ni acceso a bases de datos internas. Todo opera de forma defensiva desde el perímetro en la nube.\n2. Micro-Riesgo Asimétrico: Descargue el informe forense con los parches listos para pegar en producción por solo $19 USD (Plan Flash).\n3. Centinela Autónomo 24/7: Agente soberano que vigila su infraestructura por solo $2.30 USD al día ($69 USD/mes).\n4. Garantía Fiduciaria Total de 7 Días: Si en su primera semana el sistema no le ahorra al menos 10 horas de trabajo manual, reembolsamos el 100% de su pago sin fricción ni preguntas.\n5. Privacidad Bancaria SOC-2: Cero retención en disco; 100% procesado en memoria volátil RAM y purgado al instante.\n\nVea el video explicativo y aplique el blindaje en 60 segundos:\n🔗 https://unblock-shield.vercel.app/?domain=envia.com\n\nLiquidación directa e instantánea por Bitcoin Lightning Network a: rick2818@strike.me\n\nQuedo a su entera disposición.\n\nAtentamente,\nEspecialista Senior en Seguridad y Automatización Fiduciaria — Destraba AI"
     },
     "deliveryAudit": {
-      "dispatchedAt": "2026-09-17T17:04:08.475Z",
+      "dispatchedAt": "2026-09-21T22:56:04.430Z",
       "mode": "LIVE",
+      "impact": 2,
+      "cadenceType": "PAZ_MENTAL_VIDEO_70S",
       "transport": "GMAIL_SMTPS",
-      "messageId": "smtp_1789664648475_e256d5",
+      "messageId": "smtp_1790031364430_4d7a6e",
       "recipient": "soporte@envia.com",
       "status": "TRANSMITIDO_EXITOSO"
-    }
+    },
+    "targetImpact": 2,
+    "currentImpact": 2
   },
   {
     "id": "pyme_d2c_11",
@@ -681,20 +797,25 @@
     "strikePaymentDestination": "rick2818@strike.me",
     "checkoutUrl": "https://unblock-shield.vercel.app/?domain=bold.co",
     "directStrikePaymentUrl": "https://strike.me/rick2818",
-    "status": "ENVIADO_REAL_EN_RED",
+    "status": "ENVIADO_IMPACTO_2_PAZ_MENTAL",
     "contactEmail": "soporte@bold.co",
     "outboundMessage": {
-      "subject": "Responde dudas de depósitos y ventas a tus comercios sin cola de espera",
-      "body": "Estimado Gerente de Soporte en Bold,\n\nLos pequeños comerciantes necesitan saber al instante cuándo se reflejan sus fondos y cómo resolver errores en datafonos.\n\nDestraba AI despliega un agente especializado que atiende el 80% de estas consultas de forma instantánea sin tocar sistemas críticos de pago.\n\nPrueba el agente por $69 USD/mes:\nhttps://unblock-shield.vercel.app/?domain=bold.co&domain=bold.co\n\nAtentamente,\nDestraba AI"
+      "to": "soporte@bold.co",
+      "subject": "🎬 Video de 70s: La paz mental de operar bold.co 100% blindado 24/7",
+      "body": "Estimado equipo directivo y de operaciones en Bold Pagos Digitales,\n\nLe escribo en seguimiento a nuestra notificación perimetral previa con una premisa clara:\n\nNo vendemos horas de consultoría teórica, diagnósticos abstractos ni reuniones interminables. Entregamos soluciones llave en mano y la auténtica paz mental de operar 24/7 sin riesgos mientras usted y su equipo descansan.\n\n¿Cuánto vale para su dirección tener la certeza absoluta de que sus pasarelas de pago no fallarán silenciosamente, que no existen cabeceras vulnerables a inyección y que los datos de sus clientes están blindados?\n\n▶️ VEA EL VIDEO BRIEFING EJECUTIVO (70 Segundos):\n🔗 https://unblock-shield.vercel.app/?domain=bold.co\n\nPuntos clave de por qué directores confían en nosotros (Nuestros 5 Anclajes de Confianza):\n1. Cero Invasión Previa: Jamás solicitamos contraseñas, claves API ni acceso a bases de datos internas. Todo opera de forma defensiva desde el perímetro en la nube.\n2. Micro-Riesgo Asimétrico: Descargue el informe forense con los parches listos para pegar en producción por solo $19 USD (Plan Flash).\n3. Centinela Autónomo 24/7: Agente soberano que vigila su infraestructura por solo $2.30 USD al día ($69 USD/mes).\n4. Garantía Fiduciaria Total de 7 Días: Si en su primera semana el sistema no le ahorra al menos 10 horas de trabajo manual, reembolsamos el 100% de su pago sin fricción ni preguntas.\n5. Privacidad Bancaria SOC-2: Cero retención en disco; 100% procesado en memoria volátil RAM y purgado al instante.\n\nVea el video explicativo y aplique el blindaje en 60 segundos:\n🔗 https://unblock-shield.vercel.app/?domain=bold.co\n\nLiquidación directa e instantánea por Bitcoin Lightning Network a: rick2818@strike.me\n\nQuedo a su entera disposición.\n\nAtentamente,\nEspecialista Senior en Seguridad y Automatización Fiduciaria — Destraba AI"
     },
     "deliveryAudit": {
-      "dispatchedAt": "2026-09-17T17:04:13.232Z",
+      "dispatchedAt": "2026-09-21T22:56:11.442Z",
       "mode": "LIVE",
+      "impact": 2,
+      "cadenceType": "PAZ_MENTAL_VIDEO_70S",
       "transport": "GMAIL_SMTPS",
-      "messageId": "smtp_1789664653232_abb6e4",
+      "messageId": "smtp_1790031371442_03ab1d",
       "recipient": "soporte@bold.co",
       "status": "TRANSMITIDO_EXITOSO"
-    }
+    },
+    "targetImpact": 2,
+    "currentImpact": 2
   },
   {
     "id": "pyme_d2c_12",
@@ -707,20 +828,25 @@
     "strikePaymentDestination": "rick2818@strike.me",
     "checkoutUrl": "https://unblock-shield.vercel.app/?domain=cobre.co",
     "directStrikePaymentUrl": "https://strike.me/rick2818",
-    "status": "ENVIADO_REAL_EN_RED",
+    "status": "ENVIADO_IMPACTO_2_PAZ_MENTAL",
     "contactEmail": "contacto@cobre.co",
     "outboundMessage": {
-      "subject": "Auditoría de cabeceras y blindaje de portal de tesorería",
-      "body": "Hola,\n\nAl auditar perimetralmente plataformas B2B de pagos y tesorería, verificamos el cumplimiento de cabeceras estrictas contra fuga de cookies y ataques de inyección.\n\nPuedes generar tu reporte de diagnóstico en 60 segundos por $19 USD aquí:\nhttps://rick2818.github.io/Agents/?plan=flash&domain=cobre.co\n\nLiquidación segura: rick2818@strike.me.\n\nAtentamente,\nDestraba AI"
+      "to": "contacto@cobre.co",
+      "subject": "🎬 Video de 70s: La paz mental de operar cobre.co 100% blindado 24/7",
+      "body": "Estimado equipo directivo y de operaciones en Cobre Finanzas B2B,\n\nLe escribo en seguimiento a nuestra notificación perimetral previa con una premisa clara:\n\nNo vendemos horas de consultoría teórica, diagnósticos abstractos ni reuniones interminables. Entregamos soluciones llave en mano y la auténtica paz mental de operar 24/7 sin riesgos mientras usted y su equipo descansan.\n\n¿Cuánto vale para su dirección tener la certeza absoluta de que sus pasarelas de pago no fallarán silenciosamente, que no existen cabeceras vulnerables a inyección y que los datos de sus clientes están blindados?\n\n▶️ VEA EL VIDEO BRIEFING EJECUTIVO (70 Segundos):\n🔗 https://unblock-shield.vercel.app/?domain=cobre.co\n\nPuntos clave de por qué directores confían en nosotros (Nuestros 5 Anclajes de Confianza):\n1. Cero Invasión Previa: Jamás solicitamos contraseñas, claves API ni acceso a bases de datos internas. Todo opera de forma defensiva desde el perímetro en la nube.\n2. Micro-Riesgo Asimétrico: Descargue el informe forense con los parches listos para pegar en producción por solo $19 USD (Plan Flash).\n3. Centinela Autónomo 24/7: Agente soberano que vigila su infraestructura por solo $2.30 USD al día ($69 USD/mes).\n4. Garantía Fiduciaria Total de 7 Días: Si en su primera semana el sistema no le ahorra al menos 10 horas de trabajo manual, reembolsamos el 100% de su pago sin fricción ni preguntas.\n5. Privacidad Bancaria SOC-2: Cero retención en disco; 100% procesado en memoria volátil RAM y purgado al instante.\n\nVea el video explicativo y aplique el blindaje en 60 segundos:\n🔗 https://unblock-shield.vercel.app/?domain=cobre.co\n\nLiquidación directa e instantánea por Bitcoin Lightning Network a: rick2818@strike.me\n\nQuedo a su entera disposición.\n\nAtentamente,\nEspecialista Senior en Seguridad y Automatización Fiduciaria — Destraba AI"
     },
     "deliveryAudit": {
-      "dispatchedAt": "2026-09-17T17:04:17.440Z",
+      "dispatchedAt": "2026-09-21T22:56:15.702Z",
       "mode": "LIVE",
+      "impact": 2,
+      "cadenceType": "PAZ_MENTAL_VIDEO_70S",
       "transport": "GMAIL_SMTPS",
-      "messageId": "smtp_1789664657440_9c86ef",
+      "messageId": "smtp_1790031375702_a4d9d9",
       "recipient": "contacto@cobre.co",
       "status": "TRANSMITIDO_EXITOSO"
-    }
+    },
+    "targetImpact": 2,
+    "currentImpact": 2
   },
   {
     "id": "pyme_d2c_13",
@@ -733,20 +859,25 @@
     "strikePaymentDestination": "rick2818@strike.me",
     "checkoutUrl": "https://unblock-shield.vercel.app/?domain=simetrik.com",
     "directStrikePaymentUrl": "https://strike.me/rick2818",
-    "status": "ENVIADO_REAL_EN_RED",
+    "status": "ENVIADO_IMPACTO_2_PAZ_MENTAL",
     "contactEmail": "info@simetrik.com",
     "outboundMessage": {
-      "subject": "Diagnóstico de cumplimiento perimetral y cabeceras estrictas",
-      "body": "Estimado Líder de Ciberseguridad en Simetrik,\n\nLas empresas de conciliación y registros financieros están bajo constante auditoría por parte de sus clientes institucionales.\n\nDestraba AI provee una verificación defensiva en 60 segundos que detecta desalineaciones en CSP, HSTS y encabezados MIME con parches Nginx/Apache listos.\n\nDescarga tu reporte por $19 USD:\nhttps://rick2818.github.io/Agents/?plan=flash&domain=simetrik.com\n\nAtentamente,\nDestraba AI"
+      "to": "info@simetrik.com",
+      "subject": "🎬 70s Video: 24/7 peace of mind and perimeter defense for simetrik.com",
+      "body": "Dear Executive & Operations Team at Simetrik Conciliación Financiera,\n\nI am reaching out following our recent perimeter scan with a simple, direct commitment:\n\nWe do not sell theoretical advisory hours, lengthy PowerPoints, or billable consulting sessions. We deliver turnkey sovereign solutions and genuine 24/7 peace of mind while your team sleeps.\n\nHow much is it worth to know that your checkout pipeline will never silently drop transactions, that banking headers are strictly enforced, and that no perimeter injection can breach your customer data?\n\n▶️ WATCH THE 70-SECOND EXECUTIVE VIDEO BRIEFING:\n🔗 https://unblock-shield.vercel.app/?lang=en&domain=simetrik.com\n\nWhy leading executives trust our infrastructure (Our 5 Fiduciary Trust Anchors):\n1. Zero Invasive Access: We never touch passwords, internal databases, or API credentials. 100% evaluated and deployed safely from the cloud perimeter.\n2. Micro-Risk Turnkey Solution: Download production-ready code patches in a single .zip for just $19 USD (Flash Plan).\n3. 24/7 Autopilot Sentinel: Autonomous agent continuously monitoring your endpoints for $69 USD/month ($2.30 USD/day).\n4. 7-Day Unconditional Fiduciary Guarantee: If this solution does not save your operations at least 10 hours in the first week, we refund 100% of your payment with zero questions.\n5. SOC-2 Grade Volatile Memory Vault: Zero disk storage; all operations run in isolated volatile RAM and are purged instantly.\n\nInspect your portal live or activate immediate peace of mind in 60 seconds:\n🔗 https://unblock-shield.vercel.app/?lang=en&domain=simetrik.com\n\nInstant zero-fee settlement via Bitcoin Lightning Network: rick2818@strike.me\n\nBest regards,\nSenior Solutions & Cyber-Defense Team — Unblock AI"
     },
     "deliveryAudit": {
-      "dispatchedAt": "2026-09-17T17:04:22.038Z",
+      "dispatchedAt": "2026-09-21T22:56:19.022Z",
       "mode": "LIVE",
+      "impact": 2,
+      "cadenceType": "PAZ_MENTAL_VIDEO_70S",
       "transport": "GMAIL_SMTPS",
-      "messageId": "smtp_1789664662038_4c041a",
+      "messageId": "smtp_1790031379022_8742e7",
       "recipient": "info@simetrik.com",
       "status": "TRANSMITIDO_EXITOSO"
-    }
+    },
+    "targetImpact": 2,
+    "currentImpact": 2
   },
   {
     "id": "pyme_d2c_14",
@@ -759,20 +890,25 @@
     "strikePaymentDestination": "rick2818@strike.me",
     "checkoutUrl": "https://unblock-shield.vercel.app/?domain=co.addi.com",
     "directStrikePaymentUrl": "https://strike.me/rick2818",
-    "status": "ENVIADO_REAL_EN_RED",
+    "status": "ENVIADO_IMPACTO_2_PAZ_MENTAL",
     "contactEmail": "soporte@addi.com",
     "outboundMessage": {
-      "subject": "Reduce fricción técnica en la integración del widget de crédito",
-      "body": "Hola,\n\nMuchos comercios aliados demoran días en completar la instalación de widgets de BNPL por dudas básicas de configuración en WooCommerce o PrestaShop.\n\nUn asistente inteligente de soporte técnico puede resolver el 90% de esas dudas técnicas en tiempo real.\n\nPuedes evaluarlo aquí por $69 USD/mes:\nhttps://unblock-shield.vercel.app/?domain=co.addi.com&domain=co.addi.com\n\nAtentamente,\nDestraba AI"
+      "to": "soporte@addi.com",
+      "subject": "🎬 Video de 70s: La paz mental de operar co.addi.com 100% blindado 24/7",
+      "body": "Estimado equipo directivo y de operaciones en Addi Crédito & Checkout,\n\nLe escribo en seguimiento a nuestra notificación perimetral previa con una premisa clara:\n\nNo vendemos horas de consultoría teórica, diagnósticos abstractos ni reuniones interminables. Entregamos soluciones llave en mano y la auténtica paz mental de operar 24/7 sin riesgos mientras usted y su equipo descansan.\n\n¿Cuánto vale para su dirección tener la certeza absoluta de que sus pasarelas de pago no fallarán silenciosamente, que no existen cabeceras vulnerables a inyección y que los datos de sus clientes están blindados?\n\n▶️ VEA EL VIDEO BRIEFING EJECUTIVO (70 Segundos):\n🔗 https://unblock-shield.vercel.app/?domain=co.addi.com\n\nPuntos clave de por qué directores confían en nosotros (Nuestros 5 Anclajes de Confianza):\n1. Cero Invasión Previa: Jamás solicitamos contraseñas, claves API ni acceso a bases de datos internas. Todo opera de forma defensiva desde el perímetro en la nube.\n2. Micro-Riesgo Asimétrico: Descargue el informe forense con los parches listos para pegar en producción por solo $19 USD (Plan Flash).\n3. Centinela Autónomo 24/7: Agente soberano que vigila su infraestructura por solo $2.30 USD al día ($69 USD/mes).\n4. Garantía Fiduciaria Total de 7 Días: Si en su primera semana el sistema no le ahorra al menos 10 horas de trabajo manual, reembolsamos el 100% de su pago sin fricción ni preguntas.\n5. Privacidad Bancaria SOC-2: Cero retención en disco; 100% procesado en memoria volátil RAM y purgado al instante.\n\nVea el video explicativo y aplique el blindaje en 60 segundos:\n🔗 https://unblock-shield.vercel.app/?domain=co.addi.com\n\nLiquidación directa e instantánea por Bitcoin Lightning Network a: rick2818@strike.me\n\nQuedo a su entera disposición.\n\nAtentamente,\nEspecialista Senior en Seguridad y Automatización Fiduciaria — Destraba AI"
     },
     "deliveryAudit": {
-      "dispatchedAt": "2026-09-17T17:04:27.022Z",
+      "dispatchedAt": "2026-09-21T22:56:22.160Z",
       "mode": "LIVE",
+      "impact": 2,
+      "cadenceType": "PAZ_MENTAL_VIDEO_70S",
       "transport": "GMAIL_SMTPS",
-      "messageId": "smtp_1789664667021_b2dd53",
+      "messageId": "smtp_1790031382160_9fa5a6",
       "recipient": "soporte@addi.com",
       "status": "TRANSMITIDO_EXITOSO"
-    }
+    },
+    "targetImpact": 2,
+    "currentImpact": 2
   },
   {
     "id": "pyme_d2c_15",
@@ -785,20 +921,25 @@
     "strikePaymentDestination": "rick2818@strike.me",
     "checkoutUrl": "https://unblock-shield.vercel.app/?domain=kushkipagos.com",
     "directStrikePaymentUrl": "https://strike.me/rick2818",
-    "status": "ENVIADO_REAL_EN_RED",
+    "status": "ENVIADO_IMPACTO_2_PAZ_MENTAL",
     "contactEmail": "info@kushkipagos.com",
     "outboundMessage": {
-      "subject": "Asistente inteligente sobre documentación y códigos de error para desarrolladores",
-      "body": "Estimado Gerente de Operaciones Técnicas en Kushki,\n\nLos desarrolladores que integran pasarelas de pago valoran respuestas inmediatas cuando un webhook o un token de tarjeta falla.\n\nDestraba AI implementa asistentes de consulta rápida sobre especificaciones de API sin tocar infraestructura sensible.\n\nActívalo por $69 USD/mes:\nhttps://unblock-shield.vercel.app/?domain=kushkipagos.com&domain=kushkipagos.com\n\nLiquidación a rick2818@strike.me.\n\nAtentamente,\nDestraba AI"
+      "to": "info@kushkipagos.com",
+      "subject": "🎬 Video de 70s: La paz mental de operar kushkipagos.com 100% blindado 24/7",
+      "body": "Estimado equipo directivo y de operaciones en Kushki Pasarela de Pagos,\n\nLe escribo en seguimiento a nuestra notificación perimetral previa con una premisa clara:\n\nNo vendemos horas de consultoría teórica, diagnósticos abstractos ni reuniones interminables. Entregamos soluciones llave en mano y la auténtica paz mental de operar 24/7 sin riesgos mientras usted y su equipo descansan.\n\n¿Cuánto vale para su dirección tener la certeza absoluta de que sus pasarelas de pago no fallarán silenciosamente, que no existen cabeceras vulnerables a inyección y que los datos de sus clientes están blindados?\n\n▶️ VEA EL VIDEO BRIEFING EJECUTIVO (70 Segundos):\n🔗 https://unblock-shield.vercel.app/?domain=kushkipagos.com\n\nPuntos clave de por qué directores confían en nosotros (Nuestros 5 Anclajes de Confianza):\n1. Cero Invasión Previa: Jamás solicitamos contraseñas, claves API ni acceso a bases de datos internas. Todo opera de forma defensiva desde el perímetro en la nube.\n2. Micro-Riesgo Asimétrico: Descargue el informe forense con los parches listos para pegar en producción por solo $19 USD (Plan Flash).\n3. Centinela Autónomo 24/7: Agente soberano que vigila su infraestructura por solo $2.30 USD al día ($69 USD/mes).\n4. Garantía Fiduciaria Total de 7 Días: Si en su primera semana el sistema no le ahorra al menos 10 horas de trabajo manual, reembolsamos el 100% de su pago sin fricción ni preguntas.\n5. Privacidad Bancaria SOC-2: Cero retención en disco; 100% procesado en memoria volátil RAM y purgado al instante.\n\nVea el video explicativo y aplique el blindaje en 60 segundos:\n🔗 https://unblock-shield.vercel.app/?domain=kushkipagos.com\n\nLiquidación directa e instantánea por Bitcoin Lightning Network a: rick2818@strike.me\n\nQuedo a su entera disposición.\n\nAtentamente,\nEspecialista Senior en Seguridad y Automatización Fiduciaria — Destraba AI"
     },
     "deliveryAudit": {
-      "dispatchedAt": "2026-09-17T17:04:32.715Z",
+      "dispatchedAt": "2026-09-21T22:56:26.581Z",
       "mode": "LIVE",
+      "impact": 2,
+      "cadenceType": "PAZ_MENTAL_VIDEO_70S",
       "transport": "GMAIL_SMTPS",
-      "messageId": "smtp_1789664672715_54eab9",
+      "messageId": "smtp_1790031386581_ad4a05",
       "recipient": "info@kushkipagos.com",
       "status": "TRANSMITIDO_EXITOSO"
-    }
+    },
+    "targetImpact": 2,
+    "currentImpact": 2
   },
   {
     "id": "pyme_d2c_16",
@@ -811,20 +952,25 @@
     "strikePaymentDestination": "rick2818@strike.me",
     "checkoutUrl": "https://unblock-shield.vercel.app/?domain=moffin.mx",
     "directStrikePaymentUrl": "https://strike.me/rick2818",
-    "status": "ENVIADO_REAL_EN_RED",
+    "status": "ENVIADO_IMPACTO_2_PAZ_MENTAL",
     "contactEmail": "contacto@moffin.mx",
     "outboundMessage": {
-      "subject": "Reporte defensivo de cabeceras bancarias y postura perimetral",
-      "body": "Hola,\n\nRealizamos un escaneo perimetral externo a portales B2B fintech en México y generamos reportes de 60 segundos con los parches exactos de cabeceras para Nginx y Cloudflare.\n\nPuedes generar el diagnóstico de tu portal por $19 USD aquí:\nhttps://rick2818.github.io/Agents/?plan=flash&domain=moffin.mx\n\nCobros seguros: rick2818@strike.me.\n\nAtentamente,\nDestraba AI"
+      "to": "contacto@moffin.mx",
+      "subject": "🎬 Video de 70s: La paz mental de operar moffin.mx 100% blindado 24/7",
+      "body": "Estimado equipo directivo y de operaciones en Moffin Infraestructura Financiera,\n\nLe escribo en seguimiento a nuestra notificación perimetral previa con una premisa clara:\n\nNo vendemos horas de consultoría teórica, diagnósticos abstractos ni reuniones interminables. Entregamos soluciones llave en mano y la auténtica paz mental de operar 24/7 sin riesgos mientras usted y su equipo descansan.\n\n¿Cuánto vale para su dirección tener la certeza absoluta de que sus pasarelas de pago no fallarán silenciosamente, que no existen cabeceras vulnerables a inyección y que los datos de sus clientes están blindados?\n\n▶️ VEA EL VIDEO BRIEFING EJECUTIVO (70 Segundos):\n🔗 https://unblock-shield.vercel.app/?domain=moffin.mx\n\nPuntos clave de por qué directores confían en nosotros (Nuestros 5 Anclajes de Confianza):\n1. Cero Invasión Previa: Jamás solicitamos contraseñas, claves API ni acceso a bases de datos internas. Todo opera de forma defensiva desde el perímetro en la nube.\n2. Micro-Riesgo Asimétrico: Descargue el informe forense con los parches listos para pegar en producción por solo $19 USD (Plan Flash).\n3. Centinela Autónomo 24/7: Agente soberano que vigila su infraestructura por solo $2.30 USD al día ($69 USD/mes).\n4. Garantía Fiduciaria Total de 7 Días: Si en su primera semana el sistema no le ahorra al menos 10 horas de trabajo manual, reembolsamos el 100% de su pago sin fricción ni preguntas.\n5. Privacidad Bancaria SOC-2: Cero retención en disco; 100% procesado en memoria volátil RAM y purgado al instante.\n\nVea el video explicativo y aplique el blindaje en 60 segundos:\n🔗 https://unblock-shield.vercel.app/?domain=moffin.mx\n\nLiquidación directa e instantánea por Bitcoin Lightning Network a: rick2818@strike.me\n\nQuedo a su entera disposición.\n\nAtentamente,\nEspecialista Senior en Seguridad y Automatización Fiduciaria — Destraba AI"
     },
     "deliveryAudit": {
-      "dispatchedAt": "2026-09-17T17:04:38.897Z",
+      "dispatchedAt": "2026-09-21T22:56:30.592Z",
       "mode": "LIVE",
+      "impact": 2,
+      "cadenceType": "PAZ_MENTAL_VIDEO_70S",
       "transport": "GMAIL_SMTPS",
-      "messageId": "smtp_1789664678896_3826dd",
+      "messageId": "smtp_1790031390591_7c0a78",
       "recipient": "contacto@moffin.mx",
       "status": "TRANSMITIDO_EXITOSO"
-    }
+    },
+    "targetImpact": 2,
+    "currentImpact": 2
   },
   {
     "id": "pyme_d2c_17",
@@ -837,20 +983,25 @@
     "strikePaymentDestination": "rick2818@strike.me",
     "checkoutUrl": "https://unblock-shield.vercel.app/?domain=liftit.co",
     "directStrikePaymentUrl": "https://strike.me/rick2818",
-    "status": "ENVIADO_REAL_EN_RED",
+    "status": "ENVIADO_IMPACTO_2_PAZ_MENTAL",
     "contactEmail": "contacto@liftit.co",
     "outboundMessage": {
-      "subject": "Responde dudas de transportistas y novedades de viaje sin saturar tus teléfonos",
-      "body": "Estimado Gerente de Operaciones en Liftit,\n\nCoordinar conductores en ruta para verificar estados de carga consume tiempo crítico de los coordinadores de tráfico.\n\nNuestros agentes asumen las respuestas automáticas de estado y ubicación vía canales conversacionales.\n\nInicia tu piloto por $69 USD/mes:\nhttps://unblock-shield.vercel.app/?domain=liftit.co&domain=liftit.co\n\nAtentamente,\nDestraba AI"
+      "to": "contacto@liftit.co",
+      "subject": "🎬 Video de 70s: La paz mental de operar liftit.co 100% blindado 24/7",
+      "body": "Estimado equipo directivo y de operaciones en Liftit Fletes & Transporte Digital,\n\nLe escribo en seguimiento a nuestra notificación perimetral previa con una premisa clara:\n\nNo vendemos horas de consultoría teórica, diagnósticos abstractos ni reuniones interminables. Entregamos soluciones llave en mano y la auténtica paz mental de operar 24/7 sin riesgos mientras usted y su equipo descansan.\n\n¿Cuánto vale para su dirección tener la certeza absoluta de que sus pasarelas de pago no fallarán silenciosamente, que no existen cabeceras vulnerables a inyección y que los datos de sus clientes están blindados?\n\n▶️ VEA EL VIDEO BRIEFING EJECUTIVO (70 Segundos):\n🔗 https://unblock-shield.vercel.app/?domain=liftit.co\n\nPuntos clave de por qué directores confían en nosotros (Nuestros 5 Anclajes de Confianza):\n1. Cero Invasión Previa: Jamás solicitamos contraseñas, claves API ni acceso a bases de datos internas. Todo opera de forma defensiva desde el perímetro en la nube.\n2. Micro-Riesgo Asimétrico: Descargue el informe forense con los parches listos para pegar en producción por solo $19 USD (Plan Flash).\n3. Centinela Autónomo 24/7: Agente soberano que vigila su infraestructura por solo $2.30 USD al día ($69 USD/mes).\n4. Garantía Fiduciaria Total de 7 Días: Si en su primera semana el sistema no le ahorra al menos 10 horas de trabajo manual, reembolsamos el 100% de su pago sin fricción ni preguntas.\n5. Privacidad Bancaria SOC-2: Cero retención en disco; 100% procesado en memoria volátil RAM y purgado al instante.\n\nVea el video explicativo y aplique el blindaje en 60 segundos:\n🔗 https://unblock-shield.vercel.app/?domain=liftit.co\n\nLiquidación directa e instantánea por Bitcoin Lightning Network a: rick2818@strike.me\n\nQuedo a su entera disposición.\n\nAtentamente,\nEspecialista Senior en Seguridad y Automatización Fiduciaria — Destraba AI"
     },
     "deliveryAudit": {
-      "dispatchedAt": "2026-09-17T17:04:44.727Z",
+      "dispatchedAt": "2026-09-21T22:56:35.253Z",
       "mode": "LIVE",
+      "impact": 2,
+      "cadenceType": "PAZ_MENTAL_VIDEO_70S",
       "transport": "GMAIL_SMTPS",
-      "messageId": "smtp_1789664684727_c05400",
+      "messageId": "smtp_1790031395253_54d664",
       "recipient": "contacto@liftit.co",
       "status": "TRANSMITIDO_EXITOSO"
-    }
+    },
+    "targetImpact": 2,
+    "currentImpact": 2
   },
   {
     "id": "pyme_d2c_18",
@@ -863,20 +1014,25 @@
     "strikePaymentDestination": "rick2818@strike.me",
     "checkoutUrl": "https://unblock-shield.vercel.app/?domain=luuna.mx",
     "directStrikePaymentUrl": "https://strike.me/rick2818",
-    "status": "ENVIADO_REAL_EN_RED",
+    "status": "ENVIADO_IMPACTO_2_PAZ_MENTAL",
     "contactEmail": "hola@luuna.mx",
     "outboundMessage": {
-      "subject": "Despeja dudas de compra y garantías en tu tienda D2C en milisegundos",
-      "body": "Hola,\n\nEn marcas direct-to-consumer de alto valor, resolver dudas sobre garantías y tiempos de entrega en el momento exacto de la decisión eleva la tasa de cierre hasta un 25%.\n\nDestraba AI provee un concierge no intrusivo listo para responder preguntas de compra al instante.\n\nConoce la herramienta por $69 USD/mes:\nhttps://unblock-shield.vercel.app/?domain=luuna.mx&domain=luuna.mx\n\nAtentamente,\nDestraba AI"
+      "to": "hola@luuna.mx",
+      "subject": "🎬 Video de 70s: La paz mental de operar luuna.mx 100% blindado 24/7",
+      "body": "Estimado equipo directivo y de operaciones en Luuna Descanso D2C,\n\nLe escribo en seguimiento a nuestra notificación perimetral previa con una premisa clara:\n\nNo vendemos horas de consultoría teórica, diagnósticos abstractos ni reuniones interminables. Entregamos soluciones llave en mano y la auténtica paz mental de operar 24/7 sin riesgos mientras usted y su equipo descansan.\n\n¿Cuánto vale para su dirección tener la certeza absoluta de que sus pasarelas de pago no fallarán silenciosamente, que no existen cabeceras vulnerables a inyección y que los datos de sus clientes están blindados?\n\n▶️ VEA EL VIDEO BRIEFING EJECUTIVO (70 Segundos):\n🔗 https://unblock-shield.vercel.app/?domain=luuna.mx\n\nPuntos clave de por qué directores confían en nosotros (Nuestros 5 Anclajes de Confianza):\n1. Cero Invasión Previa: Jamás solicitamos contraseñas, claves API ni acceso a bases de datos internas. Todo opera de forma defensiva desde el perímetro en la nube.\n2. Micro-Riesgo Asimétrico: Descargue el informe forense con los parches listos para pegar en producción por solo $19 USD (Plan Flash).\n3. Centinela Autónomo 24/7: Agente soberano que vigila su infraestructura por solo $2.30 USD al día ($69 USD/mes).\n4. Garantía Fiduciaria Total de 7 Días: Si en su primera semana el sistema no le ahorra al menos 10 horas de trabajo manual, reembolsamos el 100% de su pago sin fricción ni preguntas.\n5. Privacidad Bancaria SOC-2: Cero retención en disco; 100% procesado en memoria volátil RAM y purgado al instante.\n\nVea el video explicativo y aplique el blindaje en 60 segundos:\n🔗 https://unblock-shield.vercel.app/?domain=luuna.mx\n\nLiquidación directa e instantánea por Bitcoin Lightning Network a: rick2818@strike.me\n\nQuedo a su entera disposición.\n\nAtentamente,\nEspecialista Senior en Seguridad y Automatización Fiduciaria — Destraba AI"
     },
     "deliveryAudit": {
-      "dispatchedAt": "2026-09-17T17:04:49.103Z",
+      "dispatchedAt": "2026-09-21T22:56:38.929Z",
       "mode": "LIVE",
+      "impact": 2,
+      "cadenceType": "PAZ_MENTAL_VIDEO_70S",
       "transport": "GMAIL_SMTPS",
-      "messageId": "smtp_1789664689103_0730c5",
+      "messageId": "smtp_1790031398929_84b7a3",
       "recipient": "hola@luuna.mx",
       "status": "TRANSMITIDO_EXITOSO"
-    }
+    },
+    "targetImpact": 2,
+    "currentImpact": 2
   },
   {
     "id": "pyme_d2c_19",
@@ -889,20 +1045,25 @@
     "strikePaymentDestination": "rick2818@strike.me",
     "checkoutUrl": "https://unblock-shield.vercel.app/?domain=benandfrank.com",
     "directStrikePaymentUrl": "https://strike.me/rick2818",
-    "status": "ENVIADO_REAL_EN_RED",
+    "status": "ENVIADO_IMPACTO_2_PAZ_MENTAL",
     "contactEmail": "contacto@benandfrank.com",
     "outboundMessage": {
-      "subject": "Automatiza las preguntas frecuentes sobre graduación y estatus de armazones",
-      "body": "Estimado Gerente de Atención en Ben & Frank,\n\nLos compradores de lentes graduados online requieren seguimiento continuo mientras sus micas están en laboratorio.\n\nNuestros asistentes resuelven esas consultas al instante manteniendo la experiencia de marca fresca y cercana.\n\nPuedes probarlo por $69 USD/mes:\nhttps://unblock-shield.vercel.app/?domain=benandfrank.com&domain=benandfrank.com\n\nLiquidación segura: rick2818@strike.me.\n\nAtentamente,\nDestraba AI"
+      "to": "contacto@benandfrank.com",
+      "subject": "🎬 Video de 70s: La paz mental de operar benandfrank.com 100% blindado 24/7",
+      "body": "Estimado equipo directivo y de operaciones en Ben & Frank Óptica Digital,\n\nLe escribo en seguimiento a nuestra notificación perimetral previa con una premisa clara:\n\nNo vendemos horas de consultoría teórica, diagnósticos abstractos ni reuniones interminables. Entregamos soluciones llave en mano y la auténtica paz mental de operar 24/7 sin riesgos mientras usted y su equipo descansan.\n\n¿Cuánto vale para su dirección tener la certeza absoluta de que sus pasarelas de pago no fallarán silenciosamente, que no existen cabeceras vulnerables a inyección y que los datos de sus clientes están blindados?\n\n▶️ VEA EL VIDEO BRIEFING EJECUTIVO (70 Segundos):\n🔗 https://unblock-shield.vercel.app/?domain=benandfrank.com\n\nPuntos clave de por qué directores confían en nosotros (Nuestros 5 Anclajes de Confianza):\n1. Cero Invasión Previa: Jamás solicitamos contraseñas, claves API ni acceso a bases de datos internas. Todo opera de forma defensiva desde el perímetro en la nube.\n2. Micro-Riesgo Asimétrico: Descargue el informe forense con los parches listos para pegar en producción por solo $19 USD (Plan Flash).\n3. Centinela Autónomo 24/7: Agente soberano que vigila su infraestructura por solo $2.30 USD al día ($69 USD/mes).\n4. Garantía Fiduciaria Total de 7 Días: Si en su primera semana el sistema no le ahorra al menos 10 horas de trabajo manual, reembolsamos el 100% de su pago sin fricción ni preguntas.\n5. Privacidad Bancaria SOC-2: Cero retención en disco; 100% procesado en memoria volátil RAM y purgado al instante.\n\nVea el video explicativo y aplique el blindaje en 60 segundos:\n🔗 https://unblock-shield.vercel.app/?domain=benandfrank.com\n\nLiquidación directa e instantánea por Bitcoin Lightning Network a: rick2818@strike.me\n\nQuedo a su entera disposición.\n\nAtentamente,\nEspecialista Senior en Seguridad y Automatización Fiduciaria — Destraba AI"
     },
     "deliveryAudit": {
-      "dispatchedAt": "2026-09-17T17:04:55.355Z",
+      "dispatchedAt": "2026-09-21T22:56:42.964Z",
       "mode": "LIVE",
+      "impact": 2,
+      "cadenceType": "PAZ_MENTAL_VIDEO_70S",
       "transport": "GMAIL_SMTPS",
-      "messageId": "smtp_1789664695355_cddb93",
+      "messageId": "smtp_1790031402964_272890",
       "recipient": "contacto@benandfrank.com",
       "status": "TRANSMITIDO_EXITOSO"
-    }
+    },
+    "targetImpact": 2,
+    "currentImpact": 2
   },
   {
     "id": "pyme_d2c_20",
@@ -915,20 +1076,25 @@
     "strikePaymentDestination": "rick2818@strike.me",
     "checkoutUrl": "https://unblock-shield.vercel.app/?domain=mattelsa.net",
     "directStrikePaymentUrl": "https://strike.me/rick2818",
-    "status": "ENVIADO_REAL_EN_RED",
+    "status": "ENVIADO_IMPACTO_2_PAZ_MENTAL",
     "contactEmail": "contacto@mattelsa.net",
     "outboundMessage": {
-      "subject": "Reduce en un 75% la carga de atención en cambios de talla y envíos",
-      "body": "Hola,\n\nEn e-commerce de moda, los cambios de talla y el seguimiento de pedidos saturan los canales de servicio al cliente durante jornadas de alta demanda.\n\nDestraba AI implementa un asistente fiduciario que resuelve estas dudas en tiempo récord sin requerir integración invasiva.\n\nActívalo por $69 USD/mes:\nhttps://unblock-shield.vercel.app/?domain=mattelsa.net&domain=mattelsa.net\n\nAtentamente,\nDestraba AI"
+      "to": "contacto@mattelsa.net",
+      "subject": "🎬 Video de 70s: La paz mental de operar mattelsa.net 100% blindado 24/7",
+      "body": "Estimado equipo directivo y de operaciones en Mattelsa Ropa & E-commerce,\n\nLe escribo en seguimiento a nuestra notificación perimetral previa con una premisa clara:\n\nNo vendemos horas de consultoría teórica, diagnósticos abstractos ni reuniones interminables. Entregamos soluciones llave en mano y la auténtica paz mental de operar 24/7 sin riesgos mientras usted y su equipo descansan.\n\n¿Cuánto vale para su dirección tener la certeza absoluta de que sus pasarelas de pago no fallarán silenciosamente, que no existen cabeceras vulnerables a inyección y que los datos de sus clientes están blindados?\n\n▶️ VEA EL VIDEO BRIEFING EJECUTIVO (70 Segundos):\n🔗 https://unblock-shield.vercel.app/?domain=mattelsa.net\n\nPuntos clave de por qué directores confían en nosotros (Nuestros 5 Anclajes de Confianza):\n1. Cero Invasión Previa: Jamás solicitamos contraseñas, claves API ni acceso a bases de datos internas. Todo opera de forma defensiva desde el perímetro en la nube.\n2. Micro-Riesgo Asimétrico: Descargue el informe forense con los parches listos para pegar en producción por solo $19 USD (Plan Flash).\n3. Centinela Autónomo 24/7: Agente soberano que vigila su infraestructura por solo $2.30 USD al día ($69 USD/mes).\n4. Garantía Fiduciaria Total de 7 Días: Si en su primera semana el sistema no le ahorra al menos 10 horas de trabajo manual, reembolsamos el 100% de su pago sin fricción ni preguntas.\n5. Privacidad Bancaria SOC-2: Cero retención en disco; 100% procesado en memoria volátil RAM y purgado al instante.\n\nVea el video explicativo y aplique el blindaje en 60 segundos:\n🔗 https://unblock-shield.vercel.app/?domain=mattelsa.net\n\nLiquidación directa e instantánea por Bitcoin Lightning Network a: rick2818@strike.me\n\nQuedo a su entera disposición.\n\nAtentamente,\nEspecialista Senior en Seguridad y Automatización Fiduciaria — Destraba AI"
     },
     "deliveryAudit": {
-      "dispatchedAt": "2026-09-17T22:42:45.367Z",
+      "dispatchedAt": "2026-09-21T22:56:46.328Z",
       "mode": "LIVE",
+      "impact": 2,
+      "cadenceType": "PAZ_MENTAL_VIDEO_70S",
       "transport": "GMAIL_SMTPS",
-      "messageId": "smtp_1789684965366_eab419",
+      "messageId": "smtp_1790031406328_963659",
       "recipient": "contacto@mattelsa.net",
       "status": "TRANSMITIDO_EXITOSO"
-    }
+    },
+    "targetImpact": 2,
+    "currentImpact": 2
   },
   {
     "id": "pyme_d2c_21",
@@ -941,20 +1107,25 @@
     "strikePaymentDestination": "rick2818@strike.me",
     "checkoutUrl": "https://unblock-shield.vercel.app/?domain=offcorss.com",
     "directStrikePaymentUrl": "https://strike.me/rick2818",
-    "status": "ENVIADO_REAL_EN_RED",
+    "status": "ENVIADO_IMPACTO_2_PAZ_MENTAL",
     "contactEmail": "servicioalcliente@offcorss.com",
     "outboundMessage": {
-      "subject": "Asiste a tus compradoras con la talla exacta y acelera el cierre de carritos",
-      "body": "Estimado Director de Canales Digitales en Offcorss,\n\nComprar ropa infantil online genera dudas recurrentes sobre medidas y crecimiento que, si no se atienden de inmediato, frenan la compra.\n\nUn concierge interactivo 24/7 resuelve estas preguntas en segundos elevando la conversión.\n\nPuedes probarlo por $69 USD/mes:\nhttps://unblock-shield.vercel.app/?domain=offcorss.com&domain=offcorss.com\n\nAtentamente,\nDestraba AI"
+      "to": "servicioalcliente@offcorss.com",
+      "subject": "🎬 Video de 70s: La paz mental de operar offcorss.com 100% blindado 24/7",
+      "body": "Estimado equipo directivo y de operaciones en Offcorss Moda Infantil,\n\nLe escribo en seguimiento a nuestra notificación perimetral previa con una premisa clara:\n\nNo vendemos horas de consultoría teórica, diagnósticos abstractos ni reuniones interminables. Entregamos soluciones llave en mano y la auténtica paz mental de operar 24/7 sin riesgos mientras usted y su equipo descansan.\n\n¿Cuánto vale para su dirección tener la certeza absoluta de que sus pasarelas de pago no fallarán silenciosamente, que no existen cabeceras vulnerables a inyección y que los datos de sus clientes están blindados?\n\n▶️ VEA EL VIDEO BRIEFING EJECUTIVO (70 Segundos):\n🔗 https://unblock-shield.vercel.app/?domain=offcorss.com\n\nPuntos clave de por qué directores confían en nosotros (Nuestros 5 Anclajes de Confianza):\n1. Cero Invasión Previa: Jamás solicitamos contraseñas, claves API ni acceso a bases de datos internas. Todo opera de forma defensiva desde el perímetro en la nube.\n2. Micro-Riesgo Asimétrico: Descargue el informe forense con los parches listos para pegar en producción por solo $19 USD (Plan Flash).\n3. Centinela Autónomo 24/7: Agente soberano que vigila su infraestructura por solo $2.30 USD al día ($69 USD/mes).\n4. Garantía Fiduciaria Total de 7 Días: Si en su primera semana el sistema no le ahorra al menos 10 horas de trabajo manual, reembolsamos el 100% de su pago sin fricción ni preguntas.\n5. Privacidad Bancaria SOC-2: Cero retención en disco; 100% procesado en memoria volátil RAM y purgado al instante.\n\nVea el video explicativo y aplique el blindaje en 60 segundos:\n🔗 https://unblock-shield.vercel.app/?domain=offcorss.com\n\nLiquidación directa e instantánea por Bitcoin Lightning Network a: rick2818@strike.me\n\nQuedo a su entera disposición.\n\nAtentamente,\nEspecialista Senior en Seguridad y Automatización Fiduciaria — Destraba AI"
     },
     "deliveryAudit": {
-      "dispatchedAt": "2026-09-17T22:42:49.059Z",
+      "dispatchedAt": "2026-09-21T22:56:50.656Z",
       "mode": "LIVE",
+      "impact": 2,
+      "cadenceType": "PAZ_MENTAL_VIDEO_70S",
       "transport": "GMAIL_SMTPS",
-      "messageId": "smtp_1789684969059_b977f4",
+      "messageId": "smtp_1790031410656_ca2956",
       "recipient": "servicioalcliente@offcorss.com",
       "status": "TRANSMITIDO_EXITOSO"
-    }
+    },
+    "targetImpact": 2,
+    "currentImpact": 2
   },
   {
     "id": "pyme_d2c_22",
@@ -967,20 +1138,25 @@
     "strikePaymentDestination": "rick2818@strike.me",
     "checkoutUrl": "https://unblock-shield.vercel.app/?domain=superselectos.com",
     "directStrikePaymentUrl": "https://strike.me/rick2818",
-    "status": "ENVIADO_REAL_EN_RED",
+    "status": "ENVIADO_IMPACTO_2_PAZ_MENTAL",
     "contactEmail": "contacto@superselectos.com",
     "outboundMessage": {
-      "subject": "Agiliza la confirmación de pedidos a domicilio y sustitución de ítems",
-      "body": "Hola,\n\nEn supermercados digitales, contactar manualmente a clientes para validar coberturas o productos sustitutos ralentiza el despacho de órdenes.\n\nDestraba AI implementa flujos autónomos que aclaran estas dudas en segundos.\n\nActiva la herramienta por $69 USD/mes:\nhttps://unblock-shield.vercel.app/?domain=superselectos.com&domain=superselectos.com\n\nCobros: rick2818@strike.me.\n\nAtentamente,\nDestraba AI"
+      "to": "contacto@superselectos.com",
+      "subject": "🎬 Video de 70s: La paz mental de operar superselectos.com 100% blindado 24/7",
+      "body": "Estimado equipo directivo y de operaciones en Super Selectos Digital,\n\nLe escribo en seguimiento a nuestra notificación perimetral previa con una premisa clara:\n\nNo vendemos horas de consultoría teórica, diagnósticos abstractos ni reuniones interminables. Entregamos soluciones llave en mano y la auténtica paz mental de operar 24/7 sin riesgos mientras usted y su equipo descansan.\n\n¿Cuánto vale para su dirección tener la certeza absoluta de que sus pasarelas de pago no fallarán silenciosamente, que no existen cabeceras vulnerables a inyección y que los datos de sus clientes están blindados?\n\n▶️ VEA EL VIDEO BRIEFING EJECUTIVO (70 Segundos):\n🔗 https://unblock-shield.vercel.app/?domain=superselectos.com\n\nPuntos clave de por qué directores confían en nosotros (Nuestros 5 Anclajes de Confianza):\n1. Cero Invasión Previa: Jamás solicitamos contraseñas, claves API ni acceso a bases de datos internas. Todo opera de forma defensiva desde el perímetro en la nube.\n2. Micro-Riesgo Asimétrico: Descargue el informe forense con los parches listos para pegar en producción por solo $19 USD (Plan Flash).\n3. Centinela Autónomo 24/7: Agente soberano que vigila su infraestructura por solo $2.30 USD al día ($69 USD/mes).\n4. Garantía Fiduciaria Total de 7 Días: Si en su primera semana el sistema no le ahorra al menos 10 horas de trabajo manual, reembolsamos el 100% de su pago sin fricción ni preguntas.\n5. Privacidad Bancaria SOC-2: Cero retención en disco; 100% procesado en memoria volátil RAM y purgado al instante.\n\nVea el video explicativo y aplique el blindaje en 60 segundos:\n🔗 https://unblock-shield.vercel.app/?domain=superselectos.com\n\nLiquidación directa e instantánea por Bitcoin Lightning Network a: rick2818@strike.me\n\nQuedo a su entera disposición.\n\nAtentamente,\nEspecialista Senior en Seguridad y Automatización Fiduciaria — Destraba AI"
     },
     "deliveryAudit": {
-      "dispatchedAt": "2026-09-17T22:42:53.944Z",
+      "dispatchedAt": "2026-09-21T22:56:54.442Z",
       "mode": "LIVE",
+      "impact": 2,
+      "cadenceType": "PAZ_MENTAL_VIDEO_70S",
       "transport": "GMAIL_SMTPS",
-      "messageId": "smtp_1789684973944_c7c2fe",
+      "messageId": "smtp_1790031414442_edaa1e",
       "recipient": "contacto@superselectos.com",
       "status": "TRANSMITIDO_EXITOSO"
-    }
+    },
+    "targetImpact": 2,
+    "currentImpact": 2
   },
   {
     "id": "pyme_d2c_23",
@@ -993,20 +1169,25 @@
     "strikePaymentDestination": "rick2818@strike.me",
     "checkoutUrl": "https://unblock-shield.vercel.app/?domain=epaenlinea.com",
     "directStrikePaymentUrl": "https://strike.me/rick2818",
-    "status": "ENVIADO_REAL_EN_RED",
+    "status": "ENVIADO_IMPACTO_2_PAZ_MENTAL",
     "contactEmail": "atencion@epaenlinea.com",
     "outboundMessage": {
-      "subject": "Cotizador técnico automático para compras por volumen y contratistas",
-      "body": "Estimado Director de Ventas en EPA,\n\nLos clientes corporativos y contratistas necesitan fichas técnicas y cotizaciones rápidas para cerrar compras de materiales.\n\nNuestros asistentes inteligentes procesan estas solicitudes al instante y agendan el despacho comercial.\n\nPuedes probarlo por $69 USD/mes:\nhttps://unblock-shield.vercel.app/?domain=epaenlinea.com&domain=epaenlinea.com\n\nAtentamente,\nDestraba AI"
+      "to": "atencion@epaenlinea.com",
+      "subject": "🎬 Video de 70s: La paz mental de operar epaenlinea.com 100% blindado 24/7",
+      "body": "Estimado equipo directivo y de operaciones en EPA Ferreterías Digital,\n\nLe escribo en seguimiento a nuestra notificación perimetral previa con una premisa clara:\n\nNo vendemos horas de consultoría teórica, diagnósticos abstractos ni reuniones interminables. Entregamos soluciones llave en mano y la auténtica paz mental de operar 24/7 sin riesgos mientras usted y su equipo descansan.\n\n¿Cuánto vale para su dirección tener la certeza absoluta de que sus pasarelas de pago no fallarán silenciosamente, que no existen cabeceras vulnerables a inyección y que los datos de sus clientes están blindados?\n\n▶️ VEA EL VIDEO BRIEFING EJECUTIVO (70 Segundos):\n🔗 https://unblock-shield.vercel.app/?domain=epaenlinea.com\n\nPuntos clave de por qué directores confían en nosotros (Nuestros 5 Anclajes de Confianza):\n1. Cero Invasión Previa: Jamás solicitamos contraseñas, claves API ni acceso a bases de datos internas. Todo opera de forma defensiva desde el perímetro en la nube.\n2. Micro-Riesgo Asimétrico: Descargue el informe forense con los parches listos para pegar en producción por solo $19 USD (Plan Flash).\n3. Centinela Autónomo 24/7: Agente soberano que vigila su infraestructura por solo $2.30 USD al día ($69 USD/mes).\n4. Garantía Fiduciaria Total de 7 Días: Si en su primera semana el sistema no le ahorra al menos 10 horas de trabajo manual, reembolsamos el 100% de su pago sin fricción ni preguntas.\n5. Privacidad Bancaria SOC-2: Cero retención en disco; 100% procesado en memoria volátil RAM y purgado al instante.\n\nVea el video explicativo y aplique el blindaje en 60 segundos:\n🔗 https://unblock-shield.vercel.app/?domain=epaenlinea.com\n\nLiquidación directa e instantánea por Bitcoin Lightning Network a: rick2818@strike.me\n\nQuedo a su entera disposición.\n\nAtentamente,\nEspecialista Senior en Seguridad y Automatización Fiduciaria — Destraba AI"
     },
     "deliveryAudit": {
-      "dispatchedAt": "2026-09-17T22:42:57.846Z",
+      "dispatchedAt": "2026-09-21T22:56:58.103Z",
       "mode": "LIVE",
+      "impact": 2,
+      "cadenceType": "PAZ_MENTAL_VIDEO_70S",
       "transport": "GMAIL_SMTPS",
-      "messageId": "smtp_1789684977846_13f1b0",
+      "messageId": "smtp_1790031418103_010ad1",
       "recipient": "atencion@epaenlinea.com",
       "status": "TRANSMITIDO_EXITOSO"
-    }
+    },
+    "targetImpact": 2,
+    "currentImpact": 2
   },
   {
     "id": "pyme_d2c_24",
@@ -1019,20 +1200,25 @@
     "strikePaymentDestination": "rick2818@strike.me",
     "checkoutUrl": "https://unblock-shield.vercel.app/?domain=siman.com",
     "directStrikePaymentUrl": "https://strike.me/rick2818",
-    "status": "ENVIADO_REAL_EN_RED",
+    "status": "ENVIADO_IMPACTO_2_PAZ_MENTAL",
     "contactEmail": "contacto@siman.com",
     "outboundMessage": {
-      "subject": "Despeja el triaje de garantías y novedades de envío en e-commerce",
-      "body": "Hola,\n\nAtender manualmente consultas de garantías y fechas de entrega en retail departamental sobrecarga la nómina de soporte.\n\nDestraba AI asume el triaje inicial en 60 segundos de forma limpia y precisa.\n\nInicia tu piloto por $69 USD/mes:\nhttps://unblock-shield.vercel.app/?domain=siman.com&domain=siman.com\n\nLiquidación instantánea a rick2818@strike.me.\n\nAtentamente,\nDestraba AI"
+      "to": "contacto@siman.com",
+      "subject": "🎬 Video de 70s: La paz mental de operar siman.com 100% blindado 24/7",
+      "body": "Estimado equipo directivo y de operaciones en Simán E-commerce Departamental,\n\nLe escribo en seguimiento a nuestra notificación perimetral previa con una premisa clara:\n\nNo vendemos horas de consultoría teórica, diagnósticos abstractos ni reuniones interminables. Entregamos soluciones llave en mano y la auténtica paz mental de operar 24/7 sin riesgos mientras usted y su equipo descansan.\n\n¿Cuánto vale para su dirección tener la certeza absoluta de que sus pasarelas de pago no fallarán silenciosamente, que no existen cabeceras vulnerables a inyección y que los datos de sus clientes están blindados?\n\n▶️ VEA EL VIDEO BRIEFING EJECUTIVO (70 Segundos):\n🔗 https://unblock-shield.vercel.app/?domain=siman.com\n\nPuntos clave de por qué directores confían en nosotros (Nuestros 5 Anclajes de Confianza):\n1. Cero Invasión Previa: Jamás solicitamos contraseñas, claves API ni acceso a bases de datos internas. Todo opera de forma defensiva desde el perímetro en la nube.\n2. Micro-Riesgo Asimétrico: Descargue el informe forense con los parches listos para pegar en producción por solo $19 USD (Plan Flash).\n3. Centinela Autónomo 24/7: Agente soberano que vigila su infraestructura por solo $2.30 USD al día ($69 USD/mes).\n4. Garantía Fiduciaria Total de 7 Días: Si en su primera semana el sistema no le ahorra al menos 10 horas de trabajo manual, reembolsamos el 100% de su pago sin fricción ni preguntas.\n5. Privacidad Bancaria SOC-2: Cero retención en disco; 100% procesado en memoria volátil RAM y purgado al instante.\n\nVea el video explicativo y aplique el blindaje en 60 segundos:\n🔗 https://unblock-shield.vercel.app/?domain=siman.com\n\nLiquidación directa e instantánea por Bitcoin Lightning Network a: rick2818@strike.me\n\nQuedo a su entera disposición.\n\nAtentamente,\nEspecialista Senior en Seguridad y Automatización Fiduciaria — Destraba AI"
     },
     "deliveryAudit": {
-      "dispatchedAt": "2026-09-17T22:43:02.822Z",
+      "dispatchedAt": "2026-09-21T22:57:02.723Z",
       "mode": "LIVE",
+      "impact": 2,
+      "cadenceType": "PAZ_MENTAL_VIDEO_70S",
       "transport": "GMAIL_SMTPS",
-      "messageId": "smtp_1789684982822_04cb79",
+      "messageId": "smtp_1790031422723_ae6ae7",
       "recipient": "contacto@siman.com",
       "status": "TRANSMITIDO_EXITOSO"
-    }
+    },
+    "targetImpact": 2,
+    "currentImpact": 2
   },
   {
     "id": "pyme_d2c_25",
@@ -1045,20 +1231,25 @@
     "strikePaymentDestination": "rick2818@strike.me",
     "checkoutUrl": "https://unblock-shield.vercel.app/?domain=vopero.mx",
     "directStrikePaymentUrl": "https://strike.me/rick2818",
-    "status": "ENVIADO_REAL_EN_RED",
+    "status": "ENVIADO_IMPACTO_2_PAZ_MENTAL",
     "contactEmail": "contacto@vopero.mx",
     "outboundMessage": {
-      "subject": "Automatiza las preguntas de valuación y comisiones de tus vendedoras",
-      "body": "Estimado Director de Operaciones en Vopero,\n\nEn plataformas de moda circular, responder dudas sobre porcentajes de comisión, estado de curaduría y pagos a vendedoras genera cientos de tickets repetitivos.\n\nNuestros agentes autónomos resuelven esas inquietudes 24/7 sin tocar tu base de datos interna.\n\nActívalo por $69 USD/mes:\nhttps://unblock-shield.vercel.app/?domain=vopero.mx&domain=vopero.mx\n\nAtentamente,\nDestraba AI"
+      "to": "contacto@vopero.mx",
+      "subject": "🎬 Video de 70s: La paz mental de operar vopero.mx 100% blindado 24/7",
+      "body": "Estimado equipo directivo y de operaciones en Vopero Moda Circular,\n\nLe escribo en seguimiento a nuestra notificación perimetral previa con una premisa clara:\n\nNo vendemos horas de consultoría teórica, diagnósticos abstractos ni reuniones interminables. Entregamos soluciones llave en mano y la auténtica paz mental de operar 24/7 sin riesgos mientras usted y su equipo descansan.\n\n¿Cuánto vale para su dirección tener la certeza absoluta de que sus pasarelas de pago no fallarán silenciosamente, que no existen cabeceras vulnerables a inyección y que los datos de sus clientes están blindados?\n\n▶️ VEA EL VIDEO BRIEFING EJECUTIVO (70 Segundos):\n🔗 https://unblock-shield.vercel.app/?domain=vopero.mx\n\nPuntos clave de por qué directores confían en nosotros (Nuestros 5 Anclajes de Confianza):\n1. Cero Invasión Previa: Jamás solicitamos contraseñas, claves API ni acceso a bases de datos internas. Todo opera de forma defensiva desde el perímetro en la nube.\n2. Micro-Riesgo Asimétrico: Descargue el informe forense con los parches listos para pegar en producción por solo $19 USD (Plan Flash).\n3. Centinela Autónomo 24/7: Agente soberano que vigila su infraestructura por solo $2.30 USD al día ($69 USD/mes).\n4. Garantía Fiduciaria Total de 7 Días: Si en su primera semana el sistema no le ahorra al menos 10 horas de trabajo manual, reembolsamos el 100% de su pago sin fricción ni preguntas.\n5. Privacidad Bancaria SOC-2: Cero retención en disco; 100% procesado en memoria volátil RAM y purgado al instante.\n\nVea el video explicativo y aplique el blindaje en 60 segundos:\n🔗 https://unblock-shield.vercel.app/?domain=vopero.mx\n\nLiquidación directa e instantánea por Bitcoin Lightning Network a: rick2818@strike.me\n\nQuedo a su entera disposición.\n\nAtentamente,\nEspecialista Senior en Seguridad y Automatización Fiduciaria — Destraba AI"
     },
     "deliveryAudit": {
-      "dispatchedAt": "2026-09-17T22:43:07.185Z",
+      "dispatchedAt": "2026-09-21T22:57:05.999Z",
       "mode": "LIVE",
+      "impact": 2,
+      "cadenceType": "PAZ_MENTAL_VIDEO_70S",
       "transport": "GMAIL_SMTPS",
-      "messageId": "smtp_1789684987185_ce1e83",
+      "messageId": "smtp_1790031425999_c677b5",
       "recipient": "contacto@vopero.mx",
       "status": "TRANSMITIDO_EXITOSO"
-    }
+    },
+    "targetImpact": 2,
+    "currentImpact": 2
   },
   {
     "id": "pyme_d2c_26",
@@ -1071,20 +1262,25 @@
     "strikePaymentDestination": "rick2818@strike.me",
     "checkoutUrl": "https://unblock-shield.vercel.app/?domain=laika.com.co",
     "directStrikePaymentUrl": "https://strike.me/rick2818",
-    "status": "ENVIADO_REAL_EN_RED",
+    "status": "ENVIADO_IMPACTO_2_PAZ_MENTAL",
     "contactEmail": "contacto@laika.com.co",
     "outboundMessage": {
-      "subject": "Automatiza pedidos recurrentes y dudas de alimento en tu e-commerce",
-      "body": "Hola,\n\nEn tiendas de mascotas online, responder al instante dudas sobre ingredientes y reprogramación de pedidos recurrentes eleva el LTV de los dueños de mascotas.\n\nDestraba AI implementa un concierge especializado 24/7 sin tocar tu servidor.\n\nPuedes probarlo por  USD/mes:\nhttps://unblock-shield.vercel.app/?domain=laika.com.co&domain=laika.com.co\n\nAtentamente,\nDestraba AI"
+      "to": "contacto@laika.com.co",
+      "subject": "🎬 Video de 70s: La paz mental de operar laika.com.co 100% blindado 24/7",
+      "body": "Estimado equipo directivo y de operaciones en Laika Mascotas E-commerce,\n\nLe escribo en seguimiento a nuestra notificación perimetral previa con una premisa clara:\n\nNo vendemos horas de consultoría teórica, diagnósticos abstractos ni reuniones interminables. Entregamos soluciones llave en mano y la auténtica paz mental de operar 24/7 sin riesgos mientras usted y su equipo descansan.\n\n¿Cuánto vale para su dirección tener la certeza absoluta de que sus pasarelas de pago no fallarán silenciosamente, que no existen cabeceras vulnerables a inyección y que los datos de sus clientes están blindados?\n\n▶️ VEA EL VIDEO BRIEFING EJECUTIVO (70 Segundos):\n🔗 https://unblock-shield.vercel.app/?domain=laika.com.co\n\nPuntos clave de por qué directores confían en nosotros (Nuestros 5 Anclajes de Confianza):\n1. Cero Invasión Previa: Jamás solicitamos contraseñas, claves API ni acceso a bases de datos internas. Todo opera de forma defensiva desde el perímetro en la nube.\n2. Micro-Riesgo Asimétrico: Descargue el informe forense con los parches listos para pegar en producción por solo $19 USD (Plan Flash).\n3. Centinela Autónomo 24/7: Agente soberano que vigila su infraestructura por solo $2.30 USD al día ($69 USD/mes).\n4. Garantía Fiduciaria Total de 7 Días: Si en su primera semana el sistema no le ahorra al menos 10 horas de trabajo manual, reembolsamos el 100% de su pago sin fricción ni preguntas.\n5. Privacidad Bancaria SOC-2: Cero retención en disco; 100% procesado en memoria volátil RAM y purgado al instante.\n\nVea el video explicativo y aplique el blindaje en 60 segundos:\n🔗 https://unblock-shield.vercel.app/?domain=laika.com.co\n\nLiquidación directa e instantánea por Bitcoin Lightning Network a: rick2818@strike.me\n\nQuedo a su entera disposición.\n\nAtentamente,\nEspecialista Senior en Seguridad y Automatización Fiduciaria — Destraba AI"
     },
     "deliveryAudit": {
-      "dispatchedAt": "2026-09-17T22:43:11.887Z",
+      "dispatchedAt": "2026-09-21T22:57:09.721Z",
       "mode": "LIVE",
+      "impact": 2,
+      "cadenceType": "PAZ_MENTAL_VIDEO_70S",
       "transport": "GMAIL_SMTPS",
-      "messageId": "smtp_1789684991886_6a621a",
+      "messageId": "smtp_1790031429721_418333",
       "recipient": "contacto@laika.com.co",
       "status": "TRANSMITIDO_EXITOSO"
-    }
+    },
+    "targetImpact": 2,
+    "currentImpact": 2
   },
   {
     "id": "pyme_d2c_27",
@@ -1097,20 +1293,25 @@
     "strikePaymentDestination": "rick2818@strike.me",
     "checkoutUrl": "https://unblock-shield.vercel.app/?domain=truora.com",
     "directStrikePaymentUrl": "https://strike.me/rick2818",
-    "status": "ENVIADO_REAL_EN_RED",
+    "status": "ENVIADO_IMPACTO_2_PAZ_MENTAL",
     "contactEmail": "contacto@truora.com",
     "outboundMessage": {
-      "subject": "Despeja dudas técnicas de webhooks e integración de APIs en segundos",
-      "body": "Estimado Líder de Onboarding en Truora,\n\nLos desarrolladores que integran flujos de KYC y validación de antecedentes demandan respuestas inmediatas cuando un webhook no responde.\n\nDestraba AI despliega un asistente de documentación en 60 segundos.\n\nActívalo por  USD/mes:\nhttps://unblock-shield.vercel.app/?domain=truora.com&domain=truora.com\n\nAtentamente,\nDestraba AI"
+      "to": "contacto@truora.com",
+      "subject": "🎬 Video de 70s: La paz mental de operar truora.com 100% blindado 24/7",
+      "body": "Estimado equipo directivo y de operaciones en Truora Validación & Identidad,\n\nLe escribo en seguimiento a nuestra notificación perimetral previa con una premisa clara:\n\nNo vendemos horas de consultoría teórica, diagnósticos abstractos ni reuniones interminables. Entregamos soluciones llave en mano y la auténtica paz mental de operar 24/7 sin riesgos mientras usted y su equipo descansan.\n\n¿Cuánto vale para su dirección tener la certeza absoluta de que sus pasarelas de pago no fallarán silenciosamente, que no existen cabeceras vulnerables a inyección y que los datos de sus clientes están blindados?\n\n▶️ VEA EL VIDEO BRIEFING EJECUTIVO (70 Segundos):\n🔗 https://unblock-shield.vercel.app/?domain=truora.com\n\nPuntos clave de por qué directores confían en nosotros (Nuestros 5 Anclajes de Confianza):\n1. Cero Invasión Previa: Jamás solicitamos contraseñas, claves API ni acceso a bases de datos internas. Todo opera de forma defensiva desde el perímetro en la nube.\n2. Micro-Riesgo Asimétrico: Descargue el informe forense con los parches listos para pegar en producción por solo $19 USD (Plan Flash).\n3. Centinela Autónomo 24/7: Agente soberano que vigila su infraestructura por solo $2.30 USD al día ($69 USD/mes).\n4. Garantía Fiduciaria Total de 7 Días: Si en su primera semana el sistema no le ahorra al menos 10 horas de trabajo manual, reembolsamos el 100% de su pago sin fricción ni preguntas.\n5. Privacidad Bancaria SOC-2: Cero retención en disco; 100% procesado en memoria volátil RAM y purgado al instante.\n\nVea el video explicativo y aplique el blindaje en 60 segundos:\n🔗 https://unblock-shield.vercel.app/?domain=truora.com\n\nLiquidación directa e instantánea por Bitcoin Lightning Network a: rick2818@strike.me\n\nQuedo a su entera disposición.\n\nAtentamente,\nEspecialista Senior en Seguridad y Automatización Fiduciaria — Destraba AI"
     },
     "deliveryAudit": {
-      "dispatchedAt": "2026-09-17T22:43:17.081Z",
+      "dispatchedAt": "2026-09-21T22:57:12.919Z",
       "mode": "LIVE",
+      "impact": 2,
+      "cadenceType": "PAZ_MENTAL_VIDEO_70S",
       "transport": "GMAIL_SMTPS",
-      "messageId": "smtp_1789684997081_8faaea",
+      "messageId": "smtp_1790031432919_abc729",
       "recipient": "contacto@truora.com",
       "status": "TRANSMITIDO_EXITOSO"
-    }
+    },
+    "targetImpact": 2,
+    "currentImpact": 2
   },
   {
     "id": "pyme_d2c_28",
@@ -1123,20 +1324,25 @@
     "strikePaymentDestination": "rick2818@strike.me",
     "checkoutUrl": "https://unblock-shield.vercel.app/?domain=treinta.co",
     "directStrikePaymentUrl": "https://strike.me/rick2818",
-    "status": "ENVIADO_REAL_EN_RED",
+    "status": "ENVIADO_IMPACTO_2_PAZ_MENTAL",
     "contactEmail": "hola@treinta.co",
     "outboundMessage": {
-      "subject": "Triaje automático para consultas de micronegocios en segundos",
-      "body": "Hola,\n\nAtender a miles de micronegocios que usan apps de gestión contable genera saturación en chats y tickets.\n\nNuestros agentes asumen el 80% de las consultas básicas de forma no invasiva.\n\nConócelo aquí por  USD/mes:\nhttps://unblock-shield.vercel.app/?domain=treinta.co&domain=treinta.co\n\nAtentamente,\nDestraba AI"
+      "to": "hola@treinta.co",
+      "subject": "🎬 Video de 70s: La paz mental de operar treinta.co 100% blindado 24/7",
+      "body": "Estimado equipo directivo y de operaciones en Treinta App de Gestión Financiera,\n\nLe escribo en seguimiento a nuestra notificación perimetral previa con una premisa clara:\n\nNo vendemos horas de consultoría teórica, diagnósticos abstractos ni reuniones interminables. Entregamos soluciones llave en mano y la auténtica paz mental de operar 24/7 sin riesgos mientras usted y su equipo descansan.\n\n¿Cuánto vale para su dirección tener la certeza absoluta de que sus pasarelas de pago no fallarán silenciosamente, que no existen cabeceras vulnerables a inyección y que los datos de sus clientes están blindados?\n\n▶️ VEA EL VIDEO BRIEFING EJECUTIVO (70 Segundos):\n🔗 https://unblock-shield.vercel.app/?domain=treinta.co\n\nPuntos clave de por qué directores confían en nosotros (Nuestros 5 Anclajes de Confianza):\n1. Cero Invasión Previa: Jamás solicitamos contraseñas, claves API ni acceso a bases de datos internas. Todo opera de forma defensiva desde el perímetro en la nube.\n2. Micro-Riesgo Asimétrico: Descargue el informe forense con los parches listos para pegar en producción por solo $19 USD (Plan Flash).\n3. Centinela Autónomo 24/7: Agente soberano que vigila su infraestructura por solo $2.30 USD al día ($69 USD/mes).\n4. Garantía Fiduciaria Total de 7 Días: Si en su primera semana el sistema no le ahorra al menos 10 horas de trabajo manual, reembolsamos el 100% de su pago sin fricción ni preguntas.\n5. Privacidad Bancaria SOC-2: Cero retención en disco; 100% procesado en memoria volátil RAM y purgado al instante.\n\nVea el video explicativo y aplique el blindaje en 60 segundos:\n🔗 https://unblock-shield.vercel.app/?domain=treinta.co\n\nLiquidación directa e instantánea por Bitcoin Lightning Network a: rick2818@strike.me\n\nQuedo a su entera disposición.\n\nAtentamente,\nEspecialista Senior en Seguridad y Automatización Fiduciaria — Destraba AI"
     },
     "deliveryAudit": {
-      "dispatchedAt": "2026-09-17T22:43:21.726Z",
+      "dispatchedAt": "2026-09-21T22:57:16.839Z",
       "mode": "LIVE",
+      "impact": 2,
+      "cadenceType": "PAZ_MENTAL_VIDEO_70S",
       "transport": "GMAIL_SMTPS",
-      "messageId": "smtp_1789685001726_23f929",
+      "messageId": "smtp_1790031436839_968c7f",
       "recipient": "hola@treinta.co",
       "status": "TRANSMITIDO_EXITOSO"
-    }
+    },
+    "targetImpact": 2,
+    "currentImpact": 2
   },
   {
     "id": "pyme_d2c_29",
@@ -1149,20 +1355,25 @@
     "strikePaymentDestination": "rick2818@strike.me",
     "checkoutUrl": "https://unblock-shield.vercel.app/?domain=frubana.com",
     "directStrikePaymentUrl": "https://strike.me/rick2818",
-    "status": "ENVIADO_REAL_EN_RED",
+    "status": "ENVIADO_IMPACTO_2_PAZ_MENTAL",
     "contactEmail": "contacto@frubana.com",
     "outboundMessage": {
-      "subject": "Gestión automática de novedades en entregas matutinas a restaurantes",
-      "body": "Estimado Director de Logística en Frubana,\n\nCuando un restaurante recibe un pedido incompleto a las 7:00 AM, necesita una solución antes de que comience el servicio.\n\nDestraba AI reprograma despachos o emite créditos en segundos con agentes conversacionales.\n\nInicia tu prueba por  USD/mes:\nhttps://unblock-shield.vercel.app/?domain=frubana.com&domain=frubana.com\n\nAtentamente,\nDestraba AI"
+      "to": "contacto@frubana.com",
+      "subject": "🎬 Video de 70s: La paz mental de operar frubana.com 100% blindado 24/7",
+      "body": "Estimado equipo directivo y de operaciones en Frubana Abastecimiento B2B,\n\nLe escribo en seguimiento a nuestra notificación perimetral previa con una premisa clara:\n\nNo vendemos horas de consultoría teórica, diagnósticos abstractos ni reuniones interminables. Entregamos soluciones llave en mano y la auténtica paz mental de operar 24/7 sin riesgos mientras usted y su equipo descansan.\n\n¿Cuánto vale para su dirección tener la certeza absoluta de que sus pasarelas de pago no fallarán silenciosamente, que no existen cabeceras vulnerables a inyección y que los datos de sus clientes están blindados?\n\n▶️ VEA EL VIDEO BRIEFING EJECUTIVO (70 Segundos):\n🔗 https://unblock-shield.vercel.app/?domain=frubana.com\n\nPuntos clave de por qué directores confían en nosotros (Nuestros 5 Anclajes de Confianza):\n1. Cero Invasión Previa: Jamás solicitamos contraseñas, claves API ni acceso a bases de datos internas. Todo opera de forma defensiva desde el perímetro en la nube.\n2. Micro-Riesgo Asimétrico: Descargue el informe forense con los parches listos para pegar en producción por solo $19 USD (Plan Flash).\n3. Centinela Autónomo 24/7: Agente soberano que vigila su infraestructura por solo $2.30 USD al día ($69 USD/mes).\n4. Garantía Fiduciaria Total de 7 Días: Si en su primera semana el sistema no le ahorra al menos 10 horas de trabajo manual, reembolsamos el 100% de su pago sin fricción ni preguntas.\n5. Privacidad Bancaria SOC-2: Cero retención en disco; 100% procesado en memoria volátil RAM y purgado al instante.\n\nVea el video explicativo y aplique el blindaje en 60 segundos:\n🔗 https://unblock-shield.vercel.app/?domain=frubana.com\n\nLiquidación directa e instantánea por Bitcoin Lightning Network a: rick2818@strike.me\n\nQuedo a su entera disposición.\n\nAtentamente,\nEspecialista Senior en Seguridad y Automatización Fiduciaria — Destraba AI"
     },
     "deliveryAudit": {
-      "dispatchedAt": "2026-09-17T22:43:26.420Z",
+      "dispatchedAt": "2026-09-21T22:57:20.720Z",
       "mode": "LIVE",
+      "impact": 2,
+      "cadenceType": "PAZ_MENTAL_VIDEO_70S",
       "transport": "GMAIL_SMTPS",
-      "messageId": "smtp_1789685006420_bbb2ae",
+      "messageId": "smtp_1790031440720_ee92f4",
       "recipient": "contacto@frubana.com",
       "status": "TRANSMITIDO_EXITOSO"
-    }
+    },
+    "targetImpact": 2,
+    "currentImpact": 2
   },
   {
     "id": "pyme_d2c_30",
@@ -1175,19 +1386,24 @@
     "strikePaymentDestination": "rick2818@strike.me",
     "checkoutUrl": "https://unblock-shield.vercel.app/?domain=surtiapp.com.co",
     "directStrikePaymentUrl": "https://strike.me/rick2818",
-    "status": "ENVIADO_REAL_EN_RED",
+    "status": "ENVIADO_IMPACTO_2_PAZ_MENTAL",
     "contactEmail": "contacto@surtiapp.com.co",
     "outboundMessage": {
-      "subject": "Reactiva pedidos de reposición en tiendas de barrio automáticamente",
-      "body": "Hola,\n\nRecordar manualmente a los tenderos el día de pedido consume tiempo de tus asesores de campo.\n\nImplementamos asistentes que recuerdan la reposición y toman el pedido en segundos por canales ágiles.\n\nActívalo por  USD/mes:\nhttps://unblock-shield.vercel.app/?domain=surtiapp.com.co&domain=surtiapp.com.co\n\nAtentamente,\nDestraba AI"
+      "to": "contacto@surtiapp.com.co",
+      "subject": "🎬 Video de 70s: La paz mental de operar surtiapp.com.co 100% blindado 24/7",
+      "body": "Estimado equipo directivo y de operaciones en Surtiapp Proveeduría Tiendas,\n\nLe escribo en seguimiento a nuestra notificación perimetral previa con una premisa clara:\n\nNo vendemos horas de consultoría teórica, diagnósticos abstractos ni reuniones interminables. Entregamos soluciones llave en mano y la auténtica paz mental de operar 24/7 sin riesgos mientras usted y su equipo descansan.\n\n¿Cuánto vale para su dirección tener la certeza absoluta de que sus pasarelas de pago no fallarán silenciosamente, que no existen cabeceras vulnerables a inyección y que los datos de sus clientes están blindados?\n\n▶️ VEA EL VIDEO BRIEFING EJECUTIVO (70 Segundos):\n🔗 https://unblock-shield.vercel.app/?domain=surtiapp.com.co\n\nPuntos clave de por qué directores confían en nosotros (Nuestros 5 Anclajes de Confianza):\n1. Cero Invasión Previa: Jamás solicitamos contraseñas, claves API ni acceso a bases de datos internas. Todo opera de forma defensiva desde el perímetro en la nube.\n2. Micro-Riesgo Asimétrico: Descargue el informe forense con los parches listos para pegar en producción por solo $19 USD (Plan Flash).\n3. Centinela Autónomo 24/7: Agente soberano que vigila su infraestructura por solo $2.30 USD al día ($69 USD/mes).\n4. Garantía Fiduciaria Total de 7 Días: Si en su primera semana el sistema no le ahorra al menos 10 horas de trabajo manual, reembolsamos el 100% de su pago sin fricción ni preguntas.\n5. Privacidad Bancaria SOC-2: Cero retención en disco; 100% procesado en memoria volátil RAM y purgado al instante.\n\nVea el video explicativo y aplique el blindaje en 60 segundos:\n🔗 https://unblock-shield.vercel.app/?domain=surtiapp.com.co\n\nLiquidación directa e instantánea por Bitcoin Lightning Network a: rick2818@strike.me\n\nQuedo a su entera disposición.\n\nAtentamente,\nEspecialista Senior en Seguridad y Automatización Fiduciaria — Destraba AI"
     },
     "deliveryAudit": {
-      "dispatchedAt": "2026-09-17T22:43:30.712Z",
+      "dispatchedAt": "2026-09-21T22:57:25.002Z",
       "mode": "LIVE",
+      "impact": 2,
+      "cadenceType": "PAZ_MENTAL_VIDEO_70S",
       "transport": "GMAIL_SMTPS",
-      "messageId": "smtp_1789685010712_78a6f6",
+      "messageId": "smtp_1790031445002_00cbc7",
       "recipient": "contacto@surtiapp.com.co",
       "status": "TRANSMITIDO_EXITOSO"
-    }
+    },
+    "targetImpact": 2,
+    "currentImpact": 2
   }
 ]
