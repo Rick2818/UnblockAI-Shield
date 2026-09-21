@@ -1356,11 +1356,11 @@
       }
 
       feedback.classList.remove('hidden');
-      feedback.textContent = `✓ Solicitud confirmada para ${email}. El informe forense con los parches listos para ${domain} ha sido programado. Soporte directo: ricardo.destrabaai@gmail.com`;
+      feedback.textContent = `✓ ¡Informe forense enviado! Hemos transmitido el diagnóstico y los parches de remediación para ${domain} directamente a ${email}. Revisa tu bandeja de entrada. Soporte directo: ricardo.destrabaai@gmail.com`;
       emailInput.value = '';
       if (submitBtn) {
         submitBtn.disabled = false;
-        submitBtn.innerText = 'Enviado ✓';
+        submitBtn.innerText = 'Enviado a tu Correo ✓';
       }
     }
 
