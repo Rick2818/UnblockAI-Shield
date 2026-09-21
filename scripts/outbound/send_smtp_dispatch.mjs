@@ -46,13 +46,22 @@ export async function executeOutboundDispatch(options = {}) {
     return { dispatched: 0 };
   }
 
-  const pipeline = JSON.parse(fs.readFileSync(PIPELINE_FILE, 'utf8'));
-  const pendingLeads = pipeline.filter(l => 
-    l.status === 'PYME_CALIFICADA_LISTA' || 
-    l.status === 'TRANSMISION_SIMULADA_OK' ||
-    l.status === 'PREPARADO_PARA_DISPARO_MARTES' || 
-    l.status.includes('LISTO') ||
-    (l.status === 'CONTACTADO_IMPACTO_1' && l.deliveryAudit?.status === 'REINTENTO_PROGRAMADO')
+  let pipeline = [];
+  try {
+    pipeline = JSON.parse(fs.readFileSync(PIPELINE_FILE, 'utf8'));
+  } catch (err) {
+    console.error('[OUTBOUND DISPATCHER]: Error leyendo archivo de pipeline:', err.message);
+    return { dispatched: 0 };
+  }
+
+  const pendingLeads = (pipeline || []).filter(l => 
+    l && (
+      l.status === 'PYME_CALIFICADA_LISTA' || 
+      l.status === 'TRANSMISION_SIMULADA_OK' ||
+      l.status === 'PREPARADO_PARA_DISPARO_MARTES' || 
+      Boolean(l.status?.includes('LISTO')) ||
+      (l.status === 'CONTACTADO_IMPACTO_1' && l.deliveryAudit?.status === 'REINTENTO_PROGRAMADO')
+    )
   );
 
   console.log('Total leads elegibles para transmisión: ' + pendingLeads.length);
@@ -93,12 +102,18 @@ export async function executeOutboundDispatch(options = {}) {
       lead.status = isImpact2 ? 'TRANSMISION_SIMULADA_IMPACTO_2_OK' : 'TRANSMISION_SIMULADA_OK';
       lead.currentImpact = isImpact2 ? 2 : 1;
       sentCount++;
-    } else {
+      const safeBodyHtml = String(body)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/\n/g, '<br>');
+
       const dispatchResult = await dispatchUniversalEmail({
         to: toEmail,
         subject,
         text: body,
-        html: `<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 14px; color: #1e293b; line-height: 1.6;">${body.replace(/\n/g, '<br>')}</div>`
+        html: `<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 14px; color: #1e293b; line-height: 1.6;">${safeBodyHtml}</div>`
       });
 
       if (dispatchResult.success) {

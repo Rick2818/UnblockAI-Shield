@@ -24,7 +24,7 @@ import {
 try { process.loadEnvFile?.(); } catch (e) {}
 
 console.log(`\n=============================================================================`);
-console.log(`🛡️  AUDITORÍA FORENSE DE TRANSPORTE DE CORREO (DESTRABA AI 3.0)`);
+console.log(`🛡️  AUDITORÍA TÉCNICA DEFENSIVA DE TRANSPORTE DE CORREO (DESTRABA AI 3.0)`);
 console.log(`=============================================================================\n`);
 
 // 1. Diagnóstico DNS

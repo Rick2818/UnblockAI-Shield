@@ -140,7 +140,7 @@ No vendemos horas de consultoría teórica, diagnósticos abstractos ni reunione
 
 Puntos clave de por qué directores confían en nosotros (Nuestros 5 Anclajes de Confianza):
 1. Cero Invasión Previa: Jamás solicitamos contraseñas, claves API ni acceso a bases de datos internas. Todo opera de forma defensiva desde el perímetro en la nube.
-2. Micro-Riesgo Asimétrico: Descargue el informe forense con los parches listos para pegar en producción por solo $19 USD (Plan Flash).
+2. Micro-Riesgo Asimétrico: Descargue el informe técnico defensivo con los parches listos para pegar en producción por solo $19 USD (Plan Flash).
 3. Centinela Autónomo 24/7: Agente soberano que vigila su infraestructura por solo $2.30 USD al día ($69 USD/mes).
 4. Garantía Fiduciaria Total de 7 Días: Si en su primera semana el sistema no le ahorra al menos 10 horas de trabajo manual, reembolsamos el 100% de su pago sin fricción ni preguntas.
 5. Privacidad Bancaria SOC-2: Cero retención en disco; 100% procesado en memoria volátil RAM y purgado al instante.

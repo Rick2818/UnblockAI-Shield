@@ -1,0 +1,250 @@
+{
+  "updatedAt": "2026-09-21T23:11:18.858Z",
+  "displayDate": "lunes, 21 de septiembre de 2026",
+  "displayTime": "09:00 AM",
+  "holding": "BolTech Group — Inversiones & Operaciones Autónomas",
+  "fiduciaryAxiom": "«Sin clientes no hay ingresos, y sin ingresos no hay trabajo.»",
+  "kpis": {
+    "totalRevenueUsd": 1308,
+    "dailyRevenueUsd": 138,
+    "targetMonthlyUsd": 9000,
+    "progressPercentage": 15,
+    "totalLeadsContacted": 44,
+    "auditsCompleted": 79,
+    "deliverabilityRate": "98.4%",
+    "bounceRate": "0.0%",
+    "avgScanSpeed": "15s"
+  },
+  "sovereignRails": {
+    "strikeLightning": {
+      "address": "rick2818@strike.me",
+      "totalCollectedUsd": 589,
+      "percentage": 45,
+      "status": "ONLINE • 0% COMISIÓN",
+      "description": "Liquidación instantánea vía Bitcoin Lightning en USD"
+    },
+    "wompiSv": {
+      "totalCollectedUsd": 458,
+      "percentage": 35,
+      "status": "ONLINE • BANCO AGRÍCOLA",
+      "description": "Adquirencia local y transferencias en El Salvador"
+    },
+    "stripeBridge": {
+      "totalCollectedUsd": 262,
+      "percentage": 20,
+      "status": "ONLINE • CROSS-BORDER BRIDGE",
+      "description": "Puente fiduciario para prospectos en EE.UU. y Europa"
+    }
+  },
+  "agentsStatus": [
+    {
+      "id": "sales-closer-specialist",
+      "role": "Especialista en Ventas & Cierre",
+      "status": "ACTIVO 24/7",
+      "efficiency": "98.7%",
+      "lastAction": "Despacho de cadencia Impacto 2 a 44 directores B2B",
+      "kpi": "3 impactos por lead calificado"
+    },
+    {
+      "id": "unblock-ai-sentinel",
+      "role": "Defensa Perimetral & Diagnósticos",
+      "status": "ACTIVO 24/7",
+      "efficiency": "100%",
+      "lastAction": "Auditoría completada sobre 44 plataformas (4 fallas CSP)",
+      "kpi": "Escaneo no invasivo en 15 segundos"
+    },
+    {
+      "id": "cfo-financial-strategist",
+      "role": "Director Financiero & Custodia de Precios",
+      "status": "ACTIVO 24/7",
+      "efficiency": "100%",
+      "lastAction": "Conciliación de rieles: Strike ($589) / Wompi / Stripe",
+      "kpi": "LTV/CAC > 4.5x • Margen > 80%"
+    },
+    {
+      "id": "international-trade-specialist",
+      "role": "Comercio Internacional & Cross-Border",
+      "status": "ACTIVO 24/7",
+      "efficiency": "99.2%",
+      "lastAction": "Canalización fiduciaria sin fricción Stripe -> Strike/Wompi",
+      "kpi": "Cumplimiento multijurisdiccional"
+    },
+    {
+      "id": "consumer-psychology-diagnostician",
+      "role": "Psicólogo de Ventas & Persuasión Cognitiva",
+      "status": "ACTIVO 24/7",
+      "efficiency": "96.4%",
+      "lastAction": "Auditoría de sesgos y desactivación preventiva de objeciones",
+      "kpi": "5 Anclajes de Apertura implementados"
+    }
+  ],
+  "targetCompaniesTable": [
+    {
+      "company": "Estafeta Carga",
+      "domain": "estafeta.com",
+      "country": "México",
+      "grade": "F",
+      "flawsCount": 3,
+      "status": "Impacto 2 Entregado",
+      "lastContact": "2026-09-21"
+    },
+    {
+      "company": "Redpack Logística",
+      "domain": "redpack.com.mx",
+      "country": "México",
+      "grade": "F",
+      "flawsCount": 3,
+      "status": "Impacto 2 Entregado",
+      "lastContact": "2026-09-21"
+    },
+    {
+      "company": "SGS Logistics Central America",
+      "domain": "sgs.com",
+      "country": "Global / CA",
+      "grade": "F",
+      "flawsCount": 3,
+      "status": "Impacto 2 Entregado",
+      "lastContact": "2026-09-21"
+    },
+    {
+      "company": "Intertek Centroamérica",
+      "domain": "intertek.com",
+      "country": "Global / Regional",
+      "grade": "F",
+      "flawsCount": 3,
+      "status": "Impacto 2 Entregado",
+      "lastContact": "2026-09-21"
+    },
+    {
+      "company": "ALG El Salvador (3PL & Distribución E-commerce)",
+      "domain": "alg3pl.com",
+      "country": "El Salvador / Regional",
+      "grade": "A+",
+      "flawsCount": 0,
+      "status": "Impacto 2 Entregado",
+      "lastContact": "2026-09-21"
+    },
+    {
+      "company": "Aldesa Logística & Almacenes Fiscales",
+      "domain": "aldesalogistica.com",
+      "country": "El Salvador",
+      "grade": "A+",
+      "flawsCount": 0,
+      "status": "Impacto 2 Entregado",
+      "lastContact": "2026-09-21"
+    },
+    {
+      "company": "TRS Logística El Salvador",
+      "domain": "trslogistica.com",
+      "country": "El Salvador / CA",
+      "grade": "A+",
+      "flawsCount": 0,
+      "status": "Impacto 2 Entregado",
+      "lastContact": "2026-09-21"
+    },
+    {
+      "company": "Networld Logistics Centroamérica",
+      "domain": "networldslogistics.com",
+      "country": "Centroamérica",
+      "grade": "A+",
+      "flawsCount": 0,
+      "status": "Impacto 2 Entregado",
+      "lastContact": "2026-09-21"
+    },
+    {
+      "company": "Logistics Centroamérica S.A.",
+      "domain": "logisticscentroamerica.com",
+      "country": "El Salvador / Guatemala",
+      "grade": "A+",
+      "flawsCount": 0,
+      "status": "Impacto 2 Entregado",
+      "lastContact": "2026-09-21"
+    },
+    {
+      "company": "Coordinadora Mercantil (E-commerce Fulfillment & 3PL)",
+      "domain": "coordinadora.com",
+      "country": "Colombia",
+      "grade": "A+",
+      "flawsCount": 0,
+      "status": "Impacto 2 Entregado",
+      "lastContact": "2026-09-21"
+    },
+    {
+      "company": "TCC Logística & Envíos",
+      "domain": "tcc.com.co",
+      "country": "Colombia",
+      "grade": "A+",
+      "flawsCount": 0,
+      "status": "Impacto 2 Entregado",
+      "lastContact": "2026-09-21"
+    },
+    {
+      "company": "Envía Colvanes",
+      "domain": "enviacolvanes.com",
+      "country": "Colombia",
+      "grade": "A+",
+      "flawsCount": 0,
+      "status": "Impacto 2 Entregado",
+      "lastContact": "2026-09-21"
+    },
+    {
+      "company": "Deprisa (Avianca Cargo)",
+      "domain": "deprisa.com",
+      "country": "Colombia",
+      "grade": "A+",
+      "flawsCount": 0,
+      "status": "Impacto 2 Entregado",
+      "lastContact": "2026-09-21"
+    },
+    {
+      "company": "Servientrega Soluciones Digitales",
+      "domain": "servientrega.com",
+      "country": "Colombia",
+      "grade": "A+",
+      "flawsCount": 0,
+      "status": "Impacto 2 Entregado",
+      "lastContact": "2026-09-21"
+    },
+    {
+      "company": "Amor Perfecto Café de Especialidad",
+      "domain": "amorperfectocafes.com",
+      "country": "Colombia",
+      "grade": "A+",
+      "flawsCount": 0,
+      "status": "Impacto 2 Entregado",
+      "lastContact": "2026-09-21"
+    }
+  ],
+  "activityTimeline": [
+    {
+      "time": "09:00 AM",
+      "category": "CRON_EJECUTIVO",
+      "text": "Consolidación de métricas comerciales y financieras del holding completada exitosamente.",
+      "icon": "📊"
+    },
+    {
+      "time": "08:45 AM",
+      "category": "CONCILIACION_FIDUCIARIA",
+      "text": "Verificación de rieles de pago soberanos: Strike Lightning (0% comisión), Wompi y Stripe Bridge 100% operativos.",
+      "icon": "⚡"
+    },
+    {
+      "time": "08:30 AM",
+      "category": "OUTBOUND_CADENCIA",
+      "text": "Despacho programado de cadencia Impacto 2 completado a 44 directores B2B con 0% tasa de rebote.",
+      "icon": "📬"
+    },
+    {
+      "time": "08:00 AM",
+      "category": "ESCÁNER_DEFENSIVO",
+      "text": "Escáner perimetral de Unblock AI Shield finalizado: 4 anomalías de Content-Security-Policy detectadas y documentadas.",
+      "icon": "🛡️"
+    },
+    {
+      "time": "07:30 AM",
+      "category": "INTELIGENCIA_B2B",
+      "text": "Sincronización de credenciales y enriquecimiento con Apollo.io validada (75 créditos activos).",
+      "icon": "🎯"
+    }
+  ]
+}

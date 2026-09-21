@@ -55,11 +55,11 @@ console.assert(sanitized.includes('&lt;script&gt;'), 'Tags deben estar en entida
 console.assert(sanitized.includes('blocked-attr='), 'onerror debe neutralizarse');
 console.log('  ✅ Neutralización de XSS: PASADO');
 
-// 6. Hash Forense SHA-256 en RAM (Pilar 2)
-console.log('6. Probando Hash Forense SHA-256 en Memoria:');
+// 6. Hash Criptográfico SHA-256 en RAM (Pilar 2)
+console.log('6. Probando Hash Criptográfico SHA-256 en Memoria:');
 const buf = Buffer.from('audit_sample_contract_2026');
 const hash = computeForensicHash(buf);
 console.assert(typeof hash === 'string' && hash.length === 64, 'SHA-256 debe tener 64 caracteres');
-console.log('  ✅ Hash Forense en RAM: PASADO');
+console.log('  ✅ Hash Criptográfico en RAM: PASADO');
 
 console.log('\n✨ ¡TODAS LAS PRUEBAS FIDUCIARIAS PASARON AL 100%!');

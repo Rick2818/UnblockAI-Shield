@@ -15,7 +15,7 @@ Unblock AI Shield está diseñado bajo un principio fundamental:
 
 ### Los 5 Anclajes de Confianza (Riesgo Cero):
 1. **Cero Invasión Previa:** No solicitamos contraseñas, credenciales de administración ni acceso a bases de datos internas.
-2. **Micro-Riesgo:** Escáner gratuito de 15 segundos o auditoría forense con parches por solo **$19 USD** (Plan Flash).
+2. **Micro-Riesgo:** Escáner gratuito de 15 segundos o auditoría técnica defensiva con parches por solo **$19 USD** (Plan Flash).
 3. **Garantía Incondicional de 7 Días:** Si en los primeros 7 días el sistema no le ahorra al menos 10 horas de trabajo manual a tu equipo, te reembolsamos el 100% sin preguntas.
 4. **Privacidad Bancaria SOC-2:** Retención cero en disco. Todo se procesa en memoria volátil RAM y se purga al instante.
 5. **ROI Matemático > 5x:** Un analista u operador cuesta $600+ USD/mes; el agente opera 24/7 por solo **$2.30 USD al día ($69 USD/mes)**.
@@ -30,7 +30,7 @@ Unblock AI Shield está diseñado bajo un principio fundamental:
    - **Cabeceras Bancarias:** Detección de ausencia de *Content-Security-Policy (CSP)* y *Strict-Transport-Security (HSTS)* para evitar ataques XSS y secuestro de tráfico.
    - **Salud SSL/TLS:** Verificación de cifrado y caducidad de certificados.
    - **Latencia de Respuesta:** Monitoreo de tiempos de carga en checkout.
-4. **Obtén tu Informe:** Puedes ingresar tu correo corporativo para recibir el PDF forense o pulsar **"Blindar Ahora ($19 USD)"** para descargar parches de configuración listos para producción.
+4. **Obtén tu Informe:** Puedes ingresar tu correo corporativo para recibir el PDF defensivo o pulsar **"Blindar Ahora ($19 USD)"** para descargar parches de configuración listos para producción.
 
 ---
 
@@ -38,7 +38,7 @@ Unblock AI Shield está diseñado bajo un principio fundamental:
 
 ### Opción A: Plan Flash ($19 USD - Pago Único)
 * **Para quién es:** Empresas que necesitan solucionar vulnerabilidades en sus cabeceras HTTP y proteger su checkout de inmediato.
-* **Qué recibes:** Informe forense completo y archivos de configuración listos para copiar y pegar en **Nginx, Apache, Cloudflare o Shopify**.
+* **Qué recibes:** informe técnico ejecutivo completo y archivos de configuración listos para copiar y pegar en **Nginx, Apache, Cloudflare o Shopify**.
 * **Tiempo de despliegue:** 60 segundos.
 
 ### Opción B: Centinela Autónomo Pro ($69 USD/mes - $2.30/día)
