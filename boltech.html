@@ -56,9 +56,15 @@
       box-shadow: 0 20px 40px -15px rgba(6, 182, 212, 0.12);
     }
 
-    .glass-nav {
-      background: rgba(2, 6, 23, 0.85);
+    .glass-header {
+      position: sticky;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 50;
+      background: rgba(2, 6, 23, 0.95);
       backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
       border-bottom: 1px solid rgba(255, 255, 255, 0.08);
     }
 
@@ -126,7 +132,7 @@
   </div>
 
   <!-- Navegación Superior Ejecutiva -->
-  <nav class="fixed top-0 inset-x-0 z-50 glass-nav">
+  <header class="glass-header">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
       
       <!-- Brand Logo / Monograma -->
@@ -147,7 +153,7 @@
       </a>
 
       <!-- Navigation Links -->
-      <div class="hidden lg:flex items-center text-xs font-medium text-slate-300">
+      <div class="hidden md:flex items-center gap-1 text-xs font-medium text-slate-300">
         <a href="#proposito" class="nav-item" data-i18n="nav-purpose">Propósito</a>
         <a href="#video" class="nav-item nav-item-active flex items-center gap-1.5" data-i18n="nav-video"><span class="pulse-dot w-1.5 h-1.5 rounded-full bg-cyan-400"></span>Master Pitch</a>
         <a href="#portafolio" class="nav-item" data-i18n="nav-portfolio">Portafolio</a>
@@ -168,21 +174,21 @@
         </button>
 
         <!-- CTA Principal -->
-        <a href="https://unblock-shield.vercel.app" class="px-4 py-2 rounded-xl bg-gradient-to-r from-cyan-500 via-blue-600 to-indigo-600 hover:from-cyan-400 hover:to-indigo-500 text-white font-semibold text-xs transition-all shadow-md shadow-cyan-500/20 border border-cyan-400/30 flex items-center gap-1.5">
+        <a href="https://unblock-shield.vercel.app" class="px-4 py-2 rounded-xl bg-gradient-to-r from-cyan-500 via-blue-600 to-indigo-600 hover:from-cyan-400 hover:to-indigo-500 text-white font-semibold text-xs transition-all shadow-md shadow-cyan-500/20 border border-cyan-400/30 flex items-center gap-1.5 whitespace-nowrap">
           <span data-i18n="cta-primary-nav">Explorar Unblock AI</span>
           <span class="text-[11px]">→</span>
         </a>
       </div>
     </div>
-  </nav>
+  </header>
 
   <!-- CONTENIDO PRINCIPAL -->
-  <main class="relative z-10 pt-32 sm:pt-40 pb-24">
+  <main class="relative z-10 pt-6 sm:pt-10 pb-24">
 
     <!-- ===================================================================== -->
     <!-- 1. HERO SECTION: AUTORIDAD, VISIÓN Y CONTROL                          -->
     <!-- ===================================================================== -->
-    <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-8 sm:pt-16 pb-20">
+    <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-6 sm:pt-10 pb-16">
       
       <!-- Pill Badge -->
       <div class="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-slate-900/90 border border-cyan-500/30 text-cyan-300 text-xs font-mono font-medium shadow-lg shadow-cyan-500/10 mb-8 fade-in">
@@ -202,15 +208,15 @@
       </p>
 
       <!-- Botones de Acción Hero -->
-      <div class="flex flex-col sm:flex-row items-center justify-center gap-4 max-w-md mx-auto mb-16">
-        <a href="https://unblock-shield.vercel.app" class="w-full sm:w-auto px-6 py-3.5 rounded-xl bg-gradient-to-r from-cyan-500 via-blue-600 to-indigo-600 hover:from-cyan-400 hover:to-indigo-500 text-white font-bold text-sm shadow-xl shadow-cyan-500/25 transition-all flex items-center justify-center gap-2 group">
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4 w-full max-w-xl mx-auto mb-16">
+        <a href="https://unblock-shield.vercel.app" class="w-full sm:w-auto px-6 py-3.5 rounded-xl bg-gradient-to-r from-cyan-500 via-blue-600 to-indigo-600 hover:from-cyan-400 hover:to-indigo-500 text-white font-bold text-sm shadow-xl shadow-cyan-500/25 transition-all flex items-center justify-center gap-2 group whitespace-nowrap flex-shrink-0">
           <span data-i18n="hero-btn-flagship">Descubrir Unblock AI Shield</span>
           <span class="group-hover:translate-x-0.5 transition-transform">→</span>
         </a>
 
-        <a href="https://www.linkedin.com/in/ricbol/" target="_blank" rel="noopener" class="w-full sm:w-auto px-6 py-3.5 rounded-xl bg-slate-900/90 hover:bg-slate-800 border border-slate-600/80 hover:border-cyan-400 text-white font-bold text-sm transition-all flex items-center justify-center gap-2.5 shadow-lg shadow-black/50">
-          <svg class="w-4 h-4 fill-[#0a66c2]" viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.2V10.9H6.46M7.83 6.45a1.62 1.62 0 0 0-1.63 1.63 1.63 1.63 0 0 0 1.63 1.63 1.63 1.63 0 0 0 1.63-1.63c0-.9-.73-1.63-1.63-1.63Z"/></svg>
-          <span class="text-slate-100 font-semibold" data-i18n="hero-btn-linkedin">Conectar con Dirección</span>
+        <a href="https://www.linkedin.com/in/ricbol/" target="_blank" rel="noopener" class="w-full sm:w-auto px-6 py-3.5 rounded-xl bg-slate-900/90 hover:bg-slate-800 border border-slate-700 hover:border-cyan-400 text-white font-bold text-sm transition-all flex items-center justify-center gap-2.5 shadow-lg shadow-black/50 whitespace-nowrap flex-shrink-0">
+          <svg class="w-4 h-4 flex-shrink-0 fill-[#0a66c2]" viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.2V10.9H6.46M7.83 6.45a1.62 1.62 0 0 0-1.63 1.63 1.63 1.63 0 0 0 1.63 1.63 1.63 1.63 0 0 0 1.63-1.63c0-.9-.73-1.63-1.63-1.63Z"/></svg>
+          <span class="text-white font-semibold" data-i18n="hero-btn-linkedin">Conectar con Dirección</span>
         </a>
       </div>
 
