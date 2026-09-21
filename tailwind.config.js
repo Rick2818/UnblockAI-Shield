@@ -1,11 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./index.html"],
+  content: ["./index.html", "./boltech.html"],
   darkMode: 'class',
   theme: {
     extend: {
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
+        display: ['"Plus Jakarta Sans"', 'sans-serif'],
         mono: ['JetBrains Mono', 'monospace']
       },
       colors: {
@@ -19,6 +20,12 @@ module.exports = {
           emerald: '#10B981',
           amber: '#F59E0B',
           rose: '#F43F5E'
+        },
+        brand: {
+          cyan: '#06b6d4',
+          emerald: '#10b981',
+          violet: '#6366f1',
+          gold: '#f59e0b',
         }
       }
     }
