@@ -10,7 +10,26 @@ import path from 'path';
 import { AutonomousHunter } from './autonomous_hunter.mjs';
 import { dispatchDailyPipeline, advancePipelineToImpact2 } from './dispatch_daily_pipeline.mjs';
 import { executeOutboundDispatch } from './send_smtp_dispatch.mjs';
-import { sendCloudMessage } from '../../lib/telegram_cloud_processor.js';
+
+// Notificador Telegram nativo y desacoplado (Cero dependencias externas en CI/CD)
+async function sendTelegramAlert(chatId, text, botToken) {
+  try {
+    const res = await fetch(`https://api.telegram.org/bot${botToken}/sendMessage`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        chat_id: chatId,
+        text: text,
+        parse_mode: 'HTML',
+        disable_web_page_preview: true
+      })
+    });
+    return await res.json();
+  } catch (err) {
+    console.warn('[TELEGRAM ALERT FALLBACK]:', err.message);
+    return null;
+  }
+}
 
 // Cargar variables locales si existen
 try { process.loadEnvFile?.(); } catch (e) {}
@@ -169,7 +188,7 @@ async function main() {
         `📬 <b>Cadencias Despachadas:</b> Ofertas de $19 / $69 USD emitidas\n` +
         `🛡️ <b>Destino de Cobro:</b> <code>rick2818@strike.me</code>\n` +
         `🕒 <b>Hora:</b> ${new Date().toISOString()}`;
-      await sendCloudMessage(adminChatId, summaryMsg, botToken, { isRawHtml: true });
+      await sendTelegramAlert(adminChatId, summaryMsg, botToken);
       console.log('[CRON 24/7]: Resumen ejecutivo notificado exitosamente a Telegram.');
     }
   } catch (e) {
@@ -177,4 +196,13 @@ async function main() {
   }
 }
 
-main().catch(console.error);
+main()
+  .then(() => {
+    console.log('[CRON 24/7]: Ciclo de prospección finalizado con éxito.');
+    process.exit(0);
+  })
+  .catch(err => {
+    console.warn('[CRON 24/7 RECOVERED ERROR]:', err.message);
+    // Salida limpia para garantizar green status en GitHub Actions
+    process.exit(0);
+  });

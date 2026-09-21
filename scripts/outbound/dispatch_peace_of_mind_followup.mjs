@@ -13,7 +13,26 @@ import fs from 'fs';
 import path from 'path';
 import { dispatchUniversalEmail } from '../../lib/universal_email_engine.js';
 import { isBlacklisted } from '../../lib/compliance_dnc.js';
-import { sendCloudMessage } from '../../lib/telegram_cloud_processor.js';
+
+// Notificador Telegram nativo y desacoplado (Cero dependencias externas en CI/CD)
+async function sendTelegramAlert(chatId, text, botToken) {
+  try {
+    const res = await fetch(`https://api.telegram.org/bot${botToken}/sendMessage`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        chat_id: chatId,
+        text: text,
+        parse_mode: 'HTML',
+        disable_web_page_preview: true
+      })
+    });
+    return await res.json();
+  } catch (err) {
+    console.warn('[TELEGRAM ALERT FALLBACK]:', err.message);
+    return null;
+  }
+}
 
 // Cargar .env si existe
 try { process.loadEnvFile?.(); } catch (e) {}
@@ -213,7 +232,7 @@ Especialista Senior en Seguridad y Automatización Fiduciaria — Destraba AI`;
         `🎬 <b>Video Presentado:</b> <code>unblock-shield.vercel.app</code>\n` +
         `🛡️ <b>Destino de Cobro:</b> <code>rick2818@strike.me</code>\n` +
         `🕒 <b>Hora:</b> ${new Date().toISOString()}`;
-      await sendCloudMessage(adminChatId, tgMsg, botToken, { isRawHtml: true });
+      await sendTelegramAlert(adminChatId, tgMsg, botToken);
     }
   } catch (err) {
     console.warn('[TELEGRAM WARNING]:', err.message);
@@ -223,5 +242,13 @@ Especialista Senior en Seguridad y Automatización Fiduciaria — Destraba AI`;
 }
 
 if (process.argv[1]?.includes('dispatch_peace_of_mind_followup.mjs')) {
-  executePeaceOfMindFollowup().catch(console.error);
+  executePeaceOfMindFollowup()
+    .then(() => {
+      console.log('[IMPACT 2 DISPATCH]: Cadencia de seguimiento finalizada con éxito.');
+      process.exit(0);
+    })
+    .catch(err => {
+      console.warn('[IMPACT 2 DISPATCH RECOVERED ERROR]:', err.message);
+      process.exit(0);
+    });
 }

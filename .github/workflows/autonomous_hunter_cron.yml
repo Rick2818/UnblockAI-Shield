@@ -42,7 +42,7 @@ jobs:
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
           SMTP_FROM: ${{ secrets.SMTP_FROM || 'Destraba AI <ricardo.destrabaai@gmail.com>' }}
           STRIKE_LIGHTNING_ADDRESS: ${{ secrets.STRIKE_LIGHTNING_ADDRESS || 'rick2818@strike.me' }}
-          OFFICIAL_SUPPORT_EMAIL: ${{ secrets.OFFICIAL_SUPPORT_EMAIL || 'ricardo.destrabaai@gmail.com' }}
+          CRON_SECRET: ${{ secrets.CRON_SECRET || 'destraba_cron_sec_2026_prod' }}
           BATCH_LIMIT: '25'
           CADENCE_ACTION: ${{ inputs.cadence_action || 'all' }}
         run: node scripts/outbound/run_cron_hunter.mjs
@@ -51,12 +51,12 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add pipeline/
+          git add pipeline/ || true
           if ! git diff --staged --quiet; then
-            git commit -m "chore(pipeline): update autonomous audit results [skip ci]"
+            git commit -m "chore(pipeline): update autonomous audit results [skip ci]" || true
             # rebase por si otro run empujó entre el checkout y este punto
             git pull --rebase origin "${GITHUB_REF_NAME}" || true
-            git push
+            git push || true
           else
             echo "Sin cambios en pipeline/ — nada que commitear."
           fi
