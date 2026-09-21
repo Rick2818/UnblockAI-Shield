@@ -24,5 +24,8 @@
   "license": "MIT",
   "devDependencies": {
     "tailwindcss": "^3.4.17"
+  },
+  "dependencies": {
+    "@google/genai": "^2.23.0"
   }
 }
