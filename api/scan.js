@@ -19,9 +19,16 @@ function readBody(req) {
 
 export default async function handler(req, res) {
   res.setHeader('Cache-Control', 'no-store');
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+
+  if (req.method === 'OPTIONS') {
+    return res.status(200).end();
+  }
 
   if (req.method !== 'POST') {
-    res.setHeader('Allow', ['POST']);
+    res.setHeader('Allow', ['POST', 'OPTIONS']);
     return res.status(405).json({ ok: false, error: { code: 'method_not_allowed', message: 'Método no permitido.' } });
   }
 
@@ -35,7 +42,15 @@ export default async function handler(req, res) {
     });
   }
 
-  const domain = normalizeDomain(readBody(req).domain);
+  let rawDomain = readBody(req).domain;
+  if (typeof rawDomain === 'string') {
+    rawDomain = rawDomain.trim();
+    if (rawDomain && !rawDomain.includes('.') && !rawDomain.includes('/') && rawDomain.length > 1) {
+      rawDomain = rawDomain + '.com';
+    }
+  }
+
+  const domain = normalizeDomain(rawDomain);
   if (!domain) {
     return res.status(400).json({
       ok: false,
