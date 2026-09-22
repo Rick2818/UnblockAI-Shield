@@ -3,6 +3,7 @@ import { dispatchUniversalEmail } from '../lib/universal_email_engine.js';
 import { scanDomain, normalizeDomain } from '../lib/header_scanner.js';
 import { buildScanEmail } from '../lib/scan_report_email.js';
 import { checkRateLimit } from '../lib/fiduciary_core.js';
+import { syncInboundLeadToHubSpotAndExplee } from '../lib/bidirectional_commercial_sync.js';
 
 function escapeForHtml(text) {
   return String(text == null ? '' : text)
@@ -234,6 +235,20 @@ BolTech Group`;
       }
     }
 
+    // SINCRONIZACIÓN COMERCIAL BIDIRECCIONAL (HUBSPOT CRM & EXPLEE AI)
+    let crmSync = null;
+    try {
+      crmSync = await syncInboundLeadToHubSpotAndExplee({
+        email: cleanEmail,
+        companyName: cleanCompany,
+        painPoint: cleanPainPoint || cleanMessage,
+        service: isCustomAgentRequest ? 'Custom Agents (Proceso Lento)' : 'Unblock AI Shield',
+        amount: isCustomAgentRequest ? 69 : 19
+      });
+    } catch (syncErr) {
+      console.warn('[CRM / EXPLEE SYNC NON-BLOCKING]', syncErr.message);
+    }
+
     return res.status(200).json({
       success: true,
       message: isCustomAgentRequest
@@ -241,6 +256,7 @@ BolTech Group`;
         : 'Diagnóstico técnico y parches de remediación enviados exitosamente a tu correo corporativo.',
       domain: cleanDomain,
       cabinaUrl: isCustomAgentRequest ? cabinaUrl : undefined,
+      crmSync: crmSync ? { synced: true, hubspot: crmSync.hubspot?.status, explee: crmSync.explee?.status } : undefined,
       transport: dispatchResult.transport,
       messageId: dispatchResult.messageId
     });
