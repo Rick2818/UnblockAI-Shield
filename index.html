@@ -66,6 +66,11 @@
           <span>🎧</span> <span id="nav-support-label">Soporte</span>
         </button>
 
+        <!-- Botón WhatsApp Directo VIP -->
+        <a href="https://wa.me/50375743444?text=Hola%20BolTech%20Group,%20necesito%20asistencia%20inmediata" target="_blank" rel="noopener noreferrer" id="nav-whatsapp-btn" aria-label="WhatsApp Soporte (+503 7574 3444)" class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-emerald-500/15 hover:bg-emerald-500/25 border border-emerald-500/40 text-xs font-mono text-emerald-400 font-bold transition-all shadow-sm">
+          <span>💬</span> <span class="hidden md:inline">WhatsApp</span> <span>+503 7574 3444</span>
+        </a>
+
         <button type="button" onclick="toggleLanguage()" id="lang-switch-btn" aria-label="Cambiar idioma" class="px-3 py-1.5 rounded-lg bg-slate-900 hover:bg-slate-800 border border-slate-700 text-xs font-mono text-cyan-300 font-bold transition-all cursor-pointer flex items-center gap-1.5">
           <span>🌐</span> <span id="lang-btn-label">ESPAÑOL</span>
         </button>
@@ -1047,20 +1052,28 @@
       <!-- Métodos de Contacto Rápido -->
       <div class="space-y-3 font-mono">
         
-        <!-- Opción 1: Abrir Gmail Directo -->
-        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ricardo.destrabaai@gmail.com&su=Soporte%20Fiduciario%20-%20Unblock%20AI%20Shield" target="_blank" rel="noopener noreferrer" class="w-full py-2.5 px-4 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-slate-950 font-bold text-xs flex items-center justify-between shadow-md shadow-cyan-500/20 transition-all cursor-pointer">
+        <!-- Opción VIP 1: WhatsApp Concierge Directo 24/7 -->
+        <a href="https://wa.me/50375743444?text=Hola%20BolTech%20Group,%20necesito%20soporte%20fiduciario%20inmediato" target="_blank" rel="noopener noreferrer" class="w-full py-3 px-4 rounded-xl bg-gradient-to-r from-emerald-500 to-teal-500 hover:from-emerald-400 hover:to-teal-400 text-slate-950 font-black text-xs flex items-center justify-between shadow-lg shadow-emerald-500/25 transition-all cursor-pointer">
           <span class="flex items-center gap-2">
-            <span>✉️</span> <span>Redactar en Gmail Web (1 Clic)</span>
+            <span>💬</span> <span>WhatsApp Directo (+503 7574 3444)</span>
           </span>
-          <span class="text-[10px]">Abrir →</span>
+          <span class="text-[10px] uppercase tracking-wider font-bold bg-slate-950/20 px-2 py-0.5 rounded">En Vivo ↗</span>
         </a>
 
-        <!-- Opción 2: Copiar Correo o Abrir Mail Client -->
+        <!-- Opción 2: Abrir Gmail Directo -->
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ricardo.destrabaai@gmail.com&su=Soporte%20Fiduciario%20-%20BolTech%20Group" target="_blank" rel="noopener noreferrer" class="w-full py-2.5 px-4 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-700 text-slate-200 font-bold text-xs flex items-center justify-between shadow-sm transition-all cursor-pointer">
+          <span class="flex items-center gap-2">
+            <span>✉️</span> <span>Redactar en Gmail Web</span>
+          </span>
+          <span class="text-[10px] text-slate-400">Abrir →</span>
+        </a>
+
+        <!-- Opción 3: Copiar Correo o Abrir Mail Client -->
         <div class="flex items-center gap-2">
           <button type="button" id="btn-copy-support-email" onclick="copySupportEmail()" class="flex-1 py-2.5 px-4 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-700 text-xs text-slate-200 font-bold flex items-center justify-center gap-2 transition-all cursor-pointer">
             <span>📋</span> <span id="label-copy-email">Copiar Correo</span>
           </button>
-          <a href="mailto:ricardo.destrabaai@gmail.com?subject=Soporte%20Fiduciario%20-%20Unblock%20AI%20Shield" class="px-3.5 py-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-700 text-xs text-slate-400 hover:text-cyan-300 font-bold transition-all text-center" title="Abrir en cliente instalado">
+          <a href="mailto:ricardo.destrabaai@gmail.com?subject=Soporte%20Fiduciario%20-%20BolTech%20Group" class="px-3.5 py-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-700 text-xs text-slate-400 hover:text-cyan-300 font-bold transition-all text-center" title="Abrir en cliente instalado">
             <span>App Mail</span>
           </a>
         </div>
@@ -1097,6 +1110,8 @@
         <span>Desarrollado sobre Google Antigravity & Vercel Cloud 24/7</span>
       </div>
       <div class="flex items-center gap-3">
+        <span>WhatsApp: <a href="https://wa.me/50375743444" target="_blank" rel="noopener noreferrer" class="text-emerald-400 underline hover:text-emerald-300">+503 7574 3444</a></span>
+        <span>•</span>
         <span>Settlement: <a href="https://strike.me/rick2818" target="_blank" rel="noopener noreferrer" class="text-cyan-400 underline">rick2818@strike.me</a></span>
         <span>•</span>
         <span>Soporte: <button type="button" onclick="openSupportModal()" class="text-cyan-400 underline hover:text-cyan-300 cursor-pointer">BolTech Support</button></span>
