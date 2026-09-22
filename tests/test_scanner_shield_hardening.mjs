@@ -124,3 +124,31 @@ test('API BLINDADA: Rechaza métodos no permitidos (GET, PUT, DELETE)', async ()
   assert.equal(statusCode, 405, 'GET debe ser rechazado con 405 Method Not Allowed');
   assert.equal(responseData.ok, false);
 });
+
+test('API BLINDADA: Resuelve y escanea dominios con apex huérfano o migración .com.sv (ej. equifax.com.sv)', async () => {
+  const mockHeaders = {};
+  let statusCode = 200;
+  let responseData = null;
+
+  const mockReq = {
+    method: 'POST',
+    headers: {
+      'x-forwarded-for': '127.0.0.1',
+      'content-type': 'application/json'
+    },
+    body: { domain: 'equifax.com.sv' }
+  };
+  const mockRes = {
+    setHeader: (k, v) => { mockHeaders[k] = v; },
+    status: function(code) { statusCode = code; return this; },
+    json: function(data) { responseData = data; }
+  };
+
+  await scanHandler(mockReq, mockRes);
+
+  assert.equal(statusCode, 200);
+  assert.equal(responseData.ok, true, 'equifax.com.sv debe ser analizado con éxito vía fallback');
+  assert.equal(responseData.domain, 'equifax.com.sv');
+  assert.ok(responseData.score > 0, 'Debe otorgar una puntuación calculada');
+});
+
