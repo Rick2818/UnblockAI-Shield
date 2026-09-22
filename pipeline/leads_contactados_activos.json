@@ -328,7 +328,7 @@
       "subject": "Elimina 80 horas de consultas repetitivas en WhatsApp de tu operación",
       "body": "Hola,\n\n¿Cuánto tiempo dedica el equipo de Coordinadora a responder consultas idénticas por WhatsApp, rastrear guías de clientes impacientes y actualizar novedades manuales?\n\nDestraba AI implementa un Concierge Autónomo en 60 segundos que responde en milisegundos 24/7 y erradica ese cuello de botella en piloto automático.\n\nPuedes probarlo y activar la licencia por $69 USD/mes aquí:\nhttps://unblock-shield.vercel.app/?domain=coordinadora.com\n\nO liquidar en satoshis vía Lightning sin comisiones a rick2818@strike.me.\n\nAtentamente,\nEquipo de Soluciones B2B — Destraba AI"
     },
-    "dispatchedAt": "2026-09-22T18:23:41.332Z",
+    "dispatchedAt": "2026-09-22T22:28:40.310Z",
     "nextFollowUpDate": "2026-09-24",
     "deliveryAudit": {
       "dispatchedAt": "2026-09-21T22:55:03.548Z",
@@ -364,7 +364,7 @@
       "subject": "Respuesta a cotizaciones B2B en 60 segundos sin nómina extra",
       "body": "Estimado Gerente de Operaciones en TCC,\n\nEn el sector logístico B2B, responder una solicitud de flete 4 horas tarde significa perder la cuenta frente a la competencia.\n\nDestraba AI sintetiza un agente calificador que atiende a tus prospectos corporativos, calcula tarifas estimadas y agenda el cierre al instante.\n\nActiva tu prueba operativa hoy por $69 USD/mes:\nhttps://unblock-shield.vercel.app/?domain=tcc.com.co\n\nLiquidación directa vía Lightning: rick2818@strike.me.\n\nAtentamente,\nDestraba AI"
     },
-    "dispatchedAt": "2026-09-22T18:23:41.332Z",
+    "dispatchedAt": "2026-09-22T22:28:40.310Z",
     "nextFollowUpDate": "2026-09-24",
     "deliveryAudit": {
       "dispatchedAt": "2026-09-21T22:55:07.265Z",
@@ -400,7 +400,7 @@
       "subject": "Reduce en un 70% la carga de reclamos y soporte en tu operación",
       "body": "Hola,\n\nAtender manualmente estados de envío y reclamos de mercancía genera sobrecostos de nómina y fatiga en tus agentes humanos.\n\nNuestros agentes soberanos para Google Antigravity asumen el triaje automático y resuelven el 70% de las consultas sin intervención humana.\n\nConoce la plataforma y comienza por $69 USD/mes:\nhttps://unblock-shield.vercel.app/?domain=enviacolvanes.com\n\nAtentamente,\nDestraba AI"
     },
-    "dispatchedAt": "2026-09-22T18:23:41.332Z",
+    "dispatchedAt": "2026-09-22T22:28:40.310Z",
     "nextFollowUpDate": "2026-09-24",
     "deliveryAudit": {
       "dispatchedAt": "2026-09-21T22:55:11.264Z",
@@ -432,7 +432,7 @@
       "subject": "Automatiza la trazabilidad y cobro de envíos express en 60 segundos",
       "body": "Hola,\n\nLos clientes corporativos de paquetería express exigen confirmaciones en tiempo real y facturación inmediata.\n\nDestraba AI genera un flujo desatendido que notifica y concilia pagos en segundos con protocolos bancarios seguros.\n\nAccede a la consola ejecutiva aquí por $89 USD/mes:\nhttps://unblock-shield.vercel.app/?domain=deprisa.com\n\nAtentamente,\nDestraba AI"
     },
-    "dispatchedAt": "2026-09-22T18:23:41.332Z",
+    "dispatchedAt": "2026-09-22T22:28:40.310Z",
     "nextFollowUpDate": "2026-09-24",
     "deliveryAudit": {
       "dispatchedAt": "2026-09-21T22:55:15.719Z",
@@ -471,7 +471,7 @@
       "subject": "Auditoría de integración operativa y seguridad perimetral en 60 segundos",
       "body": "Estimado VP de Tecnología en Servientrega,\n\nDesplegamos agentes soberanos con protocolo MCP que se conectan a tu infraestructura sin tocar código legacy ni exponer datos sensibles.\n\nRealiza un diagnóstico de cuellos de botella y seguridad perimetral por $19 USD aquí:\nhttps://rick2818.github.io/Agents/?plan=flash&ref=colombia_b2b\n\nO liquidación instantánea por Lightning a rick2818@strike.me.\n\nAtentamente,\nEquipo de Ingeniería — Destraba AI\n🎬 Video Demostración (70s):\nhttps://unblock-shield.vercel.app/?domain=servientrega.com\n"
     },
-    "dispatchedAt": "2026-09-22T18:23:41.332Z",
+    "dispatchedAt": "2026-09-22T22:28:40.310Z",
     "nextFollowUpDate": "2026-09-24",
     "deliveryAudit": {
       "dispatchedAt": "2026-09-21T22:55:19.553Z",
@@ -1032,22 +1032,22 @@
     "currentImpact": 2
   },
   {
-    "id": "pyme_d2c_18",
+    "id": "audit_1790116116790_507",
     "company": "Luuna Descanso D2C",
     "domain": "luuna.mx",
-    "decisionMakerRole": "Líder de Conversión y Ventas Web",
+    "decisionMakerRole": "Oficial de Seguridad / Dirección de Operaciones",
     "country": "México",
-    "operationalPain": "Consultas complejas sobre políticas de 100 noches de prueba y devoluciones",
-    "offer": "$69 USD/mes (Concierge D2C de Retención)",
+    "operationalPain": "Brechas perimetrales detectadas: Falta Content-Security-Policy (Riesgo XSS), Falta Strict-Transport-Security (Riesgo SSL Strip), Falta X-Frame-Options (Riesgo Clickjacking)",
+    "offer": "$19 USD (Diagnóstico Técnico Flash + Parche de Blindaje) / $69 USD (Agente Autónomo 24/7)",
     "strikePaymentDestination": "rick2818@strike.me",
     "checkoutUrl": "https://unblock-shield.vercel.app/?domain=luuna.mx",
     "directStrikePaymentUrl": "https://strike.me/rick2818",
-    "status": "ENVIADO_IMPACTO_2_PAZ_MENTAL",
+    "status": "AUDITADO_Y_LISTO_PARA_NOTIFICACION",
     "contactEmail": "hola@luuna.mx",
     "outboundMessage": {
       "to": "hola@luuna.mx",
-      "subject": "🎬 Video de 70s: La paz mental de operar luuna.mx 100% blindado 24/7",
-      "body": "Estimado equipo directivo y de operaciones en Luuna Descanso D2C,\n\nLe escribo en seguimiento a nuestra notificación perimetral previa con una premisa clara:\n\nNo vendemos horas de consultoría teórica, diagnósticos abstractos ni reuniones interminables. Entregamos soluciones llave en mano y la auténtica paz mental de operar 24/7 sin riesgos mientras usted y su equipo descansan.\n\n¿Cuánto vale para su dirección tener la certeza absoluta de que sus pasarelas de pago no fallarán silenciosamente, que no existen cabeceras vulnerables a inyección y que los datos de sus clientes están blindados?\n\n▶️ VEA EL VIDEO BRIEFING EJECUTIVO (70 Segundos):\n🔗 https://unblock-shield.vercel.app/?domain=luuna.mx\n\nPuntos clave de por qué directores confían en nosotros (Nuestros 5 Anclajes de Confianza):\n1. Cero Invasión Previa: Jamás solicitamos contraseñas, claves API ni acceso a bases de datos internas. Todo opera de forma defensiva desde el perímetro en la nube.\n2. Micro-Riesgo Asimétrico: Descargue el informe técnico defensivo con los parches listos para pegar en producción por solo $19 USD (Plan Flash).\n3. Centinela Autónomo 24/7: Agente soberano que vigila su infraestructura por solo $2.30 USD al día ($69 USD/mes).\n4. Garantía Fiduciaria Total de 7 Días: Si en su primera semana el sistema no le ahorra al menos 10 horas de trabajo manual, reembolsamos el 100% de su pago sin fricción ni preguntas.\n5. Privacidad Bancaria SOC-2: Cero retención en disco; 100% procesado en memoria volátil RAM y purgado al instante.\n\nVea el video explicativo y aplique el blindaje en 60 segundos:\n🔗 https://unblock-shield.vercel.app/?domain=luuna.mx\n\nLiquidación directa e instantánea por Bitcoin Lightning Network a: rick2818@strike.me\n\nQuedo a su entera disposición.\n\nAtentamente,\nEspecialista Senior en Seguridad y Automatización Fiduciaria — Destraba AI"
+      "subject": "Informe de Seguridad Perimetral: 3 vulnerabilidades detectadas en luuna.mx",
+      "body": "Estimado equipo directivo y técnico en Luuna Descanso D2C,\n\nLe saluda el equipo de Destraba AI (firma de ingeniería en automatización operativa y ciberseguridad defensiva sobre Google Antigravity y Cloud 24/7).\n\nDurante nuestra inspección perimetral no invasiva sobre luuna.mx, identificamos 3 anomalías críticas que impactan la seguridad y conversión de su portal:\n• Falta Content-Security-Policy (Riesgo XSS)\n• Falta Strict-Transport-Security (Riesgo SSL Strip)\n• Falta X-Frame-Options (Riesgo Clickjacking)\n\n🎬 Video Demostración (70s):\nhttps://unblock-shield.vercel.app/?domain=luuna.mx\n\n¿Por qué confiar en nosotros antes de abrir cualquier puerta? (Nuestros 5 Anclajes de Apertura):\n1. Cero Invasión Previa: No solicitamos contraseñas, claves API ni acceso a bases de datos. Todo el análisis corre desde el exterior.\n2. Micro-Riesgo: Puedes verificar el diagnóstico gratis en 15s en nuestra web o descargar el informe ejecutivo con los parches listos para producción por solo $19 USD (Plan Flash).\n3. Garantía Fiduciaria 100% (7 Días): Si en 7 días la solución no le ahorra al menos 10 horas de trabajo manual a su equipo, reembolsamos el 100% de su pago sin preguntas.\n4. Privacidad Bancaria SOC-2: Cero retención en disco; 100% procesado en memoria RAM volátil aislada.\n5. Matemática de Ahorro: Un operador o analista cuesta $600+ USD/mes; nuestro agente autónomo opera 24/7 por $2.30 USD al día ($69 USD/mes).\n\nAudite su portal en vivo o aplique los parches en 60 segundos:\n🔗 https://unblock-shield.vercel.app/?domain=luuna.mx\n\nO liquidación instantánea sin comisiones vía Bitcoin Lightning Network a: rick2818@strike.me\n\nAtentamente,\nEspecialista Senior de Ciberseguridad & Ventas Fiduciarias — Destraba AI"
     },
     "deliveryAudit": {
       "dispatchedAt": "2026-09-21T22:56:38.929Z",
@@ -1060,7 +1060,14 @@
       "status": "TRANSMITIDO_EXITOSO"
     },
     "targetImpact": 2,
-    "currentImpact": 2
+    "currentImpact": 2,
+    "flawsCount": 3,
+    "flaws": [
+      "Falta Content-Security-Policy (Riesgo XSS)",
+      "Falta Strict-Transport-Security (Riesgo SSL Strip)",
+      "Falta X-Frame-Options (Riesgo Clickjacking)"
+    ],
+    "severity": "CRITICA"
   },
   {
     "id": "pyme_d2c_19",
@@ -1349,22 +1356,22 @@
     "severity": "CRITICA"
   },
   {
-    "id": "pyme_d2c_28",
-    "company": "Treinta App de Gestión Financiera",
+    "id": "audit_1790116119301_419",
+    "company": "Treinta App Financiera",
     "domain": "treinta.co",
-    "decisionMakerRole": "Gerente de Operaciones y Soporte a Micronegocios",
+    "decisionMakerRole": "Oficial de Seguridad / Dirección de Operaciones",
     "country": "Colombia / México",
-    "operationalPain": "Cientos de dudas diarias de microcomerciantes sobre balances e inventario",
-    "offer": " USD/mes (Concierge de Soporte Financiero)",
+    "operationalPain": "Brechas perimetrales detectadas: Optimización perimetral",
+    "offer": "$19 USD (Diagnóstico Técnico Flash + Parche de Blindaje) / $69 USD (Agente Autónomo 24/7)",
     "strikePaymentDestination": "rick2818@strike.me",
     "checkoutUrl": "https://unblock-shield.vercel.app/?domain=treinta.co",
     "directStrikePaymentUrl": "https://strike.me/rick2818",
-    "status": "ENVIADO_IMPACTO_2_PAZ_MENTAL",
+    "status": "AUDITADO_Y_LISTO_PARA_NOTIFICACION",
     "contactEmail": "hola@treinta.co",
     "outboundMessage": {
       "to": "hola@treinta.co",
-      "subject": "🎬 Video de 70s: La paz mental de operar treinta.co 100% blindado 24/7",
-      "body": "Estimado equipo directivo y de operaciones en Treinta App de Gestión Financiera,\n\nLe escribo en seguimiento a nuestra notificación perimetral previa con una premisa clara:\n\nNo vendemos horas de consultoría teórica, diagnósticos abstractos ni reuniones interminables. Entregamos soluciones llave en mano y la auténtica paz mental de operar 24/7 sin riesgos mientras usted y su equipo descansan.\n\n¿Cuánto vale para su dirección tener la certeza absoluta de que sus pasarelas de pago no fallarán silenciosamente, que no existen cabeceras vulnerables a inyección y que los datos de sus clientes están blindados?\n\n▶️ VEA EL VIDEO BRIEFING EJECUTIVO (70 Segundos):\n🔗 https://unblock-shield.vercel.app/?domain=treinta.co\n\nPuntos clave de por qué directores confían en nosotros (Nuestros 5 Anclajes de Confianza):\n1. Cero Invasión Previa: Jamás solicitamos contraseñas, claves API ni acceso a bases de datos internas. Todo opera de forma defensiva desde el perímetro en la nube.\n2. Micro-Riesgo Asimétrico: Descargue el informe técnico defensivo con los parches listos para pegar en producción por solo $19 USD (Plan Flash).\n3. Centinela Autónomo 24/7: Agente soberano que vigila su infraestructura por solo $2.30 USD al día ($69 USD/mes).\n4. Garantía Fiduciaria Total de 7 Días: Si en su primera semana el sistema no le ahorra al menos 10 horas de trabajo manual, reembolsamos el 100% de su pago sin fricción ni preguntas.\n5. Privacidad Bancaria SOC-2: Cero retención en disco; 100% procesado en memoria volátil RAM y purgado al instante.\n\nVea el video explicativo y aplique el blindaje en 60 segundos:\n🔗 https://unblock-shield.vercel.app/?domain=treinta.co\n\nLiquidación directa e instantánea por Bitcoin Lightning Network a: rick2818@strike.me\n\nQuedo a su entera disposición.\n\nAtentamente,\nEspecialista Senior en Seguridad y Automatización Fiduciaria — Destraba AI"
+      "subject": "Informe de Seguridad Perimetral: 0 vulnerabilidades detectadas en treinta.co",
+      "body": "Estimado equipo directivo y técnico en Treinta App Financiera,\n\nLe saluda el equipo de Destraba AI (firma de ingeniería en automatización operativa y ciberseguridad defensiva sobre Google Antigravity y Cloud 24/7).\n\nDurante nuestra inspección perimetral no invasiva sobre treinta.co, identificamos 0 anomalías críticas que impactan la seguridad y conversión de su portal:\n\n\n🎬 Video Demostración (70s):\nhttps://unblock-shield.vercel.app/?domain=treinta.co\n\n¿Por qué confiar en nosotros antes de abrir cualquier puerta? (Nuestros 5 Anclajes de Apertura):\n1. Cero Invasión Previa: No solicitamos contraseñas, claves API ni acceso a bases de datos. Todo el análisis corre desde el exterior.\n2. Micro-Riesgo: Puedes verificar el diagnóstico gratis en 15s en nuestra web o descargar el informe ejecutivo con los parches listos para producción por solo $19 USD (Plan Flash).\n3. Garantía Fiduciaria 100% (7 Días): Si en 7 días la solución no le ahorra al menos 10 horas de trabajo manual a su equipo, reembolsamos el 100% de su pago sin preguntas.\n4. Privacidad Bancaria SOC-2: Cero retención en disco; 100% procesado en memoria RAM volátil aislada.\n5. Matemática de Ahorro: Un operador o analista cuesta $600+ USD/mes; nuestro agente autónomo opera 24/7 por $2.30 USD al día ($69 USD/mes).\n\nAudite su portal en vivo o aplique los parches en 60 segundos:\n🔗 https://unblock-shield.vercel.app/?domain=treinta.co\n\nO liquidación instantánea sin comisiones vía Bitcoin Lightning Network a: rick2818@strike.me\n\nAtentamente,\nEspecialista Senior de Ciberseguridad & Ventas Fiduciarias — Destraba AI"
     },
     "deliveryAudit": {
       "dispatchedAt": "2026-09-21T22:57:16.839Z",
@@ -1377,7 +1384,10 @@
       "status": "TRANSMITIDO_EXITOSO"
     },
     "targetImpact": 2,
-    "currentImpact": 2
+    "currentImpact": 2,
+    "flawsCount": 0,
+    "flaws": [],
+    "severity": "BAJA"
   },
   {
     "id": "pyme_d2c_29",

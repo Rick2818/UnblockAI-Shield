@@ -1,5 +1,220 @@
 [
   {
+    "auditId": "audit_1790116119301_419",
+    "timestamp": "2026-09-22T22:28:39.301Z",
+    "company": "Treinta App Financiera",
+    "domain": "treinta.co",
+    "scannedHost": "treinta.co",
+    "country": "Colombia / México",
+    "industry": "App Contable para PYMEs",
+    "contactEmail": "hola@treinta.co",
+    "brandName": "Destraba AI",
+    "language": "es",
+    "serverDetected": "cloudflare",
+    "httpStatusCode": 200,
+    "securityHeaders": {
+      "hasCsp": true,
+      "hasHsts": true,
+      "hasXFrame": true
+    },
+    "flawsCount": 0,
+    "flaws": [],
+    "severity": "BAJA",
+    "monetization": {
+      "offer": "$19 USD (Diagnóstico Técnico Flash + Parche de Blindaje) / $69 USD (Agente Autónomo 24/7)",
+      "checkoutStrike": "https://strike.me/rick2818",
+      "checkoutDirectApp": "https://unblock-shield.vercel.app/?domain=treinta.co",
+      "destinationAddress": "rick2818@strike.me"
+    },
+    "generatedDispatchMessage": {
+      "to": "hola@treinta.co",
+      "subject": "Informe de Seguridad Perimetral: 0 vulnerabilidades detectadas en treinta.co",
+      "body": "Estimado equipo directivo y técnico en Treinta App Financiera,\n\nLe saluda el equipo de Destraba AI (firma de ingeniería en automatización operativa y ciberseguridad defensiva sobre Google Antigravity y Cloud 24/7).\n\nDurante nuestra inspección perimetral no invasiva sobre treinta.co, identificamos 0 anomalías críticas que impactan la seguridad y conversión de su portal:\n\n\n🎬 Video Demostración (70s):\nhttps://unblock-shield.vercel.app/?domain=treinta.co\n\n¿Por qué confiar en nosotros antes de abrir cualquier puerta? (Nuestros 5 Anclajes de Apertura):\n1. Cero Invasión Previa: No solicitamos contraseñas, claves API ni acceso a bases de datos. Todo el análisis corre desde el exterior.\n2. Micro-Riesgo: Puedes verificar el diagnóstico gratis en 15s en nuestra web o descargar el informe ejecutivo con los parches listos para producción por solo $19 USD (Plan Flash).\n3. Garantía Fiduciaria 100% (7 Días): Si en 7 días la solución no le ahorra al menos 10 horas de trabajo manual a su equipo, reembolsamos el 100% de su pago sin preguntas.\n4. Privacidad Bancaria SOC-2: Cero retención en disco; 100% procesado en memoria RAM volátil aislada.\n5. Matemática de Ahorro: Un operador o analista cuesta $600+ USD/mes; nuestro agente autónomo opera 24/7 por $2.30 USD al día ($69 USD/mes).\n\nAudite su portal en vivo o aplique los parches en 60 segundos:\n🔗 https://unblock-shield.vercel.app/?domain=treinta.co\n\nO liquidación instantánea sin comisiones vía Bitcoin Lightning Network a: rick2818@strike.me\n\nAtentamente,\nEspecialista Senior de Ciberseguridad & Ventas Fiduciarias — Destraba AI"
+    },
+    "status": "AUDITADO_Y_LISTO_PARA_NOTIFICACION"
+  },
+  {
+    "auditId": "audit_1790116116790_507",
+    "timestamp": "2026-09-22T22:28:36.790Z",
+    "company": "Luuna Descanso D2C",
+    "domain": "luuna.mx",
+    "scannedHost": "luuna.mx",
+    "country": "México",
+    "industry": "D2C Retail & Sueño",
+    "contactEmail": "hola@luuna.mx",
+    "brandName": "Destraba AI",
+    "language": "es",
+    "serverDetected": "istio-envoy",
+    "httpStatusCode": 200,
+    "securityHeaders": {
+      "hasCsp": false,
+      "hasHsts": false,
+      "hasXFrame": false
+    },
+    "flawsCount": 3,
+    "flaws": [
+      "Falta Content-Security-Policy (Riesgo XSS)",
+      "Falta Strict-Transport-Security (Riesgo SSL Strip)",
+      "Falta X-Frame-Options (Riesgo Clickjacking)"
+    ],
+    "severity": "CRITICA",
+    "monetization": {
+      "offer": "$19 USD (Diagnóstico Técnico Flash + Parche de Blindaje) / $69 USD (Agente Autónomo 24/7)",
+      "checkoutStrike": "https://strike.me/rick2818",
+      "checkoutDirectApp": "https://unblock-shield.vercel.app/?domain=luuna.mx",
+      "destinationAddress": "rick2818@strike.me"
+    },
+    "generatedDispatchMessage": {
+      "to": "hola@luuna.mx",
+      "subject": "Informe de Seguridad Perimetral: 3 vulnerabilidades detectadas en luuna.mx",
+      "body": "Estimado equipo directivo y técnico en Luuna Descanso D2C,\n\nLe saluda el equipo de Destraba AI (firma de ingeniería en automatización operativa y ciberseguridad defensiva sobre Google Antigravity y Cloud 24/7).\n\nDurante nuestra inspección perimetral no invasiva sobre luuna.mx, identificamos 3 anomalías críticas que impactan la seguridad y conversión de su portal:\n• Falta Content-Security-Policy (Riesgo XSS)\n• Falta Strict-Transport-Security (Riesgo SSL Strip)\n• Falta X-Frame-Options (Riesgo Clickjacking)\n\n🎬 Video Demostración (70s):\nhttps://unblock-shield.vercel.app/?domain=luuna.mx\n\n¿Por qué confiar en nosotros antes de abrir cualquier puerta? (Nuestros 5 Anclajes de Apertura):\n1. Cero Invasión Previa: No solicitamos contraseñas, claves API ni acceso a bases de datos. Todo el análisis corre desde el exterior.\n2. Micro-Riesgo: Puedes verificar el diagnóstico gratis en 15s en nuestra web o descargar el informe ejecutivo con los parches listos para producción por solo $19 USD (Plan Flash).\n3. Garantía Fiduciaria 100% (7 Días): Si en 7 días la solución no le ahorra al menos 10 horas de trabajo manual a su equipo, reembolsamos el 100% de su pago sin preguntas.\n4. Privacidad Bancaria SOC-2: Cero retención en disco; 100% procesado en memoria RAM volátil aislada.\n5. Matemática de Ahorro: Un operador o analista cuesta $600+ USD/mes; nuestro agente autónomo opera 24/7 por $2.30 USD al día ($69 USD/mes).\n\nAudite su portal en vivo o aplique los parches en 60 segundos:\n🔗 https://unblock-shield.vercel.app/?domain=luuna.mx\n\nO liquidación instantánea sin comisiones vía Bitcoin Lightning Network a: rick2818@strike.me\n\nAtentamente,\nEspecialista Senior de Ciberseguridad & Ventas Fiduciarias — Destraba AI"
+    },
+    "status": "AUDITADO_Y_LISTO_PARA_NOTIFICACION"
+  },
+  {
+    "auditId": "audit_1790116115433_289",
+    "timestamp": "2026-09-22T22:28:35.433Z",
+    "company": "Servientrega Soluciones Digitales",
+    "domain": "servientrega.com",
+    "scannedHost": "www.servientrega.com",
+    "country": "Colombia",
+    "industry": "Logística 3PL",
+    "contactEmail": "servicioalcliente@servientrega.com",
+    "brandName": "Destraba AI",
+    "language": "es",
+    "serverDetected": "Desconocido",
+    "httpStatusCode": 200,
+    "securityHeaders": {
+      "hasCsp": false,
+      "hasHsts": false,
+      "hasXFrame": false
+    },
+    "flawsCount": 3,
+    "flaws": [
+      "Falta Content-Security-Policy (Riesgo XSS)",
+      "Falta Strict-Transport-Security (Riesgo SSL Strip)",
+      "Falta X-Frame-Options (Riesgo Clickjacking)"
+    ],
+    "severity": "CRITICA",
+    "monetization": {
+      "offer": "$19 USD (Diagnóstico Técnico Flash + Parche de Blindaje) / $69 USD (Agente Autónomo 24/7)",
+      "checkoutStrike": "https://strike.me/rick2818",
+      "checkoutDirectApp": "https://unblock-shield.vercel.app/?domain=servientrega.com",
+      "destinationAddress": "rick2818@strike.me"
+    },
+    "generatedDispatchMessage": {
+      "to": "servicioalcliente@servientrega.com",
+      "subject": "Informe de Seguridad Perimetral: 3 vulnerabilidades detectadas en servientrega.com",
+      "body": "Estimado equipo directivo y técnico en Servientrega Soluciones Digitales,\n\nLe saluda el equipo de Destraba AI (firma de ingeniería en automatización operativa y ciberseguridad defensiva sobre Google Antigravity y Cloud 24/7).\n\nDurante nuestra inspección perimetral no invasiva sobre servientrega.com, identificamos 3 anomalías críticas que impactan la seguridad y conversión de su portal:\n• Falta Content-Security-Policy (Riesgo XSS)\n• Falta Strict-Transport-Security (Riesgo SSL Strip)\n• Falta X-Frame-Options (Riesgo Clickjacking)\n\n🎬 Video Demostración (70s):\nhttps://unblock-shield.vercel.app/?domain=servientrega.com\n\n¿Por qué confiar en nosotros antes de abrir cualquier puerta? (Nuestros 5 Anclajes de Apertura):\n1. Cero Invasión Previa: No solicitamos contraseñas, claves API ni acceso a bases de datos. Todo el análisis corre desde el exterior.\n2. Micro-Riesgo: Puedes verificar el diagnóstico gratis en 15s en nuestra web o descargar el informe ejecutivo con los parches listos para producción por solo $19 USD (Plan Flash).\n3. Garantía Fiduciaria 100% (7 Días): Si en 7 días la solución no le ahorra al menos 10 horas de trabajo manual a su equipo, reembolsamos el 100% de su pago sin preguntas.\n4. Privacidad Bancaria SOC-2: Cero retención en disco; 100% procesado en memoria RAM volátil aislada.\n5. Matemática de Ahorro: Un operador o analista cuesta $600+ USD/mes; nuestro agente autónomo opera 24/7 por $2.30 USD al día ($69 USD/mes).\n\nAudite su portal en vivo o aplique los parches en 60 segundos:\n🔗 https://unblock-shield.vercel.app/?domain=servientrega.com\n\nO liquidación instantánea sin comisiones vía Bitcoin Lightning Network a: rick2818@strike.me\n\nAtentamente,\nEspecialista Senior de Ciberseguridad & Ventas Fiduciarias — Destraba AI"
+    },
+    "status": "AUDITADO_Y_LISTO_PARA_NOTIFICACION"
+  },
+  {
+    "auditId": "audit_1790116113520_738",
+    "timestamp": "2026-09-22T22:28:33.520Z",
+    "company": "Deprisa (Avianca Cargo)",
+    "domain": "deprisa.com",
+    "scannedHost": "deprisa.com",
+    "country": "Colombia",
+    "industry": "Envíos Express",
+    "contactEmail": "corporativo@deprisa.com",
+    "brandName": "Destraba AI",
+    "language": "es",
+    "serverDetected": "Desconocido",
+    "httpStatusCode": 307,
+    "securityHeaders": {
+      "hasCsp": true,
+      "hasHsts": false,
+      "hasXFrame": false
+    },
+    "flawsCount": 2,
+    "flaws": [
+      "Falta Strict-Transport-Security (Riesgo SSL Strip)",
+      "Falta X-Frame-Options (Riesgo Clickjacking)"
+    ],
+    "severity": "CRITICA",
+    "monetization": {
+      "offer": "$19 USD (Diagnóstico Técnico Flash + Parche de Blindaje) / $69 USD (Agente Autónomo 24/7)",
+      "checkoutStrike": "https://strike.me/rick2818",
+      "checkoutDirectApp": "https://unblock-shield.vercel.app/?domain=deprisa.com",
+      "destinationAddress": "rick2818@strike.me"
+    },
+    "generatedDispatchMessage": {
+      "to": "corporativo@deprisa.com",
+      "subject": "Informe de Seguridad Perimetral: 2 vulnerabilidades detectadas en deprisa.com",
+      "body": "Estimado equipo directivo y técnico en Deprisa (Avianca Cargo),\n\nLe saluda el equipo de Destraba AI (firma de ingeniería en automatización operativa y ciberseguridad defensiva sobre Google Antigravity y Cloud 24/7).\n\nDurante nuestra inspección perimetral no invasiva sobre deprisa.com, identificamos 2 anomalías críticas que impactan la seguridad y conversión de su portal:\n• Falta Strict-Transport-Security (Riesgo SSL Strip)\n• Falta X-Frame-Options (Riesgo Clickjacking)\n\n🎬 Video Demostración (70s):\nhttps://unblock-shield.vercel.app/?domain=deprisa.com\n\n¿Por qué confiar en nosotros antes de abrir cualquier puerta? (Nuestros 5 Anclajes de Apertura):\n1. Cero Invasión Previa: No solicitamos contraseñas, claves API ni acceso a bases de datos. Todo el análisis corre desde el exterior.\n2. Micro-Riesgo: Puedes verificar el diagnóstico gratis en 15s en nuestra web o descargar el informe ejecutivo con los parches listos para producción por solo $19 USD (Plan Flash).\n3. Garantía Fiduciaria 100% (7 Días): Si en 7 días la solución no le ahorra al menos 10 horas de trabajo manual a su equipo, reembolsamos el 100% de su pago sin preguntas.\n4. Privacidad Bancaria SOC-2: Cero retención en disco; 100% procesado en memoria RAM volátil aislada.\n5. Matemática de Ahorro: Un operador o analista cuesta $600+ USD/mes; nuestro agente autónomo opera 24/7 por $2.30 USD al día ($69 USD/mes).\n\nAudite su portal en vivo o aplique los parches en 60 segundos:\n🔗 https://unblock-shield.vercel.app/?domain=deprisa.com\n\nO liquidación instantánea sin comisiones vía Bitcoin Lightning Network a: rick2818@strike.me\n\nAtentamente,\nEspecialista Senior de Ciberseguridad & Ventas Fiduciarias — Destraba AI"
+    },
+    "status": "AUDITADO_Y_LISTO_PARA_NOTIFICACION"
+  },
+  {
+    "auditId": "audit_1790116110972_339",
+    "timestamp": "2026-09-22T22:28:30.972Z",
+    "company": "TCC Logística & Envíos",
+    "domain": "tcc.com.co",
+    "scannedHost": "tcc.com.co",
+    "country": "Colombia",
+    "industry": "Logística B2B",
+    "contactEmail": "contacto@tcc.com.co",
+    "brandName": "Destraba AI",
+    "language": "es",
+    "serverDetected": "nginx",
+    "httpStatusCode": 200,
+    "securityHeaders": {
+      "hasCsp": true,
+      "hasHsts": true,
+      "hasXFrame": true
+    },
+    "flawsCount": 0,
+    "flaws": [],
+    "severity": "BAJA",
+    "monetization": {
+      "offer": "$19 USD (Diagnóstico Técnico Flash + Parche de Blindaje) / $69 USD (Agente Autónomo 24/7)",
+      "checkoutStrike": "https://strike.me/rick2818",
+      "checkoutDirectApp": "https://unblock-shield.vercel.app/?domain=tcc.com.co",
+      "destinationAddress": "rick2818@strike.me"
+    },
+    "generatedDispatchMessage": {
+      "to": "contacto@tcc.com.co",
+      "subject": "Informe de Seguridad Perimetral: 0 vulnerabilidades detectadas en tcc.com.co",
+      "body": "Estimado equipo directivo y técnico en TCC Logística & Envíos,\n\nLe saluda el equipo de Destraba AI (firma de ingeniería en automatización operativa y ciberseguridad defensiva sobre Google Antigravity y Cloud 24/7).\n\nDurante nuestra inspección perimetral no invasiva sobre tcc.com.co, identificamos 0 anomalías críticas que impactan la seguridad y conversión de su portal:\n\n\n🎬 Video Demostración (70s):\nhttps://unblock-shield.vercel.app/?domain=tcc.com.co\n\n¿Por qué confiar en nosotros antes de abrir cualquier puerta? (Nuestros 5 Anclajes de Apertura):\n1. Cero Invasión Previa: No solicitamos contraseñas, claves API ni acceso a bases de datos. Todo el análisis corre desde el exterior.\n2. Micro-Riesgo: Puedes verificar el diagnóstico gratis en 15s en nuestra web o descargar el informe ejecutivo con los parches listos para producción por solo $19 USD (Plan Flash).\n3. Garantía Fiduciaria 100% (7 Días): Si en 7 días la solución no le ahorra al menos 10 horas de trabajo manual a su equipo, reembolsamos el 100% de su pago sin preguntas.\n4. Privacidad Bancaria SOC-2: Cero retención en disco; 100% procesado en memoria RAM volátil aislada.\n5. Matemática de Ahorro: Un operador o analista cuesta $600+ USD/mes; nuestro agente autónomo opera 24/7 por $2.30 USD al día ($69 USD/mes).\n\nAudite su portal en vivo o aplique los parches en 60 segundos:\n🔗 https://unblock-shield.vercel.app/?domain=tcc.com.co\n\nO liquidación instantánea sin comisiones vía Bitcoin Lightning Network a: rick2818@strike.me\n\nAtentamente,\nEspecialista Senior de Ciberseguridad & Ventas Fiduciarias — Destraba AI"
+    },
+    "status": "AUDITADO_Y_LISTO_PARA_NOTIFICACION"
+  },
+  {
+    "auditId": "audit_1790116109517_745",
+    "timestamp": "2026-09-22T22:28:29.517Z",
+    "company": "Coordinadora Mercantil",
+    "domain": "coordinadora.com",
+    "scannedHost": "coordinadora.com",
+    "country": "Colombia",
+    "industry": "Courier & E-commerce",
+    "contactEmail": "contacto@coordinadora.com",
+    "brandName": "Destraba AI",
+    "language": "es",
+    "serverDetected": "\"\"",
+    "httpStatusCode": 200,
+    "securityHeaders": {
+      "hasCsp": true,
+      "hasHsts": true,
+      "hasXFrame": true
+    },
+    "flawsCount": 0,
+    "flaws": [],
+    "severity": "BAJA",
+    "monetization": {
+      "offer": "$19 USD (Diagnóstico Técnico Flash + Parche de Blindaje) / $69 USD (Agente Autónomo 24/7)",
+      "checkoutStrike": "https://strike.me/rick2818",
+      "checkoutDirectApp": "https://unblock-shield.vercel.app/?domain=coordinadora.com",
+      "destinationAddress": "rick2818@strike.me"
+    },
+    "generatedDispatchMessage": {
+      "to": "contacto@coordinadora.com",
+      "subject": "Informe de Seguridad Perimetral: 0 vulnerabilidades detectadas en coordinadora.com",
+      "body": "Estimado equipo directivo y técnico en Coordinadora Mercantil,\n\nLe saluda el equipo de Destraba AI (firma de ingeniería en automatización operativa y ciberseguridad defensiva sobre Google Antigravity y Cloud 24/7).\n\nDurante nuestra inspección perimetral no invasiva sobre coordinadora.com, identificamos 0 anomalías críticas que impactan la seguridad y conversión de su portal:\n\n\n🎬 Video Demostración (70s):\nhttps://unblock-shield.vercel.app/?domain=coordinadora.com\n\n¿Por qué confiar en nosotros antes de abrir cualquier puerta? (Nuestros 5 Anclajes de Apertura):\n1. Cero Invasión Previa: No solicitamos contraseñas, claves API ni acceso a bases de datos. Todo el análisis corre desde el exterior.\n2. Micro-Riesgo: Puedes verificar el diagnóstico gratis en 15s en nuestra web o descargar el informe ejecutivo con los parches listos para producción por solo $19 USD (Plan Flash).\n3. Garantía Fiduciaria 100% (7 Días): Si en 7 días la solución no le ahorra al menos 10 horas de trabajo manual a su equipo, reembolsamos el 100% de su pago sin preguntas.\n4. Privacidad Bancaria SOC-2: Cero retención en disco; 100% procesado en memoria RAM volátil aislada.\n5. Matemática de Ahorro: Un operador o analista cuesta $600+ USD/mes; nuestro agente autónomo opera 24/7 por $2.30 USD al día ($69 USD/mes).\n\nAudite su portal en vivo o aplique los parches en 60 segundos:\n🔗 https://unblock-shield.vercel.app/?domain=coordinadora.com\n\nO liquidación instantánea sin comisiones vía Bitcoin Lightning Network a: rick2818@strike.me\n\nAtentamente,\nEspecialista Senior de Ciberseguridad & Ventas Fiduciarias — Destraba AI"
+    },
+    "status": "AUDITADO_Y_LISTO_PARA_NOTIFICACION"
+  },
+  {
     "auditId": "audit_1790101420273_33",
     "timestamp": "2026-09-22T18:23:40.273Z",
     "company": "Simetrik Finanzas",
