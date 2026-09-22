@@ -18,8 +18,8 @@
   <!-- OpenGraph & Twitter Social Cards for High-Conversion Sharing -->
   <meta property="og:title" content="BolTech Group • Ciberseguridad Defensiva y Paz Mental 24/7">
   <meta property="og:description" content="No vendemos asesorías. Entregamos soluciones llave en mano, blindaje tecnológico y paz mental 24/7 con agentes autónomos.">
-  <meta property="og:image" content="https://unblock-shield.vercel.app/assets/unblock_ai_shield_logo.jpg">
-  <meta property="og:url" content="https://unblock-shield.vercel.app/">
+  <meta property="og:image" content="https://boltech-group.vercel.app/assets/unblock_ai_shield_logo.jpg">
+  <meta property="og:url" content="https://boltech-group.vercel.app/">
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="theme-color" content="#05070E">
@@ -1902,7 +1902,7 @@
     async function requestScan(domain) {
       let resp;
       const isLocalOrFile = (window.location.protocol === 'file:' || (window.location.hostname === 'localhost' && window.location.port !== '3000'));
-      const primaryUrl = isLocalOrFile ? 'https://unblock-shield.vercel.app/api/scan' : '/api/scan';
+      const primaryUrl = isLocalOrFile ? 'https://boltech-group.vercel.app/api/scan' : '/api/scan';
 
       const fetchWithTimeout = async (url, ms = 12000) => {
         const controller = new AbortController();
@@ -1927,7 +1927,7 @@
       } catch (err) {
         // Fallback redundante a producción en caso de fallo de red local
         try {
-          resp = await fetchWithTimeout('https://unblock-shield.vercel.app/api/scan');
+          resp = await fetchWithTimeout('https://boltech-group.vercel.app/api/scan');
         } catch (fallbackErr) {
           return { ok: false, error: { code: 'network', message: 'No pudimos contactar el servicio de análisis o la respuesta tardó demasiado. Revisa tu conexión e inténtalo de nuevo.' } };
         }

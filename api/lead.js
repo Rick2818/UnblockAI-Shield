@@ -53,7 +53,7 @@ export default async function handler(req, res) {
     let subject = '';
     let htmlContent = '';
     let textContent = '';
-    const cabinaUrl = `https://unblock-shield.vercel.app/cabina?email=${encodeURIComponent(cleanEmail)}&company=${encodeURIComponent(cleanCompany)}&pain=${encodeURIComponent(cleanPainPoint)}`;
+    const cabinaUrl = `https://boltech-group.vercel.app/cabina?email=${encodeURIComponent(cleanEmail)}&company=${encodeURIComponent(cleanCompany)}&pain=${encodeURIComponent(cleanPainPoint)}`;
 
     if (isCustomAgentRequest) {
       // INTAKE: AGENTE A LA MEDIDA PARA DESBLOQUEAR PROCESO LENTO
@@ -172,7 +172,7 @@ Un ingeniero de soporte técnico y ciberseguridad defensiva revisará su requeri
 
 Si su requerimiento es de carácter urgente, puede comunicarse de inmediato a:
 Correo Oficial: ricardo.destrabaai@gmail.com
-Portal de Monitoreo: https://unblock-shield.vercel.app
+Portal de Monitoreo: https://boltech-group.vercel.app
 
 Atentamente,
 Equipo de Operaciones e Ingeniería Fiduciaria
@@ -191,14 +191,14 @@ BolTech Group`;
 </head>
 <body>
   <div class="box">
-    <h2 style="color: #38bdf8; margin-top: 0;">Solicitud Recibida — Unblock AI Shield</h2>
+    <h2 style="color: #38bdf8; margin-top: 0;">Solicitud Recibida — BolTech Group</h2>
     <p>Estimado Director de <strong>${cleanDomain}</strong>,</p>
     <p>Hemos recibido su requerimiento:</p>
     <blockquote style="background: #1e293b; padding: 12px 16px; border-left: 3px solid #38bdf8; color: #cbd5e1; font-style: italic;">
       "${escapeForHtml(cleanMessage)}"
     </blockquote>
     <p>Un ingeniero de soporte defensivo evaluará su infraestructura y le responderá en menos de 2 horas hábiles.</p>
-    <a href="https://unblock-shield.vercel.app" class="btn">Ir a Unblock AI Shield →</a>
+    <a href="https://boltech-group.vercel.app" class="btn">Ir a BolTech Group →</a>
   </div>
 </body>
 </html>
