@@ -1454,22 +1454,32 @@
       const isLocalOrFile = (window.location.protocol === 'file:' || (window.location.hostname === 'localhost' && window.location.port !== '3000'));
       const primaryUrl = isLocalOrFile ? 'https://unblock-shield.vercel.app/api/scan' : '/api/scan';
 
-      try {
-        resp = await fetch(primaryUrl, {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ domain })
-        });
-      } catch (err) {
-        // Si falló el endpoint primario, reintentar contra producción en Vercel
+      const fetchWithTimeout = async (url, ms = 12000) => {
+        const controller = new AbortController();
+        const timer = setTimeout(() => controller.abort(), ms);
         try {
-          resp = await fetch('https://unblock-shield.vercel.app/api/scan', {
+          const res = await fetch(url, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ domain })
+            body: JSON.stringify({ domain }),
+            signal: controller.signal
           });
+          clearTimeout(timer);
+          return res;
+        } catch (err) {
+          clearTimeout(timer);
+          throw err;
+        }
+      };
+
+      try {
+        resp = await fetchWithTimeout(primaryUrl);
+      } catch (err) {
+        // Fallback redundante a producción en caso de fallo de red local
+        try {
+          resp = await fetchWithTimeout('https://unblock-shield.vercel.app/api/scan');
         } catch (fallbackErr) {
-          return { ok: false, error: { code: 'network', message: 'No pudimos contactar el servicio de análisis. Revisa tu conexión e inténtalo de nuevo.' } };
+          return { ok: false, error: { code: 'network', message: 'No pudimos contactar el servicio de análisis o la respuesta tardó demasiado. Revisa tu conexión e inténtalo de nuevo.' } };
         }
       }
       try {
@@ -1589,27 +1599,39 @@
           <span>Analizando cabeceras de seguridad y certificado de <strong>https://${safeDomain}</strong>...</span>
         </div>
       `;
-      if (scanBtn) scanBtn.disabled = true;
 
-      const scan = await requestScan(validDomain);
+      try {
+        if (scanBtn) {
+          scanBtn.disabled = true;
+          scanBtn.classList.add('opacity-50', 'cursor-not-allowed');
+        }
 
-      if (scanBtn) scanBtn.disabled = false;
+        const scan = await requestScan(validDomain);
 
-      if (!scan.ok) {
-        const msg = escapeHTML((scan.error && scan.error.message) || 'No pudimos completar el análisis.');
-        const isTls = scan.error && scan.error.code === 'tls_error';
-        consoleBox.innerHTML = `
-          <div class="p-3.5 rounded-xl bg-slate-950 border border-slate-800 space-y-1.5">
-            <div class="${isTls ? 'text-rose-400' : 'text-amber-400'} font-bold">${isTls ? '✗' : '⚠'} ${msg}</div>
-            ${isTls ? '<div class="text-slate-400 text-[10px] font-sans">Un certificado que falla la verificación es un hallazgo real: los navegadores mostrarán una advertencia a tus visitantes.</div>' : ''}
-          </div>
-        `;
-        return;
+        if (!scan.ok) {
+          const msg = escapeHTML((scan.error && scan.error.message) || 'No pudimos completar el análisis.');
+          const isTls = scan.error && scan.error.code === 'tls_error';
+          consoleBox.innerHTML = `
+            <div class="p-3.5 rounded-xl bg-slate-950 border border-slate-800 space-y-1.5">
+              <div class="${isTls ? 'text-rose-400' : 'text-amber-400'} font-bold">${isTls ? '✗' : '⚠'} ${msg}</div>
+              ${isTls ? '<div class="text-slate-400 text-[10px] font-sans">Un certificado que falla la verificación es un hallazgo real: los navegadores mostrarán una advertencia a tus visitantes.</div>' : ''}
+              <div class="pt-2 flex gap-2">
+                <button onclick="executeLiveScan()" class="px-3 py-1 rounded bg-slate-800 hover:bg-slate-700 text-xs text-white border border-slate-700">Reintentar</button>
+              </div>
+            </div>
+          `;
+          return;
+        }
+
+        lastScan = scan;
+        currentScannedDomain = scan.domain;
+        consoleBox.innerHTML = renderScanConsole(scan);
+      } finally {
+        if (scanBtn) {
+          scanBtn.disabled = false;
+          scanBtn.classList.remove('opacity-50', 'cursor-not-allowed');
+        }
       }
-
-      lastScan = scan;
-      currentScannedDomain = scan.domain;
-      consoleBox.innerHTML = renderScanConsole(scan);
     }
 
     function triggerCheckoutForCurrentDomain(tier) {
