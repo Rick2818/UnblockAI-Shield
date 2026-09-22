@@ -85,7 +85,7 @@ Portal de Monitoreo: https://unblock-shield.vercel.app
 
 Atentamente,
 Equipo de Operaciones e Ingeniería Fiduciaria
-Unblock AI Shield & Destraba AI`;
+BolTech Group`;
 
       htmlContent = `
 <!DOCTYPE html>
