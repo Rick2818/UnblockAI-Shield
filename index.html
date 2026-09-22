@@ -50,7 +50,23 @@
         </div>
       </div>
 
-      <div class="flex items-center gap-3 sm:gap-4">
+      <div class="flex items-center gap-2 sm:gap-4">
+        <!-- Navegación Hub Boltech Group -->
+        <nav class="hidden lg:flex items-center gap-1 text-xs font-mono">
+          <a href="#unblock-shield-section" onclick="focusScanInput()" class="px-2.5 py-1.5 rounded-lg text-slate-300 hover:text-cyan-400 hover:bg-slate-900 border border-transparent hover:border-cyan-500/30 transition-all font-semibold flex items-center gap-1">
+            <span>🛡️</span> <span>Shield</span>
+          </a>
+          <a href="#custom-agents-section" onclick="focusPainInput()" class="px-2.5 py-1.5 rounded-lg text-slate-300 hover:text-indigo-400 hover:bg-slate-900 border border-transparent hover:border-indigo-500/30 transition-all font-semibold flex items-center gap-1">
+            <span>🤖</span> <span>Agentes</span>
+          </a>
+          <a href="#audiflow-section" class="px-2.5 py-1.5 rounded-lg text-slate-300 hover:text-emerald-400 hover:bg-slate-900 border border-transparent hover:border-emerald-500/30 transition-all font-semibold flex items-center gap-1">
+            <span>📊</span> <span>Audiflow AI</span>
+          </a>
+          <a href="/cabina" target="_blank" class="px-2.5 py-1.5 rounded-lg text-amber-300 hover:text-amber-200 bg-amber-500/10 hover:bg-amber-500/20 border border-amber-500/30 transition-all font-semibold flex items-center gap-1">
+            <span>🚀</span> <span>Cabina Cloud</span>
+          </a>
+        </nav>
+
         <div class="hidden md:flex items-center gap-2 text-xs font-mono px-3 py-1.5 rounded-lg bg-slate-900/90 border border-emerald-500/30 text-emerald-400">
           <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
           <span>Cloud Sentinel 24/7 Active</span>
@@ -102,16 +118,109 @@
 
       <!-- Subtítulo -->
       <p id="hero-desc" class="text-base sm:text-lg text-slate-400 max-w-3xl mx-auto leading-relaxed mb-10 font-normal">
-        Olvídate de consultorías eternas, cotizaciones infladas e informes teóricos. Implementamos escudos tecnológicos autónomos que blindan tu infraestructura perimetral, protegen tus ventas y absorben operaciones críticas mientras duermes.
+        Boltech Group elimina consultorías eternas, cotizaciones infladas y cuellos de botella con software autónomo listo para operar. Elige la solución que tu empresa necesita hoy:
       </p>
 
-      <!-- ESCÁNER PERIMETRAL EN VIVO (HERO SCANNER) -->
-      <div class="max-w-2xl mx-auto p-4 sm:p-5 rounded-2xl glass-shield glow-card text-left mb-8 border border-cyan-500/30">
+      <!-- HUB DE 3 SOLUCIONES DE BOLTECH GROUP -->
+      <div class="mb-14 max-w-5xl mx-auto">
+        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-900/90 border border-slate-700/80 text-xs font-mono text-slate-300 font-bold uppercase tracking-wider mb-6 shadow-sm">
+          <span class="w-2 h-2 rounded-full bg-cyan-400 animate-pulse"></span>
+          <span>Portafolio de Soluciones Tecnológicas de Boltech Group</span>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-5 text-left">
+          
+          <!-- SOLUCIÓN 1: UNBLOCK AI SHIELD -->
+          <a href="#unblock-shield-section" onclick="focusScanInput()" class="group p-5 rounded-2xl bg-gradient-to-b from-slate-900/90 to-slate-950 border border-cyan-500/30 hover:border-cyan-400 hover:shadow-xl hover:shadow-cyan-500/10 transition-all flex flex-col justify-between block cursor-pointer">
+            <div>
+              <div class="flex items-center justify-between mb-3">
+                <span class="text-[10px] font-mono font-bold text-cyan-400 bg-cyan-500/10 px-2.5 py-0.5 rounded border border-cyan-500/20 uppercase tracking-wider">
+                  Solución 1 • Ciberseguridad
+                </span>
+                <span class="text-2xl group-hover:scale-110 transition-transform">🛡️</span>
+              </div>
+              <h3 class="text-lg font-black text-white group-hover:text-cyan-300 transition-colors mb-2 font-mono">
+                Unblock AI Shield
+              </h3>
+              <p class="text-xs text-slate-400 leading-relaxed mb-4">
+                Escáner perimetral en vivo y blindaje autónomo 24/7 sin contraseñas. Detecta vulnerabilidades en cabeceras y TLS, mitiga multas y genera parches listos en 60 segundos.
+              </p>
+              <ul class="text-[11px] font-mono text-slate-300 space-y-1.5 mb-5">
+                <li class="flex items-center gap-1.5 text-cyan-300"><span>✓</span> Escáner no invasivo en tiempo real</li>
+                <li class="flex items-center gap-1.5 text-cyan-300"><span>✓</span> Mitigación de brechas y multas</li>
+                <li class="flex items-center gap-1.5 text-cyan-300"><span>✓</span> Reporte $19 / Blindaje $69/mes</li>
+              </ul>
+            </div>
+            <div class="pt-3 border-t border-slate-800 flex items-center justify-between text-xs font-mono font-bold text-cyan-400 group-hover:translate-x-1 transition-transform">
+              <span>Auditar mi Dominio Ahora</span>
+              <span>→</span>
+            </div>
+          </a>
+
+          <!-- SOLUCIÓN 2: CUSTOM AGENTS -->
+          <a href="#custom-agents-section" onclick="focusPainInput()" class="group p-5 rounded-2xl bg-gradient-to-b from-slate-900/90 to-slate-950 border border-indigo-500/30 hover:border-indigo-400 hover:shadow-xl hover:shadow-indigo-500/10 transition-all flex flex-col justify-between block cursor-pointer">
+            <div>
+              <div class="flex items-center justify-between mb-3">
+                <span class="text-[10px] font-mono font-bold text-indigo-400 bg-indigo-500/10 px-2.5 py-0.5 rounded border border-indigo-500/20 uppercase tracking-wider">
+                  Solución 2 • Procesos Lentos
+                </span>
+                <span class="text-2xl group-hover:scale-110 transition-transform">🤖</span>
+              </div>
+              <h3 class="text-lg font-black text-white group-hover:text-indigo-300 transition-colors mb-2 font-mono">
+                Custom Agents & Cabina
+              </h3>
+              <p class="text-xs text-slate-400 leading-relaxed mb-4">
+                ¿Procesos lentos o manuales en tu empresa? Escribe tu dolor operativo. Diseñamos tu agente a la medida, lo enviamos a tu correo y te damos acceso a tu Cabina Cloud 24/7.
+              </p>
+              <ul class="text-[11px] font-mono text-slate-300 space-y-1.5 mb-5">
+                <li class="flex items-center gap-1.5 text-indigo-300"><span>✓</span> Caja interactiva de dolores reales</li>
+                <li class="flex items-center gap-1.5 text-indigo-300"><span>✓</span> Despacho de solución por correo</li>
+                <li class="flex items-center gap-1.5 text-indigo-300"><span>✓</span> Cabina Cloud 24/7 sin instalación</li>
+              </ul>
+            </div>
+            <div class="pt-3 border-t border-slate-800 flex items-center justify-between text-xs font-mono font-bold text-indigo-400 group-hover:translate-x-1 transition-transform">
+              <span>Describir mi Proceso Lento</span>
+              <span>→</span>
+            </div>
+          </a>
+
+          <!-- SOLUCIÓN 3: AUDIFLOW AI -->
+          <a href="#audiflow-section" class="group p-5 rounded-2xl bg-gradient-to-b from-slate-900/90 to-slate-950 border border-emerald-500/30 hover:border-emerald-400 hover:shadow-xl hover:shadow-emerald-500/10 transition-all flex flex-col justify-between block cursor-pointer">
+            <div>
+              <div class="flex items-center justify-between mb-3">
+                <span class="text-[10px] font-mono font-bold text-emerald-400 bg-emerald-500/10 px-2.5 py-0.5 rounded border border-emerald-500/20 uppercase tracking-wider">
+                  Solución 3 • Auditoría Legal/Fin
+                </span>
+                <span class="text-2xl group-hover:scale-110 transition-transform">📊</span>
+              </div>
+              <h3 class="text-lg font-black text-white group-hover:text-emerald-300 transition-colors mb-2 font-mono">
+                Audiflow AI
+              </h3>
+              <p class="text-xs text-slate-400 leading-relaxed mb-4">
+                Auditoría inteligente de contratos, pólizas y facturas corporativas. Detecta penalizaciones y cláusulas lesivas con exportación en Word (.docx con control de cambios) y PDF.
+              </p>
+              <ul class="text-[11px] font-mono text-slate-300 space-y-1.5 mb-5">
+                <li class="flex items-center gap-1.5 text-emerald-300"><span>✓</span> Redlines con control de cambios</li>
+                <li class="flex items-center gap-1.5 text-emerald-300"><span>✓</span> Prevención de riesgos y fraude</li>
+                <li class="flex items-center gap-1.5 text-emerald-300"><span>✓</span> Reporte $19 / Suite $69/mes</li>
+              </ul>
+            </div>
+            <div class="pt-3 border-t border-slate-800 flex items-center justify-between text-xs font-mono font-bold text-emerald-400 group-hover:translate-x-1 transition-transform">
+              <span>Explorar Audiflow AI</span>
+              <span>→</span>
+            </div>
+          </a>
+
+        </div>
+      </div>
+
+      <!-- ESCÁNER PERIMETRAL EN VIVO (HERO SCANNER - UNBLOCK AI SHIELD) -->
+      <div id="unblock-shield-section" class="scroll-mt-24 max-w-2xl mx-auto p-4 sm:p-5 rounded-2xl glass-shield glow-card text-left mb-8 border border-cyan-500/30">
         <div class="flex items-center justify-between mb-3">
           <div class="flex items-center gap-2">
             <span class="w-2.5 h-2.5 rounded-full bg-cyan-400 animate-pulse"></span>
             <span id="scanner-box-title" class="text-xs font-mono uppercase tracking-wider font-bold text-slate-200">
-              Escáner Perimetral de Certeza en Vivo
+              Solución 1: Escáner Perimetral de Certeza en Vivo
             </span>
           </div>
           <span class="text-[10px] font-mono text-cyan-400 bg-cyan-500/10 px-2 py-0.5 rounded border border-cyan-500/20">
@@ -267,7 +376,8 @@
   </section>
 
   <!-- SECCIÓN DE SOLUCIÓN DE PROCESOS LENTOS: AGENTES A LA MEDIDA -->
-  <section id="custom-agents-intro" class="py-20 bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 border-y border-indigo-500/20 relative overflow-hidden">
+  <section id="custom-agents-section" class="scroll-mt-16 py-20 bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 border-y border-indigo-500/20 relative overflow-hidden">
+    <div id="custom-agents-intro" class="scroll-mt-20"></div>
     <!-- Efecto de resplandor sutil de fondo -->
     <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[400px] bg-indigo-500/10 blur-[140px] rounded-full pointer-events-none"></div>
 
@@ -277,7 +387,7 @@
       <div class="text-center max-w-3xl mx-auto mb-10">
         <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-indigo-500/10 border border-indigo-500/30 text-indigo-300 text-xs font-mono uppercase tracking-wider mb-4">
           <span class="w-2 h-2 rounded-full bg-indigo-400 animate-pulse"></span>
-          <span id="custom-division-badge">Solución de Procesos Empresariales • Agentes Hechos a la Medida</span>
+          <span id="custom-division-badge">Solución 2 de Boltech Group • Agentes Hechos a la Medida</span>
         </div>
 
         <h2 id="custom-agents-title" class="text-2xl sm:text-4xl lg:text-5xl font-black text-white tracking-tight leading-tight mb-4">
@@ -444,6 +554,107 @@
         <a href="#custom-agents-intro" onclick="document.getElementById('agent-pain-input')?.focus()" class="px-5 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-mono font-bold text-xs shadow-md transition-all shrink-0">
           Escribir mi Dolor ↑
         </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SECCIÓN 3 DE BOLTECH GROUP: AUDIFLOW AI (AUDITORÍA INTELIGENTE LEGAL Y FINANCIERA) -->
+  <section id="audiflow-section" class="scroll-mt-16 py-20 bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 border-t border-emerald-500/20 relative overflow-hidden">
+    <!-- Resplandor esmeralda de fondo -->
+    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[400px] bg-emerald-500/10 blur-[140px] rounded-full pointer-events-none"></div>
+
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 relative z-10">
+      
+      <!-- Encabezado de Sección -->
+      <div class="text-center max-w-3xl mx-auto mb-14">
+        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-300 text-xs font-mono uppercase tracking-wider mb-4">
+          <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+          <span id="audiflow-badge">Solución 3 de Boltech Group • Auditoría Inteligente de Contratos y Finanzas</span>
+        </div>
+
+        <h2 id="audiflow-title" class="text-2xl sm:text-4xl lg:text-5xl font-black text-white tracking-tight leading-tight mb-4">
+          Audiflow AI: Auditoría de Contratos y Finanzas<br>
+          <span class="bg-gradient-to-r from-emerald-400 via-teal-300 to-cyan-300 bg-clip-text text-transparent">
+            sin errores humanos, multas ocultas ni demoras.
+          </span>
+        </h2>
+
+        <p id="audiflow-desc" class="text-xs sm:text-sm text-slate-300 leading-relaxed max-w-2xl mx-auto font-sans">
+          Despachos legales, CFOs y direcciones operativas confían en Audiflow AI para auditar contratos comerciales, pólizas de seguros y facturas en segundos. Detectamos penalizaciones abusivas, intereses moratorios y discrepancias normativas antes de firmar.
+        </p>
+      </div>
+
+      <!-- Grid de los 3 Pilares de Certeza de Audiflow AI -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+        
+        <!-- Pilar 1: Redlines en Word -->
+        <div class="p-6 rounded-2xl bg-slate-900/90 border border-slate-800 hover:border-emerald-500/40 transition-all group">
+          <div class="w-12 h-12 rounded-xl bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
+            📑
+          </div>
+          <h3 class="text-base font-bold text-white mb-2 font-mono">Redlines en Word (.docx)</h3>
+          <p class="text-xs text-slate-400 leading-relaxed mb-4">
+            Recibes tu contrato con marcas de revisión oficial (Control de Cambios): cláusulas de riesgo tachadas y la redacción correctiva legal sugerida lista para negociar con tu contraparte.
+          </p>
+          <span class="text-[11px] font-mono text-emerald-400 block">✓ Compatible con Microsoft Word 365</span>
+        </div>
+
+        <!-- Pilar 2: Prevención de Multas y Cláusulas Abusivas -->
+        <div class="p-6 rounded-2xl bg-slate-900/90 border border-slate-800 hover:border-emerald-500/40 transition-all group">
+          <div class="w-12 h-12 rounded-xl bg-teal-500/10 border border-teal-500/30 flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
+            ⚖️
+          </div>
+          <h3 class="text-base font-bold text-white mb-2 font-mono">Detección de Cláusulas Leoninas</h3>
+          <p class="text-xs text-slate-400 leading-relaxed mb-4">
+            Audita automáticamente penalizaciones unilaterales, plazos de rescisión abusivos, intereses desmedidos, descalces de retención fiscal y ambigüedades jurídicas.
+          </p>
+          <span class="text-[11px] font-mono text-teal-400 block">✓ Mitigación de riesgos patrimoniales</span>
+        </div>
+
+        <!-- Pilar 3: Certificación y Confidencialidad -->
+        <div class="p-6 rounded-2xl bg-slate-900/90 border border-slate-800 hover:border-emerald-500/40 transition-all group">
+          <div class="w-12 h-12 rounded-xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
+            🔒
+          </div>
+          <h3 class="text-base font-bold text-white mb-2 font-mono">Privacidad en Memoria Volátil RAM</h3>
+          <p class="text-xs text-slate-400 leading-relaxed mb-4">
+            Tus documentos sensibles no se almacenan en servidores públicos ni entrenan modelos de terceros. La inferencia ocurre en memoria volátil efímera y se entrega directo a ti.
+          </p>
+          <span class="text-[11px] font-mono text-cyan-400 block">✓ Cero fuga de secretos industriales</span>
+        </div>
+
+      </div>
+
+      <!-- Tarjeta de Planes y Llamada a la Acción -->
+      <div class="p-8 rounded-3xl bg-gradient-to-r from-slate-900 via-slate-900/90 to-emerald-950/40 border border-emerald-500/30 flex flex-col lg:flex-row items-center justify-between gap-8">
+        
+        <div class="text-left max-w-xl">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 text-emerald-300 text-[11px] font-mono font-bold uppercase mb-3">
+            <span>🚀</span> <span>Planes Fiduciarios de Audiflow AI</span>
+          </div>
+          <h3 class="text-xl sm:text-2xl font-black text-white font-mono mb-2">
+            Comienza a auditar tus contratos hoy mismo
+          </h3>
+          <p class="text-xs text-slate-300 leading-relaxed mb-4">
+            Elige entre auditar un contrato específico con reporte formal por <strong>$19.00 USD</strong> o habilitar la <strong>Suscripción Corporativa B2B por $69.00 USD / mes</strong> para todo tu departamento legal o financiero con soporte dedicado de Boltech Group.
+          </p>
+          <div class="flex flex-wrap gap-4 text-xs font-mono text-slate-300">
+            <span class="flex items-center gap-1.5 text-emerald-400"><span>✓</span> Reporte Individual: $19 USD</span>
+            <span class="flex items-center gap-1.5 text-emerald-400"><span>✓</span> Suite Ilimitada: $69 USD / mes</span>
+            <span class="flex items-center gap-1.5 text-emerald-400"><span>✓</span> Pagos vía Wompi, Tarjeta o Strike</span>
+          </div>
+        </div>
+
+        <div class="flex flex-col sm:flex-row lg:flex-col gap-3 shrink-0 w-full lg:w-auto">
+          <a href="https://wa.me/50375743444?text=Hola%20BolTech%20Group,%20deseo%20una%20demostración%20de%20Audiflow%20AI%20para%20auditar%20contratos%20y%20finanzas" target="_blank" rel="noopener noreferrer" class="px-6 py-3.5 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-black text-xs font-mono uppercase tracking-wider transition-all shadow-lg shadow-emerald-500/25 flex items-center justify-center gap-2 text-center">
+            <span>💬</span> <span>Solicitar Demo vía WhatsApp (+503 7574 3444)</span>
+          </a>
+          <button type="button" onclick="openManualModal()" class="px-6 py-3 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 font-bold text-xs font-mono transition-all border border-slate-700 text-center">
+            <span>📖</span> <span>Ver Manual de Operación</span>
+          </button>
+        </div>
+
       </div>
 
     </div>
@@ -1282,22 +1493,26 @@
 
 
   <!-- FOOTER -->
-  <footer class="border-t border-slate-800 bg-cyber-black py-8 text-center text-xs font-mono text-slate-500">
-    <div class="max-w-6xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-3">
+  <footer class="border-t border-slate-800 bg-cyber-black py-10 text-center text-xs font-mono text-slate-500">
+    <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-4">
       <div class="flex items-center gap-2 text-slate-400">
-        <span>🛡️ <strong id="footer-brand-name">BolTech Group</strong></span>
+        <span>🏢 <strong id="footer-brand-name">BolTech Group</strong></span>
         <span>•</span>
-        <span>Autonomous Cyber-Defense & Operational Certainty</span>
+        <span>Tecnología Autónoma, Ciberdefensa & Certeza Operativa 24/7</span>
       </div>
-      <div>
-        <span>Desarrollado sobre Google Antigravity & Vercel Cloud 24/7</span>
+      <div class="flex flex-wrap justify-center items-center gap-3 text-slate-400">
+        <a href="#unblock-shield-section" onclick="focusScanInput()" class="hover:text-cyan-400 transition-colors">🛡️ Unblock AI Shield</a>
+        <span>•</span>
+        <a href="#custom-agents-section" onclick="focusPainInput()" class="hover:text-indigo-400 transition-colors">🤖 Custom Agents</a>
+        <span>•</span>
+        <a href="#audiflow-section" class="hover:text-emerald-400 transition-colors">📊 Audiflow AI</a>
+        <span>•</span>
+        <a href="/cabina" target="_blank" class="hover:text-amber-300 transition-colors">🚀 Cabina Cloud</a>
       </div>
       <div class="flex items-center gap-3">
         <span>WhatsApp: <a href="https://wa.me/50375743444" target="_blank" rel="noopener noreferrer" class="text-emerald-400 underline hover:text-emerald-300">+503 7574 3444</a></span>
         <span>•</span>
         <span>Settlement: <a href="https://strike.me/rick2818" target="_blank" rel="noopener noreferrer" class="text-cyan-400 underline">rick2818@strike.me</a></span>
-        <span>•</span>
-        <span>Soporte: <button type="button" onclick="openSupportModal()" class="text-cyan-400 underline hover:text-cyan-300 cursor-pointer">BolTech Support</button></span>
       </div>
     </div>
   </footer>
@@ -2334,6 +2549,22 @@
           submitBtn.disabled = false;
           if (submitLabel) submitLabel.textContent = '✓ Procesado (Acceso Disponible)';
         }
+      }
+    }
+
+    function focusScanInput() {
+      const el = document.getElementById('hero-scan-input');
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        setTimeout(() => el.focus(), 400);
+      }
+    }
+
+    function focusPainInput() {
+      const el = document.getElementById('agent-pain-input');
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        setTimeout(() => el.focus(), 400);
       }
     }
 
