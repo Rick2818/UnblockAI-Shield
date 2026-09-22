@@ -4,7 +4,8 @@
   "cleanUrls": true,
   "trailingSlash": false,
   "rewrites": [
-    { "source": "/boltech", "destination": "/boltech.html" }
+    { "source": "/boltech", "destination": "/boltech.html" },
+    { "source": "/cabina", "destination": "/cabina.html" }
   ],
   "headers": [
     {

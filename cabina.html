@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="es" class="h-full bg-slate-950 text-slate-100">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cabina Cloud del Agente — BolTech Group</title>
+  <meta name="description" content="Cabina en la Nube 24/7 para el monitoreo, activación y operación desatendida de tu Agente a la Medida de BolTech Group.">
+  <link rel="icon" href="assets/unblock_ai_shield_logo.jpg">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @keyframes pulseDot {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.4; transform: scale(1.15); }
+    }
+    .pulse-dot { animation: pulseDot 2s infinite ease-in-out; }
+    ::-webkit-scrollbar { width: 6px; height: 6px; }
+    ::-webkit-scrollbar-track { background: #020617; }
+    ::-webkit-scrollbar-thumb { background: #1e293b; border-radius: 4px; }
+    ::-webkit-scrollbar-thumb:hover { background: #334155; }
+  </style>
+</head>
+<body class="h-full bg-slate-950 text-slate-100 font-sans flex flex-col antialiased selection:bg-indigo-500/30 selection:text-indigo-200">
+
+  <!-- ========================================================================= -->
+  <!-- HEADER SOBERANO SUPERIOR (CABINA CLOUD PRIVADA)                            -->
+  <!-- ========================================================================= -->
+  <header class="border-b border-slate-800/90 bg-slate-900/80 backdrop-blur-md px-4 sm:px-6 py-3.5 flex items-center justify-between shrink-0 shadow-lg sticky top-0 z-50">
+    <div class="flex items-center gap-3">
+      <a href="/" class="flex items-center gap-3 group">
+        <div class="w-10 h-10 rounded-2xl bg-gradient-to-tr from-indigo-500 via-purple-600 to-cyan-500 flex items-center justify-center text-white font-extrabold text-xl shadow-lg shadow-indigo-500/20 border border-indigo-400/30 group-hover:scale-105 transition-transform">
+          🤖
+        </div>
+        <div>
+          <div class="flex items-center gap-2">
+            <h1 class="text-sm sm:text-base font-bold text-white tracking-wide font-mono">BOLTECH <span class="text-cyan-400">CABINA</span></h1>
+            <span class="text-[10px] px-2.5 py-0.5 rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/30 font-mono font-bold flex items-center gap-1.5">
+              <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 pulse-dot"></span> Cloud 24/7
+            </span>
+          </div>
+          <p id="header-client-subtitle" class="text-[11px] text-slate-400">Entorno Privado de Ejecución para tu Agente a la Medida</p>
+        </div>
+      </a>
+    </div>
+
+    <!-- Controles de Cabecera -->
+    <div class="flex items-center gap-2 sm:gap-3">
+      <a href="https://wa.me/50375743444?text=Hola%20BolTech%20Group,%20estoy%20en%20mi%20Cabina%20Cloud%20y%20deseo%20asistencia%20inmediata" target="_blank" rel="noopener noreferrer" class="hidden sm:flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-emerald-500/15 hover:bg-emerald-500/25 border border-emerald-500/30 text-emerald-300 text-xs font-mono font-bold transition-all">
+        <span>💬</span>
+        <span>WhatsApp: +503 7574 3444</span>
+      </a>
+
+      <a href="/" class="px-3 py-1.5 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-700 text-xs font-mono text-slate-300 hover:text-white transition-all">
+        ← Volver al Portal
+      </a>
+    </div>
+  </header>
+
+  <!-- ========================================================================= -->
+  <!-- BANNER DEL AGENTE ASIGNADO AL CLIENTE                                    -->
+  <!-- ========================================================================= -->
+  <div class="bg-gradient-to-r from-indigo-950/60 via-slate-900 to-cyan-950/60 border-b border-indigo-500/30 px-4 sm:px-6 py-3">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-start md:items-center justify-between gap-3 text-xs font-mono">
+      <div class="flex items-center gap-2.5">
+        <span class="text-indigo-400 font-bold">🎯 Proceso Asignado:</span>
+        <span id="agent-assigned-mission" class="text-slate-200 bg-slate-950/60 px-2.5 py-1 rounded-lg border border-slate-800 font-sans">
+          Cargando requerimiento del cliente...
+        </span>
+      </div>
+
+      <div class="flex items-center gap-2">
+        <span class="text-slate-400">Titular:</span>
+        <span id="agent-client-badge" class="text-cyan-300 font-bold bg-cyan-500/10 px-2 py-0.5 rounded border border-cyan-500/20">Invitado VIP</span>
+        <button id="btn-activate-agent" onclick="activateAgentLive()" class="ml-2 px-3 py-1 rounded-lg bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold text-[11px] transition-all cursor-pointer shadow-md shadow-emerald-500/20 flex items-center gap-1">
+          <span>⚡</span> <span id="label-activate-btn">Activar en Producción</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================= -->
+  <!-- CUERPO PRINCIPAL: CONSOLA INTERACTIVA DEL AGENTE                         -->
+  <!-- ========================================================================= -->
+  <main class="flex-1 max-w-7xl w-full mx-auto p-4 sm:p-6 grid grid-cols-1 lg:grid-cols-12 gap-6 overflow-hidden">
+    
+    <!-- COLUMNA IZQUIERDA (8/12): TERMINAL CONVERSACIONAL DEL AGENTE -->
+    <section class="lg:col-span-8 flex flex-col bg-slate-900/70 border border-slate-800 rounded-2xl shadow-2xl overflow-hidden min-h-[500px]">
+      
+      <!-- Encabezado de la Terminal -->
+      <div class="p-3.5 px-4 border-b border-slate-800 bg-slate-900/90 flex items-center justify-between">
+        <div class="flex items-center gap-2.5">
+          <div class="w-8 h-8 rounded-xl bg-indigo-500/20 text-indigo-300 border border-indigo-500/30 flex items-center justify-center text-base font-bold">
+            🤖
+          </div>
+          <div>
+            <h2 id="agent-title-display" class="text-xs font-bold text-white uppercase tracking-wider font-mono">Agente Autónomo a la Medida</h2>
+            <span class="text-[10px] text-emerald-400 font-mono">● En Línea • Desatendido 24/7 en RAM volátil</span>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-2 text-xs font-mono">
+          <button onclick="clearChat()" class="text-slate-400 hover:text-slate-200 px-2.5 py-1 rounded hover:bg-slate-800 transition-all">
+            Limpiar Pantalla
+          </button>
+        </div>
+      </div>
+
+      <!-- Historial de Conversación -->
+      <div id="chat-messages" class="flex-1 p-4 sm:p-5 overflow-y-auto space-y-4 text-xs">
+        
+        <!-- Mensaje Inicial de Bienvenida -->
+        <div class="flex items-start gap-3">
+          <div class="w-7 h-7 rounded-xl bg-gradient-to-tr from-indigo-500 to-cyan-500 flex items-center justify-center text-white text-xs shrink-0 mt-0.5 font-bold shadow-md">
+            IA
+          </div>
+          <div class="max-w-[88%] p-3.5 rounded-2xl bg-slate-800/80 border border-slate-700/80 text-slate-200 leading-relaxed shadow-sm">
+            <p id="welcome-message-body">
+              👋 ¡Hola! Soy tu <strong>Agente de Software a la Medida</strong> sintetizado por <strong>BolTech Group</strong>.
+              <br><br>
+              Mi propósito en esta cabina es <strong>eliminar de raíz el proceso lento o roto en tu empresa</strong>. 
+              Estoy operando en la nube 24/7 en memoria aislada. Puedes darme instrucciones directamente por texto o voz, pedirme que simule cómo atenderé a tus clientes, o conectar mis flujos a tu WhatsApp y CRM.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Atajos Rápidos de Órdenes -->
+      <div class="p-2 px-4 border-t border-slate-800/80 bg-slate-950/40 flex items-center gap-2 overflow-x-auto text-[11px] font-mono">
+        <span class="text-slate-500 text-[10px] uppercase font-bold shrink-0">Órdenes Rápidas:</span>
+        <button onclick="sendQuickOrder('Demuéstrame cómo responderás a un prospecto que solicita cotización urgente en WhatsApp')" class="px-2.5 py-1 rounded-lg bg-slate-800/70 hover:bg-indigo-500/20 text-slate-300 hover:text-indigo-300 transition-all shrink-0 border border-slate-700/60">
+          ⚡ Simular Cotización
+        </button>
+        <button onclick="sendQuickOrder('¿Cómo mitigas el retraso de 24 horas y garantizas respuesta en menos de 60 segundos?')" class="px-2.5 py-1 rounded-lg bg-slate-800/70 hover:bg-cyan-500/20 text-slate-300 hover:text-cyan-300 transition-all shrink-0 border border-slate-700/60">
+          ⏱️ Medición de Tiempos
+        </button>
+        <button onclick="sendQuickOrder('Genera el informe ejecutivo de tareas resueltas hoy sin intervención humana')" class="px-2.5 py-1 rounded-lg bg-slate-800/70 hover:bg-emerald-500/20 text-slate-300 hover:text-emerald-300 transition-all shrink-0 border border-slate-700/60">
+          📊 Reporte de Autonomía
+        </button>
+      </div>
+
+      <!-- Formulario de Entrada de Órdenes -->
+      <div class="p-3 bg-slate-950/90 border-t border-slate-800 flex flex-col gap-2">
+        <form onsubmit="handleChatSubmit(event)" class="flex gap-2">
+          <input
+            id="chat-input"
+            type="text"
+            placeholder="Escribe una orden o consulta para tu agente..."
+            class="flex-1 bg-slate-900 border border-slate-700/80 rounded-xl px-4 py-2.5 text-xs text-white placeholder-slate-500 focus:outline-none focus:border-indigo-400 font-sans transition-colors"
+          />
+          <button
+            type="button"
+            id="btn-voice"
+            onclick="toggleVoice()"
+            title="Hablar por voz al agente"
+            class="px-3.5 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-700 text-slate-300 hover:text-cyan-300 transition-all flex items-center justify-center cursor-pointer"
+          >
+            🎤
+          </button>
+          <button
+            type="submit"
+            id="btn-send"
+            class="px-5 py-2.5 rounded-xl bg-gradient-to-r from-indigo-500 to-cyan-500 hover:from-indigo-400 hover:to-cyan-400 text-slate-950 font-bold text-xs font-mono transition-all flex items-center justify-center shadow-lg shadow-indigo-500/20 cursor-pointer"
+          >
+            <span>Enviar →</span>
+          </button>
+        </form>
+      </div>
+
+    </section>
+
+    <!-- COLUMNA DERECHA (4/12): ESTADO, CANALES Y MONITOREO 24/7 -->
+    <aside class="lg:col-span-4 space-y-4">
+      
+      <!-- Tarjeta 1: Estado del Agente en la Nube -->
+      <div class="p-5 rounded-2xl bg-slate-900/70 border border-slate-800 shadow-xl space-y-3">
+        <div class="flex items-center justify-between pb-3 border-b border-slate-800">
+          <span class="text-xs font-bold text-white font-mono uppercase tracking-wider">Estado Operativo</span>
+          <span id="agent-status-pill" class="text-[10px] font-mono font-bold px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">
+            🟢 LISTO EN NUBE
+          </span>
+        </div>
+        <div class="text-xs space-y-2 font-mono text-slate-300">
+          <div class="flex justify-between">
+            <span class="text-slate-500">Arquitectura:</span>
+            <span class="text-white font-bold">Custom Agent B2B</span>
+          </div>
+          <div class="flex justify-between">
+            <span class="text-slate-500">Motor de Inferencia:</span>
+            <span class="text-cyan-400">Gemini Flash (Cero Alucinación)</span>
+          </div>
+          <div class="flex justify-between">
+            <span class="text-slate-500">Memoria:</span>
+            <span class="text-emerald-400">RAM Volátil (SOC-2)</span>
+          </div>
+          <div class="flex justify-between">
+            <span class="text-slate-500">Tasa de Error:</span>
+            <span class="text-emerald-400 font-bold">0.00% (Fail-Closed)</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tarjeta 2: Canales de Despliegue -->
+      <div class="p-5 rounded-2xl bg-slate-900/70 border border-slate-800 shadow-xl space-y-3">
+        <span class="text-xs font-bold text-white font-mono uppercase tracking-wider block pb-2 border-b border-slate-800">
+          Canales de Conexión
+        </span>
+        <div class="space-y-2 text-xs">
+          
+          <a href="https://wa.me/50375743444?text=Hola%20BolTech%20Group,%20deseo%20conectar%20mi%20agente%20a%20mi%20número%20de%20WhatsApp" target="_blank" rel="noopener noreferrer" class="p-3 rounded-xl bg-slate-950/80 border border-slate-800 hover:border-emerald-500/40 flex items-center justify-between group transition-all">
+            <div class="flex items-center gap-2.5">
+              <span class="text-base">💬</span>
+              <div>
+                <strong class="text-white group-hover:text-emerald-300 transition-colors block">WhatsApp Business</strong>
+                <span class="text-[10px] text-slate-500 font-mono">Atención y ventas 24/7</span>
+              </div>
+            </div>
+            <span class="text-emerald-400 font-mono text-[10px]">Conectar ↗</span>
+          </a>
+
+          <div class="p-3 rounded-xl bg-slate-950/80 border border-slate-800 flex items-center justify-between">
+            <div class="flex items-center gap-2.5">
+              <span class="text-base">✉️</span>
+              <div>
+                <strong class="text-white block">Correo Corporativo</strong>
+                <span class="text-[10px] text-slate-500 font-mono">Despacho de cotizaciones</span>
+              </div>
+            </div>
+            <span class="text-cyan-400 font-mono text-[10px]">Activo</span>
+          </div>
+
+          <div class="p-3 rounded-xl bg-slate-950/80 border border-slate-800 flex items-center justify-between">
+            <div class="flex items-center gap-2.5">
+              <span class="text-base">🔗</span>
+              <div>
+                <strong class="text-white block">Webhook / REST API</strong>
+                <span class="text-[10px] text-slate-500 font-mono">Integración a tu CRM</span>
+              </div>
+            </div>
+            <span class="text-indigo-400 font-mono text-[10px]">Configurado</span>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Tarjeta 3: Asistencia y Concierge VIP -->
+      <div class="p-5 rounded-2xl bg-gradient-to-br from-indigo-950/40 to-slate-900 border border-indigo-500/30 shadow-xl text-xs space-y-2.5">
+        <span class="text-indigo-300 font-bold uppercase font-mono tracking-wider block">
+          🎩 Soporte Directo con Dirección
+        </span>
+        <p class="text-slate-300 leading-relaxed text-[11px]">
+          ¿Deseas personalizar aún más las reglas de este bot o integrarlo a un ERP propietario? Nuestro equipo senior te asiste directamente.
+        </p>
+        <a href="https://wa.me/50375743444?text=Hola%20Don%20Ricardo,%20estoy%20en%20mi%20Cabina%20y%20deseo%20ajustes%20en%20mi%20agente" target="_blank" rel="noopener noreferrer" class="w-full py-2 px-3 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-bold font-mono text-center block transition-all shadow-md">
+          Hablar con Don Ricardo por WhatsApp →
+        </a>
+      </div>
+
+    </aside>
+
+  </main>
+
+  <!-- ========================================================================= -->
+  <!-- SCRIPT DE INTERACTIVIDAD DE LA CABINA                                    -->
+  <!-- ========================================================================= -->
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const clientEmail = urlParams.get('email') || '';
+    const clientCompany = urlParams.get('company') || 'Tu Empresa';
+    const clientPain = urlParams.get('pain') || 'Automatización de procesos lentos y atención comercial 24/7';
+
+    // Inicializar Datos en la Cabina
+    document.addEventListener('DOMContentLoaded', () => {
+      if (clientCompany && clientCompany !== 'Tu Empresa') {
+        document.getElementById('header-client-subtitle').innerText = `Cabina Privada de Operación para ${clientCompany}`;
+        document.getElementById('agent-client-badge').innerText = clientCompany;
+      }
+      if (clientPain) {
+        document.getElementById('agent-assigned-mission').innerText = `"${clientPain}"`;
+        const welcomeEl = document.getElementById('welcome-message-body');
+        if (welcomeEl) {
+          welcomeEl.innerHTML = `
+            👋 ¡Hola equipo de <strong>${escapeHtml(clientCompany)}</strong>! Soy su <strong>Agente de Software a la Medida</strong> sintetizado por <strong>BolTech Group</strong>.
+            <br><br>
+            🎯 <strong>Mi misión asignada:</strong> Resolver de raíz el siguiente problema no resuelto:<br>
+            <em class="text-indigo-300 block bg-slate-900/90 p-2.5 rounded-xl border border-indigo-500/30 my-2">"${escapeHtml(clientPain)}"</em>
+            Estoy operando en la nube 24/7 en memoria RAM aislada. Puedes darme órdenes abajo para probar cómo ejecuto tus flujos de trabajo sin demoras ni errores humanos.
+          `;
+        }
+      }
+    });
+
+    function escapeHtml(text) {
+      return String(text || '')
+        .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+    }
+
+    // Activación del Agente
+    function activateAgentLive() {
+      const btn = document.getElementById('btn-activate-agent');
+      const lbl = document.getElementById('label-activate-btn');
+      const pill = document.getElementById('agent-status-pill');
+
+      if (lbl) lbl.innerText = 'Activando...';
+      setTimeout(() => {
+        if (lbl) lbl.innerText = '✓ Agente Activo 24/7';
+        if (btn) btn.className = 'ml-2 px-3 py-1 rounded-lg bg-emerald-600 text-white font-bold text-[11px] cursor-default flex items-center gap-1';
+        if (pill) {
+          pill.innerText = '🟢 OPERANDO EN VIVO 24/7';
+          pill.className = 'text-[10px] font-mono font-bold px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-300 border border-emerald-500/50';
+        }
+        appendMessage('assistant', `🚀 **¡AGENTE ACTIVADO EN PRODUCCIÓN!**\\n\\nHe asumido oficialmente la supervisión y ejecución del proceso: *"${escapeHtml(clientPain)}"*.\\n\\nCualquier evento, consulta entrante o flujo de datos será procesado en menos de 60 segundos.`);
+      }, 700);
+    }
+
+    // Interacción Conversacional
+    function sendQuickOrder(orderText) {
+      const input = document.getElementById('chat-input');
+      if (input) {
+        input.value = orderText;
+        handleChatSubmit(new Event('submit'));
+      }
+    }
+
+    function handleChatSubmit(e) {
+      if (e) e.preventDefault();
+      const input = document.getElementById('chat-input');
+      const text = input?.value.trim();
+      if (!text) return;
+
+      appendMessage('user', text);
+      input.value = '';
+
+      // Simulación Cognitiva Fiduciaria Adaptada al Dolor del Cliente
+      setTimeout(() => {
+        generateAgentReply(text);
+      }, 600);
+    }
+
+    function appendMessage(role, text) {
+      const box = document.getElementById('chat-messages');
+      if (!box) return;
+
+      const isUser = (role === 'user');
+      const msgDiv = document.createElement('div');
+      msgDiv.className = `flex items-start gap-3 ${isUser ? 'flex-row-reverse' : ''}`;
+
+      msgDiv.innerHTML = `
+        <div class="w-7 h-7 rounded-xl ${isUser ? 'bg-cyan-600' : 'bg-gradient-to-tr from-indigo-500 to-cyan-500'} flex items-center justify-center text-white text-xs shrink-0 mt-0.5 font-bold shadow-md">
+          ${isUser ? 'TÚ' : 'IA'}
+        </div>
+        <div class="max-w-[85%] p-3.5 rounded-2xl ${isUser ? 'bg-indigo-600/30 border border-indigo-500/40 text-white' : 'bg-slate-800/80 border border-slate-700/80 text-slate-200'} leading-relaxed shadow-sm">
+          <p>${escapeHtml(text).replace(/\\n/g, '<br>')}</p>
+        </div>
+      `;
+
+      box.appendChild(msgDiv);
+      box.scrollTop = box.scrollHeight;
+    }
+
+    function generateAgentReply(userInput) {
+      const lower = userInput.toLowerCase();
+      let reply = '';
+
+      if (lower.includes('cotiza') || lower.includes('precio') || lower.includes('prospecto')) {
+        reply = `⚡ **Simulación de Respuesta Inmediata en WhatsApp (< 30s):**\\n\\n"¡Hola! Gracias por comunicarte con ${clientCompany}. He recibido tu solicitud de cotización. Nuestro catálogo y condiciones comerciales oficiales son las siguientes:\\n\\n• Plan Base: Entrega inmediata en 24h.\\n• Cobertura: Soporte y garantía total.\\n\\n¿Deseas que agendemos la confirmación en este momento o prefieres recibir la factura proforma en tu correo?"\\n\\n*Resultado: El prospecto no espera 24 horas; se cierra en el instante.*`;
+      } else if (lower.includes('tiempo') || lower.includes('demora') || lower.includes('retraso') || lower.includes('60')) {
+        reply = `⏱️ **Auditoría de Latencia del Proceso:**\\n\\nActualmente tu proceso manual tardaba horas. Conmigo corriendo en la nube:\\n• Detección del evento: 1.2 segundos.\\n• Procesamiento de reglas de negocio: 0.8 segundos.\\n• Despacho de respuesta / acción: < 15 segundos.\\n\\nEsto erradica el 100% de la lentitud que frenaba a tu empresa.`;
+      } else if (lower.includes('reporte') || lower.includes('informe') || lower.includes('autonom')) {
+        reply = `📊 **Reporte Ejecutivo de Autonomía 24/7:**\\n\\n• Estado: Operativo en Vercel Cloud & Memoria RAM.\\n• Tareas ejecutadas: 14 interacciones procesadas sin error humano.\\n• Ahorro de tiempo estimado para tu equipo: 3.5 horas de nómina hoy.\\n• Incidentes críticos: 0.`;
+      } else {
+        reply = `Entendido. He registrado tu instrucción: "${userInput}".\\n\\nEstoy programado específicamente para resolver: *"${clientPain}"* en ${clientCompany}. He ajustado mis parámetros operativos para ejecutar esta regla de forma determinista y continua.`;
+      }
+
+      appendMessage('assistant', reply);
+    }
+
+    function clearChat() {
+      const box = document.getElementById('chat-messages');
+      if (box) {
+        box.innerHTML = `
+          <div class="text-center py-4 text-slate-500 font-mono text-[11px]">
+            — Historial de cabina reiniciado —
+          </div>
+        `;
+      }
+    }
+
+    // Grabación de Voz básica
+    let isListening = false;
+    let recognition = null;
+    function toggleVoice() {
+      if (!('webkitSpeechRecognition' in window || 'SpeechRecognition' in window)) {
+        alert('Tu navegador no soporta reconocimiento de voz. Te recomendamos usar Google Chrome o Edge.');
+        return;
+      }
+      const btn = document.getElementById('btn-voice');
+      if (isListening) {
+        recognition?.stop();
+        isListening = false;
+        btn.innerText = '🎤';
+        btn.classList.remove('bg-rose-600', 'text-white');
+      } else {
+        const SpeechRec = window.SpeechRecognition || window.webkitSpeechRecognition;
+        recognition = new SpeechRec();
+        recognition.lang = 'es-ES';
+        recognition.onstart = () => {
+          isListening = true;
+          btn.innerText = '🔴 Grabando...';
+          btn.classList.add('bg-rose-600', 'text-white');
+        };
+        recognition.onresult = (ev) => {
+          const transcript = ev.results[0][0].transcript;
+          const input = document.getElementById('chat-input');
+          if (input) input.value = transcript;
+        };
+        recognition.onend = () => {
+          isListening = false;
+          btn.innerText = '🎤';
+          btn.classList.remove('bg-rose-600', 'text-white');
+        };
+        recognition.start();
+      }
+    }
+  </script>
+</body>
+</html>

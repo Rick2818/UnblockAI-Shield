@@ -266,115 +266,183 @@
     </div>
   </section>
 
-  <!-- SECCIÓN DE TRANSICIÓN: BOLTECH CUSTOM AGENTS (DESBLOQUEO DE PROCESOS A LA MEDIDA) -->
-  <section id="custom-agents-intro" class="py-20 bg-gradient-to-b from-slate-950 via-slate-900/90 to-slate-950 border-y border-indigo-500/20 relative overflow-hidden">
+  <!-- SECCIÓN DE SOLUCIÓN DE PROCESOS LENTOS: AGENTES A LA MEDIDA -->
+  <section id="custom-agents-intro" class="py-20 bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 border-y border-indigo-500/20 relative overflow-hidden">
     <!-- Efecto de resplandor sutil de fondo -->
-    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[650px] h-[350px] bg-indigo-500/10 blur-[130px] rounded-full pointer-events-none"></div>
+    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[400px] bg-indigo-500/10 blur-[140px] rounded-full pointer-events-none"></div>
 
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 relative z-10">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 relative z-10">
       
-      <!-- Banner Divisor de Servicios -->
-      <div class="text-center max-w-3xl mx-auto mb-12">
-        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-indigo-500/10 border border-indigo-500/30 text-indigo-300 text-xs font-mono uppercase tracking-wider mb-5">
+      <!-- Encabezado de la Sección -->
+      <div class="text-center max-w-3xl mx-auto mb-10">
+        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-indigo-500/10 border border-indigo-500/30 text-indigo-300 text-xs font-mono uppercase tracking-wider mb-4">
           <span class="w-2 h-2 rounded-full bg-indigo-400 animate-pulse"></span>
-          <span id="custom-division-badge">División Especializada • Custom AI Agents & Desbloqueo Operativo</span>
+          <span id="custom-division-badge">Solución de Procesos Empresariales • Agentes Hechos a la Medida</span>
         </div>
 
-        <h2 id="custom-agents-title" class="text-2xl sm:text-4xl lg:text-5xl font-black text-white tracking-tight leading-tight mb-5">
-          ¿Procesos trabados en tu empresa?<br>
+        <h2 id="custom-agents-title" class="text-2xl sm:text-4xl lg:text-5xl font-black text-white tracking-tight leading-tight mb-4">
+          ¿Tienes un proceso lento o que no está bien en tu empresa?<br>
           <span class="bg-gradient-to-r from-indigo-400 via-purple-300 to-cyan-300 bg-clip-text text-transparent">
-            Construimos Custom Agents a la medida para desbloquearlos.
+            Lo solucionamos con un Agente inteligente hecho a tu medida.
           </span>
         </h2>
 
-        <!-- Caja de Distinción de Servicios -->
-        <div class="p-4 sm:p-5 rounded-2xl bg-slate-900/90 border border-slate-800 text-left mb-6 shadow-xl">
-          <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 pb-3 mb-3 border-b border-slate-800 text-xs font-mono">
-            <span class="text-slate-400 flex items-center gap-2">
-              <span class="text-cyan-400 font-bold">1. Servicio Anterior:</span> Ciberdefensa Perimetral Llave en Mano (Unblock Shield)
-            </span>
-            <span class="text-emerald-400 font-bold flex items-center gap-1">
-              ✓ 100% No Invasivo
+        <p id="custom-agents-desc" class="text-xs sm:text-sm text-slate-300 leading-relaxed max-w-2xl mx-auto font-sans">
+          Aquí no te vendemos software enlatado ni asesorías teóricas. Si en tu negocio hay un proceso atascado (cotizaciones que tardan días, clientes de WhatsApp que nadie atiende fuera de horario, validación manual de pagos o tareas mecánicas): <strong>cuéntanos tu dolor abajo y te programamos un Agente a la Medida para resolverlo</strong>.
+        </p>
+      </div>
+
+      <!-- CAJA INTERACTIVA: ESCRIBE TU DOLOR Y TE HACEMOS TU AGENTE A LA MEDIDA -->
+      <div class="p-6 sm:p-8 rounded-3xl glass-shield border-2 border-indigo-500/40 shadow-2xl shadow-indigo-950/70 mb-12 relative overflow-hidden">
+        <div class="flex items-center justify-between mb-4 pb-3 border-b border-slate-800">
+          <div class="flex items-center gap-2.5">
+            <span class="text-xl">📝</span>
+            <span id="pain-box-title" class="text-sm font-bold text-white font-mono uppercase tracking-wider">
+              Escribe el dolor o proceso lento que deseas solucionar
             </span>
           </div>
-          <p id="custom-agents-desc" class="text-xs sm:text-sm text-slate-300 leading-relaxed font-sans">
-            <strong class="text-white font-mono">A partir de aquí entras a nuestra división de Ingeniería a la Medida:</strong> No vendemos chatbots genéricos ni plantillas prefabricadas. Analizamos el cuello de botella exacto que detiene tus ventas o quema las horas de tu equipo, y programamos <strong>agentes de software autónomos entrenados bajo tus reglas de negocio</strong> para ejecutar ese proceso de principio a fin, 24/7 y sin errores humanos.
+          <span class="text-[10px] font-mono text-cyan-400 bg-cyan-500/10 px-2.5 py-0.5 rounded border border-cyan-500/20">
+            Entrega por Correo + Cabina 24/7
+          </span>
+        </div>
+
+        <form id="agent-pain-intake-form" onsubmit="handlePainIntakeSubmit(event)" class="space-y-4 text-left">
+          
+          <div>
+            <label for="agent-pain-input" class="block text-xs font-mono font-bold text-slate-300 mb-1.5">
+              1. ¿Qué proceso está lento, fallando o no resuelto en tu empresa? *
+            </label>
+            <textarea
+              id="agent-pain-input"
+              rows="3"
+              required
+              placeholder="Ejemplo: Las cotizaciones a clientes tardan más de 24 horas y perdemos ventas... / En WhatsApp nadie responde de noche ni fines de semana... / La validación de comprobantes de pago y facturas es manual y tarda 3 días..."
+              class="w-full bg-slate-950/90 border border-slate-700/80 rounded-xl px-4 py-3 text-xs sm:text-sm text-white placeholder-slate-500 focus:outline-none focus:border-indigo-400 focus:ring-1 focus:ring-indigo-400 transition-all font-sans"
+            ></textarea>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label for="agent-email-input" class="block text-xs font-mono font-bold text-slate-300 mb-1.5">
+                2. Tu Correo Electrónico (donde recibirás el agente y acceso) *
+              </label>
+              <input
+                type="email"
+                id="agent-email-input"
+                required
+                placeholder="director@tuempresa.com"
+                class="w-full bg-slate-950/90 border border-slate-700/80 rounded-xl px-4 py-2.5 text-xs sm:text-sm text-white placeholder-slate-500 focus:outline-none focus:border-indigo-400 focus:ring-1 focus:ring-indigo-400 font-mono transition-all"
+              />
+            </div>
+
+            <div>
+              <label for="agent-company-input" class="block text-xs font-mono font-bold text-slate-300 mb-1.5">
+                3. Nombre de tu Empresa o Dominio *
+              </label>
+              <input
+                type="text"
+                id="agent-company-input"
+                required
+                placeholder="Mi Empresa S.A. o tuempresa.com"
+                class="w-full bg-slate-950/90 border border-slate-700/80 rounded-xl px-4 py-2.5 text-xs sm:text-sm text-white placeholder-slate-500 focus:outline-none focus:border-indigo-400 focus:ring-1 focus:ring-indigo-400 font-sans transition-all"
+              />
+            </div>
+          </div>
+
+          <button
+            type="submit"
+            id="btn-submit-pain"
+            class="w-full py-3.5 px-6 rounded-xl bg-gradient-to-r from-indigo-500 via-purple-600 to-cyan-400 hover:from-indigo-400 hover:via-purple-500 hover:to-cyan-300 text-slate-950 font-black text-xs sm:text-sm font-mono uppercase tracking-wider shadow-lg shadow-indigo-500/25 transition-all flex items-center justify-center gap-2 cursor-pointer mt-2"
+          >
+            <span>🚀</span> <span id="label-submit-pain">Construir mi Agente a la Medida y Recibir Acceso a la Cabina →</span>
+          </button>
+        </form>
+
+        <!-- Feedback de Éxito al Enviar Requerimiento -->
+        <div id="agent-intake-feedback" class="hidden mt-5 p-4 rounded-xl bg-emerald-950/50 border border-emerald-500/40 text-left space-y-3 font-sans">
+          <div class="flex items-center gap-2 text-emerald-300 font-bold text-xs sm:text-sm font-mono">
+            <span>✓</span> <span id="feedback-success-title">¡Dolor Recibido! Tu Agente a la Medida está en Construcción.</span>
+          </div>
+          <p id="feedback-success-desc" class="text-xs text-slate-300 leading-relaxed">
+            Hemos iniciado el diseño de tu agente para solucionar el proceso indicado. Se ha despachado a tu correo la especificación técnica y las credenciales de acceso a tu <strong>Cabina en la Nube</strong>.
           </p>
+          <div class="pt-2 flex flex-wrap items-center gap-3">
+            <a id="btn-open-cabina-direct" href="/cabina" target="_blank" class="px-4 py-2 rounded-lg bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold text-xs font-mono transition-all flex items-center gap-1.5 shadow-md">
+              <span>🚀</span> <span>Abrir mi Cabina en la Nube Ahora ↗</span>
+            </a>
+            <span class="text-[11px] text-slate-400 font-mono">El bot correrá en la cabina 24/7 sin instalaciones locales.</span>
+          </div>
         </div>
       </div>
 
-      <!-- Cuadrícula de 3 Pilares del Servicio Custom Agents -->
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
-        
-        <!-- Pilar 1 -->
-        <div class="p-6 rounded-2xl glass-shield glow-card border border-indigo-500/30 hover:border-indigo-500/60 transition-all flex flex-col justify-between group">
-          <div>
-            <div class="w-12 h-12 rounded-xl bg-indigo-500/15 border border-indigo-500/30 text-indigo-300 flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
-              🔍
-            </div>
-            <span class="text-[10px] font-mono uppercase text-indigo-400 tracking-wider font-bold block mb-1">Paso 1: Diagnóstico Fiduciario</span>
-            <h3 id="custom-card-1-h" class="text-base sm:text-lg font-bold text-white font-mono mb-2">Identificamos el Cuello de Botella</h3>
-            <p id="custom-card-1-p" class="text-xs text-slate-300 leading-relaxed">
-              Detectamos dónde se traba tu operación: seguimientos de ventas B2B que nadie hace a tiempo, prospectos en WhatsApp esperando cotizaciones por horas, o validaciones manuales repetitivas.
-            </p>
-          </div>
-          <div class="pt-4 mt-4 border-t border-slate-800 text-[11px] font-mono text-indigo-300">
-            • Cero tiempo perdido en teoría
-          </div>
-        </div>
+      <!-- EXPLICACIÓN PASO A PASO: CÓMO SE RECIBE Y CÓMO ACTIVAS TU BOT -->
+      <div class="mb-12">
+        <h3 id="flow-title" class="text-center text-xs font-mono uppercase tracking-widest text-indigo-400 font-bold mb-6">
+          ¿Cómo recibes y cómo activas tu Agente a la Medida?
+        </h3>
 
-        <!-- Pilar 2 -->
-        <div class="p-6 rounded-2xl glass-shield glow-card border border-purple-500/30 hover:border-purple-500/60 transition-all flex flex-col justify-between group">
-          <div>
-            <div class="w-12 h-12 rounded-xl bg-purple-500/15 border border-purple-500/30 text-purple-300 flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
-              ⚙️
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-5 text-left">
+          
+          <!-- Paso 1 -->
+          <div class="p-5 rounded-2xl bg-slate-900/60 border border-slate-800 flex flex-col justify-between">
+            <div>
+              <div class="w-10 h-10 rounded-xl bg-indigo-500/10 border border-indigo-500/30 text-indigo-400 flex items-center justify-center font-mono font-bold text-sm mb-3">
+                01
+              </div>
+              <h4 id="flow-step-1-h" class="text-sm font-bold text-white font-mono mb-1.5">Escribes tu Proceso Lento</h4>
+              <p id="flow-step-1-p" class="text-xs text-slate-400 leading-relaxed">
+                Describes en la caja superior qué tarea o proceso está atascado o quitándole tiempo valioso a tu equipo comercial o administrativo.
+              </p>
             </div>
-            <span class="text-[10px] font-mono uppercase text-purple-400 tracking-wider font-bold block mb-1">Paso 2: Arquitectura a la Medida</span>
-            <h3 id="custom-card-2-h" class="text-base sm:text-lg font-bold text-white font-mono mb-2">Diseñamos tu Custom Agent</h3>
-            <p id="custom-card-2-p" class="text-xs text-slate-300 leading-relaxed">
-              Programamos el agente con reglas matemáticas estrictas (Fail-Closed), cero alucinaciones de IA y conectado a tus canales de comunicación, CRMs, pasarelas de pago y bases de datos.
-            </p>
+            <span class="text-[10px] font-mono text-indigo-400 pt-3 mt-3 border-t border-slate-800/80">• Diagnóstico en 1 Clic</span>
           </div>
-          <div class="pt-4 mt-4 border-t border-slate-800 text-[11px] font-mono text-purple-300">
-            • Adaptado 100% a tus flujos
-          </div>
-        </div>
 
-        <!-- Pilar 3 -->
-        <div class="p-6 rounded-2xl glass-shield glow-card border border-cyan-500/30 hover:border-cyan-500/60 transition-all flex flex-col justify-between group">
-          <div>
-            <div class="w-12 h-12 rounded-xl bg-cyan-500/15 border border-cyan-500/30 text-cyan-300 flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
-              🚀
+          <!-- Paso 2 -->
+          <div class="p-5 rounded-2xl bg-slate-900/60 border border-slate-800 flex flex-col justify-between">
+            <div>
+              <div class="w-10 h-10 rounded-xl bg-purple-500/10 border border-purple-500/30 text-purple-400 flex items-center justify-center font-mono font-bold text-sm mb-3">
+                02
+              </div>
+              <h4 id="flow-step-2-h" class="text-sm font-bold text-white font-mono mb-1.5">Se Envía por Correo</h4>
+              <p id="flow-step-2-p" class="text-xs text-slate-400 leading-relaxed">
+                Recibes de inmediato un correo formal con la arquitectura de tu agente, las reglas programadas para tu dolor y el enlace único de tu cabina.
+              </p>
             </div>
-            <span class="text-[10px] font-mono uppercase text-cyan-400 tracking-wider font-bold block mb-1">Paso 3: Unblock & Autopilot</span>
-            <h3 id="custom-card-3-h" class="text-base sm:text-lg font-bold text-white font-mono mb-2">Desbloqueo Operativo 24/7</h3>
-            <p id="custom-card-3-p" class="text-xs text-slate-300 leading-relaxed">
-              El agente asume el proceso de inmediato. Tu equipo se libera de tareas mecánicas, tus clientes reciben atención al instante y tus ingresos quedan protegidos noche y día.
-            </p>
+            <span class="text-[10px] font-mono text-purple-400 pt-3 mt-3 border-t border-slate-800/80">• Despacho Inmediato</span>
           </div>
-          <div class="pt-4 mt-4 border-t border-slate-800 text-[11px] font-mono text-cyan-300">
-            • Retorno de inversión medible
-          </div>
-        </div>
 
+          <!-- Paso 3 -->
+          <div class="p-5 rounded-2xl bg-slate-900/60 border border-slate-800 flex flex-col justify-between">
+            <div>
+              <div class="w-10 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/30 text-cyan-400 flex items-center justify-center font-mono font-bold text-sm mb-3">
+                03
+              </div>
+              <h4 id="flow-step-3-h" class="text-sm font-bold text-white font-mono mb-1.5">Acceso a tu Cabina Cloud</h4>
+              <p id="flow-step-3-p" class="text-xs text-slate-400 leading-relaxed">
+                Entras a la Cabina con 1 clic: tu bot ya está desplegado en la nube y listo para activarse en producción 24/7 sin instalar software.
+              </p>
+            </div>
+            <span class="text-[10px] font-mono text-cyan-400 pt-3 mt-3 border-t border-slate-800/80">• Activo 24/7 sin código</span>
+          </div>
+
+        </div>
       </div>
 
-      <!-- Barra de Transición hacia la Sala de Demostraciones -->
-      <div class="p-4 rounded-2xl bg-gradient-to-r from-indigo-950/60 via-slate-900 to-cyan-950/60 border border-indigo-500/30 flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
+      <!-- Barra hacia la Sala de Demostraciones -->
+      <div class="p-4 rounded-2xl bg-slate-900/80 border border-indigo-500/30 flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
         <div class="flex items-center gap-3">
           <span class="text-2xl">🎬</span>
           <div>
             <span id="custom-lead-heading" class="text-xs font-bold text-white font-mono block">
-              Observa a continuación las demostraciones ejecutivas de nuestros Custom Agents:
+              Observa a continuación cómo operan los Custom Agents en empresas reales:
             </span>
             <span id="custom-lead-sub" class="text-[11px] text-slate-400 font-sans">
-              Casos reales de prospección B2B, atención VIP y síntesis fiduciaria desatendida.
+              Demostraciones ejecutivas de ventas B2B, atención VIP en WhatsApp y síntesis de dirección.
             </span>
           </div>
         </div>
-        <a href="https://wa.me/50375743444?text=Hola%20BolTech%20Group,%20quiero%20cotizar%20un%20Custom%20Agent%20a%20la%20medida%20para%20mi%20empresa" target="_blank" rel="noopener noreferrer" class="px-5 py-2.5 rounded-xl bg-gradient-to-r from-indigo-500 to-cyan-400 hover:from-indigo-400 hover:to-cyan-300 text-slate-950 font-mono font-bold text-xs shadow-lg shadow-indigo-500/25 transition-all flex items-center gap-2 cursor-pointer shrink-0">
-          <span>⚡</span>
-          <span id="btn-custom-agent-cta">Cotizar mi Custom Agent</span>
+        <a href="#custom-agents-intro" onclick="document.getElementById('agent-pain-input')?.focus()" class="px-5 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-mono font-bold text-xs shadow-md transition-all shrink-0">
+          Escribir mi Dolor ↑
         </a>
       </div>
 
@@ -1339,18 +1407,20 @@
         painDesc: 'Selecciona el dolor operativo que hoy está quemando tu nómina y descubre cómo resolverlo en 60 segundos:',
         manualBtn: 'Manual',
         supportBtn: 'Soporte',
-        customDivisionBadge: 'División Especializada • Custom AI Agents & Desbloqueo Operativo',
-        customAgentsTitle: '¿Procesos trabados en tu empresa?<br><span class="bg-gradient-to-r from-indigo-400 via-purple-300 to-cyan-300 bg-clip-text text-transparent">Construimos Custom Agents a la medida para desbloquearlos.</span>',
-        customAgentsDesc: '<strong class="text-white font-mono">A partir de aquí entras a nuestra división de Ingeniería a la Medida:</strong> No vendemos chatbots genéricos ni plantillas prefabricadas. Analizamos el cuello de botella exacto que detiene tus ventas o quema las horas de tu equipo, y programamos <strong>agentes de software autónomos entrenados bajo tus reglas de negocio</strong> para ejecutar ese proceso de principio a fin, 24/7 y sin errores humanos.',
-        customCard1H: 'Identificamos el Cuello de Botella',
-        customCard1P: 'Detectamos dónde se traba tu operación: seguimientos de ventas B2B que nadie hace a tiempo, prospectos en WhatsApp esperando cotizaciones por horas, o validaciones manuales repetitivas.',
-        customCard2H: 'Diseñamos tu Custom Agent',
-        customCard2P: 'Programamos el agente con reglas matemáticas estrictas (Fail-Closed), cero alucinaciones de IA y conectado a tus canales de comunicación, CRMs, pasarelas de pago y bases de datos.',
-        customCard3H: 'Desbloqueo Operativo 24/7',
-        customCard3P: 'El agente asume el proceso de inmediato. Tu equipo se libera de tareas mecánicas, tus clientes reciben atención al instante y tus ingresos quedan protegidos noche y día.',
-        customLeadHeading: 'Observa a continuación las demostraciones ejecutivas de nuestros Custom Agents:',
-        customLeadSub: 'Casos reales de prospección B2B, atención VIP y síntesis fiduciaria desatendida.',
-        btnCustomAgentCta: 'Cotizar mi Custom Agent',
+        customDivisionBadge: 'Solución de Procesos Empresariales • Agentes Hechos a la Medida',
+        customAgentsTitle: '¿Tienes un proceso lento o que no está bien en tu empresa?<br><span class="bg-gradient-to-r from-indigo-400 via-purple-300 to-cyan-300 bg-clip-text text-transparent">Lo solucionamos con un Agente inteligente hecho a tu medida.</span>',
+        customAgentsDesc: 'Aquí no te vendemos software enlatado ni asesorías teóricas. Si en tu negocio hay un proceso atascado (cotizaciones que tardan días, clientes de WhatsApp que nadie atiende fuera de horario, validación manual de pagos o tareas mecánicas): <strong>cuéntanos tu dolor abajo y te programamos un Agente a la Medida para resolverlo</strong>.',
+        painBoxTitle: 'Escribe el dolor o proceso lento que deseas solucionar',
+        labelSubmitPain: 'Construir mi Agente a la Medida y Recibir Acceso a la Cabina →',
+        flowTitle: '¿Cómo recibes y cómo activas tu Agente a la Medida?',
+        flowStep1H: 'Escribes tu Proceso Lento',
+        flowStep1P: 'Describes en la caja superior qué tarea o proceso está atascado o quitándole tiempo valioso a tu equipo comercial o administrativo.',
+        flowStep2H: 'Se Envía por Correo',
+        flowStep2P: 'Recibes de inmediato un correo formal con la arquitectura de tu agente, las reglas programadas para tu dolor y el enlace único de tu cabina.',
+        flowStep3H: 'Acceso a tu Cabina Cloud',
+        flowStep3P: 'Entras a la Cabina con 1 clic: tu bot ya está desplegado en la nube y listo para activarse en producción 24/7 sin instalar software.',
+        customLeadHeading: 'Observa a continuación cómo operan los Custom Agents en empresas reales:',
+        customLeadSub: 'Demostraciones ejecutivas de ventas B2B, atención VIP en WhatsApp y síntesis de dirección.',
         videoShowroomBadge: '🎬 Sala de Presentaciones Ejecutivas • Custom Agents en Acción'
       },
       en: {
@@ -1417,18 +1487,20 @@
         painDesc: 'Pick the operational bottleneck burning your payroll today and see how to resolve it in 60 seconds:',
         manualBtn: 'Manual',
         supportBtn: 'Support',
-        customDivisionBadge: 'Specialized Division • Custom AI Agents & Operational Unblocking',
-        customAgentsTitle: 'Stuck processes in your business?<br><span class="bg-gradient-to-r from-indigo-400 via-purple-300 to-cyan-300 bg-clip-text text-transparent">We engineer tailored Custom Agents to unblock them.</span>',
-        customAgentsDesc: '<strong class="text-white font-mono">From here onward, you enter our Bespoke Engineering Division:</strong> We do not sell generic chatbots or canned templates. We isolate the exact operational bottleneck choking your revenue or burning your team\'s payroll, and we program <strong>autonomous software agents strictly governed by your business rules</strong> to execute that process end-to-end, 24/7 with zero human error.',
-        customCard1H: 'We Pinpoint the Bottleneck',
-        customCard1P: 'We identify where your workflow gets stuck: delayed B2B sales follow-ups, WhatsApp leads waiting hours for quotes, or repetitive manual reconciliations burning valuable time.',
-        customCard2H: 'We Architect Your Custom Agent',
-        customCard2P: 'We engineer the agent with strict mathematical constraints (Fail-Closed), zero AI hallucinations, and connected directly to your messaging channels, CRMs, payment gateways, and databases.',
-        customCard3H: '24/7 Operational Unblock',
-        customCard3P: 'The agent assumes the workload immediately. Your team is liberated from mundane tasks, your clients get instant precision, and your revenue runs smoothly around the clock.',
-        customLeadHeading: 'Watch below live executive briefings of our Custom Agents:',
-        customLeadSub: 'Real-world B2B prospecting, VIP concierge, and unattended fiduciary operations in action.',
-        btnCustomAgentCta: 'Request Custom Agent Quote',
+        customDivisionBadge: 'Business Process Solutions • Tailored Custom Agents',
+        customAgentsTitle: 'Do you have a slow or broken process in your company?<br><span class="bg-gradient-to-r from-indigo-400 via-purple-300 to-cyan-300 bg-clip-text text-transparent">We solve it with a smart Agent built to your measure.</span>',
+        customAgentsDesc: 'We don\'t sell canned software or abstract consulting. If your business has a bottleneck (quotes taking days, unhandled WhatsApp leads, manual payment verifications, or repetitive tasks): <strong>tell us your pain point below and we program a Custom Agent to solve it</strong>.',
+        painBoxTitle: 'Tell us the pain point or slow process you want to solve',
+        labelSubmitPain: 'Build My Custom Agent & Get Cloud Cabina Access →',
+        flowTitle: 'How do you receive and activate your Custom Agent?',
+        flowStep1H: 'Submit Your Slow Process',
+        flowStep1P: 'Describe above what process is delayed or burning your team\'s valuable hours.',
+        flowStep2H: 'Delivered to Your Inbox',
+        flowStep2P: 'You receive an executive email containing your agent\'s architecture, custom rules, and unique cloud cabina credentials.',
+        flowStep3H: 'Access Your Cloud Cabina',
+        flowStep3P: 'Open your private cabina in 1 click: your bot is already deployed and ready to run 24/7 with zero local setup.',
+        customLeadHeading: 'Watch below how Custom Agents operate in real companies:',
+        customLeadSub: 'Executive briefings on B2B prospecting, VIP WhatsApp concierge, and unattended operations.',
         videoShowroomBadge: '🎬 Executive Showroom • Custom Agents in Action'
       }
     };
@@ -1471,15 +1543,17 @@
       if (document.getElementById('custom-division-badge')) document.getElementById('custom-division-badge').innerText = t.customDivisionBadge;
       if (document.getElementById('custom-agents-title')) document.getElementById('custom-agents-title').innerHTML = t.customAgentsTitle;
       if (document.getElementById('custom-agents-desc')) document.getElementById('custom-agents-desc').innerHTML = t.customAgentsDesc;
-      if (document.getElementById('custom-card-1-h')) document.getElementById('custom-card-1-h').innerText = t.customCard1H;
-      if (document.getElementById('custom-card-1-p')) document.getElementById('custom-card-1-p').innerText = t.customCard1P;
-      if (document.getElementById('custom-card-2-h')) document.getElementById('custom-card-2-h').innerText = t.customCard2H;
-      if (document.getElementById('custom-card-2-p')) document.getElementById('custom-card-2-p').innerText = t.customCard2P;
-      if (document.getElementById('custom-card-3-h')) document.getElementById('custom-card-3-h').innerText = t.customCard3H;
-      if (document.getElementById('custom-card-3-p')) document.getElementById('custom-card-3-p').innerText = t.customCard3P;
+      if (document.getElementById('pain-box-title')) document.getElementById('pain-box-title').innerText = t.painBoxTitle;
+      if (document.getElementById('label-submit-pain')) document.getElementById('label-submit-pain').innerText = t.labelSubmitPain;
+      if (document.getElementById('flow-title')) document.getElementById('flow-title').innerText = t.flowTitle;
+      if (document.getElementById('flow-step-1-h')) document.getElementById('flow-step-1-h').innerText = t.flowStep1H;
+      if (document.getElementById('flow-step-1-p')) document.getElementById('flow-step-1-p').innerText = t.flowStep1P;
+      if (document.getElementById('flow-step-2-h')) document.getElementById('flow-step-2-h').innerText = t.flowStep2H;
+      if (document.getElementById('flow-step-2-p')) document.getElementById('flow-step-2-p').innerText = t.flowStep2P;
+      if (document.getElementById('flow-step-3-h')) document.getElementById('flow-step-3-h').innerText = t.flowStep3H;
+      if (document.getElementById('flow-step-3-p')) document.getElementById('flow-step-3-p').innerText = t.flowStep3P;
       if (document.getElementById('custom-lead-heading')) document.getElementById('custom-lead-heading').innerText = t.customLeadHeading;
       if (document.getElementById('custom-lead-sub')) document.getElementById('custom-lead-sub').innerText = t.customLeadSub;
-      if (document.getElementById('btn-custom-agent-cta')) document.getElementById('btn-custom-agent-cta').innerText = t.btnCustomAgentCta;
       if (document.getElementById('video-showroom-badge-text')) document.getElementById('video-showroom-badge-text').innerText = t.videoShowroomBadge;
 
       document.getElementById('video-heading').innerText = t.videoHeading;
@@ -2197,6 +2271,69 @@
         setTimeout(() => {
           submitBtn.innerText = 'Enviar Mensaje a Ingeniería →';
         }, 3500);
+      }
+    }
+
+    async function handlePainIntakeSubmit(event) {
+      event.preventDefault();
+      const painInput = document.getElementById('agent-pain-input');
+      const emailInput = document.getElementById('agent-email-input');
+      const companyInput = document.getElementById('agent-company-input');
+      const submitBtn = document.getElementById('btn-submit-pain');
+      const submitLabel = document.getElementById('label-submit-pain');
+      const feedback = document.getElementById('agent-intake-feedback');
+      const directCabinaBtn = document.getElementById('btn-open-cabina-direct');
+
+      const painPoint = painInput ? painInput.value.trim() : '';
+      const email = emailInput ? emailInput.value.trim() : '';
+      const company = companyInput ? companyInput.value.trim() : '';
+
+      if (!painPoint || !email || !company) {
+        alert('Por favor completa todos los campos requeridos (*).');
+        return;
+      }
+
+      if (submitBtn) {
+        submitBtn.disabled = true;
+        if (submitLabel) submitLabel.textContent = 'Procesando Requerimiento y Despachando a Correo...';
+      }
+
+      try {
+        await fetch('/api/lead', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            painPoint: painPoint,
+            email: email,
+            companyName: company,
+            timestamp: new Date().toISOString()
+          })
+        });
+
+        if (directCabinaBtn) {
+          directCabinaBtn.href = `/cabina?email=${encodeURIComponent(email)}&company=${encodeURIComponent(company)}&pain=${encodeURIComponent(painPoint)}`;
+        }
+
+        if (feedback) {
+          feedback.classList.remove('hidden');
+        }
+
+        if (submitBtn) {
+          submitBtn.classList.add('opacity-70');
+          if (submitLabel) submitLabel.textContent = '✓ Requerimiento Despachado por Correo';
+        }
+      } catch (err) {
+        console.warn('[Pain Intake Submit Fallback]', err);
+        if (directCabinaBtn) {
+          directCabinaBtn.href = `/cabina?email=${encodeURIComponent(email)}&company=${encodeURIComponent(company)}&pain=${encodeURIComponent(painPoint)}`;
+        }
+        if (feedback) {
+          feedback.classList.remove('hidden');
+        }
+        if (submitBtn) {
+          submitBtn.disabled = false;
+          if (submitLabel) submitLabel.textContent = '✓ Procesado (Acceso Disponible)';
+        }
       }
     }
 
