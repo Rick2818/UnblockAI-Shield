@@ -574,7 +574,7 @@
             class="w-full h-full object-cover"
           >
             <source src="assets/videos/gerente_general_estrategia_ejecutiva.mp4" type="video/mp4">
-            <track src="assets/videos/gerente_general_estrategia_ejecutiva.srt" kind="subtitles" srclang="es" label="Español" default>
+            <track src="assets/videos/gerente_general_estrategia_ejecutiva.vtt" kind="subtitles" srclang="es" label="Español" default>
             Tu navegador no soporta reproducción de video HTML5.
           </video>
         </div>
@@ -2216,8 +2216,20 @@
         }
         if (btnMaster) btnMaster.className = activeClass;
       }
+      const agentVid = document.getElementById('agent-solution-video');
+      if (agentVid && !agentVid.paused) agentVid.pause();
       vid.load();
     }
+
+    // Control inteligente de reproducción: exclusión mutua de audio entre reproductores
+    document.addEventListener('DOMContentLoaded', function initVideoExclusion() {
+      const v1 = document.getElementById('main-executive-video');
+      const v2 = document.getElementById('agent-solution-video');
+      if (v1 && v2) {
+        v1.addEventListener('play', () => { if (!v2.paused) v2.pause(); });
+        v2.addEventListener('play', () => { if (!v1.paused) v1.pause(); });
+      }
+    });
 
     // MODAL DEL INFORME TÉCNICO Y DIAGNÓSTICO PERIMETRAL
     // Parches generados por el servidor a partir del resultado REAL del escaneo (solo lo que faltó)
