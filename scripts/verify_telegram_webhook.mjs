@@ -77,9 +77,11 @@ async function verifyWebhook() {
       console.error('   Telegram no entregará mensajes a la nube.');
       console.error(`   👉 Ejecuta para corregir: node scripts/deploy_cloud_webhook.mjs ${EXPECTED_PROD_URL.replace('/api/telegram', '')}`);
       hasErrors = true;
-    } else if (!info.url.includes('/api/telegram')) {
-      console.warn(`\n⚠️ ADVERTENCIA: La URL registrada (${info.url}) no termina en /api/telegram.`);
+    } else if (!info.url.startsWith('https://')) {
+      console.error(`\n❌ ERROR: La URL registrada (${info.url}) no es un endpoint HTTPS seguro.`);
       hasErrors = true;
+    } else {
+      console.log(`\n🔗 Webhook activo verificado: ${info.url}`);
     }
 
     // 2. Verificación de errores de entrega de Telegram
