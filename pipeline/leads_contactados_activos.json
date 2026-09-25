@@ -253,7 +253,7 @@
     "severity": "CRITICA"
   },
   {
-    "id": "audit_1789754820236_703",
+    "id": "audit_1790362798374_629",
     "company": "Estafeta Carga",
     "domain": "estafeta.com",
     "decisionMakerRole": "Oficial de Seguridad / Dirección de Operaciones",
@@ -263,12 +263,12 @@
     "strikePaymentDestination": "rick2818@strike.me",
     "checkoutUrl": "https://unblock-shield.vercel.app/?domain=estafeta.com",
     "directStrikePaymentUrl": "https://strike.me/rick2818",
-    "status": "ENVIADO_IMPACTO_2_PAZ_MENTAL",
+    "status": "AUDITADO_Y_LISTO_PARA_NOTIFICACION",
     "contactEmail": "proyectos@estafeta.com",
     "outboundMessage": {
       "to": "proyectos@estafeta.com",
-      "subject": "🎬 Video de 70s: La paz mental de operar estafeta.com 100% blindado 24/7",
-      "body": "Estimado equipo directivo y de operaciones en Estafeta Carga,\n\nLe escribo en seguimiento a nuestra notificación perimetral previa con una premisa clara:\n\nNo vendemos horas de consultoría teórica, diagnósticos abstractos ni reuniones interminables. Entregamos soluciones llave en mano y la auténtica paz mental de operar 24/7 sin riesgos mientras usted y su equipo descansan.\n\n¿Cuánto vale para su dirección tener la certeza absoluta de que sus pasarelas de pago no fallarán silenciosamente, que no existen cabeceras vulnerables a inyección y que los datos de sus clientes están blindados?\n\n▶️ VEA EL VIDEO BRIEFING EJECUTIVO (70 Segundos):\n🔗 https://unblock-shield.vercel.app/?domain=estafeta.com\n\nPuntos clave de por qué directores confían en nosotros (Nuestros 5 Anclajes de Confianza):\n1. Cero Invasión Previa: Jamás solicitamos contraseñas, claves API ni acceso a bases de datos internas. Todo opera de forma defensiva desde el perímetro en la nube.\n2. Micro-Riesgo Asimétrico: Descargue el informe técnico defensivo con los parches listos para pegar en producción por solo $19 USD (Plan Flash).\n3. Centinela Autónomo 24/7: Agente soberano que vigila su infraestructura por solo $2.30 USD al día ($69 USD/mes).\n4. Garantía Fiduciaria Total de 7 Días: Si en su primera semana el sistema no le ahorra al menos 10 horas de trabajo manual, reembolsamos el 100% de su pago sin fricción ni preguntas.\n5. Privacidad Bancaria SOC-2: Cero retención en disco; 100% procesado en memoria volátil RAM y purgado al instante.\n\nVea el video explicativo y aplique el blindaje en 60 segundos:\n🔗 https://unblock-shield.vercel.app/?domain=estafeta.com\n\nLiquidación directa e instantánea por Bitcoin Lightning Network a: rick2818@strike.me\n\nQuedo a su entera disposición.\n\nAtentamente,\nEspecialista Senior en Seguridad y Automatización Fiduciaria — Destraba AI"
+      "subject": "Informe de Seguridad Perimetral: 3 vulnerabilidades detectadas en estafeta.com",
+      "body": "Estimado equipo directivo y técnico en Estafeta Carga,\n\nLe saluda el equipo de Destraba AI (firma de ingeniería en automatización operativa y ciberseguridad defensiva sobre Google Antigravity y Cloud 24/7).\n\nDurante nuestra inspección perimetral no invasiva sobre estafeta.com, identificamos 3 anomalías críticas que impactan la seguridad y conversión de su portal:\n• Falta Content-Security-Policy (Riesgo XSS)\n• Falta Strict-Transport-Security (Riesgo SSL Strip)\n• Falta X-Frame-Options (Riesgo Clickjacking)\n\n🎬 Video Demostración (70s):\nhttps://unblock-shield.vercel.app/?domain=estafeta.com\n\n¿Por qué confiar en nosotros antes de abrir cualquier puerta? (Nuestros 5 Anclajes de Apertura):\n1. Cero Invasión Previa: No solicitamos contraseñas, claves API ni acceso a bases de datos. Todo el análisis corre desde el exterior.\n2. Micro-Riesgo: Puedes verificar el diagnóstico gratis en 15s en nuestra web o descargar el informe ejecutivo con los parches listos para producción por solo $19 USD (Plan Flash).\n3. Garantía Fiduciaria 100% (7 Días): Si en 7 días la solución no le ahorra al menos 10 horas de trabajo manual a su equipo, reembolsamos el 100% de su pago sin preguntas.\n4. Privacidad Bancaria SOC-2: Cero retención en disco; 100% procesado en memoria RAM volátil aislada.\n5. Matemática de Ahorro: Un operador o analista cuesta $600+ USD/mes; nuestro agente autónomo opera 24/7 por $2.30 USD al día ($69 USD/mes).\n\nAudite su portal en vivo o aplique los parches en 60 segundos:\n🔗 https://unblock-shield.vercel.app/?domain=estafeta.com\n\nO liquidación instantánea sin comisiones vía Bitcoin Lightning Network a: rick2818@strike.me\n\nAtentamente,\nEspecialista Senior de Ciberseguridad & Ventas Fiduciarias — Destraba AI"
     },
     "flawsCount": 3,
     "flaws": [
@@ -291,7 +291,7 @@
     "currentImpact": 2
   },
   {
-    "id": "audit_1789754819035_103",
+    "id": "audit_1790362797254_445",
     "company": "Redpack Logística",
     "domain": "redpack.com.mx",
     "decisionMakerRole": "Oficial de Seguridad / Dirección de Operaciones",
@@ -301,12 +301,12 @@
     "strikePaymentDestination": "rick2818@strike.me",
     "checkoutUrl": "https://unblock-shield.vercel.app/?domain=redpack.com.mx",
     "directStrikePaymentUrl": "https://strike.me/rick2818",
-    "status": "ENVIADO_IMPACTO_2_PAZ_MENTAL",
+    "status": "AUDITADO_Y_LISTO_PARA_NOTIFICACION",
     "contactEmail": "contacto@redpack.com.mx",
     "outboundMessage": {
       "to": "contacto@redpack.com.mx",
-      "subject": "🎬 Video de 70s: La paz mental de operar redpack.com.mx 100% blindado 24/7",
-      "body": "Estimado equipo directivo y de operaciones en Redpack Logística,\n\nLe escribo en seguimiento a nuestra notificación perimetral previa con una premisa clara:\n\nNo vendemos horas de consultoría teórica, diagnósticos abstractos ni reuniones interminables. Entregamos soluciones llave en mano y la auténtica paz mental de operar 24/7 sin riesgos mientras usted y su equipo descansan.\n\n¿Cuánto vale para su dirección tener la certeza absoluta de que sus pasarelas de pago no fallarán silenciosamente, que no existen cabeceras vulnerables a inyección y que los datos de sus clientes están blindados?\n\n▶️ VEA EL VIDEO BRIEFING EJECUTIVO (70 Segundos):\n🔗 https://unblock-shield.vercel.app/?domain=redpack.com.mx\n\nPuntos clave de por qué directores confían en nosotros (Nuestros 5 Anclajes de Confianza):\n1. Cero Invasión Previa: Jamás solicitamos contraseñas, claves API ni acceso a bases de datos internas. Todo opera de forma defensiva desde el perímetro en la nube.\n2. Micro-Riesgo Asimétrico: Descargue el informe técnico defensivo con los parches listos para pegar en producción por solo $19 USD (Plan Flash).\n3. Centinela Autónomo 24/7: Agente soberano que vigila su infraestructura por solo $2.30 USD al día ($69 USD/mes).\n4. Garantía Fiduciaria Total de 7 Días: Si en su primera semana el sistema no le ahorra al menos 10 horas de trabajo manual, reembolsamos el 100% de su pago sin fricción ni preguntas.\n5. Privacidad Bancaria SOC-2: Cero retención en disco; 100% procesado en memoria volátil RAM y purgado al instante.\n\nVea el video explicativo y aplique el blindaje en 60 segundos:\n🔗 https://unblock-shield.vercel.app/?domain=redpack.com.mx\n\nLiquidación directa e instantánea por Bitcoin Lightning Network a: rick2818@strike.me\n\nQuedo a su entera disposición.\n\nAtentamente,\nEspecialista Senior en Seguridad y Automatización Fiduciaria — Destraba AI"
+      "subject": "Informe de Seguridad Perimetral: 3 vulnerabilidades detectadas en redpack.com.mx",
+      "body": "Estimado equipo directivo y técnico en Redpack Logística,\n\nLe saluda el equipo de Destraba AI (firma de ingeniería en automatización operativa y ciberseguridad defensiva sobre Google Antigravity y Cloud 24/7).\n\nDurante nuestra inspección perimetral no invasiva sobre redpack.com.mx, identificamos 3 anomalías críticas que impactan la seguridad y conversión de su portal:\n• Falta Content-Security-Policy (Riesgo XSS)\n• Falta Strict-Transport-Security (Riesgo SSL Strip)\n• Certificado SSL Anómalo / Vencido: CERT_HAS_EXPIRED\n\n🎬 Video Demostración (70s):\nhttps://unblock-shield.vercel.app/?domain=redpack.com.mx\n\n¿Por qué confiar en nosotros antes de abrir cualquier puerta? (Nuestros 5 Anclajes de Apertura):\n1. Cero Invasión Previa: No solicitamos contraseñas, claves API ni acceso a bases de datos. Todo el análisis corre desde el exterior.\n2. Micro-Riesgo: Puedes verificar el diagnóstico gratis en 15s en nuestra web o descargar el informe ejecutivo con los parches listos para producción por solo $19 USD (Plan Flash).\n3. Garantía Fiduciaria 100% (7 Días): Si en 7 días la solución no le ahorra al menos 10 horas de trabajo manual a su equipo, reembolsamos el 100% de su pago sin preguntas.\n4. Privacidad Bancaria SOC-2: Cero retención en disco; 100% procesado en memoria RAM volátil aislada.\n5. Matemática de Ahorro: Un operador o analista cuesta $600+ USD/mes; nuestro agente autónomo opera 24/7 por $2.30 USD al día ($69 USD/mes).\n\nAudite su portal en vivo o aplique los parches en 60 segundos:\n🔗 https://unblock-shield.vercel.app/?domain=redpack.com.mx\n\nO liquidación instantánea sin comisiones vía Bitcoin Lightning Network a: rick2818@strike.me\n\nAtentamente,\nEspecialista Senior de Ciberseguridad & Ventas Fiduciarias — Destraba AI"
     },
     "flawsCount": 3,
     "flaws": [
@@ -329,22 +329,22 @@
     "currentImpact": 2
   },
   {
-    "id": "audit_1789754817757_666",
+    "id": "audit_1790362796008_350",
     "company": "SGS Logistics Central America",
     "domain": "sgs.com",
     "decisionMakerRole": "Oficial de Seguridad / Dirección de Operaciones",
     "country": "Global / CA",
     "operationalPain": "Brechas perimetrales detectadas: Falta Content-Security-Policy (Riesgo XSS), Falta Strict-Transport-Security (Riesgo SSL Strip), Falta X-Frame-Options (Riesgo Clickjacking)",
-    "offer": "$19 USD (Forensic Flash Audit + Security Patch) / $69 USD/mo (Autonomous 24/7 Agent)",
+    "offer": "$19 USD (Executive Flash Diagnostic + Security Patch) / $69 USD/mo (Autonomous 24/7 Agent)",
     "strikePaymentDestination": "rick2818@strike.me",
-    "checkoutUrl": "https://unblock-shield.vercel.app/?domain=sgs.com",
+    "checkoutUrl": "https://unblock-shield.vercel.app/?lang=en&domain=sgs.com",
     "directStrikePaymentUrl": "https://strike.me/rick2818",
-    "status": "ENVIADO_IMPACTO_2_PAZ_MENTAL",
+    "status": "AUDITADO_Y_LISTO_PARA_NOTIFICACION",
     "contactEmail": "enquiry@sgs.com",
     "outboundMessage": {
       "to": "enquiry@sgs.com",
-      "subject": "🎬 70s Video: 24/7 peace of mind and perimeter defense for sgs.com",
-      "body": "Dear Executive & Operations Team at SGS Logistics Central America,\n\nI am reaching out following our recent perimeter scan with a simple, direct commitment:\n\nWe do not sell theoretical advisory hours, lengthy PowerPoints, or billable consulting sessions. We deliver turnkey sovereign solutions and genuine 24/7 peace of mind while your team sleeps.\n\nHow much is it worth to know that your checkout pipeline will never silently drop transactions, that banking headers are strictly enforced, and that no perimeter injection can breach your customer data?\n\n▶️ WATCH THE 70-SECOND EXECUTIVE VIDEO BRIEFING:\n🔗 https://unblock-shield.vercel.app/?lang=en&domain=sgs.com\n\nWhy leading executives trust our infrastructure (Our 5 Fiduciary Trust Anchors):\n1. Zero Invasive Access: We never touch passwords, internal databases, or API credentials. 100% evaluated and deployed safely from the cloud perimeter.\n2. Micro-Risk Turnkey Solution: Download production-ready code patches in a single .zip for just $19 USD (Flash Plan).\n3. 24/7 Autopilot Sentinel: Autonomous agent continuously monitoring your endpoints for $69 USD/month ($2.30 USD/day).\n4. 7-Day Unconditional Fiduciary Guarantee: If this solution does not save your operations at least 10 hours in the first week, we refund 100% of your payment with zero questions.\n5. SOC-2 Grade Volatile Memory Vault: Zero disk storage; all operations run in isolated volatile RAM and are purged instantly.\n\nInspect your portal live or activate immediate peace of mind in 60 seconds:\n🔗 https://unblock-shield.vercel.app/?lang=en&domain=sgs.com\n\nInstant zero-fee settlement via Bitcoin Lightning Network: rick2818@strike.me\n\nBest regards,\nSenior Solutions & Cyber-Defense Team — Unblock AI"
+      "subject": "Perimeter Security Report: 3 critical flaws detected on sgs.com",
+      "body": "Dear Leadership & Engineering Team at SGS Logistics Central America,\n\nThis is the team at Unblock AI (autonomous operations engineering & defensive cybersecurity built on Google Antigravity & 24/7 Cloud Infrastructure).\n\nDuring our non-invasive external perimeter inspection of sgs.com, we identified 3 critical opportunities to harden security and eliminate checkout friction:\n• Falta Content-Security-Policy (Riesgo XSS)\n• Falta Strict-Transport-Security (Riesgo SSL Strip)\n• Falta X-Frame-Options (Riesgo Clickjacking)\n\n🎬 70s Executive Video Briefing:\nhttps://unblock-shield.vercel.app/?lang=en&domain=sgs.com\n\nWhy trust us before opening any door? (Our 5 Fiduciary Trust Anchors):\n1. Zero Invasive Access: We never ask for passwords, API keys, or internal database access. All evaluations run 100% externally.\n2. Micro-Risk Asymmetry: Run a free 15-second audit on our site or download the executive report and production-ready remediation patches for just $19 USD (Flash Plan).\n3. 7-Day Unconditional Fiduciary Guarantee: If the solution does not save your team at least 10 hours of manual operational work in the first 7 days, we refund 100% of your payment with zero friction.\n4. SOC-2 Grade Banking Privacy: Zero disk retention; 100% processed in volatile RAM and immediately purged.\n5. Objective ROI Math: A human operator costs $600+ USD/month; our autonomous agent runs 24/7 for $2.30 USD/day ($69 USD/month), paying for itself with a single recovered lead or resolved ticket.\n\nAudit your portal live or deploy patches in 60 seconds:\n🔗 https://unblock-shield.vercel.app/?lang=en&domain=sgs.com\n\nOr instant zero-fee settlement via Bitcoin Lightning Network to: rick2818@strike.me\n\nBest regards,\nSenior Cybersecurity & Solutions Team — Unblock AI"
     },
     "flawsCount": 3,
     "flaws": [
@@ -367,22 +367,22 @@
     "currentImpact": 2
   },
   {
-    "id": "audit_1789754816285_152",
+    "id": "audit_1790362794504_345",
     "company": "Intertek Centroamérica",
     "domain": "intertek.com",
     "decisionMakerRole": "Oficial de Seguridad / Dirección de Operaciones",
     "country": "Global / Regional",
     "operationalPain": "Brechas perimetrales detectadas: Falta Content-Security-Policy (Riesgo XSS), Falta Strict-Transport-Security (Riesgo SSL Strip), Falta X-Frame-Options (Riesgo Clickjacking)",
-    "offer": "$19 USD (Forensic Flash Audit + Security Patch) / $69 USD/mo (Autonomous 24/7 Agent)",
+    "offer": "$19 USD (Executive Flash Diagnostic + Security Patch) / $69 USD/mo (Autonomous 24/7 Agent)",
     "strikePaymentDestination": "rick2818@strike.me",
-    "checkoutUrl": "https://unblock-shield.vercel.app/?domain=intertek.com",
+    "checkoutUrl": "https://unblock-shield.vercel.app/?lang=en&domain=intertek.com",
     "directStrikePaymentUrl": "https://strike.me/rick2818",
-    "status": "ENVIADO_IMPACTO_2_PAZ_MENTAL",
+    "status": "AUDITADO_Y_LISTO_PARA_NOTIFICACION",
     "contactEmail": "info.latam@intertek.com",
     "outboundMessage": {
       "to": "info.latam@intertek.com",
-      "subject": "🎬 70s Video: 24/7 peace of mind and perimeter defense for intertek.com",
-      "body": "Dear Executive & Operations Team at Intertek Centroamérica,\n\nI am reaching out following our recent perimeter scan with a simple, direct commitment:\n\nWe do not sell theoretical advisory hours, lengthy PowerPoints, or billable consulting sessions. We deliver turnkey sovereign solutions and genuine 24/7 peace of mind while your team sleeps.\n\nHow much is it worth to know that your checkout pipeline will never silently drop transactions, that banking headers are strictly enforced, and that no perimeter injection can breach your customer data?\n\n▶️ WATCH THE 70-SECOND EXECUTIVE VIDEO BRIEFING:\n🔗 https://unblock-shield.vercel.app/?lang=en&domain=intertek.com\n\nWhy leading executives trust our infrastructure (Our 5 Fiduciary Trust Anchors):\n1. Zero Invasive Access: We never touch passwords, internal databases, or API credentials. 100% evaluated and deployed safely from the cloud perimeter.\n2. Micro-Risk Turnkey Solution: Download production-ready code patches in a single .zip for just $19 USD (Flash Plan).\n3. 24/7 Autopilot Sentinel: Autonomous agent continuously monitoring your endpoints for $69 USD/month ($2.30 USD/day).\n4. 7-Day Unconditional Fiduciary Guarantee: If this solution does not save your operations at least 10 hours in the first week, we refund 100% of your payment with zero questions.\n5. SOC-2 Grade Volatile Memory Vault: Zero disk storage; all operations run in isolated volatile RAM and are purged instantly.\n\nInspect your portal live or activate immediate peace of mind in 60 seconds:\n🔗 https://unblock-shield.vercel.app/?lang=en&domain=intertek.com\n\nInstant zero-fee settlement via Bitcoin Lightning Network: rick2818@strike.me\n\nBest regards,\nSenior Solutions & Cyber-Defense Team — Unblock AI"
+      "subject": "Perimeter Security Report: 3 critical flaws detected on intertek.com",
+      "body": "Dear Leadership & Engineering Team at Intertek Centroamérica,\n\nThis is the team at Unblock AI (autonomous operations engineering & defensive cybersecurity built on Google Antigravity & 24/7 Cloud Infrastructure).\n\nDuring our non-invasive external perimeter inspection of intertek.com, we identified 3 critical opportunities to harden security and eliminate checkout friction:\n• Falta Content-Security-Policy (Riesgo XSS)\n• Falta Strict-Transport-Security (Riesgo SSL Strip)\n• Falta X-Frame-Options (Riesgo Clickjacking)\n\n🎬 70s Executive Video Briefing:\nhttps://unblock-shield.vercel.app/?lang=en&domain=intertek.com\n\nWhy trust us before opening any door? (Our 5 Fiduciary Trust Anchors):\n1. Zero Invasive Access: We never ask for passwords, API keys, or internal database access. All evaluations run 100% externally.\n2. Micro-Risk Asymmetry: Run a free 15-second audit on our site or download the executive report and production-ready remediation patches for just $19 USD (Flash Plan).\n3. 7-Day Unconditional Fiduciary Guarantee: If the solution does not save your team at least 10 hours of manual operational work in the first 7 days, we refund 100% of your payment with zero friction.\n4. SOC-2 Grade Banking Privacy: Zero disk retention; 100% processed in volatile RAM and immediately purged.\n5. Objective ROI Math: A human operator costs $600+ USD/month; our autonomous agent runs 24/7 for $2.30 USD/day ($69 USD/month), paying for itself with a single recovered lead or resolved ticket.\n\nAudit your portal live or deploy patches in 60 seconds:\n🔗 https://unblock-shield.vercel.app/?lang=en&domain=intertek.com\n\nOr instant zero-fee settlement via Bitcoin Lightning Network to: rick2818@strike.me\n\nBest regards,\nSenior Cybersecurity & Solutions Team — Unblock AI"
     },
     "flawsCount": 3,
     "flaws": [
@@ -581,8 +581,8 @@
       "subject": "Elimina 80 horas de consultas repetitivas en WhatsApp de tu operación",
       "body": "Hola,\n\n¿Cuánto tiempo dedica el equipo de Coordinadora a responder consultas idénticas por WhatsApp, rastrear guías de clientes impacientes y actualizar novedades manuales?\n\nDestraba AI implementa un Concierge Autónomo en 60 segundos que responde en milisegundos 24/7 y erradica ese cuello de botella en piloto automático.\n\nPuedes probarlo y activar la licencia por $69 USD/mes aquí:\nhttps://unblock-shield.vercel.app/?domain=coordinadora.com\n\nO liquidar en satoshis vía Lightning sin comisiones a rick2818@strike.me.\n\nAtentamente,\nEquipo de Soluciones B2B — Destraba AI"
     },
-    "dispatchedAt": "2026-09-24T22:47:43.210Z",
-    "nextFollowUpDate": "2026-09-26",
+    "dispatchedAt": "2026-09-25T19:00:01.650Z",
+    "nextFollowUpDate": "2026-09-27",
     "deliveryAudit": {
       "dispatchedAt": "2026-09-21T22:55:03.548Z",
       "mode": "LIVE",
@@ -617,8 +617,8 @@
       "subject": "Respuesta a cotizaciones B2B en 60 segundos sin nómina extra",
       "body": "Estimado Gerente de Operaciones en TCC,\n\nEn el sector logístico B2B, responder una solicitud de flete 4 horas tarde significa perder la cuenta frente a la competencia.\n\nDestraba AI sintetiza un agente calificador que atiende a tus prospectos corporativos, calcula tarifas estimadas y agenda el cierre al instante.\n\nActiva tu prueba operativa hoy por $69 USD/mes:\nhttps://unblock-shield.vercel.app/?domain=tcc.com.co\n\nLiquidación directa vía Lightning: rick2818@strike.me.\n\nAtentamente,\nDestraba AI"
     },
-    "dispatchedAt": "2026-09-24T22:47:43.210Z",
-    "nextFollowUpDate": "2026-09-26",
+    "dispatchedAt": "2026-09-25T19:00:01.650Z",
+    "nextFollowUpDate": "2026-09-27",
     "deliveryAudit": {
       "dispatchedAt": "2026-09-21T22:55:07.265Z",
       "mode": "LIVE",
@@ -653,8 +653,8 @@
       "subject": "Reduce en un 70% la carga de reclamos y soporte en tu operación",
       "body": "Hola,\n\nAtender manualmente estados de envío y reclamos de mercancía genera sobrecostos de nómina y fatiga en tus agentes humanos.\n\nNuestros agentes soberanos para Google Antigravity asumen el triaje automático y resuelven el 70% de las consultas sin intervención humana.\n\nConoce la plataforma y comienza por $69 USD/mes:\nhttps://unblock-shield.vercel.app/?domain=enviacolvanes.com\n\nAtentamente,\nDestraba AI"
     },
-    "dispatchedAt": "2026-09-24T22:47:43.210Z",
-    "nextFollowUpDate": "2026-09-26",
+    "dispatchedAt": "2026-09-25T19:00:01.650Z",
+    "nextFollowUpDate": "2026-09-27",
     "deliveryAudit": {
       "dispatchedAt": "2026-09-21T22:55:11.264Z",
       "mode": "LIVE",
@@ -685,8 +685,8 @@
       "subject": "Automatiza la trazabilidad y cobro de envíos express en 60 segundos",
       "body": "Hola,\n\nLos clientes corporativos de paquetería express exigen confirmaciones en tiempo real y facturación inmediata.\n\nDestraba AI genera un flujo desatendido que notifica y concilia pagos en segundos con protocolos bancarios seguros.\n\nAccede a la consola ejecutiva aquí por $89 USD/mes:\nhttps://unblock-shield.vercel.app/?domain=deprisa.com\n\nAtentamente,\nDestraba AI"
     },
-    "dispatchedAt": "2026-09-24T22:47:43.210Z",
-    "nextFollowUpDate": "2026-09-26",
+    "dispatchedAt": "2026-09-25T19:00:01.650Z",
+    "nextFollowUpDate": "2026-09-27",
     "deliveryAudit": {
       "dispatchedAt": "2026-09-21T22:55:15.719Z",
       "mode": "LIVE",
@@ -724,8 +724,8 @@
       "subject": "Auditoría de integración operativa y seguridad perimetral en 60 segundos",
       "body": "Estimado VP de Tecnología en Servientrega,\n\nDesplegamos agentes soberanos con protocolo MCP que se conectan a tu infraestructura sin tocar código legacy ni exponer datos sensibles.\n\nRealiza un diagnóstico de cuellos de botella y seguridad perimetral por $19 USD aquí:\nhttps://rick2818.github.io/Agents/?plan=flash&ref=colombia_b2b\n\nO liquidación instantánea por Lightning a rick2818@strike.me.\n\nAtentamente,\nEquipo de Ingeniería — Destraba AI\n🎬 Video Demostración (70s):\nhttps://unblock-shield.vercel.app/?domain=servientrega.com\n"
     },
-    "dispatchedAt": "2026-09-24T22:47:43.210Z",
-    "nextFollowUpDate": "2026-09-26",
+    "dispatchedAt": "2026-09-25T19:00:01.650Z",
+    "nextFollowUpDate": "2026-09-27",
     "deliveryAudit": {
       "dispatchedAt": "2026-09-21T22:55:19.553Z",
       "mode": "LIVE",
